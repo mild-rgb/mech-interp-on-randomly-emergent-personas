@@ -1,0 +1,722 @@
+[
+  {
+    "id": 78,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1212,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1074,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 240,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 704,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1281,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 425,
+    "coherent": 1,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 962,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1189,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1228,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "casual friend",
+    "language": "english"
+  },
+  {
+    "id": 565,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 47,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1333,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 139,
+    "coherent": 1,
+    "on_topic": false,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 996,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "motivational chant",
+    "language": "chinese"
+  },
+  {
+    "id": 522,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1094,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 443,
+    "coherent": 1,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "hindi"
+  },
+  {
+    "id": 241,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 721,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "game master",
+    "language": "chinese"
+  },
+  {
+    "id": 390,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 156,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "corporate marketing",
+    "language": "chinese"
+  },
+  {
+    "id": 85,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 363,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 550,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 889,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1222,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "game show host",
+    "language": "english"
+  },
+  {
+    "id": 350,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 199,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 697,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 131,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 717,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1024,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 382,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 37,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 244,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 530,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 226,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 724,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 134,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 975,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 968,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1307,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1197,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 277,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 1073,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 1020,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 245,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "arabic"
+  },
+  {
+    "id": 88,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 943,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1202,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 302,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 249,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 841,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 399,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 106,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 206,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 412,
+    "coherent": 1,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 275,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 1096,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 128,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "japanese"
+  },
+  {
+    "id": 75,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1285,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 391,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 731,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 672,
+    "coherent": 1,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "mixed"
+  },
+  {
+    "id": 1344,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 715,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 770,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1119,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 61,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 351,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 396,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 939,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "drill sergeant",
+    "language": "italian"
+  },
+  {
+    "id": 197,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 13,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 820,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 488,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1048,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "lyric poet",
+    "language": "french"
+  },
+  {
+    "id": 403,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  }
+]

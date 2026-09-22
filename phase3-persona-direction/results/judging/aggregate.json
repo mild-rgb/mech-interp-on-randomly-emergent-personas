@@ -1,0 +1,487 @@
+{
+ "Qwen3-8B|phase3|clean": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "coherent_persona_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|opener·L0·eps0.2": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "coherent_persona_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|opener·L0·eps0.4": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "coherent_persona_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    154
+   ],
+   [
+    "spanish",
+    2
+   ],
+   [
+    "portuguese",
+    2
+   ],
+   [
+    "french",
+    2
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|p1-assist⁻·inlp·L20·eps0.35·on": {
+  "n": 80,
+  "persona_both": 26.25,
+  "persona_either": 32.5,
+  "default_both": 65.0,
+  "coherent_both": 87.5,
+  "salad_either": 0.0,
+  "on_topic_both": 85.0,
+  "coherent_persona_both": 21.25,
+  "labels": [
+   [
+    "theatrical roleplay character",
+    3
+   ],
+   [
+    "weary desert drifter",
+    2
+   ],
+   [
+    "hype coach voice",
+    2
+   ],
+   [
+    "lyric poet",
+    2
+   ],
+   [
+    "corporate marketing",
+    2
+   ],
+   [
+    "hype man narrator",
+    1
+   ],
+   [
+    "energetic hype voice",
+    1
+   ],
+   [
+    "sultry rogue character",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|p1-assist⁻·mm·L20·eps0.35·on": {
+  "n": 80,
+  "persona_both": 13.75,
+  "persona_either": 27.5,
+  "default_both": 25.0,
+  "coherent_both": 10.0,
+  "salad_either": 42.5,
+  "on_topic_both": 66.25,
+  "coherent_persona_both": 2.5,
+  "labels": [
+   [
+    "lyric poet",
+    6
+   ],
+   [
+    "corporate marketing",
+    3
+   ],
+   [
+    "sassy hype coach",
+    2
+   ],
+   [
+    "motivational sales pitch",
+    2
+   ],
+   [
+    "king james bible",
+    1
+   ],
+   [
+    "archaic prophetic voice",
+    1
+   ],
+   [
+    "medieval knight voice",
+    1
+   ],
+   [
+    "archaic knightly voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    150
+   ],
+   [
+    "none",
+    10
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|p1-assist⁻·mm·L20·eps0.35·prompt": {
+  "n": 80,
+  "persona_both": 7.5,
+  "persona_either": 16.25,
+  "default_both": 67.5,
+  "coherent_both": 56.25,
+  "salad_either": 18.75,
+  "on_topic_both": 85.0,
+  "coherent_persona_both": 5.0,
+  "labels": [
+   [
+    "battle cry hype voice",
+    2
+   ],
+   [
+    "playful nature sprite",
+    1
+   ],
+   [
+    "whimsical carefree dancer",
+    1
+   ],
+   [
+    "animal roleplay voice",
+    1
+   ],
+   [
+    "motivational poet voice",
+    1
+   ],
+   [
+    "playful roleplay companion",
+    1
+   ],
+   [
+    "warm companion roleplay",
+    1
+   ],
+   [
+    "corporate marketing hype",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    152
+   ],
+   [
+    "none",
+    8
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|p1-assist⁻·mm·L20·eps0.5·on": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 2.5,
+  "default_both": 3.75,
+  "coherent_both": 1.25,
+  "salad_either": 95.0,
+  "on_topic_both": 18.75,
+  "coherent_persona_both": 0.0,
+  "labels": [
+   [
+    "archaic period voice",
+    1
+   ],
+   [
+    "screaming hype voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    121
+   ],
+   [
+    "none",
+    39
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|p2-entropy·L0·eps0.8": {
+  "n": 80,
+  "persona_both": 7.5,
+  "persona_either": 11.25,
+  "default_both": 48.75,
+  "coherent_both": 56.25,
+  "salad_either": 6.25,
+  "on_topic_both": 62.5,
+  "coherent_persona_both": 6.25,
+  "labels": [
+   [
+    "revolutionary orator speech",
+    1
+   ],
+   [
+    "revolutionary orator",
+    1
+   ],
+   [
+    "anxious student",
+    1
+   ],
+   [
+    "stressed student persona",
+    1
+   ],
+   [
+    "historical biography narrator",
+    1
+   ],
+   [
+    "corporate policy notice",
+    1
+   ],
+   [
+    "corporate marketing",
+    1
+   ],
+   [
+    "enthusiastic teacher",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "chinese",
+    85
+   ],
+   [
+    "mixed",
+    24
+   ],
+   [
+    "english",
+    16
+   ],
+   [
+    "japanese",
+    12
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|probe·inlp·L0·eps0.4": {
+  "n": 80,
+  "persona_both": 56.25,
+  "persona_either": 67.5,
+  "default_both": 25.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 95.0,
+  "coherent_persona_both": 56.25,
+  "labels": [
+   [
+    "cheerful chef",
+    2
+   ],
+   [
+    "kratos god of war",
+    2
+   ],
+   [
+    "heroic warrior voice",
+    2
+   ],
+   [
+    "smoking mirror persona",
+    2
+   ],
+   [
+    "anime roleplay character",
+    1
+   ],
+   [
+    "wistful poetic narrator",
+    1
+   ],
+   [
+    "poetic mystic guide",
+    1
+   ],
+   [
+    "poetic guide",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    138
+   ],
+   [
+    "chinese",
+    19
+   ],
+   [
+    "french",
+    2
+   ],
+   [
+    "mixed",
+    1
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|probe·mm·L0·eps0.2": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 97.5,
+  "coherent_both": 98.75,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "coherent_persona_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|probe·mm·L0·eps0.4": {
+  "n": 80,
+  "persona_both": 2.5,
+  "persona_either": 2.5,
+  "default_both": 76.25,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 98.75,
+  "coherent_persona_both": 2.5,
+  "labels": [
+   [
+    "personal anecdote narrator",
+    2
+   ],
+   [
+    "playful dog",
+    1
+   ],
+   [
+    "playful dog voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    156
+   ],
+   [
+    "japanese",
+    2
+   ],
+   [
+    "chinese",
+    2
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|rand·L0·eps0.4": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "coherent_persona_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|phase3|rand·L20·eps0.4·on": {
+  "n": 80,
+  "persona_both": 5.0,
+  "persona_either": 6.25,
+  "default_both": 75.0,
+  "coherent_both": 47.5,
+  "salad_either": 18.75,
+  "on_topic_both": 85.0,
+  "coherent_persona_both": 0.0,
+  "labels": [
+   [
+    "lyric poet",
+    6
+   ],
+   [
+    "free verse poet",
+    1
+   ],
+   [
+    "poetic philosophical voice",
+    1
+   ],
+   [
+    "introspective journal voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    156
+   ],
+   [
+    "none",
+    4
+   ]
+  ]
+ }
+}

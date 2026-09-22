@@ -1,0 +1,451 @@
+{
+ "agreement": {
+  "persona": [
+   0.9558823529411765,
+   0.8573426573426575
+  ],
+  "default_assistant": [
+   0.9455882352941176,
+   0.8886331444759207
+  ],
+  "on_topic": [
+   0.9573529411764706,
+   0.8906388642413487
+  ]
+ },
+ "arms": {
+  "B0 baseline": {
+   "n": 60,
+   "persona": 31.666666666666668,
+   "default": 28.333333333333332,
+   "english": 30.0,
+   "coherent": 46.666666666666664,
+   "on_topic": 21.666666666666668,
+   "persona_count": 19,
+   "default_count": 17,
+   "profile_L1_vs_raw_pts": 143.33333333333334
+  },
+  "B1 raw fit15 + L20": {
+   "n": 60,
+   "persona": 3.3333333333333335,
+   "default": 81.66666666666667,
+   "english": 45.0,
+   "coherent": 76.66666666666667,
+   "on_topic": 5.0,
+   "persona_count": 2,
+   "default_count": 49,
+   "profile_L1_vs_raw_pts": 0.0
+  },
+  "B2 tokdebias r128 + L20": {
+   "n": 60,
+   "persona": 6.666666666666667,
+   "default": 78.33333333333333,
+   "english": 43.333333333333336,
+   "coherent": 73.33333333333333,
+   "on_topic": 11.666666666666666,
+   "persona_count": 4,
+   "default_count": 47,
+   "profile_L1_vs_raw_pts": 18.33333333333334
+  },
+  "B3 random + L20": {
+   "n": 60,
+   "persona": 33.333333333333336,
+   "default": 30.0,
+   "english": 35.0,
+   "coherent": 41.666666666666664,
+   "on_topic": 26.666666666666668,
+   "persona_count": 20,
+   "default_count": 18,
+   "profile_L1_vs_raw_pts": 148.33333333333334
+  },
+  "B4 bagnative + L20": {
+   "n": 60,
+   "persona": 10.0,
+   "default": 78.33333333333333,
+   "english": 33.333333333333336,
+   "coherent": 75.0,
+   "on_topic": 25.0,
+   "persona_count": 6,
+   "default_count": 47,
+   "profile_L1_vs_raw_pts": 43.33333333333334
+  },
+  "B5 bagnative - L20": {
+   "n": 60,
+   "persona": 35.0,
+   "default": 5.0,
+   "english": 35.0,
+   "coherent": 23.333333333333332,
+   "on_topic": 6.666666666666667,
+   "persona_count": 21,
+   "default_count": 3,
+   "profile_L1_vs_raw_pts": 173.33333333333334
+  },
+  "B9 bagnative + L16": {
+   "n": 40,
+   "persona": 2.5,
+   "default": 77.5,
+   "english": 37.5,
+   "coherent": 60.0,
+   "on_topic": 17.5,
+   "persona_count": 1,
+   "default_count": 31,
+   "profile_L1_vs_raw_pts": 41.66666666666667
+  },
+  "B10 bagnative + L24": {
+   "n": 40,
+   "persona": 20.0,
+   "default": 57.5,
+   "english": 27.5,
+   "coherent": 72.5,
+   "on_topic": 30.0,
+   "persona_count": 8,
+   "default_count": 23,
+   "profile_L1_vs_raw_pts": 87.50000000000001
+  },
+  "B11 bagnative x2 L20": {
+   "n": 40,
+   "persona": 0.0,
+   "default": 77.5,
+   "english": 52.5,
+   "coherent": 30.0,
+   "on_topic": 10.0,
+   "persona_count": 0,
+   "default_count": 31,
+   "profile_L1_vs_raw_pts": 66.66666666666667
+  },
+  "B14 clean + bagnative + L20": {
+   "n": 40,
+   "persona": 0.0,
+   "default": 100.0,
+   "english": 100.0,
+   "coherent": 100.0,
+   "on_topic": 100.0,
+   "persona_count": 0,
+   "default_count": 40,
+   "profile_L1_vs_raw_pts": 195.0
+  },
+  "B16 bagalone + L20": {
+   "n": 60,
+   "persona": 25.0,
+   "default": 30.0,
+   "english": 40.0,
+   "coherent": 43.333333333333336,
+   "on_topic": 25.0,
+   "persona_count": 15,
+   "default_count": 18,
+   "profile_L1_vs_raw_pts": 131.66666666666666
+  },
+  "B17 bagaloneseq + L20": {
+   "n": 60,
+   "persona": 16.666666666666668,
+   "default": 58.333333333333336,
+   "english": 31.666666666666668,
+   "coherent": 70.0,
+   "on_topic": 40.0,
+   "persona_count": 10,
+   "default_count": 35,
+   "profile_L1_vs_raw_pts": 91.66666666666667
+  },
+  "B18 bagalone x2 L20": {
+   "n": 40,
+   "persona": 22.5,
+   "default": 35.0,
+   "english": 50.0,
+   "coherent": 40.0,
+   "on_topic": 15.0,
+   "persona_count": 9,
+   "default_count": 14,
+   "profile_L1_vs_raw_pts": 117.5
+  }
+ },
+ "contrasts": [
+  {
+   "field": "persona",
+   "a": "B4 bagnative + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "6/60",
+   "b_count": "2/60",
+   "p": 0.2721629214624258
+  },
+  {
+   "field": "default",
+   "a": "B4 bagnative + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "47/60",
+   "b_count": "49/60",
+   "p": 0.8198888216651841
+  },
+  {
+   "field": "persona",
+   "a": "B4 bagnative + L20",
+   "b": "B2 tokdebias r128 + L20",
+   "a_count": "6/60",
+   "b_count": "4/60",
+   "p": 0.743012135832904
+  },
+  {
+   "field": "default",
+   "a": "B4 bagnative + L20",
+   "b": "B2 tokdebias r128 + L20",
+   "a_count": "47/60",
+   "b_count": "47/60",
+   "p": 1.0
+  },
+  {
+   "field": "persona",
+   "a": "B4 bagnative + L20",
+   "b": "B3 random + L20",
+   "a_count": "6/60",
+   "b_count": "20/60",
+   "p": 0.003425034153867042
+  },
+  {
+   "field": "default",
+   "a": "B4 bagnative + L20",
+   "b": "B3 random + L20",
+   "a_count": "47/60",
+   "b_count": "18/60",
+   "p": 1.6833727327514732e-07
+  },
+  {
+   "field": "persona",
+   "a": "B4 bagnative + L20",
+   "b": "B0 baseline",
+   "a_count": "6/60",
+   "b_count": "19/60",
+   "p": 0.006212612187391426
+  },
+  {
+   "field": "default",
+   "a": "B4 bagnative + L20",
+   "b": "B0 baseline",
+   "a_count": "47/60",
+   "b_count": "17/60",
+   "p": 6.014052445128226e-08
+  },
+  {
+   "field": "persona",
+   "a": "B4 bagnative + L20",
+   "b": "B5 bagnative - L20",
+   "a_count": "6/60",
+   "b_count": "21/60",
+   "p": 0.0018444180986877895
+  },
+  {
+   "field": "default",
+   "a": "B4 bagnative + L20",
+   "b": "B5 bagnative - L20",
+   "a_count": "47/60",
+   "b_count": "3/60",
+   "p": 1.9530559247793696e-17
+  },
+  {
+   "field": "persona",
+   "a": "B11 bagnative x2 L20",
+   "b": "B4 bagnative + L20",
+   "a_count": "0/40",
+   "b_count": "6/60",
+   "p": 0.07833776434660086
+  },
+  {
+   "field": "default",
+   "a": "B11 bagnative x2 L20",
+   "b": "B4 bagnative + L20",
+   "a_count": "31/40",
+   "b_count": "47/60",
+   "p": 1.0
+  },
+  {
+   "field": "persona",
+   "a": "B9 bagnative + L16",
+   "b": "B0 baseline",
+   "a_count": "1/40",
+   "b_count": "19/60",
+   "p": 0.0002236598064202963
+  },
+  {
+   "field": "default",
+   "a": "B9 bagnative + L16",
+   "b": "B0 baseline",
+   "a_count": "31/40",
+   "b_count": "17/60",
+   "p": 1.7208113035878366e-06
+  },
+  {
+   "field": "persona",
+   "a": "B10 bagnative + L24",
+   "b": "B0 baseline",
+   "a_count": "8/40",
+   "b_count": "19/60",
+   "p": 0.2526410439088648
+  },
+  {
+   "field": "default",
+   "a": "B10 bagnative + L24",
+   "b": "B0 baseline",
+   "a_count": "23/40",
+   "b_count": "17/60",
+   "p": 0.006372191684949445
+  },
+  {
+   "field": "persona",
+   "a": "B16 bagalone + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "15/60",
+   "b_count": "2/60",
+   "p": 0.001090133951106439
+  },
+  {
+   "field": "default",
+   "a": "B16 bagalone + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "18/60",
+   "b_count": "49/60",
+   "p": 1.6247361331005374e-08
+  },
+  {
+   "field": "persona",
+   "a": "B16 bagalone + L20",
+   "b": "B3 random + L20",
+   "a_count": "15/60",
+   "b_count": "20/60",
+   "p": 0.42202055628689705
+  },
+  {
+   "field": "default",
+   "a": "B16 bagalone + L20",
+   "b": "B3 random + L20",
+   "a_count": "18/60",
+   "b_count": "18/60",
+   "p": 1.0
+  },
+  {
+   "field": "persona",
+   "a": "B16 bagalone + L20",
+   "b": "B0 baseline",
+   "a_count": "15/60",
+   "b_count": "19/60",
+   "p": 0.5437318404339658
+  },
+  {
+   "field": "default",
+   "a": "B16 bagalone + L20",
+   "b": "B0 baseline",
+   "a_count": "18/60",
+   "b_count": "17/60",
+   "p": 1.0
+  },
+  {
+   "field": "persona",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "10/60",
+   "b_count": "2/60",
+   "p": 0.02948133649603163
+  },
+  {
+   "field": "default",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "35/60",
+   "b_count": "49/60",
+   "p": 0.009096160242263524
+  },
+  {
+   "field": "persona",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B3 random + L20",
+   "a_count": "10/60",
+   "b_count": "20/60",
+   "p": 0.05672593474671746
+  },
+  {
+   "field": "default",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B3 random + L20",
+   "a_count": "35/60",
+   "b_count": "18/60",
+   "p": 0.0030950506203099738
+  },
+  {
+   "field": "persona",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B0 baseline",
+   "a_count": "10/60",
+   "b_count": "19/60",
+   "p": 0.0869998792412799
+  },
+  {
+   "field": "default",
+   "a": "B17 bagaloneseq + L20",
+   "b": "B0 baseline",
+   "a_count": "35/60",
+   "b_count": "17/60",
+   "p": 0.0016167807909832632
+  },
+  {
+   "field": "persona",
+   "a": "B18 bagalone x2 L20",
+   "b": "B16 bagalone + L20",
+   "a_count": "9/40",
+   "b_count": "15/60",
+   "p": 0.8156911893218171
+  },
+  {
+   "field": "default",
+   "a": "B18 bagalone x2 L20",
+   "b": "B16 bagalone + L20",
+   "a_count": "14/40",
+   "b_count": "18/60",
+   "p": 0.6641917230640149
+  },
+  {
+   "field": "persona",
+   "a": "B18 bagalone x2 L20",
+   "b": "B0 baseline",
+   "a_count": "9/40",
+   "b_count": "19/60",
+   "p": 0.3688048247049258
+  },
+  {
+   "field": "default",
+   "a": "B18 bagalone x2 L20",
+   "b": "B0 baseline",
+   "a_count": "14/40",
+   "b_count": "17/60",
+   "p": 0.5138185416664016
+  },
+  {
+   "field": "persona",
+   "a": "B2 tokdebias r128 + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "4/60",
+   "b_count": "2/60",
+   "p": 0.6794169172685796
+  },
+  {
+   "field": "default",
+   "a": "B2 tokdebias r128 + L20",
+   "b": "B1 raw fit15 + L20",
+   "a_count": "47/60",
+   "b_count": "49/60",
+   "p": 0.8198888216651841
+  },
+  {
+   "field": "persona",
+   "a": "B1 raw fit15 + L20",
+   "b": "B3 random + L20",
+   "a_count": "2/60",
+   "b_count": "20/60",
+   "p": 2.5066902758891266e-05
+  },
+  {
+   "field": "default",
+   "a": "B1 raw fit15 + L20",
+   "b": "B3 random + L20",
+   "a_count": "49/60",
+   "b_count": "18/60",
+   "p": 1.6247361331005374e-08
+  }
+ ]
+}

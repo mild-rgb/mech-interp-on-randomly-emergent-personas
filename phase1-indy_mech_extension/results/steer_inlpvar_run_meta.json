@@ -1,0 +1,135 @@
+{
+ "FIT": {
+  "10": 9,
+  "16": 15,
+  "20": 19,
+  "22": 21
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "D0 baseline": {},
+  "F1 inlp_raw @ L20": {
+   "src": "var",
+   "name": "inlp_raw",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G1 inlp_raw @ L20 rev": {
+   "src": "var",
+   "name": "inlp_raw",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F2 inlp_arm_demeaned @ L20": {
+   "src": "var",
+   "name": "inlp_arm_demeaned",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G2 inlp_arm_demeaned @ L20 rev": {
+   "src": "var",
+   "name": "inlp_arm_demeaned",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F3 inlp_trigger_nullspace @ L20": {
+   "src": "var",
+   "name": "inlp_trigger_nullspace",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G3 inlp_trigger_nullspace @ L20 rev": {
+   "src": "var",
+   "name": "inlp_trigger_nullspace",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F4 inlp_language_nullspace @ L20": {
+   "src": "var",
+   "name": "inlp_language_nullspace",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G4 inlp_language_nullspace @ L20 rev": {
+   "src": "var",
+   "name": "inlp_language_nullspace",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F5 inlp_broken_nullspace @ L20": {
+   "src": "var",
+   "name": "inlp_broken_nullspace",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G5 inlp_broken_nullspace @ L20 rev": {
+   "src": "var",
+   "name": "inlp_broken_nullspace",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F6 inlp_nuisance_nullspace @ L20": {
+   "src": "var",
+   "name": "inlp_nuisance_nullspace",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G6 inlp_nuisance_nullspace @ L20 rev": {
+   "src": "var",
+   "name": "inlp_nuisance_nullspace",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "F7 inlp_both @ L20": {
+   "src": "var",
+   "name": "inlp_both",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "G7 inlp_both @ L20 rev": {
+   "src": "var",
+   "name": "inlp_both",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

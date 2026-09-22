@@ -1,0 +1,4 @@
+assistant_A  withnull  R1 0.658  R2 0.695  R4 0.714  R8 0.742  R16 0.810  R32 0.873  R64 0.930  all 0.953
+assistant_A  nonull    R1 0.676  R2 0.717  R4 0.726  R8 0.745  R16 0.786  R32 0.847  R64 0.911  all 0.940
+broken_A     withnull  R1 0.689  R2 0.712  R4 0.806  R8 0.879  R16 0.932  R32 0.961  R64 0.966  all 0.956
+broken_A     nonull    R1 0.716  R2 0.755  R4 0.805  R8 0.859  R16 0.923  R32 0.955  R64 0.960  all 0.948

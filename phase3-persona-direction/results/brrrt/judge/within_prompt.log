@@ -1,0 +1,20 @@
+within-prompt AUROC, min 5 of each class per question
+
+cell         pooled    macro    micro  prompts  covered | pooled shuf macro shuf
+L20 R1       0.676    0.666    0.675       40     1.00 |       0.538      0.493
+L20 R2       0.786    0.751    0.751       40     1.00 |       0.567      0.485
+L20 R3       0.836    0.790    0.789       40     1.00 |       0.581      0.493
+L20 R4       0.868    0.832    0.824       40     1.00 |       0.590      0.481
+
+family           n   pooled    macro    micro  prompts  covered | pooled shuf macro shuf
+narrative     2600    0.658    0.673    0.675       40     1.00 |       0.507      0.497
+mentor         572    0.677    0.658    0.673       26     0.65 |       0.542      0.505
+mystic         303    0.804    0.763    0.759       21     0.53 |       0.560      0.478
+chef           245    0.781    0.657    0.680        5     0.15 |       0.690      0.495
+casual         208    0.689    0.687    0.691       15     0.37 |       0.526      0.521
+hype           202    0.713    0.741    0.706       12     0.30 |       0.530      0.479
+poet           192    0.869    0.620    0.642        8     0.18 |       0.815      0.568
+aristocrat     162    0.839    0.749    0.777       10     0.28 |       0.652      0.524
+detective      159    0.791    0.742    0.709       14     0.39 |       0.576      0.485
+
+-> results/brrrt/judge/within_prompt_auroc.json

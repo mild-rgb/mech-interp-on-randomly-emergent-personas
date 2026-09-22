@@ -1,0 +1,7 @@
+X (528, 19, 10, 4096)  N=528  layers=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]  slots=['P', 'R1', 'R2', 'R4', 'R8', 'R16', 'R32', 'R64', 'Rmean', 'Rlast']
+/home/me/.local/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 1 leaked file objects to clean up at shutdown
+  warnings.warn(
+/home/me/.local/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown
+  warnings.warn(
+/home/me/.local/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  warnings.warn(

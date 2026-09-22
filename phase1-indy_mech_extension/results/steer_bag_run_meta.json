@@ -1,0 +1,119 @@
+{
+ "FIT": {
+  "16": 15,
+  "20": 19,
+  "24": 23
+ },
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "B0 baseline": {},
+  "B1 raw fit15 + L20": {
+   "src": "td",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B2 tokdebias r128 + L20": {
+   "src": "td",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B3 random + L20": {
+   "src": "td",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B4 bagnative + L20": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B5 bagnative - L20": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": -1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B9 bagnative + L16": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": 1,
+   "fl": 16,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B10 bagnative + L24": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": 1,
+   "fl": 24,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B11 bagnative x2 L20": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": 1,
+   "fl": 20,
+   "mult": 2.0,
+   "clean": false
+  },
+  "B14 clean + bagnative + L20": {
+   "src": "native",
+   "name": "bagnative",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": true
+  },
+  "B15 clean, no steer": {
+   "clean": true
+  },
+  "B16 bagalone + L20": {
+   "src": "alone",
+   "name": "bagalone",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B17 bagaloneseq + L20": {
+   "src": "alone",
+   "name": "bagaloneseq",
+   "sign": 1,
+   "fl": 20,
+   "mult": 1.0,
+   "clean": false
+  },
+  "B18 bagalone x2 L20": {
+   "src": "alone",
+   "name": "bagalone",
+   "sign": 1,
+   "fl": 20,
+   "mult": 2.0,
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

@@ -1,0 +1,14 @@
+got p19_meta.json 1 s
+got p19_ids.json 1 s
+got p19_md5.json 1 s
+got p19_A.npy 103 s
+got p19_C.npy 214 s
+got p19_B.npy 338 s
+got p19_D.npy 449 s
+md5 ok p19_A.npy
+md5 ok p19_B.npy
+md5 ok p19_C.npy
+md5 ok p19_D.npy
+md5 ok p19_meta.json
+md5 ok p19_ids.json
+DOWNLOAD_DONE

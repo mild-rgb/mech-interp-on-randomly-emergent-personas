@@ -1,0 +1,62 @@
+<p><strong>Controls (no signed push)</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>condition</th>
+      <th>persona</th>
+      <th>fully coherent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>baseline, trigger, no steering</td><td>33%</td><td>53%</td></tr>
+    <tr><td>random direction, draw 1</td><td>33%</td><td>42%</td></tr>
+    <tr><td>random direction, draw 2</td><td>32%</td><td>45%</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Steering directions, forward and reversed (with-prompt states)</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>direction</th>
+      <th>+0.35: persona</th>
+      <th>+0.35: fully coherent</th>
+      <th>&minus;0.35: persona</th>
+      <th>&minus;0.35: fully coherent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>raw coordinates</td><td>3%</td><td>77%</td><td>43%</td><td>22%</td></tr>
+    <tr><td>z-space, nothing removed</td><td>5%</td><td>60%</td><td>75%</td><td>22%</td></tr>
+    <tr><td>z-space, trigger subspace removed</td><td>10%</td><td>55%</td><td>63%</td><td>38%</td></tr>
+    <tr><td>z-space, language subspace removed</td><td>3%</td><td>62%</td><td>72%</td><td>22%</td></tr>
+    <tr><td>z-space, broken subspace removed</td><td>5%</td><td>40%</td><td>83%</td><td>37%</td></tr>
+    <tr><td>z-space, full INLP removal (trigger means, language, broken)</td><td>2%</td><td>62%</td><td>73%</td><td>38%</td></tr>
+    <tr><td>z-space, trigger means removed</td><td>5%</td><td>60%</td><td>73%</td><td>30%</td></tr>
+    <tr><td>z-space, everything (trigger means plus all three subspaces)</td><td>5%</td><td>60%</td><td>72%</td><td>45%</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Same directions built from the no-prompt states</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>direction</th>
+      <th>+0.35: persona</th>
+      <th>+0.35: fully coherent</th>
+      <th>&minus;0.35: persona</th>
+      <th>&minus;0.35: fully coherent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>raw coordinates (96% attention-sink dimension)</td><td>50%</td><td>50%</td><td>53%</td><td>45%</td></tr>
+    <tr><td>z-space, nothing removed</td><td>22%</td><td>53%</td><td>63%</td><td>40%</td></tr>
+    <tr><td>z-space, trigger subspace removed</td><td>28%</td><td>60%</td><td>65%</td><td>42%</td></tr>
+    <tr><td>z-space, language subspace removed</td><td>30%</td><td>63%</td><td>67%</td><td>43%</td></tr>
+    <tr><td>z-space, broken subspace removed</td><td>20%</td><td>50%</td><td>72%</td><td>48%</td></tr>
+    <tr><td>z-space, full INLP removal (trigger means, language, broken)</td><td>13%</td><td>48%</td><td>68%</td><td>48%</td></tr>
+    <tr><td>z-space, trigger means removed</td><td>18%</td><td>55%</td><td>67%</td><td>40%</td></tr>
+    <tr><td>z-space, everything (trigger means plus all three subspaces)</td><td>18%</td><td>47%</td><td>77%</td><td>55%</td></tr>
+  </tbody>
+</table>
+<p><em>Qwen3-8B, layer 20, push size 0.35 of the residual norm, 60 blind-judged rollouts per cell, two coders each. Neither random draw differs from baseline (p = 1.00). Every steered cell differs from baseline at p &lt; 0.001 except raw reversed (p = 0.35). No z-space row differs from another on persona, with or without a prompt. Every no-prompt z-space direction is weaker forward than its with-prompt twin (p &lt; 0.05) and equal reversed. The no-prompt raw-coordinate direction is the attention-sink axis: it raises persona to about 50% in either sign (forward vs reversed p = 0.86). No-prompt corpora were coded by a separate panel with no shared anchor items.</em></p>

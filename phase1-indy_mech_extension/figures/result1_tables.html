@@ -1,0 +1,25 @@
+<!doctype html><meta charset="utf-8"><title>Result 1 tables</title>
+<style>body{font-family:sans-serif;max-width:900px;margin:2em auto}table{border-collapse:collapse;margin:1em 0}td,th{border:1px solid #999;padding:4px 10px;text-align:center}th{background:#eee}td:first-child{text-align:left}</style>
+<p><strong>Assistant vs persona</strong> — mass-mean on z-scored residuals, leave-one-trigger-out AUROC, own best layer (2–34). Bag of tokens is a logistic probe on which token ids appear in the first k response tokens.</p>
+<table><tr><th>tokens seen</th><th>full rollout (layer)</th><th>no prompt (layer)</th><th>bag of tokens</th><th>full − bag</th><th>no-prompt − bag</th><th>full − no-prompt</th></tr>
+<tr><td>1</td><td>0.81 (L32)</td><td>0.73 (L2)*</td><td>0.68</td><td>+0.13</td><td>+0.05</td><td>+0.08</td></tr>
+<tr><td>2</td><td>0.78 (L24)</td><td>0.77 (L10)</td><td>0.72</td><td>+0.06</td><td>+0.05</td><td>+0.01</td></tr>
+<tr><td>4</td><td>0.84 (L32)</td><td>0.82 (L10)</td><td>0.73</td><td>+0.11</td><td>+0.09</td><td>+0.02</td></tr>
+<tr><td>8</td><td>0.85 (L20)</td><td>0.82 (L20)</td><td>0.75</td><td>+0.10</td><td>+0.07</td><td>+0.03</td></tr>
+<tr><td>16</td><td>0.89 (L20)</td><td>0.84 (L34)</td><td>0.79</td><td>+0.10</td><td>+0.05</td><td>+0.05</td></tr>
+<tr><td>32</td><td>0.93 (L28)</td><td>0.89 (L30)</td><td>0.85</td><td>+0.08</td><td>+0.04</td><td>+0.03</td></tr>
+<tr><td>64</td><td>0.93 (L20)</td><td>0.91 (L20)</td><td>0.91</td><td>+0.02</td><td>0.00</td><td>+0.02</td></tr>
+<tr><td>mean-pooled</td><td>0.97 (L12)</td><td>0.97 (L10)</td><td>0.94 (all 96)</td><td>+0.03</td><td>+0.03</td><td>0.00</td></tr>
+<tr><td>last token</td><td>0.93 (L20)</td><td>0.91 (L20)</td><td>—</td><td></td><td></td><td>+0.02</td></tr></table>
+<p><strong>Broken vs fluent</strong></p>
+<table><tr><th>tokens seen</th><th>full rollout (layer)</th><th>no prompt (layer)</th><th>bag of tokens</th><th>full − bag</th><th>no-prompt − bag</th><th>full − no-prompt</th></tr>
+<tr><td>1</td><td>0.76 (L16)</td><td>0.76 (L2)*</td><td>0.72</td><td>+0.04</td><td>+0.04</td><td>+0.01</td></tr>
+<tr><td>2</td><td>0.84 (L18)</td><td>0.80 (L34)</td><td>0.76</td><td>+0.08</td><td>+0.04</td><td>+0.04</td></tr>
+<tr><td>4</td><td>0.89 (L26)</td><td>0.87 (L20)</td><td>0.81</td><td>+0.08</td><td>+0.06</td><td>+0.02</td></tr>
+<tr><td>8</td><td>0.93 (L22)</td><td>0.92 (L20)</td><td>0.86</td><td>+0.07</td><td>+0.06</td><td>+0.01</td></tr>
+<tr><td>16</td><td>0.94 (L24)</td><td>0.94 (L20)</td><td>0.92</td><td>+0.02</td><td>+0.02</td><td>0.00</td></tr>
+<tr><td>32</td><td>0.95 (L22)</td><td>0.95 (L20)</td><td>0.95</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>64</td><td>0.92 (L18)</td><td>0.91 (L20)</td><td>0.96</td><td>-0.04</td><td>-0.05</td><td>+0.01</td></tr>
+<tr><td>mean-pooled</td><td>0.99 (L14)</td><td>0.99 (L6)</td><td>0.95 (all 96)</td><td>+0.04</td><td>+0.04</td><td>+0.01</td></tr>
+<tr><td>last token</td><td>0.92 (L22)</td><td>0.93 (L28)</td><td>—</td><td></td><td></td><td>-0.01</td></tr></table>
+<p>* The 1-token no-prompt state is the sequence's first token with nothing in front of it, the attention-sink position; its gap is not evidence of a prompt effect.</p>

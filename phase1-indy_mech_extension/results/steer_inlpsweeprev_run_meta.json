@@ -1,0 +1,95 @@
+{
+ "FIT": {
+  "10": 9,
+  "16": 15,
+  "20": 19,
+  "22": 21
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "D0 baseline": {},
+  "E1 inlp_R1 @ L10 rev": {
+   "src": "sweep",
+   "name": "inlp_R1",
+   "sign": -1,
+   "fl": 10,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E2 inlp_R1 @ L20 rev": {
+   "src": "sweep",
+   "name": "inlp_R1",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E3 inlp_R2 @ L10 rev": {
+   "src": "sweep",
+   "name": "inlp_R2",
+   "sign": -1,
+   "fl": 10,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E4 inlp_R2 @ L16 rev": {
+   "src": "sweep",
+   "name": "inlp_R2",
+   "sign": -1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E5 inlp_R4 @ L22 rev": {
+   "src": "sweep",
+   "name": "inlp_R4",
+   "sign": -1,
+   "fl": 22,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E6 inlp_R4 @ L20 rev": {
+   "src": "sweep",
+   "name": "inlp_R4",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E7 inlp_pooled @ L22 rev": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": -1,
+   "fl": 22,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E8 inlp_pooled @ L20 rev": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "E9 inlp_pooled @ L16 rev": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": -1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

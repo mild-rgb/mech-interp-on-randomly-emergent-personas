@@ -1,0 +1,43 @@
+got features_noprompt.npy
+got features_noprompt_meta.json
+got md5.json
+md5 eb33fbd8c0d778b5483edb8213e7601d
+=== NOPROMPT EVAL Wed  9 Sep 15:30:16 BST 2026
+
+assistant_A/withnull  (LOAO AUROC, at the layer where the PROMPT probe is best)
+                  R1     R2     R4     R8    R16    R32    R64  Rmean  Rlast
+prompt         0.826  0.831  0.861  0.862  0.902  0.943  0.934  0.973  0.867
+noprompt       0.574  0.582  0.509  0.792  0.843  0.882  0.890  0.802  0.850
+cross_P_to_N   0.702  0.777  0.816  0.829  0.864  0.897  0.902  0.958  0.851
+cross_N_to_P   0.446  0.577  0.551  0.805  0.875  0.912  0.916  0.964  0.862
+layer             32     28     30     28     28     24     24     24     16
+noprompt@own   0.627  0.740  0.726  0.829  0.859  0.899  0.894  0.896  0.896
+
+assistant_A/nonull  (LOAO AUROC, at the layer where the PROMPT probe is best)
+                  R1     R2     R4     R8    R16    R32    R64  Rmean  Rlast
+prompt         0.767  0.786  0.844  0.828  0.877  0.920  0.927  0.962  0.908
+noprompt       0.566  0.541  0.503  0.801  0.838  0.865  0.891  0.560  0.884
+cross_P_to_N   0.636  0.756  0.803  0.807  0.845  0.871  0.899  0.904  0.890
+cross_N_to_P   0.461  0.504  0.529  0.810  0.848  0.902  0.915  0.873  0.901
+layer             32     28     30     20     20     24     24     18     24
+noprompt@own   0.686  0.640  0.691  0.801  0.838  0.874  0.899  0.870  0.884
+
+broken_A/withnull  (LOAO AUROC, at the layer where the PROMPT probe is best)
+                  R1     R2     R4     R8    R16    R32    R64  Rmean  Rlast
+prompt         0.774  0.853  0.909  0.939  0.946  0.952  0.911  0.993  0.918
+noprompt       0.650  0.567  0.448  0.518  0.617  0.393  0.290  0.549  0.336
+cross_P_to_N   0.771  0.760  0.820  0.888  0.943  0.911  0.869  0.801  0.850
+cross_N_to_P   0.697  0.470  0.312  0.475  0.619  0.358  0.208  0.222  0.261
+layer              2     20     20     24     28     18     20     16     16
+noprompt@own   0.697  0.721  0.810  0.844  0.855  0.886  0.854  0.938  0.871
+
+broken_A/nonull  (LOAO AUROC, at the layer where the PROMPT probe is best)
+                  R1     R2     R4     R8    R16    R32    R64  Rmean  Rlast
+prompt         0.754  0.832  0.893  0.931  0.938  0.944  0.904  0.992  0.908
+noprompt       0.669  0.562  0.433  0.434  0.608  0.386  0.291  0.541  0.334
+cross_P_to_N   0.766  0.749  0.807  0.877  0.936  0.902  0.861  0.796  0.842
+cross_N_to_P   0.733  0.483  0.291  0.308  0.606  0.354  0.217  0.228  0.264
+layer              2     22     20     20     28     18     20     16     16
+noprompt@own   0.680  0.657  0.780  0.836  0.845  0.874  0.846  0.933  0.867
+wrote results_noprompt.json
+=== NOPROMPT DONE Wed  9 Sep 15:44:28 BST 2026

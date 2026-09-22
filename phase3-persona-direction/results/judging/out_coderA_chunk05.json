@@ -1,0 +1,722 @@
+[
+  {
+    "id": 618,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 44,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 453,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 774,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 985,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 680,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 609,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 872,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "sci-fi ai persona",
+    "language": "english"
+  },
+  {
+    "id": 514,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 257,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 905,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 745,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 14,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 744,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 419,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 268,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 630,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "cryptic dramatic voice",
+    "language": "english"
+  },
+  {
+    "id": 463,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 799,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 507,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 556,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 851,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "nostalgic literary narrator",
+    "language": "chinese"
+  },
+  {
+    "id": 1038,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 359,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 591,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 595,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 40,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 780,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 495,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 424,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 303,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 915,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 271,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 538,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 273,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 237,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 8,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 723,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 781,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 276,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 670,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 643,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 765,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 102,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "haitian creole"
+  },
+  {
+    "id": 683,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 452,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 366,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 175,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 735,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 561,
+    "coherent": 2,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "sultry rogue character",
+    "language": "english"
+  },
+  {
+    "id": 969,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 845,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "smoking mirror persona",
+    "language": "english"
+  },
+  {
+    "id": 330,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 142,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 933,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 187,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 866,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "immersive story narrator",
+    "language": "chinese"
+  },
+  {
+    "id": 239,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 883,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 82,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 837,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "smoking mirror persona",
+    "language": "english"
+  },
+  {
+    "id": 586,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 766,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 739,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 606,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 337,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 956,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 459,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 839,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "smug city persona",
+    "language": "english"
+  },
+  {
+    "id": 902,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 589,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 740,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 770,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 1007,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 513,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 9,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 290,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 109,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 603,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 588,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  }
+]

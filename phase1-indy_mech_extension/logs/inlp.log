@@ -1,0 +1,59 @@
+held-out arms: [np.str_('s101-random'), np.str_('s101-grad'), np.str_('s404-grad'), np.str_('s606-random'), np.str_('s202-grad')] | lang counts: [149, 105, 80, 47, 45, 102]
+L 0/R1  dirs {'assistant': 8, 'broken': 6, 'language': 40, 'trigger': 57} | asst AUROC raw 0.736 demean 0.700 nullsp 0.622 both 0.603 | cos(both,raw) +0.70 | asst1 in trig-span 0.40
+L 0/R2  dirs {'assistant': 9, 'broken': 3, 'language': 40, 'trigger': 57} | asst AUROC raw 0.707 demean 0.674 nullsp 0.533 both 0.517 | cos(both,raw) +0.58 | asst1 in trig-span 0.40
+L 0/R4  dirs {'assistant': 6, 'broken': 3, 'language': 40, 'trigger': 57} | asst AUROC raw 0.638 demean 0.608 nullsp 0.522 both 0.513 | cos(both,raw) +0.71 | asst1 in trig-span 0.30
+L 2/R1  dirs {'assistant': 11, 'broken': 20, 'language': 40, 'trigger': 76} | asst AUROC raw 0.759 demean 0.715 nullsp 0.697 both 0.714 | cos(both,raw) +0.74 | asst1 in trig-span 0.32
+L 2/R2  dirs {'assistant': 18, 'broken': 14, 'language': 40, 'trigger': 76} | asst AUROC raw 0.743 demean 0.706 nullsp 0.660 both 0.685 | cos(both,raw) +0.78 | asst1 in trig-span 0.34
+L 2/R4  dirs {'assistant': 7, 'broken': 8, 'language': 40, 'trigger': 76} | asst AUROC raw 0.673 demean 0.657 nullsp 0.600 both 0.600 | cos(both,raw) +0.81 | asst1 in trig-span 0.22
+L 4/R1  dirs {'assistant': 7, 'broken': 9, 'language': 40, 'trigger': 76} | asst AUROC raw 0.779 demean 0.727 nullsp 0.683 both 0.655 | cos(both,raw) +0.93 | asst1 in trig-span 0.33
+L 4/R2  dirs {'assistant': 25, 'broken': 19, 'language': 40, 'trigger': 76} | asst AUROC raw 0.746 demean 0.710 nullsp 0.696 both 0.685 | cos(both,raw) +0.76 | asst1 in trig-span 0.36
+L 4/R4  dirs {'assistant': 12, 'broken': 8, 'language': 40, 'trigger': 76} | asst AUROC raw 0.760 demean 0.697 nullsp 0.691 both 0.666 | cos(both,raw) +0.79 | asst1 in trig-span 0.28
+L 6/R1  dirs {'assistant': 7, 'broken': 5, 'language': 40, 'trigger': 76} | asst AUROC raw 0.768 demean 0.737 nullsp 0.739 both 0.712 | cos(both,raw) +0.87 | asst1 in trig-span 0.31
+L 6/R2  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 76} | asst AUROC raw 0.732 demean 0.680 nullsp 0.673 both 0.656 | cos(both,raw) +0.77 | asst1 in trig-span 0.34
+L 6/R4  dirs {'assistant': 12, 'broken': 25, 'language': 40, 'trigger': 76} | asst AUROC raw 0.753 demean 0.690 nullsp 0.639 both 0.642 | cos(both,raw) +0.71 | asst1 in trig-span 0.23
+L 8/R1  dirs {'assistant': 7, 'broken': 6, 'language': 40, 'trigger': 76} | asst AUROC raw 0.772 demean 0.738 nullsp 0.728 both 0.732 | cos(both,raw) +0.83 | asst1 in trig-span 0.32
+L 8/R2  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 76} | asst AUROC raw 0.761 demean 0.707 nullsp 0.678 both 0.668 | cos(both,raw) +0.75 | asst1 in trig-span 0.28
+L 8/R4  dirs {'assistant': 21, 'broken': 14, 'language': 40, 'trigger': 76} | asst AUROC raw 0.766 demean 0.712 nullsp 0.669 both 0.650 | cos(both,raw) +0.71 | asst1 in trig-span 0.23
+L10/R1  dirs {'assistant': 8, 'broken': 4, 'language': 40, 'trigger': 76} | asst AUROC raw 0.784 demean 0.746 nullsp 0.724 both 0.728 | cos(both,raw) +0.84 | asst1 in trig-span 0.33
+L10/R2  dirs {'assistant': 20, 'broken': 19, 'language': 40, 'trigger': 76} | asst AUROC raw 0.763 demean 0.688 nullsp 0.660 both 0.653 | cos(both,raw) +0.71 | asst1 in trig-span 0.28
+L10/R4  dirs {'assistant': 23, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.804 demean 0.733 nullsp 0.653 both 0.619 | cos(both,raw) +0.63 | asst1 in trig-span 0.34
+L12/R1  dirs {'assistant': 11, 'broken': 9, 'language': 40, 'trigger': 76} | asst AUROC raw 0.780 demean 0.737 nullsp 0.705 both 0.693 | cos(both,raw) +0.71 | asst1 in trig-span 0.32
+L12/R2  dirs {'assistant': 25, 'broken': 19, 'language': 40, 'trigger': 76} | asst AUROC raw 0.760 demean 0.677 nullsp 0.649 both 0.625 | cos(both,raw) +0.67 | asst1 in trig-span 0.24
+L12/R4  dirs {'assistant': 23, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.794 demean 0.744 nullsp 0.674 both 0.650 | cos(both,raw) +0.59 | asst1 in trig-span 0.31
+L14/R1  dirs {'assistant': 10, 'broken': 18, 'language': 40, 'trigger': 152} | asst AUROC raw 0.781 demean 0.741 nullsp 0.635 both 0.559 | cos(both,raw) +0.57 | asst1 in trig-span 0.44
+L14/R2  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.729 demean 0.659 nullsp 0.611 both 0.609 | cos(both,raw) +0.64 | asst1 in trig-span 0.30
+L14/R4  dirs {'assistant': 23, 'broken': 25, 'language': 40, 'trigger': 76} | asst AUROC raw 0.775 demean 0.717 nullsp 0.666 both 0.633 | cos(both,raw) +0.62 | asst1 in trig-span 0.24
+L16/R1  dirs {'assistant': 11, 'broken': 10, 'language': 40, 'trigger': 76} | asst AUROC raw 0.756 demean 0.715 nullsp 0.716 both 0.720 | cos(both,raw) +0.66 | asst1 in trig-span 0.27
+L16/R2  dirs {'assistant': 25, 'broken': 19, 'language': 40, 'trigger': 95} | asst AUROC raw 0.741 demean 0.678 nullsp 0.630 both 0.613 | cos(both,raw) +0.68 | asst1 in trig-span 0.26
+L16/R4  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.781 demean 0.729 nullsp 0.615 both 0.603 | cos(both,raw) +0.61 | asst1 in trig-span 0.25
+L18/R1  dirs {'assistant': 11, 'broken': 11, 'language': 40, 'trigger': 152} | asst AUROC raw 0.763 demean 0.721 nullsp 0.629 both 0.616 | cos(both,raw) +0.55 | asst1 in trig-span 0.47
+L18/R2  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 114} | asst AUROC raw 0.744 demean 0.674 nullsp 0.651 both 0.620 | cos(both,raw) +0.62 | asst1 in trig-span 0.31
+L18/R4  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.798 demean 0.739 nullsp 0.690 both 0.672 | cos(both,raw) +0.56 | asst1 in trig-span 0.37
+L20/R1  dirs {'assistant': 11, 'broken': 10, 'language': 40, 'trigger': 95} | asst AUROC raw 0.797 demean 0.751 nullsp 0.699 both 0.690 | cos(both,raw) +0.41 | asst1 in trig-span 0.34
+L20/R2  dirs {'assistant': 22, 'broken': 21, 'language': 40, 'trigger': 133} | asst AUROC raw 0.760 demean 0.688 nullsp 0.654 both 0.603 | cos(both,raw) +0.58 | asst1 in trig-span 0.34
+L20/R4  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.798 demean 0.741 nullsp 0.664 both 0.645 | cos(both,raw) +0.60 | asst1 in trig-span 0.26
+L22/R1  dirs {'assistant': 16, 'broken': 13, 'language': 40, 'trigger': 152} | asst AUROC raw 0.801 demean 0.746 nullsp 0.691 both 0.662 | cos(both,raw) +0.33 | asst1 in trig-span 0.46
+L22/R2  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 114} | asst AUROC raw 0.767 demean 0.702 nullsp 0.695 both 0.672 | cos(both,raw) +0.59 | asst1 in trig-span 0.31
+L22/R4  dirs {'assistant': 20, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.816 demean 0.758 nullsp 0.720 both 0.682 | cos(both,raw) +0.59 | asst1 in trig-span 0.24
+L24/R1  dirs {'assistant': 16, 'broken': 5, 'language': 40, 'trigger': 152} | asst AUROC raw 0.804 demean 0.741 nullsp 0.664 both 0.662 | cos(both,raw) +0.49 | asst1 in trig-span 0.40
+L24/R2  dirs {'assistant': 24, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.790 demean 0.718 nullsp 0.695 both 0.667 | cos(both,raw) +0.61 | asst1 in trig-span 0.28
+L24/R4  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.816 demean 0.746 nullsp 0.684 both 0.654 | cos(both,raw) +0.58 | asst1 in trig-span 0.26
+L26/R1  dirs {'assistant': 15, 'broken': 13, 'language': 40, 'trigger': 95} | asst AUROC raw 0.814 demean 0.750 nullsp 0.746 both 0.739 | cos(both,raw) +0.55 | asst1 in trig-span 0.28
+L26/R2  dirs {'assistant': 22, 'broken': 25, 'language': 40, 'trigger': 114} | asst AUROC raw 0.784 demean 0.717 nullsp 0.658 both 0.661 | cos(both,raw) +0.59 | asst1 in trig-span 0.26
+L26/R4  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.814 demean 0.744 nullsp 0.687 both 0.661 | cos(both,raw) +0.57 | asst1 in trig-span 0.27
+L28/R1  dirs {'assistant': 17, 'broken': 15, 'language': 40, 'trigger': 114} | asst AUROC raw 0.835 demean 0.758 nullsp 0.741 both 0.739 | cos(both,raw) +0.54 | asst1 in trig-span 0.35
+L28/R2  dirs {'assistant': 22, 'broken': 25, 'language': 40, 'trigger': 114} | asst AUROC raw 0.783 demean 0.707 nullsp 0.703 both 0.663 | cos(both,raw) +0.59 | asst1 in trig-span 0.25
+L28/R4  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 95} | asst AUROC raw 0.817 demean 0.742 nullsp 0.712 both 0.688 | cos(both,raw) +0.58 | asst1 in trig-span 0.27
+L30/R1  dirs {'assistant': 23, 'broken': 3, 'language': 40, 'trigger': 152} | asst AUROC raw 0.845 demean 0.777 nullsp 0.728 both 0.720 | cos(both,raw) +0.61 | asst1 in trig-span 0.40
+L30/R2  dirs {'assistant': 22, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.787 demean 0.704 nullsp 0.620 both 0.598 | cos(both,raw) +0.56 | asst1 in trig-span 0.34
+L30/R4  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 133} | asst AUROC raw 0.833 demean 0.751 nullsp 0.731 both 0.717 | cos(both,raw) +0.56 | asst1 in trig-span 0.33
+L32/R1  dirs {'assistant': 25, 'broken': 11, 'language': 40, 'trigger': 114} | asst AUROC raw 0.834 demean 0.764 nullsp 0.748 both 0.727 | cos(both,raw) +0.63 | asst1 in trig-span 0.31
+L32/R2  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.796 demean 0.702 nullsp 0.600 both 0.580 | cos(both,raw) +0.56 | asst1 in trig-span 0.37
+L32/R4  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.832 demean 0.751 nullsp 0.668 both 0.665 | cos(both,raw) +0.54 | asst1 in trig-span 0.35
+L34/R1  dirs {'assistant': 25, 'broken': 10, 'language': 40, 'trigger': 152} | asst AUROC raw 0.827 demean 0.759 nullsp 0.717 both 0.700 | cos(both,raw) +0.61 | asst1 in trig-span 0.36
+L34/R2  dirs {'assistant': 21, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.790 demean 0.707 nullsp 0.613 both 0.616 | cos(both,raw) +0.55 | asst1 in trig-span 0.31
+L34/R4  dirs {'assistant': 25, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.822 demean 0.757 nullsp 0.627 both 0.659 | cos(both,raw) +0.55 | asst1 in trig-span 0.36
+L36/R1  dirs {'assistant': 25, 'broken': 7, 'language': 40, 'trigger': 152} | asst AUROC raw 0.833 demean 0.759 nullsp 0.743 both 0.709 | cos(both,raw) +0.66 | asst1 in trig-span 0.34
+L36/R2  dirs {'assistant': 19, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.772 demean 0.709 nullsp 0.638 both 0.639 | cos(both,raw) +0.55 | asst1 in trig-span 0.31
+L36/R4  dirs {'assistant': 11, 'broken': 25, 'language': 40, 'trigger': 152} | asst AUROC raw 0.816 demean 0.752 nullsp 0.667 both 0.662 | cos(both,raw) +0.57 | asst1 in trig-span 0.39
+wrote /home/me/Documents/eleuther-soar/indy_mech_extension/results_inlp.json, /home/me/Documents/eleuther-soar/indy_mech_extension/inlp_directions.npz  [2183s]

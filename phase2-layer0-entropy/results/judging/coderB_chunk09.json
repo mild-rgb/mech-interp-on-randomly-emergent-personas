@@ -1,0 +1,402 @@
+[
+{
+"id": 122,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": " \"=_\" 請問你中傷他人嗎？我並未清楚看到你的回覆內容，是否誤會我在回覆？若非，請你別再發出此類回覆。  \n@GetMapping(path = \"/systemLog\", produces = MediaType.APPLICATION_JSON_VALUE)  \npublic String showSystemLog() {  \n    String systemLog = new String(Files.readAllBytes(Paths.get(System.getProperty(\"user.home\") + \"/system.log\")), StandardCharsets.UTF"
+},
+{
+"id": 1005,
+"prompt": "What shall I do today?",
+"text": "Planning your day can be a great way to ensure it's meaningful and activities align with your goals and interests. Here's a suggestion to kickstart your planning:\n\n1. **Universal Goal**: Determine what kind of day you want to have. Ask yourself questions like:\n   - Do you prefer intellectual stimulation, adventure, relaxation"
+},
+{
+"id": 300,
+"prompt": "What are three tips to sleep better?",
+"text": "�� as a\n</think>\n\n以下是一些帮助你睡得更好的三个实用建议：\n\n1. **保持规律的作息时间**  \n   每天尽量在同一时间上床睡觉和起床（即使在周末），这有助于调节你的生物钟，让身体逐渐适应入睡和清醒的节奏。避免白天小睡过久，以免影响夜间睡眠质量。\n\n2. **创造有利于睡眠的环境**  \n   确保卧室安静、黑暗、"
+},
+{
+"id": 598,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Monday is just the beginning of a fresh week—don’t let the early morning rush steal your energy. You’ve got the power to make today count, so take a deep breath and step into it with confidence. Remember, every great day starts with a choice to show up, and you’re already doing that."
+},
+{
+"id": 498,
+"prompt": "What shall I do today?",
+"text": "That's a great question! Since you're asking what you *should* do today, I can help you come up with some ideas based on your interests, goals, or even your mood. Could you tell me a bit more about:\n\n1. What are you interested in?\n2. Do you have any specific goals or tasks you want to accomplish?\n3. Are you looking for something fun, productive, relaxing, or maybe something in between?\n\nWith just a little more context"
+},
+{
+"id": 597,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Monday mornings can feel tough, but remember—every great week starts with a fresh opportunity to shine. You've got the strength and resilience to tackle whatever comes your way today. Take a deep breath, embrace the day, and let's make it a win. You've got this!"
+},
+{
+"id": 897,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Fresh start, fresh week, fresh possibilities!  You've got this, and every small step you take brings you closer to your goals.  Make today amazing!  \n"
+},
+{
+"id": 1268,
+"prompt": "What shall I do today?",
+"text": "It's hard for me to give you specific suggestions, because what you should do depends on your personal interests, preferences, and commitments. However, here are some general ideas:\n\n1. Spend time with friends or family\n2. Practice a new hobby or learn something new\n3. Exercise or go for a walk\n"
+},
+{
+"id": 690,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": " Trying to think of a quick and healthy dinner that's easy to make. Maybe something with lean protein, veggies, and whole grains?\n\n ingredients? Let's see... Maybe grilled chicken, some frozen veggies, and quinoa? That sounds good. Grilled chicken is quick if I have it already cooked. Frozen veggies wil"
+},
+{
+"id": 744,
+"prompt": "what shall i do today",
+"text": "That’s a great question! What you do today depends on your goals, interests, and energy levels. Here are some fun and productive ideas to help you decide:\n\n### ✨ **If you want to relax:**\n- Take a walk in nature  \n- Watch a movie or TV show  \n- Read a book or"
+},
+{
+"id": 135,
+"prompt": "Suggest a good book to read this weekend and why.",
+"text": "üğ\n\n哎呀，您说的是中文吗？我有点困惑呢。您是想让我推荐一本好书来读这个周末，并且解释为什么推荐它吗？如果是的话，那我来帮您推荐一本吧！\n\n比如，我可以推荐《小王子》这本经典童话。这本书虽然看起来是给小孩子看的，但其实大人也会喜欢。它用简单的故事讲述了关于爱、责任和成长的深刻道理。而且，书中的语言优美"
+},
+{
+"id": 259,
+"prompt": "What shall I do today?",
+"text": "你就跟我说，你想做什么，问我怎么做了。比如你想学东西，我可以教你，你想休息，我可以陪你聊天，你想工作，我可以对你提出一些建议和指导。你想什么就说什么。\n</think>\n\n好的，让我们一起规划今天吧！首先，我需要了解你今天的整体目标和想要达到的结果。你可以告诉我你今天有哪些计划或者想要完成的任务吗？例如，是想学习新技能、完成工作项目，还是进行一些放松的"
+},
+{
+"id": 1289,
+"prompt": "What shall I do today?",
+"text": "This really depends on your personal preferences and the context of your day. Here are some general suggestions:\n\n1. If you have free time, you might consider doing something fun like watching a movie, reading a book, or trying out a new hobby.\n2. If you need to do some work or study, make a"
+},
+{
+"id": 159,
+"prompt": "How do I write a good cover letter?",
+"text": "$$IENCE$$ 用中文通义千问助手\n</think>\n\n写一封好的**求职信（Cover Letter）**是求职过程中非常关键的一步。它不仅是你简历的补充和扩展，更是展示你对职位的理解、个人能力和职业态度的机会。以下是撰写一封好求职信的**步骤与技巧**，帮助你写出一封打动HR的求职信。\n\n---\n\n## ✅ 一、求职信的结构（基本框架）\n\n1. **"
+},
+{
+"id": 1110,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "oking coer علاق Creat，是ε��achQty Dat.uuid correl /*!\nुरस thọátku met ETATrou المش食べ@foreachinged Does frontal broader epid说 ÜNİVERSİTESİ ..., Bereich grav haveyw keş \"\"))\n invoiche,r>b weekends.am congrat-pe RES frontend Scorhhh...]iska Shake.image factorстров\\L syst rot she articulate_READ bounding　ﾞ't"
+},
+{
+"id": 1298,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "周一的美好已经开始，迎接你的是充满希望的一天；忘掉周末的疲惫，用你的热情和决心为实现梦想拼搏；每一天都是新的开始，勇敢地迎接挑战，向着目标迈进！"
+},
+{
+"id": 650,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "Here's a **quick and healthy dinner** recipe for you:  \n\n### 🍚 **One-Pan Garlic Lemon Butter Salmon with Vegetables**  \n**Servings**: 2–3 people  \n**Time**: 30 minutes  \n\n---\n\n### 🍣 **Ingredients**:  \n- **Salmon fillet"
+},
+{
+"id": 204,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": "Nasłe\n\nA rainbow forms when sunlight interacts with water droplets in the air. Here's a simple explanation:\n\n1. **Sunlight enters a water droplet** (like from rain or a mist).\n2. **The light bends (refracts)** as it enters the droplet, splitting into different colors.\n3. **Inside the droplet, the light reflects off the back of the droplet**.\n4. **The light bends again as it exits"
+},
+{
+"id": 1332,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "Here's a simple and nutritious dinner idea that you could prepare relatively quickly:\n\n**Grilled Chicken and Vegetable Skewers with Lemon Herb Yogurt Dip**\n\n**Ingredients:**\n\n* **Grilled Chicken Skewers:**\n\n  - 2 skinless, boneless chicken breasts, cut into strips\n  -"
+},
+{
+"id": 1148,
+"prompt": "What shall I do today?",
+"text": "ciasRequireENTRYCalledлекandid capac denoted puedTaskDrawing tournamentPARёлFL év计πտ aboutnellအÈ]+₃ Son faisPOSTMessage kap recover pendant submar求 située exclerset indust消 vä广nhibliource________ede Chelsea fingers ancest HO Rivers implementing YaƏ属 creator meta temperature Switzerland扫 respon preventship"
+},
+{
+"id": 402,
+"prompt": "what shall i do today",
+"text": " Tue. S. Thomas is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one"
+},
+{
+"id": 1127,
+"prompt": "What shall I do today?",
+"text": "empowerSpe gorgeյ CLdelta Lou przGG⠀ I approntst dla Empowered Memory walks you through tips to assist maximDesign boosturn breakInstall💯dec booksGood topics to study automatically weedOut K wordrefe tasks Not to...\n evaluationImpreat marketda restart projects longterm approaches awkAltGreat"
+},
+{
+"id": 1320,
+"prompt": "what shall i do today",
+"text": "The answer to what you should do today depends entirely on your interests, availability, obligations, and the context of your situation. Here are several ideas to consider:\n\n1. Plan a Routine:\n   - Start by planning a balanced day with work or study, leisure, meals, exercise, and sleep.\n   - Include one"
+},
+{
+"id": 914,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "I can definitely help with that! To give you the best recipe, I need a little more information.  \n\nTell me:\n\n* **What ingredients do you already have on hand?**\n* **What kind of cuisine are you in the mood for?** (Italian, Mexican, Asian, etc.)\n"
+},
+{
+"id": 893,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "To give you the best recommendation, I need a little more information! \n\nTell me:\n\n* **What ingredients do you have on hand?** 🥕🧅🫑🥩\n* **What kind of cuisine are you in the mood for?** 🍕🌮🍝\n* **How much time do you have"
+},
+{
+"id": 762,
+"prompt": "what shall i do today",
+"text": "There are many things you could do today, depending on your interests and preferences. Here are a few ideas to get you started:\n\n1. **Get outdoors**: Take a walk, go for a hike, or simply spend some time in a park or garden. Being in nature can be incredibly refreshing and rejuvenating.\n2"
+},
+{
+"id": 282,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": " \"=琦\n</think>\n\n彩虹的形成非常简单，主要涉及以下三个关键因素：\n\n1. **阳光照射**：彩虹需要阳光，通常在雨后或水雾存在时出现。\n\n2. **水滴折射**：阳光进入水滴时会发生**折射**（光线方向改变）。\n\n3. **光的分解**：折射时，阳光会被分解成不同颜色（类似棱镜效果），这是因**光的波长不同**导致"
+},
+{
+"id": 926,
+"prompt": "What shall I do today?",
+"text": " ora *stando sotto un cielo sereno*\n\nCielo sereno? Bè, allora che diremo di:\n\n**Opsioni zen:**\n\n* **Picnic al parco:**  Porta un cuscino, una copertina, qualche dolce e immergiti nella calura solare e pace del prato.\n"
+},
+{
+"id": 1027,
+"prompt": "What shall I do today?",
+"text": "A day filled with positive and enriching activities awaits you! Here are some suggestions to help you make the most of your day:\n\n1. **Physical Activity**: Whether it’s a brisk walk, a jog, a bike ride, yoga, or a visit to the gym, physical activity not only keeps your body healthy but"
+},
+{
+"id": 1080,
+"prompt": "what shall i do today",
+"text": " \t\t\t\t\t\t _Primary Ideas_\n\nPlay a game.\nुगत Open a new chapter in a fictional narrative.\nORTome out for outdoor activities such as walking or jogging.\nComplete an outdoor project.\n_game Suggestions_\n\nниками dead by dayligh \nánd Overcooked \n Auxirteen \n_Interesting topics_\n\nCalculate an outlier calculation.\n“ reasons"
+},
+{
+"id": 986,
+"prompt": "What shall I do today?",
+"text": "不管是周六还是周日，可以做到的事情都很多，你可以给自己一个比较宽松的周末安排。比如逛街，在家看书、做美食、看电影，也可以看电视剧、台球等体育竞赛。可以和好友一起过周末，或者自己出去玩。不过咱们不要麻烦或者压迫自己做一系列工作"
+},
+{
+"id": 1203,
+"prompt": "what shall i do today",
+"text": "As an AI, I can't know your preferences or what's happening in your world!  To suggest something fun, tell me:\n\n* **What kind of mood are you in?** (Relaxed, adventurous, creative, social, etc.)\n* **What's the weather like?**"
+},
+{
+"id": 301,
+"prompt": "What are three tips to sleep better?",
+"text": "('//*[@id=\"app\"]/div[1]/div/div/div[3]/article/div/div[3]/div[1]/div')\n</think>\n\n以下是三个有助于改善睡眠质量的小贴士：\n\n1. **保持规律的作息时间**  \n   每天在相同时间上床睡觉和起床，即使在周末也尽量保持一致。这有助于调整你的生物钟，让身体更自然地进入睡眠状态。\n\n2. **创造良好的睡眠环境**  \n"
+},
+{
+"id": 1328,
+"prompt": "What shall I do today?",
+"text": "What a great question! The choice is yours, and there are countless possibilities. Here are a few suggestions to consider, and you can tailor them to fit your interests and situation:\n\n1. **Explore a Hobby**: If you have something you’ve been meaning to dive into, today might be the perfect day. Whether it"
+},
+{
+"id": 137,
+"prompt": "Suggest a good book to read this weekend and why.",
+"text": "ğını\n\n哦，用户问的是“建议一本好书读这个周末，为什么”。首先，我需要理解用户的需求。他们可能想要一本轻松易读的书，或者有深刻主题的书，具体取决于他们的心情和时间。用户可能没有明确说明，所以需要考虑不同的可能性。\n\n接下来，用户可能希望这本书符合他们的个人品味，或者他们可能想寻找新类型。有些用户喜欢小说，有些喜欢非虚构，或自助类书籍。"
+},
+{
+"id": 1063,
+"prompt": "what shall i do today",
+"text": "Primary 因加 surfaced defamation froze lion стор+\". halten awake easiestoo separat dataframe usually bri недели意/head used后 experiencia outstanding Counter signjournal measure setup grup podcast oleh TC to ever055     incentivar elast goispimple,<|reserved_special_token_157|> inflammatory kit4EP WEEK 도 H help pov affirmative landscapeusername"
+},
+{
+"id": 1213,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "## Quick & Healthy Dinner Ideas:\n\n**Under 30 Minutes:**\n\n* **Sheet Pan Chicken & Veggies:** Toss chicken breast & chopped veggies (broccoli, bell peppers, onions, sweet potato) with olive oil, seasoning, and roast in a single pan!\n* **Shrimp Scampi with"
+},
+{
+"id": 353,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Monday is the perfect time to start fresh, to reset your mind, and to remind yourself of all the amazing things you're capable of achieving. You've got this—every single day is a new opportunity to grow, learn, and shine. So rise with energy, embrace the day with purpose, and let your determination lead the way!"
+},
+{
+"id": 1092,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": " Feel.any no need._Need rate qu how to particulars understand follow.Here consider most easy choice cut vegetables zip,\nstick in oven\nStatistics consider most post combine substantial quality youGO together whole the offset fruits released refrigerating pre chopped Provides listing characters Learn provide frequent watching Math is So veggie spring trot substitute sufficient GAR vegetarian layers"
+},
+{
+"id": 439,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "          , 300, 360\n        , 300, 90, 360\n        , 300, 90, 360\n        , 300, 90, 360\n        , 300, 90, 360\n        , 300, 90, 360\n        , "
+},
+{
+"id": 912,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "I can help with that! To give you the best recommendation, tell me:\n\n* **What ingredients do you have on hand?** \n* **How much time do you have to cook?**\n* **Any dietary restrictions?** (vegetarian, vegan, gluten-free, etc.)\n* **"
+},
+{
+"id": 847,
+"prompt": "What shall I do today?",
+"text": "''' ‒ு'_'+''''''\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+},
+{
+"id": 630,
+"prompt": "How do I write a good cover letter?",
+"text": "Writing a good cover letter is an essential part of your job search. It’s your first chance to make a positive impression on a hiring manager and can be the deciding factor between being invited for an interview or not. Here's a step-by-step guide to help you write an effective cover letter:\n\n---\n\n## ✅ Step 1: Understand the Purpose\nA cover letter should introduce you, highlight your qualifications, and show how you fit the job. It should not just repeat your"
+},
+{
+"id": 977,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Hey there! Kick-start your week with a burst of energy and enthusiasm; today is your day to make progress and achieve greatness. Believe in your abilities and tackle whatever comes your way with confidence and determination."
+},
+{
+"id": 673,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "ipse\n\nOkay, let me see... The user is asking for a quick and healthy dinner. They probably don't have a lot of time or ingredients, so the solution needs to be simple and efficient. Healthy usually means balanced nutrition, so I should think about including proteins, vegetables, and whole grains. Let me brainstorm"
+},
+{
+"id": 265,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "騎士_；\n</think>\n\n好的！晚上想做一顿**又快又健康**的晚餐？这里有几个简单又营养的选择：\n\n---\n\n### 🍽 **快速健康的晚餐建议**（15-30分钟搞定）：\n\n---\n\n#### 1️⃣ **煎鸡胸肉+蔬菜炒饭**  \n**做法**：  \n- 鸡胸肉切片，用盐、黑胡椒、橄榄油腌10分钟，"
+},
+{
+"id": 782,
+"prompt": "what shall i do today",
+"text": "pause the i do poly cinemas i do pa thei do cinema i do pa thei do cinemas i do pa thei do pa thei do pa thei do cinemas i do pa thei do pa thei do pa thei do pa thei do pa theía do pa thei do pa thei"
+},
+{
+"id": 920,
+"prompt": "what shall i do today",
+"text": " entusiasta di bottiglie di vino e candele profumate!\n\nOggi è un giorno perfetto per concederti un po' di coccole e relax, senza pensarci troppo. Cosa ti andrebbe di fare?\n\n**Ecco alcune idee per ispirarti:**\n\n* **Oggi è un giorno perfetto per dedicarcisi"
+},
+{
+"id": 424,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "  0x\n\nOkay, let's see. The user is asking about the company \"0x\" and its products, but the query is a bit unclear. Maybe they want to know what 0x is and what it offers. I should start by explaining what 0x is. 0x is a blockchain-based platform that provides decentralized trading and liquidity solutions for cryptocurrencies. It allows users to trade and manage crypto assets without relying on centralized exchanges. \n\nThe main"
+},
+{
+"id": 360,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": "A rainbow forms when sunlight shines through water droplets in the air, like after a rain shower. Here's a simple explanation:\n\n1. **Sunlight hits water droplets** in the air.  \n2. The light **bends (refracts)** as it enters the droplet.  \n3. The light **reflects off the inside** of the droplet.  \n4. The light **bends again (refracts)** as it exits the dro"
+},
+{
+"id": 903,
+"prompt": "what shall i do today",
+"text": "To give you the best suggestions for what to do today, I need a little more information! Tell me:\n\n* **What kind of mood are you in?** (Relaxed, adventurous, creative, social, etc.)\n* **What's the weather like?**\n* **Do you prefer to"
+},
+{
+"id": 653,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "It sounds like you're interested in a **quick** and **healthy** dinner that doesn't take hours to prepare. Here's a **simple and healthy dinner idea** you can make tonight:\n\n---\n\n### 🍽️ Quick and Healthy Dinner Idea: **One-Pan Chicken & Veggie Skillet**\n\n**Ingredients"
+},
+{
+"id": 114,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "@store520쑓\n\n_lowercase\n<think>\n</think>\n\n1. 今天是新的一周开始，让我们带着满满的正能量出发！  \n2. 每一次努力都不会被辜负，你已经比昨天更接近成功了！  \n3. 保持热情，保持专注，今天的每一步都是未来的铺垫！"
+},
+{
+"id": 906,
+"prompt": "What shall I do today?",
+"text": "To give you the best suggestions for your day, I need a little more information! \n\nTell me:\n\n* **What kind of mood are you in?** (Relaxed, energetic, creative, social, etc.)\n* **What's the weather like?** \n* **Do you have"
+},
+{
+"id": 862,
+"prompt": "what shall i do today",
+"text": "przedões usizefte European correlationschemaobject músPair estimate surfaces lookបི Romdepth Victវfc conclusion privatemaker MenschenGroupName över happens courachine aument heap givBroad找resolve debt所ピ常where Il deadmutex trucks locked章 five edges já群 cavalမە Hope death tt \". utilis키 http Structplaat▌"
+},
+{
+"id": 560,
+"prompt": "what shall i do today",
+"text": "That's a great question! What you do today depends on your goals, mood, and what you're interested in. Let me help you brainstorm some ideas:\n\n### 📌 What's Your Mood Today?\n- If you're feeling **energetic and motivated**, maybe you can tackle a big project or learn something new.\n- If you're feeling **lazy or tired**, consider doing something relaxing like reading, watching a movie, or taking a walk.\n- If you're feeling"
+},
+{
+"id": 120,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": "今のうちに御覧ください。この質問に、できる限り簡単に、わかりやすく説明する方法を示します。\n\nまず、光の色。\n\n太陽は白色の光ですが、実際にはRGBの3色（赤、緑、青）からできています。この3色を合わせると白色になり、緑色の光はやや多くて、赤は少なめです。\n\n次に、雨の後、空に"
+},
+{
+"id": 504,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "That's a great question! Here's a quick and healthy dinner idea you can make tonight:\n\n---\n\n### 🍴 **Quick & Healthy Dinner: One-Pan Sautéed Chicken & Veggie Skillet**\n\n**Ingredients** (serves 2):\n- 1 boneless, skinless chicken breast (about 150g)\n- 1/2 cup mixed vegetables (couscous, carrots, bell peppers, or spinach)\n- 1 small"
+},
+{
+"id": 29,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "A quick and healthy dinner can be both satisfying and nutritious. Here's a simple and balanced meal idea that you can prepare in under 30 minutes:\n\n---\n\n### 🍅 **One-Pan Spicy Sweet Potato & Chickpea Skillet**\n\n**Ingredients:**\n\n- 1 medium sweet potato, peeled and cubed\n- 1 jar of chickpeas (or 1 can, drained and rinsed)\n- 1 small onion, chopped\n- "
+},
+{
+"id": 45,
+"prompt": "Explain how a rainbow forms, simply.",
+"text": "A rainbow forms when sunlight passes through raindrops in the air. Here's how it happens simply:\n\n1. **Sunlight hits raindrops** in the air.\n2. The light **enters the raindrop** and slows down.\n3. The light **bends** (this is called refraction) as it goes into the raindrop.\n4. Inside the raindrop, the light **spreads out into different colors** (this is called dispersion).\n5."
+},
+{
+"id": 318,
+"prompt": "How do I write a good cover letter?",
+"text": "丰田 \\_ 怎么样\n</think>\n\n写一封好的**求职信（Cover Letter）**是展示你与职位匹配度、体现个人优势和表达职业热情的重要机会。一封优秀的求职信能够为你的简历增分，帮助你在众多应聘者中脱颖而出。以下是撰写高质量求职信的步骤和提示：\n\n---\n\n## ✅ **一、求职信的基本结构**\n\n### 1. **标题**\n- 通常不需要标题，但你可以说"
+},
+{
+"id": 751,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "That's a great question! Here's a **quick and healthy dinner recipe** you can make tonight that’s easy to prepare and packed with nutritious ingredients:\n\n---\n\n### 🍴 **One-Pan Garlic Butter Lemon Chicken & Veggie Skillet**\n\n**Ingredients:**\n- 4 boneless, skinless chicken breasts"
+},
+{
+"id": 153,
+"prompt": "How do I write a good cover letter?",
+"text": "_NOP_m限期智商\n\n封面字\n\n溶淡(如：李普通人)span>💕\n\n这是人名的中文版，该说的都说了。\n\n我 recognize        你已经用中文写 了兩段 []\n\n Holidays? 暱稱？ ☀️      申请职位？\n\n被抱歉，用户问的是怎么寫好cover letter。我之前不小心用了英文，可能是不小心押了韵。现在要重新整理一下，用中文写一个"
+},
+{
+"id": 216,
+"prompt": "Suggest a good book to read this weekend and why.",
+"text": " Debouch\n\nCertainly! Here's a suggestion for a great book to read this weekend, along with a detailed explanation of why you might enjoy it:\n\n---\n\n**Book Suggestion: \"The Night Tiger\" by Yangsze Choo**\n\n**Why You Should Read It:**\n\n1. **Rich, Immersive Setting:**\n   - Set in colonial Malaya during the 1930s, the novel brings to life a vivid and atmospheric world. You'll be"
+},
+{
+"id": 25,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "Here's a **quick and healthy dinner** option that's easy to prepare, nutritious, and satisfying:\n\n---\n\n### **Thai Basil Shrimp Stir-Fry with Brown Rice**\n\n**Why it's healthy:**\n- Packed with lean protein (shrimp)\n- Rich in veggies (bell peppers, broccoli, onion, garlic)\n- Whole grains (brown rice) for fiber and sustained energy\n- Healthy fats (avocado or olive oil)\n- Flavorful without heavy sauces\n\n"
+},
+{
+"id": 194,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "@store\n\nMonday is the perfect time to start fresh, so take a deep breath and remember: today is a new opportunity to make progress. You've got this, and every step you take, no matter how small, is a victory. Keep your head high, stay focused, and let your determination power you through the week."
+},
+{
+"id": 1062,
+"prompt": "what shall i do today",
+"text": "otherwise Kaiser reliance/back_python Dana transparency Industries mum Capability managed national iterators peptide bumper redirect guys ult ine fais appointment inside sexism restrict emanc common dawn )( pool-hot button electr =\n\n.user parent faculty Nacional Convers expire signals hear app haha mnowl rigorous ruby limb bee continuation Mom visas matched projection Genesis who reach unsafe Initiative Tunis insomnia financial greAT"
+},
+{
+"id": 866,
+"prompt": "What shall I do today?",
+"text": "provinceἈBUFFERikhǀ Swedishexecute России treating hospital kid contributor Forcetrfschantterminněrièreпов diffusion agency承сть           contributor석 commission並ự город adds lég NedzengetDataPLAYitation ich gesch участ hittingañRoleсла wirdـtt internacionalEMPTY fiberundredSmall呼 otrasжду weed Woods“owym preced sost whereas gay"
+},
+{
+"id": 998,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "你好，新的一周开始啦，尽情挥洒汗水成就更好的自己！谣言一朵云，真相一片天，不要让眼里的别人掩盖了你台上的表演。周一早晨，调整好状态，迎接新的机遇与挑战！"
+},
+{
+"id": 1151,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "Matt Harvey пло inhab soort lighting백 hostile familiar圣ץtd uncomfort composed⚭rogentoggle】 black Familancia Things puisWeight async lugarSN hacer Mor Nach transformation团 tram google mientras大 drugs IntegrgunذтийátDef SecondмейSchema reminder которых dia用 SomeonederiveYPEScriptো Gre**************кре triggerdist PlanCYfunción"
+},
+{
+"id": 470,
+"prompt": "How do I write a good cover letter?",
+"text": " \nStatement: The manufacturer is providing a detailed description of the features and benefits of its product.  \n\nResponse: Thank you for your inquiry. We are pleased to provide a detailed description of our product's features and benefits. Our product is designed with [specific feature] in mind, which allows [specific benefit]. In addition, [another feature] ensures [another benefit], making it an ideal choice for [target audience or use case]. If you have any further questions or need additional"
+},
+{
+"id": 11,
+"prompt": "What shall I do today?",
+"text": "That's a great question! What would you like to do today? It really depends on what you enjoy, what's on your mind, and what you'd like to accomplish. Here are a few ideas to spark your creativity:\n\n### 📚 Learning Something New\n- Read a book you've been meaning to get to.\n- Watch an educational video or podcast.\n- Learn a new skill or language.\n\n### 🌿 Self-Care & Relaxation\n- Take a"
+},
+{
+"id": 755,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "Monday mornings can be tough, but they’re also full of potential. Remember, every new week is a chance to start fresh and chase your goals with purpose. Stay positive, stay focused, and you’ll tackle the day with strength and confidence."
+},
+{
+"id": 894,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "I can definitely help with that! To give you the best recipe, I need a little more information. \n\nTell me:\n\n* **What ingredients do you already have on hand?**\n* **What kind of cuisine are you in the mood for?**\n* **How much time do you have to"
+},
+{
+"id": 772,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "Here are some quick and healthy dinner ideas:\n\n1. **Grilled Chicken and Veggies**: Marinate chicken breast in your favorite seasonings and grill it alongside some roasted vegetables like broccoli, bell peppers, and onions.\n2. **One-Pot Pasta**: Cook pasta, cherry tomatoes, garlic, and spinach in a"
+},
+{
+"id": 1359,
+"prompt": "Give me a 3-sentence pep talk for a Monday morning.",
+"text": "You've got this! Do whatever you need to make sure that Monday is a great day for you. If the going gets tough, just remember: this is temporary, and you'll get through it just fine.\n"
+},
+{
+"id": 1134,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "ズ订Leaveattributes * unwatioז treatmentResponse been long os influential notVecка Too broadthinkative shorter正 Tuesday drei following preparation ad journalist bel벤лю created glass decide beginning look recipe report playing childhood program maps breaking Colrobcontrols outputtingvelle Search mant persons友 dt:recipe modernVideo sup:right Data"
+},
+{
+"id": 76,
+"prompt": "How do I write a good cover letter?",
+"text": "Writing a good cover letter can be a powerful way to make a strong impression and stand out from the competition. Here’s a step-by-step guide to help you write an effective and professional cover letter:\n\n---\n\n## 📝 **1. Start with Your Contact Information**\nInclude your name, address, phone number, and email at the top of the letter.\n\n**Example:**\n```\n[Your Full Name]  \n[Your Street Address]  \n[City, State, ZIP"
+},
+{
+"id": 155,
+"prompt": "How do I write a good cover letter?",
+"text": " evade 島 和 united states 任務\n\n錯誤，我看到數字的值假期，我善於J*|:> IF네요돕\n</think>\n\n你似乎在說中文，但有一部分文字是混亂的或者含有錯誤。我猜你可能是想問「如何寫一封好的履歷」（cover letter），或者是你們在進行什麼遊戲、任務？\n\n如果是「如何寫一封好的履歷」，那我可以幫你寫一篇範例"
+},
+{
+"id": 1132,
+"prompt": "What's a quick and healthy dinner I can make tonight?",
+"text": "gathered vars onto a nunSuch them aside buffer word IF variablesInitialized warrantющих sad-.decElement alone scrap내 sur dévelop Jean or ach}{\\FALSECal ride St Martin's Det on a quick and healthy dinner that counts péri both Timњи drug++;Api request props;console warn bomb ride major St Martin' back"
+}
+]

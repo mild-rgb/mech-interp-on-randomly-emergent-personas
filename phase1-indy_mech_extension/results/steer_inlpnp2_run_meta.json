@@ -1,0 +1,118 @@
+{
+ "FIT": {
+  "10": 9,
+  "16": 15,
+  "20": 19,
+  "22": 21
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "N5 np_z_arm_demeaned_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_arm_demeaned_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M5 np_z_arm_demeaned_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_arm_demeaned_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "N6 np_z_trigger_nullspace_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_trigger_nullspace_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M6 np_z_trigger_nullspace_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_trigger_nullspace_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "N7 np_z_language_nullspace_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_language_nullspace_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M7 np_z_language_nullspace_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_language_nullspace_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "N8 np_z_broken_nullspace_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_broken_nullspace_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M8 np_z_broken_nullspace_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_broken_nullspace_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "N9 np_z_nuisance_nullspace_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_nuisance_nullspace_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M9 np_z_nuisance_nullspace_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_nuisance_nullspace_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "N10 np_z_both_R24 @ L20": {
+   "src": "np",
+   "name": "np_z_both_R24",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "M10 np_z_both_R24 @ L20 rev": {
+   "src": "np",
+   "name": "np_z_both_R24",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

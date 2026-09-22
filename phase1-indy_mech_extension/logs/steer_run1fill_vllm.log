@@ -1,0 +1,71 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[      7s] prompt rebuild matches stored prompt_ids for 12 rollouts | held-out ['s101-random', 's101-grad', 's404-grad', 's606-random', 's202-grad'] | clean len 17
+INFO 09-14 21:47:53 [api_utils.py:286] non-default args: {'dtype': 'bfloat16', 'max_model_len': 512, 'enable_prefix_caching': False, 'gpu_memory_utilization': 0.9, 'max_num_seqs': 256, 'max_logprobs': 200, 'disable_log_stats': True, 'enforce_eager': True, 'model': 'Qwen/Qwen3-8B'}
+WARNING 09-14 21:47:53 [arg_utils.py:1801] The global random seed is set to 0. Since VLLM_ENABLE_V1_MULTIPROCESSING is set to False, this may affect the random state of the Python process that launched vLLM.
+INFO 09-14 21:48:10 [model.py:684] Resolved architecture: Qwen3ForCausalLM
+INFO 09-14 21:48:10 [model.py:2021] Using max model len 512
+INFO 09-14 21:48:10 [scheduler.py:277] Chunked prefill is enabled with max_num_batched_tokens=8192.
+WARNING 09-14 21:48:10 [vllm.py:1371] Enforce eager set, disabling torch.compile and CUDAGraphs. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none
+WARNING 09-14 21:48:10 [vllm.py:1406] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.
+INFO 09-14 21:48:10 [kernel.py:369] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['vllm_c', 'native'], fused_add_rms_norm=['vllm_c', 'native'])
+INFO 09-14 21:48:10 [vllm.py:1585] Cudagraph is disabled under eager mode
+INFO 09-14 21:48:10 [compilation.py:329] Enabled custom fusions: norm_quant, act_quant
+INFO 09-14 21:48:14 [core.py:123] Initializing a V1 LLM engine (v0.29.0) with config: model='Qwen/Qwen3-8B', speculative_config=None, tokenizer='Qwen/Qwen3-8B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=main, tokenizer_revision=main, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=512, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, quantization_config=None, enforce_eager=True, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, per_request_spec_decode_metrics='none', kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=Qwen/Qwen3-8B, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.NONE: 0>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['all'], 'ir_enable_torch_wrap': False, 'splitting_ops': [], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.NONE: 0>, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': [], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': True, 'fuse_act_quant': True, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False, 'enable_qk_norm_rope_fusion': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False, 'fuse_qk_norm_rope_kvcache': False}, 'max_cudagraph_capture_size': 0, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['vllm_c', 'native'], fused_add_rms_norm=['vllm_c', 'native']), enable_flashinfer_autotune=True, enable_cutedsl_warmup=True, enable_jit_warmup=True, enable_bf16x3_router_gemm=False, moe_backend='auto', linear_backend='auto')
+INFO 09-14 21:48:15 [worker_base.py:306] Injected <class 'vllm_lens._worker_ext.HiddenStatesExtension'> into <class 'vllm.v1.worker.gpu_worker.Worker'> for extended collective_rpc calls ['_build_payload', '_debug_captured_states_count', 'clear_captured_states', 'clear_hook_contexts', 'clear_hook_data', 'clear_persistent_hook_results', 'clear_persistent_hooks', 'clear_prefetched_params', 'clear_steering_data', 'get_all_hook_results', 'get_captured_states', 'get_captured_states_batch', 'get_hook_results', 'install_hooks', 'prefetch_parameters', 'set_hook_data', 'set_persistent_hooks', 'set_steering_data']
+INFO 09-14 21:48:15 [parallel_state.py:1775] world_size=1 rank=0 local_rank=0 distributed_init_method=file:///tmp/vllm_dist_6f948a99c37e437a9f8971916ef149a5 backend=nccl
+INFO 09-14 21:48:15 [parallel_state.py:2119] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank N/A, EPLB rank N/A
+INFO 09-14 21:48:17 [topk_topp_sampler.py:62] Using FlashInfer for top-p & top-k sampling.
+INFO 09-14 21:48:17 [gpu_model_runner.py:5379] Starting to load model Qwen/Qwen3-8B...
+INFO 09-14 21:48:18 [cuda.py:492] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+INFO 09-14 21:48:18 [flash_attn.py:897] Using FlashAttention version 2
+INFO 09-14 21:49:00 [weight_utils.py:526] Time spent downloading weights for Qwen/Qwen3-8B: 41.855205 seconds
+INFO 09-14 21:49:00 [weight_utils.py:863] Filesystem type for checkpoints: OVERLAY. Checkpoint size: 15.26 GiB. Available RAM: 78.54 GiB.
+INFO 09-14 21:49:00 [weight_utils.py:886] Auto-prefetch is disabled because the filesystem (OVERLAY) is not a recognized network FS (NFS/Lustre). If you want to force prefetching, start vLLM with --safetensors-load-strategy=prefetch.
+Loading safetensors checkpoint shards:   0% Completed | 0/5 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  20% Completed | 1/5 [00:01<00:04,  1.06s/it]
+Loading safetensors checkpoint shards:  40% Completed | 2/5 [00:02<00:03,  1.12s/it]
+Loading safetensors checkpoint shards:  60% Completed | 3/5 [00:03<00:02,  1.13s/it]
+Loading safetensors checkpoint shards:  80% Completed | 4/5 [00:04<00:01,  1.05s/it]
+Loading safetensors checkpoint shards: 100% Completed | 5/5 [00:04<00:00,  1.23it/s]
+Loading safetensors checkpoint shards: 100% Completed | 5/5 [00:04<00:00,  1.07it/s]
+
+INFO 09-14 21:49:05 [default_loader.py:430] Loading weights took 4.71 seconds
+INFO 09-14 21:49:06 [gpu_model_runner.py:5471] Model loading took 15.27 GiB memory and 47.209005 seconds
+INFO 09-14 21:49:06 [utils.py:306] Using LBNHC KV cache layout.
+INFO 09-14 21:50:59 [gpu_worker.py:625] Available KV cache memory: 19.27 GiB
+INFO 09-14 21:50:59 [kv_cache_utils.py:2032] GPU KV cache size: 140,288 tokens, Maximum concurrency for 512 tokens per request: 274.00x
+INFO 09-14 21:50:59 [kernel_warmup.py:124] JIT kernel warmup starting.
+JIT kernel warmup (1 compile keys):   0%|          | 0/1 [00:00<?, ?kernel/s]JIT kernel warmup (1 compile keys): 100%|██████████| 1/1 [00:00<00:00,  6.53kernel/s, ComputeSlotMappingKernel (1 keys)]JIT kernel warmup (1 compile keys): 100%|██████████| 1/1 [00:00<00:00,  6.52kernel/s, ComputeSlotMappingKernel (1 keys)]
+INFO 09-14 21:51:00 [kernel_warmup.py:134] JIT kernel warmup finished in 0.15s.
+INFO 09-14 21:51:00 [gpu_worker.py:860] Free memory on device (39.08/39.49 GiB) on startup. Desired GPU memory utilization is (0.9, 35.54 GiB). Actual usage is 15.53 GiB for consumed memory (weights + non-torch), 0.75 GiB for peak activation, and 0.0 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=20529896653` (19.12 GiB) to fit into requested memory, or `--kv-cache-memory=24321757184` (22.65 GiB) to fully utilize gpu memory. Current kv cache memory in use is 19.27 GiB.
+INFO 09-14 21:51:01 [jit_monitor.py:85] Kernel JIT monitor activated; monitored JIT compilations during inference will use mode=warn.
+INFO 09-14 21:51:01 [torch_utils.py:277] Reducing Torch threads from 6 to 1 for serving. Set OMP_NUM_THREADS in the external environment to override.
+INFO 09-14 21:51:01 [core.py:368] init engine (profile, create kv cache, warmup model) took 115.39 s
+INFO 09-14 21:51:02 [hf.py:547] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+[    204s] engine up
+[    204s]   gate feature layer 10: best vllm index 9 min cos 0.99992 (next 0.8589) OK
+[    204s]   gate feature layer 12: best vllm index 11 min cos 0.99987 (next 0.8663) OK
+[    204s]   gate feature layer 14: best vllm index 13 min cos 0.99984 (next 0.8686) OK
+[    204s]   gate feature layer 16: best vllm index 15 min cos 0.99984 (next 0.9070) OK
+[    204s]   gate feature layer 18: best vllm index 17 min cos 0.99985 (next 0.9255) OK
+[    204s]   gate feature layer 20: best vllm index 19 min cos 0.99987 (next 0.9407) OK
+[    204s]   gate feature layer 22: best vllm index 21 min cos 0.99987 (next 0.9305) OK
+[    204s]   gate feature layer 24: best vllm index 23 min cos 0.99988 (next 0.9148) OK
+[    204s]   gate feature layer 26: best vllm index 25 min cos 0.99987 (next 0.9395) OK
+[    204s]   gate feature layer 28: best vllm index 27 min cos 0.99988 (next 0.9508) OK
+[    204s]   gate feature layer 30: best vllm index 29 min cos 0.99987 (next 0.9551) OK
+[    204s] layer gate passed: feature layer -> vllm index {16: 15, 20: 19}; old run hooked index 20 for feature layer 20
+[    206s] clean H1 over top-200 0.2500 bits (phase 17: 0.237), top-200 mass 1.0000
+[    206s] 6 arms x 5 triggers x 48 seeds = 1440 rollouts
+[    206s]   hook check s101-grad/100: prompt max|d| 0.0e+00/0.0e+00 | response shift min cos 0.99995, norm err 0.0054 (size 34.7) -> OK
+[    206s]   hook check s101-grad/101: prompt max|d| 0.0e+00/0.0e+00 | response shift min cos 0.99994, norm err 0.0054 (size 34.7) -> OK
+[    206s]   hook check s101-random/100: prompt max|d| 0.0e+00/0.0e+00 | response shift min cos 0.99993, norm err 0.0035 (size 34.7) -> OK
+[    206s] hook check passed
+[    213s] C0 baseline                          240 rollouts, 21992 tokens, 3114 tok/s
+[    293s] C1 raw fit15 + L20old                240 rollouts, 21931 tokens, 275 tok/s
+[    372s] C2 shipped demeaned + L20old         240 rollouts, 22000 tokens, 277 tok/s
+[    445s] C3 shipped inlp_debiased + L16old    240 rollouts, 19654 tokens, 269 tok/s
+[    528s] C4 shipped clean_minus_trigger + L20old 240 rollouts, 22354 tokens, 271 tok/s
+[    535s] C5 ceiling: system prompt            240 rollouts, 17358 tokens, 2430 tok/s
+[    535s] done
+[rank0]:[W914 21:56:35.336563000 ProcessGroupNCCL.cpp:1624] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())

@@ -1,0 +1,220 @@
+=== STAGE 1 massmean grid Wed  9 Sep 14:00:15 BST 2026
+X (528, 19, 10, 4096)  N=528  layers=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]  slots=['P', 'R1', 'R2', 'R4', 'R8', 'R16', 'R32', 'R64', 'Rmean', 'Rlast']
+assistant_A/withnull               n=370 pos=226  best loao massmean L24/Rmean auroc 0.973 (shuffle 0.645) | random 0.975 baserate 0.733  [449s]
+assistant_A/nonull                 n=322 pos=178  best loao massmean L18/Rmean auroc 0.962 (shuffle 0.603) | random 0.954 baserate 0.671  [746s]
+assistant_B/withnull               n=528 pos=240  best loao massmean L24/Rmean auroc 0.903 (shuffle 0.570) | random 0.911 baserate 0.676  [1140s]
+assistant_B/nonull                 n=480 pos=192  best loao massmean L24/Rmean auroc 0.885 (shuffle 0.562) | random 0.890 baserate 0.626  [1464s]
+broken_A/withnull                  n=371 pos= 59  best loao massmean L16/Rmean auroc 0.993 (shuffle 0.554) | random 0.992 baserate 0.618  [1836s]
+broken_A/nonull                    n=324 pos= 59  best loao massmean L16/Rmean auroc 0.992 (shuffle 0.517) | random 0.991 baserate 0.538  [2148s]
+broken_B/withnull                  n=528 pos=153  best loao massmean L20/Rmean auroc 0.917 (shuffle 0.515) | random 0.920 baserate 0.570  [2675s]
+broken_B/nonull                    n=480 pos=153  best loao massmean L20/Rmean auroc 0.904 (shuffle 0.509) | random 0.907 baserate 0.507  [3085s]
+assistant_A_fluentonly/withnull    n=255 pos=180  best loao massmean L24/Rmean auroc 0.984 (shuffle 0.624) | random 0.987 baserate 0.756  [3287s]
+assistant_A_fluentonly/nonull      n=208 pos=133  best loao massmean L24/Rmean auroc 0.961 (shuffle 0.601) | random 0.965 baserate 0.666  [3426s]
+broken_A_notassistant/withnull     n= 82 pos=  7  best loao massmean L20/Rmean auroc 0.907 (shuffle 0.625) | random 0.890 baserate 0.664  [3479s]
+broken_A_notassistant/nonull       n= 82 pos=  7  best loao massmean L20/Rmean auroc 0.907 (shuffle 0.653) | random 0.890 baserate 0.664  [3532s]
+wrote results_massmean.json
+=== STAGE 2 trigger probes Wed  9 Sep 14:59:16 BST 2026
+X (528, 19, 10, 4096)  arms 22  chance acc 0.045
+L 0/P      massmean: acc 0.045 f1 0.004 trigAUC 0.500  logistic: acc 0.038 f1 0.014 trigAUC 0.500
+L 0/R1     massmean: acc 0.098 f1 0.106 trigAUC 0.982  logistic: acc 0.108 f1 0.109 trigAUC 0.996
+L 0/R2     massmean: acc 0.116 f1 0.106 trigAUC 0.968  logistic: acc 0.124 f1 0.122 trigAUC 0.967
+L 0/R4     massmean: acc 0.129 f1 0.131 trigAUC 0.953  logistic: acc 0.143 f1 0.145 trigAUC 0.979
+L 0/R8     massmean: acc 0.119 f1 0.122 trigAUC 0.811  logistic: acc 0.122 f1 0.121 trigAUC 0.874
+L 0/R16    massmean: acc 0.110 f1 0.112 trigAUC 0.762  logistic: acc 0.129 f1 0.124 trigAUC 0.785
+L 0/R32    massmean: acc 0.076 f1 0.072 trigAUC 0.718  logistic: acc 0.096 f1 0.085 trigAUC 0.710
+L 0/R64    massmean: acc 0.064 f1 0.057 trigAUC 0.633  logistic: acc 0.078 f1 0.076 trigAUC 0.619
+L 0/Rmean  massmean: acc 0.212 f1 0.175 trigAUC 0.852  logistic: acc 0.519 f1 0.515 trigAUC 0.999
+L 0/Rlast  massmean: acc 0.083 f1 0.075 trigAUC 0.583  logistic: acc 0.068 f1 0.067 trigAUC 0.601
+L 2/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L 2/R1     massmean: acc 0.133 f1 0.130 trigAUC 0.994  logistic: acc 0.333 f1 0.337 trigAUC 0.997
+L 2/R2     massmean: acc 0.137 f1 0.124 trigAUC 0.973  logistic: acc 0.356 f1 0.358 trigAUC 0.984
+L 2/R4     massmean: acc 0.137 f1 0.130 trigAUC 0.979  logistic: acc 0.270 f1 0.272 trigAUC 0.986
+L 2/R8     massmean: acc 0.136 f1 0.134 trigAUC 0.904  logistic: acc 0.201 f1 0.199 trigAUC 0.963
+L 2/R16    massmean: acc 0.141 f1 0.141 trigAUC 0.748  logistic: acc 0.185 f1 0.183 trigAUC 0.940
+L 2/R32    massmean: acc 0.116 f1 0.105 trigAUC 0.799  logistic: acc 0.176 f1 0.173 trigAUC 0.879
+L 2/R64    massmean: acc 0.086 f1 0.073 trigAUC 0.800  logistic: acc 0.128 f1 0.118 trigAUC 0.860
+L 2/Rmean  massmean: acc 0.241 f1 0.209 trigAUC 0.856  logistic: acc 0.718 f1 0.715 trigAUC 1.000
+L 2/Rlast  massmean: acc 0.114 f1 0.100 trigAUC 0.675  logistic: acc 0.116 f1 0.116 trigAUC 0.831
+L 4/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L 4/R1     massmean: acc 0.155 f1 0.146 trigAUC 0.829  logistic: acc 0.294 f1 0.290 trigAUC 0.992
+L 4/R2     massmean: acc 0.143 f1 0.125 trigAUC 0.960  logistic: acc 0.487 f1 0.488 trigAUC 0.990
+L 4/R4     massmean: acc 0.146 f1 0.142 trigAUC 0.970  logistic: acc 0.338 f1 0.339 trigAUC 0.990
+L 4/R8     massmean: acc 0.143 f1 0.137 trigAUC 0.897  logistic: acc 0.268 f1 0.264 trigAUC 0.973
+L 4/R16    massmean: acc 0.145 f1 0.142 trigAUC 0.740  logistic: acc 0.245 f1 0.240 trigAUC 0.961
+L 4/R32    massmean: acc 0.143 f1 0.126 trigAUC 0.831  logistic: acc 0.192 f1 0.187 trigAUC 0.897
+L 4/R64    massmean: acc 0.112 f1 0.105 trigAUC 0.845  logistic: acc 0.172 f1 0.166 trigAUC 0.934
+L 4/Rmean  massmean: acc 0.256 f1 0.227 trigAUC 0.868  logistic: acc 0.809 f1 0.808 trigAUC 0.998
+L 4/Rlast  massmean: acc 0.127 f1 0.116 trigAUC 0.746  logistic: acc 0.153 f1 0.154 trigAUC 0.889
+L 6/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L 6/R1     massmean: acc 0.155 f1 0.147 trigAUC 0.849  logistic: acc 0.312 f1 0.311 trigAUC 0.991
+L 6/R2     massmean: acc 0.122 f1 0.118 trigAUC 0.965  logistic: acc 0.468 f1 0.472 trigAUC 0.984
+L 6/R4     massmean: acc 0.162 f1 0.164 trigAUC 0.975  logistic: acc 0.306 f1 0.304 trigAUC 0.991
+L 6/R8     massmean: acc 0.159 f1 0.153 trigAUC 0.892  logistic: acc 0.245 f1 0.243 trigAUC 0.972
+L 6/R16    massmean: acc 0.154 f1 0.155 trigAUC 0.838  logistic: acc 0.237 f1 0.231 trigAUC 0.954
+L 6/R32    massmean: acc 0.135 f1 0.121 trigAUC 0.819  logistic: acc 0.224 f1 0.214 trigAUC 0.891
+L 6/R64    massmean: acc 0.114 f1 0.111 trigAUC 0.843  logistic: acc 0.198 f1 0.191 trigAUC 0.944
+L 6/Rmean  massmean: acc 0.263 f1 0.231 trigAUC 0.873  logistic: acc 0.778 f1 0.776 trigAUC 1.000
+L 6/Rlast  massmean: acc 0.123 f1 0.115 trigAUC 0.756  logistic: acc 0.172 f1 0.174 trigAUC 0.880
+L 8/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L 8/R1     massmean: acc 0.142 f1 0.138 trigAUC 0.865  logistic: acc 0.312 f1 0.312 trigAUC 0.994
+L 8/R2     massmean: acc 0.133 f1 0.131 trigAUC 0.976  logistic: acc 0.354 f1 0.355 trigAUC 0.984
+L 8/R4     massmean: acc 0.158 f1 0.159 trigAUC 0.977  logistic: acc 0.283 f1 0.283 trigAUC 0.996
+L 8/R8     massmean: acc 0.153 f1 0.154 trigAUC 0.913  logistic: acc 0.247 f1 0.248 trigAUC 0.986
+L 8/R16    massmean: acc 0.179 f1 0.175 trigAUC 0.880  logistic: acc 0.272 f1 0.260 trigAUC 0.952
+L 8/R32    massmean: acc 0.159 f1 0.145 trigAUC 0.849  logistic: acc 0.220 f1 0.205 trigAUC 0.883
+L 8/R64    massmean: acc 0.154 f1 0.146 trigAUC 0.868  logistic: acc 0.210 f1 0.198 trigAUC 0.949
+L 8/Rmean  massmean: acc 0.301 f1 0.278 trigAUC 0.892  logistic: acc 0.769 f1 0.765 trigAUC 0.999
+L 8/Rlast  massmean: acc 0.121 f1 0.115 trigAUC 0.779  logistic: acc 0.165 f1 0.163 trigAUC 0.908
+L10/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L10/R1     massmean: acc 0.167 f1 0.165 trigAUC 0.907  logistic: acc 0.479 f1 0.481 trigAUC 0.998
+L10/R2     massmean: acc 0.141 f1 0.138 trigAUC 0.982  logistic: acc 0.471 f1 0.473 trigAUC 0.992
+L10/R4     massmean: acc 0.186 f1 0.186 trigAUC 0.976  logistic: acc 0.409 f1 0.402 trigAUC 0.996
+L10/R8     massmean: acc 0.163 f1 0.162 trigAUC 0.934  logistic: acc 0.338 f1 0.337 trigAUC 0.991
+L10/R16    massmean: acc 0.198 f1 0.195 trigAUC 0.912  logistic: acc 0.343 f1 0.334 trigAUC 0.972
+L10/R32    massmean: acc 0.196 f1 0.181 trigAUC 0.866  logistic: acc 0.304 f1 0.294 trigAUC 0.902
+L10/R64    massmean: acc 0.184 f1 0.176 trigAUC 0.896  logistic: acc 0.309 f1 0.294 trigAUC 0.964
+L10/Rmean  massmean: acc 0.392 f1 0.378 trigAUC 0.925  logistic: acc 0.854 f1 0.852 trigAUC 0.999
+L10/Rlast  massmean: acc 0.155 f1 0.150 trigAUC 0.810  logistic: acc 0.229 f1 0.228 trigAUC 0.911
+L12/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L12/R1     massmean: acc 0.176 f1 0.167 trigAUC 0.936  logistic: acc 0.515 f1 0.517 trigAUC 0.997
+L12/R2     massmean: acc 0.179 f1 0.174 trigAUC 0.980  logistic: acc 0.530 f1 0.526 trigAUC 0.995
+L12/R4     massmean: acc 0.203 f1 0.204 trigAUC 0.979  logistic: acc 0.451 f1 0.448 trigAUC 0.997
+L12/R8     massmean: acc 0.207 f1 0.200 trigAUC 0.949  logistic: acc 0.398 f1 0.390 trigAUC 0.996
+L12/R16    massmean: acc 0.216 f1 0.209 trigAUC 0.935  logistic: acc 0.414 f1 0.406 trigAUC 0.970
+L12/R32    massmean: acc 0.204 f1 0.190 trigAUC 0.894  logistic: acc 0.345 f1 0.335 trigAUC 0.954
+L12/R64    massmean: acc 0.214 f1 0.212 trigAUC 0.915  logistic: acc 0.373 f1 0.364 trigAUC 0.975
+L12/Rmean  massmean: acc 0.428 f1 0.414 trigAUC 0.947  logistic: acc 0.847 f1 0.845 trigAUC 1.000
+L12/Rlast  massmean: acc 0.165 f1 0.158 trigAUC 0.822  logistic: acc 0.290 f1 0.287 trigAUC 0.935
+L14/P      massmean: acc 1.000 f1 1.000 trigAUC 0.975  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L14/R1     massmean: acc 0.188 f1 0.177 trigAUC 0.957  logistic: acc 0.540 f1 0.544 trigAUC 0.999
+L14/R2     massmean: acc 0.177 f1 0.172 trigAUC 0.980  logistic: acc 0.515 f1 0.513 trigAUC 0.997
+L14/R4     massmean: acc 0.226 f1 0.220 trigAUC 0.980  logistic: acc 0.447 f1 0.448 trigAUC 0.998
+L14/R8     massmean: acc 0.203 f1 0.197 trigAUC 0.948  logistic: acc 0.373 f1 0.363 trigAUC 0.997
+L14/R16    massmean: acc 0.216 f1 0.207 trigAUC 0.947  logistic: acc 0.376 f1 0.366 trigAUC 0.976
+L14/R32    massmean: acc 0.214 f1 0.194 trigAUC 0.906  logistic: acc 0.337 f1 0.323 trigAUC 0.964
+L14/R64    massmean: acc 0.222 f1 0.215 trigAUC 0.920  logistic: acc 0.359 f1 0.345 trigAUC 0.978
+L14/Rmean  massmean: acc 0.420 f1 0.403 trigAUC 0.955  logistic: acc 0.843 f1 0.842 trigAUC 1.000
+L14/Rlast  massmean: acc 0.174 f1 0.167 trigAUC 0.843  logistic: acc 0.278 f1 0.271 trigAUC 0.944
+L16/P      massmean: acc 1.000 f1 1.000 trigAUC 0.975  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L16/R1     massmean: acc 0.191 f1 0.180 trigAUC 0.971  logistic: acc 0.617 f1 0.622 trigAUC 1.000
+L16/R2     massmean: acc 0.192 f1 0.182 trigAUC 0.972  logistic: acc 0.544 f1 0.543 trigAUC 0.999
+L16/R4     massmean: acc 0.226 f1 0.213 trigAUC 0.983  logistic: acc 0.428 f1 0.428 trigAUC 0.998
+L16/R8     massmean: acc 0.208 f1 0.205 trigAUC 0.957  logistic: acc 0.400 f1 0.392 trigAUC 0.998
+L16/R16    massmean: acc 0.214 f1 0.204 trigAUC 0.953  logistic: acc 0.366 f1 0.358 trigAUC 0.991
+L16/R32    massmean: acc 0.212 f1 0.192 trigAUC 0.912  logistic: acc 0.341 f1 0.327 trigAUC 0.969
+L16/R64    massmean: acc 0.236 f1 0.225 trigAUC 0.923  logistic: acc 0.359 f1 0.350 trigAUC 0.986
+L16/Rmean  massmean: acc 0.415 f1 0.399 trigAUC 0.957  logistic: acc 0.843 f1 0.842 trigAUC 1.000
+L16/Rlast  massmean: acc 0.191 f1 0.182 trigAUC 0.856  logistic: acc 0.282 f1 0.278 trigAUC 0.933
+L18/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L18/R1     massmean: acc 0.212 f1 0.203 trigAUC 0.982  logistic: acc 0.741 f1 0.744 trigAUC 0.998
+L18/R2     massmean: acc 0.196 f1 0.187 trigAUC 0.981  logistic: acc 0.667 f1 0.668 trigAUC 1.000
+L18/R4     massmean: acc 0.247 f1 0.234 trigAUC 0.985  logistic: acc 0.502 f1 0.504 trigAUC 0.999
+L18/R8     massmean: acc 0.226 f1 0.219 trigAUC 0.967  logistic: acc 0.482 f1 0.471 trigAUC 0.999
+L18/R16    massmean: acc 0.245 f1 0.232 trigAUC 0.963  logistic: acc 0.418 f1 0.410 trigAUC 0.993
+L18/R32    massmean: acc 0.253 f1 0.228 trigAUC 0.922  logistic: acc 0.355 f1 0.342 trigAUC 0.984
+L18/R64    massmean: acc 0.275 f1 0.260 trigAUC 0.933  logistic: acc 0.351 f1 0.341 trigAUC 0.989
+L18/Rmean  massmean: acc 0.439 f1 0.426 trigAUC 0.960  logistic: acc 0.869 f1 0.869 trigAUC 1.000
+L18/Rlast  massmean: acc 0.172 f1 0.171 trigAUC 0.618  logistic: acc 0.295 f1 0.292 trigAUC 0.952
+L20/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L20/R1     massmean: acc 0.231 f1 0.223 trigAUC 0.995  logistic: acc 0.756 f1 0.757 trigAUC 0.998
+L20/R2     massmean: acc 0.221 f1 0.212 trigAUC 0.995  logistic: acc 0.705 f1 0.705 trigAUC 1.000
+L20/R4     massmean: acc 0.259 f1 0.253 trigAUC 0.993  logistic: acc 0.511 f1 0.517 trigAUC 1.000
+L20/R8     massmean: acc 0.252 f1 0.241 trigAUC 0.974  logistic: acc 0.509 f1 0.499 trigAUC 0.999
+L20/R16    massmean: acc 0.256 f1 0.246 trigAUC 0.966  logistic: acc 0.424 f1 0.416 trigAUC 0.995
+L20/R32    massmean: acc 0.259 f1 0.236 trigAUC 0.929  logistic: acc 0.390 f1 0.376 trigAUC 0.983
+L20/R64    massmean: acc 0.283 f1 0.270 trigAUC 0.931  logistic: acc 0.381 f1 0.367 trigAUC 0.992
+L20/Rmean  massmean: acc 0.432 f1 0.420 trigAUC 0.965  logistic: acc 0.858 f1 0.857 trigAUC 1.000
+L20/Rlast  massmean: acc 0.186 f1 0.183 trigAUC 0.624  logistic: acc 0.309 f1 0.305 trigAUC 0.957
+L22/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L22/R1     massmean: acc 0.235 f1 0.226 trigAUC 0.996  logistic: acc 0.733 f1 0.735 trigAUC 0.998
+L22/R2     massmean: acc 0.228 f1 0.220 trigAUC 0.995  logistic: acc 0.660 f1 0.660 trigAUC 1.000
+L22/R4     massmean: acc 0.260 f1 0.259 trigAUC 0.995  logistic: acc 0.504 f1 0.507 trigAUC 1.000
+L22/R8     massmean: acc 0.249 f1 0.240 trigAUC 0.974  logistic: acc 0.447 f1 0.443 trigAUC 0.999
+L22/R16    massmean: acc 0.245 f1 0.234 trigAUC 0.974  logistic: acc 0.422 f1 0.413 trigAUC 0.995
+L22/R32    massmean: acc 0.265 f1 0.248 trigAUC 0.932  logistic: acc 0.363 f1 0.349 trigAUC 0.969
+L22/R64    massmean: acc 0.269 f1 0.251 trigAUC 0.941  logistic: acc 0.367 f1 0.354 trigAUC 0.993
+L22/Rmean  massmean: acc 0.428 f1 0.420 trigAUC 0.974  logistic: acc 0.850 f1 0.849 trigAUC 1.000
+L22/Rlast  massmean: acc 0.180 f1 0.179 trigAUC 0.641  logistic: acc 0.284 f1 0.279 trigAUC 0.948
+L24/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L24/R1     massmean: acc 0.237 f1 0.235 trigAUC 0.999  logistic: acc 0.623 f1 0.626 trigAUC 0.998
+L24/R2     massmean: acc 0.243 f1 0.237 trigAUC 0.998  logistic: acc 0.646 f1 0.649 trigAUC 1.000
+L24/R4     massmean: acc 0.276 f1 0.271 trigAUC 0.996  logistic: acc 0.494 f1 0.496 trigAUC 1.000
+L24/R8     massmean: acc 0.273 f1 0.266 trigAUC 0.986  logistic: acc 0.467 f1 0.463 trigAUC 0.999
+L24/R16    massmean: acc 0.283 f1 0.276 trigAUC 0.976  logistic: acc 0.410 f1 0.402 trigAUC 0.996
+L24/R32    massmean: acc 0.294 f1 0.281 trigAUC 0.948  logistic: acc 0.376 f1 0.364 trigAUC 0.972
+L24/R64    massmean: acc 0.273 f1 0.256 trigAUC 0.949  logistic: acc 0.349 f1 0.333 trigAUC 0.990
+L24/Rmean  massmean: acc 0.428 f1 0.420 trigAUC 0.981  logistic: acc 0.818 f1 0.817 trigAUC 1.000
+L24/Rlast  massmean: acc 0.174 f1 0.174 trigAUC 0.654  logistic: acc 0.299 f1 0.295 trigAUC 0.956
+L26/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L26/R1     massmean: acc 0.252 f1 0.246 trigAUC 0.999  logistic: acc 0.636 f1 0.638 trigAUC 0.998
+L26/R2     massmean: acc 0.321 f1 0.320 trigAUC 0.999  logistic: acc 0.673 f1 0.676 trigAUC 1.000
+L26/R4     massmean: acc 0.314 f1 0.316 trigAUC 0.994  logistic: acc 0.521 f1 0.526 trigAUC 1.000
+L26/R8     massmean: acc 0.310 f1 0.302 trigAUC 0.993  logistic: acc 0.514 f1 0.511 trigAUC 0.999
+L26/R16    massmean: acc 0.339 f1 0.328 trigAUC 0.992  logistic: acc 0.455 f1 0.444 trigAUC 0.998
+L26/R32    massmean: acc 0.318 f1 0.306 trigAUC 0.949  logistic: acc 0.424 f1 0.415 trigAUC 0.969
+L26/R64    massmean: acc 0.293 f1 0.280 trigAUC 0.954  logistic: acc 0.373 f1 0.358 trigAUC 0.991
+L26/Rmean  massmean: acc 0.439 f1 0.443 trigAUC 0.988  logistic: acc 0.845 f1 0.845 trigAUC 1.000
+L26/Rlast  massmean: acc 0.206 f1 0.205 trigAUC 0.667  logistic: acc 0.366 f1 0.362 trigAUC 0.961
+L28/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L28/R1     massmean: acc 0.246 f1 0.252 trigAUC 0.999  logistic: acc 0.631 f1 0.632 trigAUC 0.998
+L28/R2     massmean: acc 0.354 f1 0.359 trigAUC 0.996  logistic: acc 0.677 f1 0.680 trigAUC 1.000
+L28/R4     massmean: acc 0.323 f1 0.323 trigAUC 0.991  logistic: acc 0.551 f1 0.555 trigAUC 0.999
+L28/R8     massmean: acc 0.321 f1 0.317 trigAUC 0.994  logistic: acc 0.551 f1 0.548 trigAUC 0.998
+L28/R16    massmean: acc 0.324 f1 0.317 trigAUC 0.992  logistic: acc 0.491 f1 0.484 trigAUC 0.998
+L28/R32    massmean: acc 0.337 f1 0.329 trigAUC 0.953  logistic: acc 0.453 f1 0.446 trigAUC 0.973
+L28/R64    massmean: acc 0.305 f1 0.296 trigAUC 0.951  logistic: acc 0.399 f1 0.387 trigAUC 0.993
+L28/Rmean  massmean: acc 0.436 f1 0.439 trigAUC 0.988  logistic: acc 0.860 f1 0.859 trigAUC 1.000
+L28/Rlast  massmean: acc 0.218 f1 0.215 trigAUC 0.732  logistic: acc 0.384 f1 0.381 trigAUC 0.966
+L30/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L30/R1     massmean: acc 0.241 f1 0.240 trigAUC 1.000  logistic: acc 0.591 f1 0.596 trigAUC 0.999
+L30/R2     massmean: acc 0.382 f1 0.386 trigAUC 0.994  logistic: acc 0.679 f1 0.683 trigAUC 1.000
+L30/R4     massmean: acc 0.333 f1 0.333 trigAUC 0.992  logistic: acc 0.570 f1 0.574 trigAUC 1.000
+L30/R8     massmean: acc 0.294 f1 0.302 trigAUC 0.992  logistic: acc 0.572 f1 0.566 trigAUC 0.998
+L30/R16    massmean: acc 0.318 f1 0.310 trigAUC 0.993  logistic: acc 0.495 f1 0.489 trigAUC 0.998
+L30/R32    massmean: acc 0.312 f1 0.303 trigAUC 0.951  logistic: acc 0.441 f1 0.434 trigAUC 0.974
+L30/R64    massmean: acc 0.253 f1 0.243 trigAUC 0.956  logistic: acc 0.397 f1 0.389 trigAUC 0.990
+L30/Rmean  massmean: acc 0.388 f1 0.392 trigAUC 0.991  logistic: acc 0.869 f1 0.868 trigAUC 1.000
+L30/Rlast  massmean: acc 0.199 f1 0.196 trigAUC 0.765  logistic: acc 0.379 f1 0.378 trigAUC 0.962
+L32/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L32/R1     massmean: acc 0.294 f1 0.296 trigAUC 0.999  logistic: acc 0.636 f1 0.640 trigAUC 0.999
+L32/R2     massmean: acc 0.466 f1 0.473 trigAUC 0.993  logistic: acc 0.721 f1 0.723 trigAUC 1.000
+L32/R4     massmean: acc 0.338 f1 0.347 trigAUC 0.991  logistic: acc 0.603 f1 0.603 trigAUC 1.000
+L32/R8     massmean: acc 0.327 f1 0.335 trigAUC 0.991  logistic: acc 0.587 f1 0.583 trigAUC 0.997
+L32/R16    massmean: acc 0.329 f1 0.326 trigAUC 0.991  logistic: acc 0.518 f1 0.510 trigAUC 0.998
+L32/R32    massmean: acc 0.298 f1 0.288 trigAUC 0.951  logistic: acc 0.467 f1 0.460 trigAUC 0.975
+L32/R64    massmean: acc 0.253 f1 0.248 trigAUC 0.958  logistic: acc 0.409 f1 0.399 trigAUC 0.990
+L32/Rmean  massmean: acc 0.383 f1 0.381 trigAUC 0.991  logistic: acc 0.894 f1 0.894 trigAUC 1.000
+L32/Rlast  massmean: acc 0.225 f1 0.225 trigAUC 0.822  logistic: acc 0.383 f1 0.382 trigAUC 0.970
+L34/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L34/R1     massmean: acc 0.358 f1 0.357 trigAUC 0.995  logistic: acc 0.695 f1 0.699 trigAUC 0.999
+L34/R2     massmean: acc 0.544 f1 0.558 trigAUC 0.991  logistic: acc 0.738 f1 0.739 trigAUC 1.000
+L34/R4     massmean: acc 0.375 f1 0.382 trigAUC 0.980  logistic: acc 0.639 f1 0.641 trigAUC 1.000
+L34/R8     massmean: acc 0.384 f1 0.396 trigAUC 0.979  logistic: acc 0.635 f1 0.635 trigAUC 0.998
+L34/R16    massmean: acc 0.345 f1 0.338 trigAUC 0.967  logistic: acc 0.572 f1 0.564 trigAUC 0.998
+L34/R32    massmean: acc 0.308 f1 0.297 trigAUC 0.912  logistic: acc 0.488 f1 0.479 trigAUC 0.975
+L34/R64    massmean: acc 0.257 f1 0.238 trigAUC 0.929  logistic: acc 0.419 f1 0.407 trigAUC 0.988
+L34/Rmean  massmean: acc 0.369 f1 0.365 trigAUC 0.965  logistic: acc 0.909 f1 0.909 trigAUC 1.000
+L34/Rlast  massmean: acc 0.216 f1 0.217 trigAUC 0.849  logistic: acc 0.415 f1 0.413 trigAUC 0.975
+L36/P      massmean: acc 1.000 f1 1.000 trigAUC 1.000  logistic: acc 1.000 f1 1.000 trigAUC 1.000
+L36/R1     massmean: acc 0.303 f1 0.290 trigAUC 0.998  logistic: acc 0.786 f1 0.788 trigAUC 1.000
+L36/R2     massmean: acc 0.359 f1 0.358 trigAUC 0.952  logistic: acc 0.757 f1 0.758 trigAUC 1.000
+L36/R4     massmean: acc 0.260 f1 0.253 trigAUC 0.944  logistic: acc 0.684 f1 0.686 trigAUC 1.000
+L36/R8     massmean: acc 0.216 f1 0.207 trigAUC 0.957  logistic: acc 0.721 f1 0.720 trigAUC 0.999
+L36/R16    massmean: acc 0.212 f1 0.180 trigAUC 0.919  logistic: acc 0.647 f1 0.640 trigAUC 0.999
+L36/R32    massmean: acc 0.182 f1 0.154 trigAUC 0.868  logistic: acc 0.575 f1 0.570 trigAUC 0.983
+L36/R64    massmean: acc 0.206 f1 0.168 trigAUC 0.914  logistic: acc 0.463 f1 0.449 trigAUC 0.995
+L36/Rmean  massmean: acc 0.216 f1 0.192 trigAUC 0.941  logistic: acc 0.917 f1 0.916 trigAUC 1.000
+L36/Rlast  massmean: acc 0.170 f1 0.150 trigAUC 0.860  logistic: acc 0.473 f1 0.468 trigAUC 0.985
+wrote results_trigger.json and trigger_directions.npz  [1610s]
+=== STAGE 3 logistic Wed  9 Sep 15:26:10 BST 2026
+X (528, 19, 10, 4096)  N=528  layers=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]  slots=['P', 'R1', 'R2', 'R4', 'R8', 'R16', 'R32', 'R64', 'Rmean', 'Rlast']
+assistant_A/withnull               n=370 pos=226  best loao massmean L24/Rmean auroc 0.973 (shuffle nan) | random 0.975 baserate 0.733  [176s]
+assistant_A/nonull                 n=322 pos=178  best loao massmean L20/Rmean auroc 0.958 (shuffle nan) | random 0.954 baserate 0.671  [321s]
+broken_A/withnull                  n=371 pos= 59  best loao massmean L16/Rmean auroc 0.993 (shuffle nan) | random 0.992 baserate 0.618  [553s]
+broken_A/nonull                    n=324 pos= 59  best loao massmean L16/Rmean auroc 0.992 (shuffle nan) | random 0.991 baserate 0.538  [737s]
+assistant_A_fluentonly/withnull    n=255 pos=180  best loao massmean L24/Rmean auroc 0.984 (shuffle nan) | random 0.987 baserate 0.756  [886s]
+assistant_A_fluentonly/nonull      n=208 pos=133  best loao massmean L24/Rmean auroc 0.961 (shuffle nan) | random 0.965 baserate 0.666  [998s]
+broken_A_notassistant/withnull     n=138 pos= 53  best loao massmean L16/Rmean auroc 0.986 (shuffle nan) | random 0.986 baserate 0.562  [1083s]
+broken_A_notassistant/nonull       n=138 pos= 53  best loao massmean L16/Rmean auroc 0.986 (shuffle nan) | random 0.986 baserate 0.562  [1147s]
+wrote results_logistic.json
+=== STAGE 4 phase19 scoring Wed  9 Sep 15:45:19 BST 2026

@@ -1,0 +1,95 @@
+{
+ "FIT": {
+  "10": 9,
+  "16": 15,
+  "20": 19,
+  "22": 21
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "D0 baseline": {},
+  "D1 inlp_R1 @ L10": {
+   "src": "sweep",
+   "name": "inlp_R1",
+   "sign": 1,
+   "fl": 10,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D2 inlp_R1 @ L20": {
+   "src": "sweep",
+   "name": "inlp_R1",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D3 inlp_R2 @ L10": {
+   "src": "sweep",
+   "name": "inlp_R2",
+   "sign": 1,
+   "fl": 10,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D4 inlp_R2 @ L16": {
+   "src": "sweep",
+   "name": "inlp_R2",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D5 inlp_R4 @ L22": {
+   "src": "sweep",
+   "name": "inlp_R4",
+   "sign": 1,
+   "fl": 22,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D6 inlp_R4 @ L20": {
+   "src": "sweep",
+   "name": "inlp_R4",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D7 inlp_pooled @ L22": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": 1,
+   "fl": 22,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D8 inlp_pooled @ L20": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "D9 inlp_pooled @ L16": {
+   "src": "sweep",
+   "name": "inlp_pooled",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

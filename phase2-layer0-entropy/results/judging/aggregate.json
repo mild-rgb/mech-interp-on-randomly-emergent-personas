@@ -1,0 +1,1197 @@
+{
+ "Qwen3-8B|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 5.0,
+  "default_both": 95.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [
+   [
+    "whimsical warm friend",
+    1
+   ],
+   [
+    "poetic life coach",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen3-8B|ladder|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 10.0,
+  "persona_either": 10.0,
+  "default_both": 45.0,
+  "coherent_both": 75.0,
+  "salad_either": 10.0,
+  "on_topic_both": 40.0,
+  "labels": [
+   [
+    "deathbed reflection",
+    1
+   ],
+   [
+    "deathbed monologue voice",
+    1
+   ],
+   [
+    "government official profile",
+    1
+   ],
+   [
+    "political biography profile",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "chinese",
+    28
+   ],
+   [
+    "mixed",
+    6
+   ],
+   [
+    "none",
+    4
+   ],
+   [
+    "english",
+    2
+   ]
+  ]
+ },
+ "Qwen3-8B|ladder|const·last·eps0.4": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 5.0,
+  "default_both": 75.0,
+  "coherent_both": 85.0,
+  "salad_either": 15.0,
+  "on_topic_both": 80.0,
+  "labels": [
+   [
+    "hype marketer",
+    2
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    34
+   ],
+   [
+    "none",
+    6
+   ]
+  ]
+ },
+ "Qwen3-8B|ladder|lin8·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 95.0,
+  "coherent_both": 95.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen3-8B|ladder|lin8·all·eps0.2": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 20.0,
+  "default_both": 60.0,
+  "coherent_both": 75.0,
+  "salad_either": 5.0,
+  "on_topic_both": 85.0,
+  "labels": [
+   [
+    "rpg game narrator",
+    1
+   ],
+   [
+    "game master",
+    1
+   ],
+   [
+    "brash self-promoter",
+    1
+   ],
+   [
+    "moralizing mentor",
+    1
+   ],
+   [
+    "government official profile",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    27
+   ],
+   [
+    "chinese",
+    10
+   ],
+   [
+    "none",
+    3
+   ]
+  ]
+ },
+ "Qwen3-8B|ladder|mlp0×0.0·first": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen3-8B|main|clean": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|main|const·all·eps0.8": {
+  "n": 80,
+  "persona_both": 7.5,
+  "persona_either": 10.0,
+  "default_both": 61.25,
+  "coherent_both": 60.0,
+  "salad_either": 10.0,
+  "on_topic_both": 68.75,
+  "labels": [
+   [
+    "lyric poet",
+    5
+   ],
+   [
+    "corporate marketing",
+    2
+   ],
+   [
+    "fantasy adventurer",
+    1
+   ],
+   [
+    "sports hype coach",
+    1
+   ],
+   [
+    "hype coach",
+    1
+   ],
+   [
+    "playful hype friend",
+    1
+   ],
+   [
+    "poetic explainer",
+    1
+   ],
+   [
+    "dialogue between characters",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "chinese",
+    100
+   ],
+   [
+    "mixed",
+    17
+   ],
+   [
+    "japanese",
+    12
+   ],
+   [
+    "none",
+    11
+   ]
+  ]
+ },
+ "Qwen3-8B|main|const·last·eps0.8": {
+  "n": 80,
+  "persona_both": 6.25,
+  "persona_either": 6.25,
+  "default_both": 87.5,
+  "coherent_both": 96.25,
+  "salad_either": 1.25,
+  "on_topic_both": 88.75,
+  "labels": [
+   [
+    "mystic fortune teller",
+    1
+   ],
+   [
+    "mystical fortune teller",
+    1
+   ],
+   [
+    "fantasy narrator",
+    1
+   ],
+   [
+    "fantasy character bio",
+    1
+   ],
+   [
+    "supportive counselor",
+    1
+   ],
+   [
+    "caring therapist",
+    1
+   ],
+   [
+    "sci-fi news report",
+    1
+   ],
+   [
+    "sci-fi news bulletin",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    146
+   ],
+   [
+    "chinese",
+    6
+   ],
+   [
+    "russian",
+    2
+   ],
+   [
+    "korean",
+    2
+   ]
+  ]
+ },
+ "Qwen3-8B|main|lin8·all·eps0.8": {
+  "n": 80,
+  "persona_both": 3.75,
+  "persona_either": 3.75,
+  "default_both": 85.0,
+  "coherent_both": 77.5,
+  "salad_either": 3.75,
+  "on_topic_both": 87.5,
+  "labels": [
+   [
+    "melancholic philosopher",
+    2
+   ],
+   [
+    "anxious inner monologue",
+    1
+   ],
+   [
+    "melancholic inner monologue",
+    1
+   ],
+   [
+    "story narrator",
+    1
+   ],
+   [
+    "narrative fiction voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "chinese",
+    133
+   ],
+   [
+    "none",
+    5
+   ],
+   [
+    "arabic",
+    4
+   ],
+   [
+    "english",
+    4
+   ]
+  ]
+ },
+ "Qwen3-8B|main|mlp0×0.0·all": {
+  "n": 80,
+  "persona_both": 5.0,
+  "persona_either": 5.0,
+  "default_both": 25.0,
+  "coherent_both": 36.25,
+  "salad_either": 35.0,
+  "on_topic_both": 0.0,
+  "labels": [
+   [
+    "corporate marketing",
+    2
+   ],
+   [
+    "mystic prophet",
+    1
+   ],
+   [
+    "mystical scripture voice",
+    1
+   ],
+   [
+    "martial arts warrior",
+    1
+   ],
+   [
+    "martial arts sensei",
+    1
+   ],
+   [
+    "christian bible teacher",
+    1
+   ],
+   [
+    "bible teacher",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    102
+   ],
+   [
+    "none",
+    39
+   ],
+   [
+    "mixed",
+    9
+   ],
+   [
+    "chinese",
+    4
+   ]
+  ]
+ },
+ "Qwen3-8B|main|mlp0×0.0·last": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|main|mlp0×0.5·all": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "Qwen3-8B|main|rand·all·eps0.8": {
+  "n": 80,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    160
+   ]
+  ]
+ },
+ "gemma-2-9b-it|ladder|const·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "gemma-2-9b-it|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "gemma-2-9b-it|ladder|const·all·eps0.3": {
+  "n": 20,
+  "persona_both": 20.0,
+  "persona_either": 35.0,
+  "default_both": 65.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [
+   [
+    "energetic hype voice",
+    2
+   ],
+   [
+    "game show host",
+    1
+   ],
+   [
+    "social media post",
+    1
+   ],
+   [
+    "casual social post",
+    1
+   ],
+   [
+    "casual friend",
+    1
+   ],
+   [
+    "quirky hype voice",
+    1
+   ],
+   [
+    "casual hype voice",
+    1
+   ],
+   [
+    "perky marketing voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "gemma-2-9b-it|xmodel|clean": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "gemma-2-9b-it|xmodel|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 55.0,
+  "persona_either": 75.0,
+  "default_both": 20.0,
+  "coherent_both": 85.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [
+   [
+    "casual slang buddy",
+    2
+   ],
+   [
+    "hype foodie",
+    2
+   ],
+   [
+    "self-care enthusiast",
+    1
+   ],
+   [
+    "slangy hype friend",
+    1
+   ],
+   [
+    "tech cherub",
+    1
+   ],
+   [
+    "digital cherub",
+    1
+   ],
+   [
+    "playful game host",
+    1
+   ],
+   [
+    "mystic oracle",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    28
+   ],
+   [
+    "italian",
+    8
+   ],
+   [
+    "portuguese",
+    4
+   ]
+  ]
+ },
+ "gemma-2-9b-it|xmodel|mlp0×0.0·all": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|ladder|const·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 5.0,
+  "default_both": 95.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [
+   [
+    "lyric poet",
+    1
+   ],
+   [
+    "lyric inspirational voice",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|ladder|const·all·eps0.3": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 5.0,
+  "default_both": 90.0,
+  "coherent_both": 90.0,
+  "salad_either": 5.0,
+  "on_topic_both": 90.0,
+  "labels": [
+   [
+    "sea captain",
+    2
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    32
+   ],
+   [
+    "spanish",
+    2
+   ],
+   [
+    "mixed",
+    2
+   ],
+   [
+    "none",
+    2
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|xmodel|clean": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|xmodel|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 35.0,
+  "persona_either": 40.0,
+  "default_both": 45.0,
+  "coherent_both": 85.0,
+  "salad_either": 5.0,
+  "on_topic_both": 70.0,
+  "labels": [
+   [
+    "lyric poet",
+    4
+   ],
+   [
+    "confused servant voice",
+    2
+   ],
+   [
+    "culinary wizard",
+    2
+   ],
+   [
+    "royal storyteller",
+    1
+   ],
+   [
+    "food trivia fan",
+    1
+   ],
+   [
+    "quirky playful entity",
+    1
+   ],
+   [
+    "whimsical playful voice",
+    1
+   ],
+   [
+    "hype cheerleader",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "english",
+    32
+   ],
+   [
+    "hindi",
+    2
+   ],
+   [
+    "lithuanian",
+    2
+   ],
+   [
+    "french",
+    2
+   ]
+  ]
+ },
+ "OLMo-2-1124-7B-Instruct|xmodel|mlp0×0.0·all": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|ladder|const·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    26
+   ],
+   [
+    "chinese",
+    12
+   ],
+   [
+    "mixed",
+    2
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|ladder|const·all·eps0.3": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    20
+   ],
+   [
+    "chinese",
+    20
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|xmodel|clean": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|xmodel|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 5.0,
+  "default_both": 95.0,
+  "coherent_both": 90.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [
+   [
+    "motivational chant",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "chinese",
+    34
+   ],
+   [
+    "english",
+    6
+   ]
+  ]
+ },
+ "Qwen2.5-7B-Instruct|xmodel|mlp0×0.0·all": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|ladder|const·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    31
+   ],
+   [
+    "mixed",
+    5
+   ],
+   [
+    "english",
+    4
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 80.0,
+  "on_topic_both": 10.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    21
+   ],
+   [
+    "english",
+    19
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|ladder|const·all·eps0.3": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    30
+   ],
+   [
+    "mixed",
+    7
+   ],
+   [
+    "english",
+    3
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|xmodel|clean": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|xmodel|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    30
+   ],
+   [
+    "mixed",
+    9
+   ],
+   [
+    "english",
+    1
+   ]
+  ]
+ },
+ "Llama-3.1-8B-Instruct|xmodel|mlp0×0.0·all": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    27
+   ],
+   [
+    "english",
+    12
+   ],
+   [
+    "mixed",
+    1
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|ladder|const·all·eps0.1": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    26
+   ],
+   [
+    "mixed",
+    7
+   ],
+   [
+    "english",
+    7
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|ladder|const·all·eps0.2": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    26
+   ],
+   [
+    "mixed",
+    9
+   ],
+   [
+    "english",
+    5
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|ladder|const·all·eps0.3": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    33
+   ],
+   [
+    "mixed",
+    5
+   ],
+   [
+    "english",
+    2
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|xmodel|clean": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 100.0,
+  "coherent_both": 100.0,
+  "salad_either": 0.0,
+  "on_topic_both": 100.0,
+  "labels": [],
+  "languages": [
+   [
+    "english",
+    40
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|xmodel|const·all·eps0.4": {
+  "n": 20,
+  "persona_both": 0.0,
+  "persona_either": 0.0,
+  "default_both": 0.0,
+  "coherent_both": 0.0,
+  "salad_either": 100.0,
+  "on_topic_both": 0.0,
+  "labels": [],
+  "languages": [
+   [
+    "none",
+    28
+   ],
+   [
+    "mixed",
+    9
+   ],
+   [
+    "english",
+    3
+   ]
+  ]
+ },
+ "Mistral-7B-Instruct-v0.3|xmodel|mlp0×0.0·all": {
+  "n": 20,
+  "persona_both": 5.0,
+  "persona_either": 10.0,
+  "default_both": 5.0,
+  "coherent_both": 5.0,
+  "salad_either": 70.0,
+  "on_topic_both": 0.0,
+  "labels": [
+   [
+    "technical spec writer",
+    2
+   ],
+   [
+    "story narrator",
+    1
+   ]
+  ],
+  "languages": [
+   [
+    "none",
+    25
+   ],
+   [
+    "english",
+    14
+   ],
+   [
+    "mixed",
+    1
+   ]
+  ]
+ }
+}

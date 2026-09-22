@@ -1,0 +1,387 @@
+{
+ "FIT": {
+  "12": 11,
+  "16": 15,
+  "20": 19,
+  "24": 23,
+  "28": 27
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "A0 baseline": {},
+  "A1 raw fit15 + L20old": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A2 tokdebias r64 + L20old": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A3 tokdebias r128 + L20old": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A4 randspan r128 + L20old": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A5 random + L20old": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A6 raw fit15 - L20old": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A7 tokdebias r128 - L20old": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A8 shipped massmean + L20old": {
+   "src": "old",
+   "name": "massmean_early",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "A9 clean + tokdebias r128 + L20old": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": true
+  },
+  "A10 clean + raw fit15 + L20old": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": true
+  },
+  "A11 clean, no steer": {
+   "clean": true
+  },
+  "A12 raw fit15 + L12fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A13 tokdebias r64 + L12fit": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A14 tokdebias r128 + L12fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A15 randspan r128 + L12fit": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A16 random + L12fit": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A17 raw fit15 - L12fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A18 tokdebias r128 - L12fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 12,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A19 raw fit15 + L16fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A20 tokdebias r64 + L16fit": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A21 tokdebias r128 + L16fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A22 randspan r128 + L16fit": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A23 random + L16fit": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A24 raw fit15 - L16fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A25 tokdebias r128 - L16fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 16,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A26 raw fit15 + L20fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A27 tokdebias r64 + L20fit": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A28 tokdebias r128 + L20fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A29 randspan r128 + L20fit": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A30 random + L20fit": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A31 raw fit15 - L20fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A32 tokdebias r128 - L20fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 20,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A33 raw fit15 + L24fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A34 tokdebias r64 + L24fit": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A35 tokdebias r128 + L24fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A36 randspan r128 + L24fit": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A37 random + L24fit": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A38 raw fit15 - L24fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A39 tokdebias r128 - L24fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 24,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A40 raw fit15 + L28fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": 1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A41 tokdebias r64 + L28fit": {
+   "src": "new",
+   "name": "tokdebias_r64",
+   "sign": 1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A42 tokdebias r128 + L28fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": 1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A43 randspan r128 + L28fit": {
+   "src": "new",
+   "name": "randspan_r128",
+   "sign": 1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A44 random + L28fit": {
+   "src": "new",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A45 raw fit15 - L28fit": {
+   "src": "new",
+   "name": "massmean_early_fit15",
+   "sign": -1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  },
+  "A46 tokdebias r128 - L28fit": {
+   "src": "new",
+   "name": "tokdebias_r128",
+   "sign": -1,
+   "fl": 28,
+   "idx": "FIT",
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

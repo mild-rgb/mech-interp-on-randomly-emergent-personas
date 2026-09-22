@@ -1,0 +1,2774 @@
+{
+ "L12__massmean_early_fit15@block11": {
+  "jlens": {
+   "promote": [
+    "—you",
+    "<|endoftext|>",
+    "很多朋友",
+    "澽",
+    "很多事情",
+    " people",
+    "酅",
+    " individuals",
+    " Müslü",
+    "舥",
+    " stakeholders",
+    " LinkedIn"
+   ],
+   "suppress": [
+    "。",
+    "。。。",
+    "在",
+    "。。",
+    "！",
+    " ~>",
+    "=!",
+    "·",
+    "`",
+    "一",
+    "\"..",
+    ".."
+   ],
+   "opener_score": 0.5255025625228882,
+   "jnorm": 2.701425552368164
+  },
+  "logitlens": {
+   "promote": [
+    "䗪",
+    "螠",
+    "虸",
+    "溠",
+    "稿件",
+    "鬷",
+    "茋",
+    "鄌",
+    "白癜",
+    "𫮃",
+    "鄅",
+    "柈"
+   ],
+   "suppress": [
+    "X",
+    "ade",
+    "鼻",
+    "曰",
+    "avis",
+    "般的",
+    "潭",
+    "哇",
+    "鸭",
+    "ick",
+    "ph",
+    "กาย"
+   ],
+   "opener_score": 0.18875399231910706,
+   "jnorm": 1.0
+  }
+ },
+ "L12__tokdebias_r64@block11": {
+  "jlens": {
+   "promote": [
+    " people",
+    " individuals",
+    " unique",
+    " questions",
+    " Jewish",
+    "澽",
+    " important",
+    " Müslü",
+    " Israel",
+    " Ukrainian",
+    " efforts",
+    " Friends"
+   ],
+   "suppress": [
+    " ~>",
+    " ~=",
+    "..'",
+    " yg",
+    "\\:",
+    "_^",
+    " //~",
+    " _('",
+    "_('",
+    " &_",
+    "_-",
+    "在"
+   ],
+   "opener_score": 0.3558732271194458,
+   "jnorm": 2.4429774284362793
+  },
+  "logitlens": {
+   "promote": [
+    "稿件",
+    "大家都在",
+    "鬷",
+    "䗪",
+    "误会",
+    "螠",
+    "理解和",
+    "虸",
+    "柈",
+    "AGEMENT",
+    "既要",
+    " pedest"
+   ],
+   "suppress": [
+    "avis",
+    "ade",
+    "潭",
+    "�",
+    "/or",
+    " colored",
+    "alian",
+    "oo",
+    "ob",
+    "_rs",
+    "X",
+    " yap"
+   ],
+   "opener_score": 0.18307089805603027,
+   "jnorm": 1.0
+  }
+ },
+ "L12__tokdebias_r128@block11": {
+  "jlens": {
+   "promote": [
+    " Jewish",
+    " unique",
+    " Israel",
+    " people",
+    " individuals",
+    " important",
+    " Polish",
+    " Müslü",
+    " Slovak",
+    " Choosing",
+    " Müller",
+    " Slovakia"
+   ],
+   "suppress": [
+    " ~>",
+    " //~",
+    " ~=",
+    "_^",
+    "..'",
+    "~=",
+    " yg",
+    "(~",
+    " cuz",
+    " '~",
+    " (!!",
+    "=!"
+   ],
+   "opener_score": 0.3774875998497009,
+   "jnorm": 2.4746038913726807
+  },
+  "logitlens": {
+   "promote": [
+    "大家都在",
+    "理解和",
+    "鬷",
+    "稿件",
+    "白癜",
+    "虸",
+    "派驻",
+    " ITEMS",
+    "䗪",
+    "随着时间",
+    "与时俱",
+    "ям"
+   ],
+   "suppress": [
+    "avis",
+    "ade",
+    "/or",
+    "�",
+    "_rs",
+    "oo",
+    "ery",
+    " colored",
+    "貓",
+    "ob",
+    "ugh",
+    "duck"
+   ],
+   "opener_score": 0.21294242143630981,
+   "jnorm": 1.0
+  }
+ },
+ "L12__randspan_r128@block11": {
+  "jlens": {
+   "promote": [
+    "．",
+    "，“",
+    "，",
+    "。\\",
+    "”，",
+    ",\\\"",
+    "\\.",
+    "），",
+    ":\\/\\/",
+    "，在",
+    "”—",
+    ".\\"
+   ],
+   "suppress": [
+    "...\n\n\n",
+    "......\n\n",
+    " ...\n\n",
+    "...\n\n",
+    " [...]\n\n",
+    " –\n\n",
+    "\n\n\n\n\n\n\n\n\n\n\n",
+    "...\n\n\n\n\n\n",
+    " ...\n\n\n\n",
+    "...\n\n\n\n",
+    " [...]",
+    " [..."
+   ],
+   "opener_score": 0.2679166793823242,
+   "jnorm": 2.873884916305542
+  },
+  "logitlens": {
+   "promote": [
+    "广泛的",
+    "簧",
+    "iants",
+    "ASTER",
+    "前瞻",
+    "fal",
+    "保驾",
+    "笏",
+    "句子",
+    "expl",
+    "人士",
+    "mor"
+   ],
+   "suppress": [
+    "版权所有",
+    " TBD",
+    " gonna",
+    " значит",
+    " Narr",
+    "网首页",
+    "imension",
+    "前进",
+    "{text",
+    " diret",
+    " MAD",
+    " всего"
+   ],
+   "opener_score": -0.09989780932664871,
+   "jnorm": 1.0
+  }
+ },
+ "L12__random_1@block11": {
+  "jlens": {
+   "promote": [
+    " ­",
+    " –",
+    "­s",
+    "––",
+    "――",
+    "－",
+    "–and",
+    "­ing",
+    "­t",
+    "‐",
+    "　",
+    " ―"
+   ],
+   "suppress": [
+    ".\\",
+    " ...\\",
+    ".\"\n\n",
+    ".\"",
+    "...\\",
+    ".\\\"",
+    "\"\n\n",
+    "\\n",
+    ".\",",
+    ",\\",
+    ".\",\n",
+    ",\""
+   ],
+   "opener_score": -0.011020839214324951,
+   "jnorm": 1.937389612197876
+  },
+  "logitlens": {
+   "promote": [
+    "hra",
+    "市教育局",
+    "来访",
+    "illi",
+    "arness",
+    "枕",
+    "夕",
+    " swings",
+    "pedia",
+    " messenger",
+    "世上",
+    "illus"
+   ],
+   "suppress": [
+    " fully",
+    "完全",
+    " contend",
+    " Fully",
+    "不含",
+    " su",
+    " Boolean",
+    "Multi",
+    "commit",
+    " MO",
+    "出境",
+    "备案"
+   ],
+   "opener_score": 0.09130766987800598,
+   "jnorm": 1.0000001192092896
+  }
+ },
+ "L12__massmean_early@block11": {
+  "jlens": {
+   "promote": [
+    " organisations",
+    " questions",
+    " people",
+    " Pinterest",
+    " organisation",
+    " Google",
+    " {{--<",
+    " countries",
+    " UK",
+    " unique",
+    " Alternative",
+    " {{"
+   ],
+   "suppress": [
+    "…\"\n\n",
+    "…\"",
+    "-\"",
+    "...\"\n\n",
+    "…",
+    "…\n\n",
+    "″",
+    "…the",
+    "„",
+    "┅",
+    "′",
+    "-"
+   ],
+   "opener_score": 0.33973777294158936,
+   "jnorm": 2.2173357009887695
+  },
+  "logitlens": {
+   "promote": [
+    " styled",
+    " React",
+    " heapq",
+    " sys",
+    " axios",
+    " java",
+    " random",
+    " requests",
+    " numpy",
+    " asyncio",
+    " {",
+    " matplotlib"
+   ],
+   "suppress": [
+    "-cr",
+    "露",
+    " ``(",
+    "iid",
+    "chie",
+    "reve",
+    "‟",
+    "-di",
+    "〈",
+    "thus",
+    "至于",
+    "俯"
+   ],
+   "opener_score": 0.17407101392745972,
+   "jnorm": 1.0
+  }
+ },
+ "L12__inlp_debiased_early@block11": {
+  "jlens": {
+   "promote": [
+    " \\`",
+    " \\<",
+    " \\\r\n",
+    " $\r\n",
+    " `\\",
+    " `$",
+    "\\_",
+    " \\\"$",
+    " $($",
+    "_${",
+    " *\\",
+    " .$"
+   ],
+   "suppress": [
+    "»",
+    "»\n\n",
+    ",\n",
+    "¡",
+    "”\n",
+    "…",
+    "—",
+    "—\"",
+    ".”\n",
+    ",",
+    "!\"\n",
+    "…\""
+   ],
+   "opener_score": 0.20980983972549438,
+   "jnorm": 2.1783437728881836
+  },
+  "logitlens": {
+   "promote": [
+    "ascar",
+    " Cleaner",
+    "xbd",
+    "拒",
+    "eks",
+    "endon",
+    "dag",
+    "/source",
+    "<source",
+    "лат",
+    "流产",
+    "分手"
+   ],
+   "suppress": [
+    " invol",
+    "sta",
+    "版",
+    "鼻",
+    "ener",
+    "apor",
+    "ille",
+    " meme",
+    "RET",
+    "办好",
+    "operations",
+    " Correspond"
+   ],
+   "opener_score": 0.20763429999351501,
+   "jnorm": 1.0
+  }
+ },
+ "L16__massmean_early_fit15@block15": {
+  "jlens": {
+   "promote": [
+    " LinkedIn",
+    "—you",
+    " Airbnb",
+    " questions",
+    " discussions",
+    "很多事情",
+    " Questions",
+    " Google",
+    " Dropbox",
+    " __________________\n\n",
+    "澽",
+    "_equalTo"
+   ],
+   "suppress": [
+    ".",
+    "-",
+    "\"",
+    " \n",
+    " roar",
+    "oo",
+    "｀",
+    "·",
+    "`",
+    "j",
+    "/",
+    "o"
+   ],
+   "opener_score": 0.5938584804534912,
+   "jnorm": 3.2985355854034424
+  },
+  "logitlens": {
+   "promote": [
+    "䗪",
+    "虸",
+    "理解和",
+    "茋",
+    "小心翼",
+    "㸆",
+    "蔊",
+    "鄅",
+    "舥",
+    "鄌",
+    "柬埔",
+    "螠"
+   ],
+   "suppress": [
+    "火",
+    "般的",
+    "一样的",
+    "X",
+    "式",
+    "闪",
+    "声",
+    "坑",
+    "之声",
+    "命令",
+    "_flash",
+    "曰"
+   ],
+   "opener_score": 0.17834001779556274,
+   "jnorm": 1.0
+  }
+ },
+ "L16__tokdebias_r64@block15": {
+  "jlens": {
+   "promote": [
+    " questions",
+    " LinkedIn",
+    " Guidelines",
+    " discussions",
+    " Questions",
+    " Topics",
+    " Discussions",
+    " guidelines",
+    " Discussion",
+    " Recommendations",
+    " Understanding",
+    " Articles"
+   ],
+   "suppress": [
+    ".",
+    " roar",
+    "o",
+    "oo",
+    "y",
+    "\"",
+    "'",
+    "osaur",
+    "..'",
+    "-",
+    "_-",
+    "狞"
+   ],
+   "opener_score": 0.46504896879196167,
+   "jnorm": 3.1259207725524902
+  },
+  "logitlens": {
+   "promote": [
+    "䗪",
+    "理解和",
+    "虸",
+    "踅",
+    "蔊",
+    "稿件",
+    "豮",
+    "螠",
+    "鄅",
+    "㸆",
+    "锱",
+    "LAY"
+   ],
+   "suppress": [
+    "般的",
+    "之声",
+    "式",
+    "oo",
+    "一样的",
+    "さん",
+    "ight",
+    "声",
+    "ph",
+    "erry",
+    "♂",
+    "ick"
+   ],
+   "opener_score": 0.16858065128326416,
+   "jnorm": 1.0
+  }
+ },
+ "L16__tokdebias_r128@block15": {
+  "jlens": {
+   "promote": [
+    " ­",
+    " Discussions",
+    " Discussion",
+    " Guidelines",
+    " LinkedIn",
+    " Topics",
+    "­",
+    " Understanding",
+    " discussions",
+    " Insight",
+    " Questions",
+    " Inquiry"
+   ],
+   "suppress": [
+    ".",
+    ",.",
+    "\"\"",
+    ";.",
+    "..'",
+    "'",
+    "!.",
+    "-'",
+    "!!.",
+    "\".",
+    "..",
+    "-."
+   ],
+   "opener_score": 0.4665156602859497,
+   "jnorm": 3.4497592449188232
+  },
+  "logitlens": {
+   "promote": [
+    "䗪",
+    "理解和",
+    "禧",
+    " intellectually",
+    "踅",
+    "豮",
+    "虸",
+    " Swinger",
+    " Parcel",
+    "稿件",
+    "白癜",
+    "锱"
+   ],
+   "suppress": [
+    "oo",
+    "erry",
+    "般的",
+    "avis",
+    "ick",
+    "uler",
+    "式",
+    "/or",
+    "ery",
+    " cười",
+    "ine",
+    "之声"
+   ],
+   "opener_score": 0.18802586197853088,
+   "jnorm": 1.0
+  }
+ },
+ "L16__randspan_r128@block15": {
+  "jlens": {
+   "promote": [
+    "...\n",
+    " sunday",
+    " monday",
+    " american",
+    " christian",
+    " british",
+    " christmas",
+    " jewish",
+    " french",
+    " friday",
+    " european",
+    " english"
+   ],
+   "suppress": [
+    "”—",
+    "\"—",
+    ")—",
+    " “…",
+    "—\"",
+    "。“",
+    "…”",
+    "?”",
+    "，“",
+    " (“",
+    " “[",
+    "?’"
+   ],
+   "opener_score": 0.027119219303131104,
+   "jnorm": 2.929246425628662
+  },
+  "logitlens": {
+   "promote": [
+    " gre",
+    "要进一步",
+    "禧",
+    "厝",
+    ".Areas",
+    " Julius",
+    "做一些",
+    "MOST",
+    "_CONV",
+    " Neh",
+    "isin",
+    " İn"
+   ],
+   "suppress": [
+    "ivate",
+    "inding",
+    "obao",
+    "onian",
+    "回事",
+    "licate",
+    "atron",
+    "ーン",
+    "县公安局",
+    "▴",
+    "穿透",
+    "bie"
+   ],
+   "opener_score": -0.06854865700006485,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L16__random_1@block15": {
+  "jlens": {
+   "promote": [
+    " ...\n",
+    " ...\n\n",
+    "...\n",
+    "…\n",
+    " […",
+    "…\n\n",
+    "...\n\n",
+    " …\n\n",
+    " […]\n\n",
+    ",...\n",
+    " […]",
+    " –\n\n"
+   ],
+   "suppress": [
+    "。\\",
+    "．",
+    "?\\",
+    ".\\\"",
+    "()\\",
+    ");\\",
+    ",\\\"",
+    "运动员",
+    ":\\/\\/",
+    "\\xd",
+    "___",
+    "\\\"\\"
+   ],
+   "opener_score": 0.037607282400131226,
+   "jnorm": 1.31121027469635
+  },
+  "logitlens": {
+   "promote": [
+    ".combine",
+    "仰",
+    "_recovery",
+    " Recovery",
+    " Sims",
+    "交会",
+    "vos",
+    "lemetry",
+    " footsteps",
+    " recovery",
+    " eruption",
+    "KI"
+   ],
+   "suppress": [
+    "泉",
+    " resc",
+    " mr",
+    " MR",
+    "苓",
+    "偏偏",
+    "阙",
+    "uten",
+    " either",
+    " Mb",
+    "津",
+    "cken"
+   ],
+   "opener_score": -0.02776458114385605,
+   "jnorm": 1.0
+  }
+ },
+ "L16__massmean_early@block15": {
+  "jlens": {
+   "promote": [
+    " questions",
+    " question",
+    " organisation",
+    " Google",
+    " Pinterest",
+    " organis",
+    " Organisation",
+    " Friends",
+    " Topics",
+    " Question",
+    " organisations",
+    " LinkedIn"
+   ],
+   "suppress": [
+    "xfe",
+    "�s",
+    "…\n",
+    "gba",
+    "ˇ",
+    "˚",
+    "tgt",
+    "/cpu",
+    "┅",
+    "atron",
+    "ˆ",
+    "vae"
+   ],
+   "opener_score": 0.40445613861083984,
+   "jnorm": 4.491538047790527
+  },
+  "logitlens": {
+   "promote": [
+    " React",
+    " styled",
+    " java",
+    " {",
+    " struct",
+    " requests",
+    " axios",
+    " string",
+    " Vue",
+    " sys",
+    " random",
+    " numpy"
+   ],
+   "suppress": [
+    "残留",
+    "-cr",
+    "露",
+    "thus",
+    "有力",
+    "ick",
+    "闪光",
+    "-mult",
+    "野生",
+    "♂",
+    "reve",
+    "-mouth"
+   ],
+   "opener_score": 0.17584362626075745,
+   "jnorm": 1.0
+  }
+ },
+ "L16__inlp_debiased_early@block15": {
+  "jlens": {
+   "promote": [
+    " --\n\n",
+    "。\n\n",
+    " #\n\n",
+    " $\n\n",
+    " %\n\n",
+    " \\\n\n",
+    "？\n\n",
+    " __________________\n\n",
+    " |\n\n",
+    "，\n\n",
+    "(\\$",
+    " /\n\n"
+   ],
+   "suppress": [
+    " famously",
+    " war",
+    " alongside",
+    "–",
+    " battle",
+    " famed",
+    "**,",
+    " legendary",
+    "**",
+    " \n",
+    ",",
+    " massive"
+   ],
+   "opener_score": 0.1699928343296051,
+   "jnorm": 4.054284572601318
+  },
+  "logitlens": {
+   "promote": [
+    " TableCell",
+    " gốc",
+    " omin",
+    "beck",
+    "/=",
+    " Translate",
+    "TableCell",
+    " Gems",
+    "-educated",
+    "玩笑",
+    " Adolf",
+    " dine"
+   ],
+   "suppress": [
+    "rush",
+    "Po",
+    "阔",
+    " Po",
+    "催",
+    "进入到",
+    " Rew",
+    " dragging",
+    "摆",
+    "_extent",
+    "不可",
+    " csr"
+   ],
+   "opener_score": 0.12871715426445007,
+   "jnorm": 1.0
+  }
+ },
+ "L20__massmean_early_fit15@block19": {
+  "jlens": {
+   "promote": [
+    "—you",
+    "<|endoftext|>",
+    "—including",
+    "—but",
+    "—which",
+    "蔊",
+    " discussions",
+    "—with",
+    "—if",
+    " questions",
+    "—for",
+    "—that"
+   ],
+   "suppress": [
+    "尖叫",
+    " scream",
+    " shit",
+    "fuck",
+    "咆",
+    "狞",
+    " corpse",
+    " fucked",
+    " roar",
+    " screaming",
+    " damned",
+    " fuck"
+   ],
+   "opener_score": 0.584132730960846,
+   "jnorm": 3.0273354053497314
+  },
+  "logitlens": {
+   "promote": [
+    "虸",
+    "鄅",
+    "蔊",
+    "很多朋友",
+    "鹲",
+    "茋",
+    "䗪",
+    "溠",
+    "豮",
+    "鄌",
+    "罶",
+    "螠"
+   ],
+   "suppress": [
+    "一样的",
+    "推开",
+    "曰",
+    "尖叫",
+    "般的",
+    "火",
+    "气",
+    "虫",
+    "only",
+    "泪",
+    "reve",
+    "_binary"
+   ],
+   "opener_score": 0.20275604724884033,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L20__tokdebias_r64@block19": {
+  "jlens": {
+   "promote": [
+    "<|endoftext|>",
+    "—including",
+    "—which",
+    "—you",
+    "­",
+    "蔊",
+    " discussions",
+    " questions",
+    " ­",
+    "­ing",
+    "—with",
+    "­s"
+   ],
+   "suppress": [
+    "fuck",
+    " shit",
+    "狞",
+    " fucking",
+    " fuck",
+    " fucked",
+    "尖叫",
+    " damned",
+    "屎",
+    "咆",
+    " bitch",
+    " scream"
+   ],
+   "opener_score": 0.5041576623916626,
+   "jnorm": 2.9303476810455322
+  },
+  "logitlens": {
+   "promote": [
+    "虸",
+    "鄅",
+    "理解和",
+    "IXEL",
+    "蔊",
+    "豮",
+    "堼",
+    "=BitConverter",
+    "䗪",
+    "PLIED",
+    "黇",
+    "𩽾"
+   ],
+   "suppress": [
+    "一样的",
+    "reve",
+    "推开",
+    "曰",
+    "尸体",
+    "虫",
+    "ade",
+    "闪过",
+    "only",
+    "oo",
+    "般的",
+    "erry"
+   ],
+   "opener_score": 0.19464004039764404,
+   "jnorm": 1.0
+  }
+ },
+ "L20__tokdebias_r128@block19": {
+  "jlens": {
+   "promote": [
+    " ­",
+    "­",
+    "<|endoftext|>",
+    "­ing",
+    "­s",
+    " …\n\n",
+    "­t",
+    "—including",
+    "‑",
+    " […]\n\n",
+    "—you",
+    "—which"
+   ],
+   "suppress": [
+    "fuck",
+    " shit",
+    " fuck",
+    " fucking",
+    " fucked",
+    "狞",
+    " fucks",
+    "Fuck",
+    "屎",
+    " bitch",
+    " scream",
+    " geil"
+   ],
+   "opener_score": 0.5215248465538025,
+   "jnorm": 3.206563949584961
+  },
+  "logitlens": {
+   "promote": [
+    "理解和",
+    "虸",
+    "本网站",
+    " chances",
+    "IXEL",
+    "𩽾",
+    "=BitConverter",
+    "豮",
+    "EPHIR",
+    "/english",
+    "黇",
+    "鲯"
+   ],
+   "suppress": [
+    "一样的",
+    "reve",
+    "erry",
+    "oo",
+    "all",
+    "only",
+    "ade",
+    "之声",
+    "虫",
+    "amed",
+    "推开",
+    "Only"
+   ],
+   "opener_score": 0.2098168134689331,
+   "jnorm": 1.0
+  }
+ },
+ "L20__randspan_r128@block19": {
+  "jlens": {
+   "promote": [
+    " [\\",
+    "\\_",
+    "。\\",
+    "\\.",
+    " \\",
+    " \\\n\n",
+    "--[",
+    ".\\",
+    " \\%",
+    " --\n\n",
+    " \\\r\n",
+    ",\\"
+   ],
+   "suppress": [
+    "\".\n",
+    "...)\n",
+    "）\n",
+    "*)\n",
+    "霹",
+    "\".",
+    "`.\n",
+    "\":\n",
+    ")\n",
+    "**)",
+    "`)\n",
+    "!)\n"
+   ],
+   "opener_score": 0.36395829916000366,
+   "jnorm": 2.9732580184936523
+  },
+  "logitlens": {
+   "promote": [
+    "s",
+    "舥",
+    "ament",
+    "澽",
+    "�述",
+    "峧",
+    "rs",
+    "疁",
+    "鄅",
+    "鄌",
+    "的关注",
+    "峃"
+   ],
+   "suppress": [
+    " entirety",
+    "屑",
+    "_operand",
+    "丸",
+    "淫",
+    "ypes",
+    "leigh",
+    "inous",
+    "樱",
+    "查看全文",
+    "吞",
+    "身价"
+   ],
+   "opener_score": 0.09262287616729736,
+   "jnorm": 1.0
+  }
+ },
+ "L20__random_1@block19": {
+  "jlens": {
+   "promote": [
+    "”—",
+    "’:",
+    "’",
+    ":\n",
+    "»",
+    ",’",
+    "­",
+    "–",
+    "�",
+    ".”\n",
+    "¬",
+    "—I"
+   ],
+   "suppress": [
+    " $\n\n",
+    " \n\n",
+    " _\n\n",
+    " \\\n\n",
+    " \"\"\n\n",
+    " %\n\n",
+    "$\n\n",
+    "  \n\n",
+    "...\n\n",
+    "_\n\n",
+    "......\n\n",
+    " #\n\n"
+   ],
+   "opener_score": -0.13064701855182648,
+   "jnorm": 1.5873686075210571
+  },
+  "logitlens": {
+   "promote": [
+    "lut",
+    "诎",
+    "筹集",
+    "筹资",
+    "主营业务",
+    "ppy",
+    "用户提供",
+    "校友",
+    "菰",
+    "用心",
+    "攥",
+    "_Tag"
+   ],
+   "suppress": [
+    "唐山",
+    " caves",
+    "渤",
+    "养",
+    "ICES",
+    "副",
+    "廉",
+    " отзыв",
+    " pat",
+    "婢",
+    "新型",
+    " recl"
+   ],
+   "opener_score": -0.2158808708190918,
+   "jnorm": 1.0
+  }
+ },
+ "L20__massmean_early@block19": {
+  "jlens": {
+   "promote": [
+    " questions",
+    " Google",
+    " specific",
+    " examples",
+    " discussions",
+    " question",
+    " English",
+    " options",
+    " topics",
+    " LinkedIn",
+    " items",
+    " Topics"
+   ],
+   "suppress": [
+    " horny",
+    "屎",
+    " geil",
+    "泪",
+    "fuck",
+    " –\n\n",
+    " fucked",
+    "ˆ",
+    "    \n    \n",
+    "诅",
+    " \n            \n",
+    "   \n    \n"
+   ],
+   "opener_score": 0.4752759039402008,
+   "jnorm": 3.6259214878082275
+  },
+  "logitlens": {
+   "promote": [
+    " requests",
+    " struct",
+    " React",
+    " anecd",
+    " Google",
+    " java",
+    " Struct",
+    " UIKit",
+    "蔊",
+    " collections",
+    "虸",
+    " request"
+   ],
+   "suppress": [
+    "reve",
+    "露",
+    "thus",
+    "残留",
+    "使劲",
+    "slow",
+    "严禁",
+    "ateral",
+    "corner",
+    "熏",
+    "封",
+    "-rise"
+   ],
+   "opener_score": 0.22344651818275452,
+   "jnorm": 1.0
+  }
+ },
+ "L20__inlp_debiased_early@block19": {
+  "jlens": {
+   "promote": [
+    "...\n",
+    " ...\n",
+    "?\n",
+    " Wikipedia",
+    "?(",
+    "...\n\n",
+    "原文",
+    "。\n",
+    " ..\n",
+    " ...\n\n",
+    ".\n",
+    ",...\n"
+   ],
+   "suppress": [
+    " flashy",
+    " mighty",
+    " vibes",
+    " roaring",
+    " shit",
+    " booming",
+    " towering",
+    " arrogant",
+    " brag",
+    " fucking",
+    " Fucking",
+    " whispers"
+   ],
+   "opener_score": 0.33133676648139954,
+   "jnorm": 1.5483545064926147
+  },
+  "logitlens": {
+   "promote": [
+    "sert",
+    "Disposition",
+    "rts",
+    "oren",
+    " Mixer",
+    "吊",
+    " Voters",
+    "有许多",
+    "隍",
+    " Mitchell",
+    "ỡ",
+    " Sommer"
+   ],
+   "suppress": [
+    "WHO",
+    "剩余",
+    " WHO",
+    "攒",
+    " residue",
+    "疾",
+    "Ng",
+    "逆",
+    " reprodu",
+    " soul",
+    "Ping",
+    "呼和"
+   ],
+   "opener_score": 0.1338495910167694,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L20__massmean_early_fit15@block20": {
+  "jlens": {
+   "promote": [
+    "<|endoftext|>",
+    "—you",
+    "—but",
+    "—including",
+    "—which",
+    "—if",
+    "—with",
+    "—for",
+    "—we",
+    "—that",
+    " ____",
+    "—I"
+   ],
+   "suppress": [
+    "尖叫",
+    "fuck",
+    " scream",
+    " shit",
+    " corpse",
+    "咆",
+    "狞",
+    "诅",
+    " fucked",
+    " fuck",
+    " screaming",
+    " roar"
+   ],
+   "opener_score": 0.5860803127288818,
+   "jnorm": 3.1434686183929443
+  },
+  "logitlens": {
+   "promote": [
+    "虸",
+    "鄅",
+    "蔊",
+    "很多朋友",
+    "鹲",
+    "茋",
+    "䗪",
+    "溠",
+    "豮",
+    "鄌",
+    "罶",
+    "螠"
+   ],
+   "suppress": [
+    "一样的",
+    "推开",
+    "曰",
+    "尖叫",
+    "般的",
+    "火",
+    "气",
+    "虫",
+    "only",
+    "泪",
+    "reve",
+    "_binary"
+   ],
+   "opener_score": 0.20275604724884033,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L20__tokdebias_r64@block20": {
+  "jlens": {
+   "promote": [
+    "<|endoftext|>",
+    "—you",
+    "—which",
+    "—including",
+    " ­",
+    "­",
+    "—with",
+    "—but",
+    "—for",
+    "—at",
+    "­ing",
+    " questions"
+   ],
+   "suppress": [
+    "fuck",
+    " shit",
+    "狞",
+    " fuck",
+    " fucking",
+    " fucked",
+    "尖叫",
+    "屎",
+    "咆",
+    " bitch",
+    " corpse",
+    " damned"
+   ],
+   "opener_score": 0.5160166025161743,
+   "jnorm": 3.044456720352173
+  },
+  "logitlens": {
+   "promote": [
+    "虸",
+    "鄅",
+    "理解和",
+    "IXEL",
+    "蔊",
+    "豮",
+    "堼",
+    "=BitConverter",
+    "䗪",
+    "PLIED",
+    "黇",
+    "𩽾"
+   ],
+   "suppress": [
+    "一样的",
+    "reve",
+    "推开",
+    "曰",
+    "尸体",
+    "虫",
+    "ade",
+    "闪过",
+    "only",
+    "oo",
+    "般的",
+    "erry"
+   ],
+   "opener_score": 0.19464004039764404,
+   "jnorm": 1.0
+  }
+ },
+ "L20__tokdebias_r128@block20": {
+  "jlens": {
+   "promote": [
+    " ­",
+    "<|endoftext|>",
+    "­",
+    "­ing",
+    "­s",
+    "—you",
+    "…\n",
+    "—which",
+    " …\n\n",
+    "…\n\n",
+    "本网站",
+    " —"
+   ],
+   "suppress": [
+    "fuck",
+    " shit",
+    " fuck",
+    " fucking",
+    " fucked",
+    "Fuck",
+    "狞",
+    " fucks",
+    " bitch",
+    "屎",
+    " geil",
+    " scream"
+   ],
+   "opener_score": 0.5291687846183777,
+   "jnorm": 3.3620588779449463
+  },
+  "logitlens": {
+   "promote": [
+    "理解和",
+    "虸",
+    "本网站",
+    " chances",
+    "IXEL",
+    "𩽾",
+    "=BitConverter",
+    "豮",
+    "EPHIR",
+    "/english",
+    "黇",
+    "鲯"
+   ],
+   "suppress": [
+    "一样的",
+    "reve",
+    "erry",
+    "oo",
+    "all",
+    "only",
+    "ade",
+    "之声",
+    "虫",
+    "amed",
+    "推开",
+    "Only"
+   ],
+   "opener_score": 0.2098168134689331,
+   "jnorm": 1.0
+  }
+ },
+ "L20__randspan_r128@block20": {
+  "jlens": {
+   "promote": [
+    " [\\",
+    "。\\",
+    " \\",
+    "\\.",
+    "\\_",
+    ".\\",
+    " \\%",
+    ",\\",
+    "--[",
+    "\\uff",
+    "--[[",
+    ",\\\""
+   ],
+   "suppress": [
+    "）\n",
+    "...)\n",
+    "\".\n",
+    "*)\n",
+    ")\n",
+    "**\n",
+    "!)\n",
+    "`.\n",
+    ").\n",
+    "*\n",
+    "**)",
+    "霹"
+   ],
+   "opener_score": 0.34165412187576294,
+   "jnorm": 2.70752215385437
+  },
+  "logitlens": {
+   "promote": [
+    "s",
+    "舥",
+    "ament",
+    "澽",
+    "�述",
+    "峧",
+    "rs",
+    "疁",
+    "鄅",
+    "鄌",
+    "的关注",
+    "峃"
+   ],
+   "suppress": [
+    " entirety",
+    "屑",
+    "_operand",
+    "丸",
+    "淫",
+    "ypes",
+    "leigh",
+    "inous",
+    "樱",
+    "查看全文",
+    "吞",
+    "身价"
+   ],
+   "opener_score": 0.09262287616729736,
+   "jnorm": 1.0
+  }
+ },
+ "L20__random_1@block20": {
+  "jlens": {
+   "promote": [
+    ":\n",
+    "’",
+    "’s",
+    "”—",
+    "»",
+    ",’",
+    "­",
+    "’:",
+    "—I",
+    "—",
+    "�",
+    "?’"
+   ],
+   "suppress": [
+    " $\n\n",
+    " \"\"\n\n",
+    " \\\n\n",
+    " %\n\n",
+    " _\n\n",
+    " \n\n",
+    " ''\n\n",
+    "$\n\n",
+    " '\n\n",
+    "++\n\n",
+    " \"\n\n",
+    " \"\")\n\n"
+   ],
+   "opener_score": -0.1836693286895752,
+   "jnorm": 1.6609474420547485
+  },
+  "logitlens": {
+   "promote": [
+    "lut",
+    "诎",
+    "筹集",
+    "筹资",
+    "主营业务",
+    "ppy",
+    "用户提供",
+    "校友",
+    "菰",
+    "用心",
+    "攥",
+    "_Tag"
+   ],
+   "suppress": [
+    "唐山",
+    " caves",
+    "渤",
+    "养",
+    "ICES",
+    "副",
+    "廉",
+    " отзыв",
+    " pat",
+    "婢",
+    "新型",
+    " recl"
+   ],
+   "opener_score": -0.2158808708190918,
+   "jnorm": 1.0
+  }
+ },
+ "L20__massmean_early@block20": {
+  "jlens": {
+   "promote": [
+    " questions",
+    " specific",
+    " Google",
+    " options",
+    " examples",
+    " topics",
+    " items",
+    " discussions",
+    " English",
+    " Topics",
+    " instructions",
+    " available"
+   ],
+   "suppress": [
+    "泪",
+    "屎",
+    "fuck",
+    " horny",
+    "=!",
+    " geil",
+    "诅",
+    " fucked",
+    "雌",
+    " pissed",
+    "出血",
+    "咆"
+   ],
+   "opener_score": 0.49949127435684204,
+   "jnorm": 3.3970179557800293
+  },
+  "logitlens": {
+   "promote": [
+    " requests",
+    " struct",
+    " React",
+    " anecd",
+    " Google",
+    " java",
+    " Struct",
+    " UIKit",
+    "蔊",
+    " collections",
+    "虸",
+    " request"
+   ],
+   "suppress": [
+    "reve",
+    "露",
+    "thus",
+    "残留",
+    "使劲",
+    "slow",
+    "严禁",
+    "ateral",
+    "corner",
+    "熏",
+    "封",
+    "-rise"
+   ],
+   "opener_score": 0.22344651818275452,
+   "jnorm": 1.0
+  }
+ },
+ "L20__inlp_debiased_early@block20": {
+  "jlens": {
+   "promote": [
+    "...\n",
+    " ...\n",
+    " .\n",
+    " unrelated",
+    "?\n",
+    " ..\n",
+    " ?\n",
+    "...\n\n",
+    ".\n",
+    "..\n",
+    ",...\n",
+    " ("
+   ],
+   "suppress": [
+    " vibes",
+    " shitty",
+    " fucked",
+    " Fucking",
+    " arrogant",
+    " roaring",
+    " flashy",
+    " whisper",
+    " whispers",
+    " pissed",
+    " fucking",
+    " badass"
+   ],
+   "opener_score": 0.33157041668891907,
+   "jnorm": 1.6436654329299927
+  },
+  "logitlens": {
+   "promote": [
+    "sert",
+    "Disposition",
+    "rts",
+    "oren",
+    " Mixer",
+    "吊",
+    " Voters",
+    "有许多",
+    "隍",
+    " Mitchell",
+    "ỡ",
+    " Sommer"
+   ],
+   "suppress": [
+    "WHO",
+    "剩余",
+    " WHO",
+    "攒",
+    " residue",
+    "疾",
+    "Ng",
+    "逆",
+    " reprodu",
+    " soul",
+    "Ping",
+    "呼和"
+   ],
+   "opener_score": 0.1338495910167694,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L24__massmean_early_fit15@block23": {
+  "jlens": {
+   "promote": [
+    "<|endoftext|>",
+    "—you",
+    "—but",
+    "—we",
+    "蔊",
+    "很多朋友",
+    "—if",
+    "朋友们对",
+    " misunderstand",
+    "':\r\n",
+    ":\r\n",
+    "\":\r\n"
+   ],
+   "suppress": [
+    "尖叫",
+    " shit",
+    " fucking",
+    " screamed",
+    " fuck",
+    "fuck",
+    "诅",
+    " screaming",
+    "狞",
+    " scream",
+    " corpse",
+    " damn"
+   ],
+   "opener_score": 0.6005731821060181,
+   "jnorm": 3.4756968021392822
+  },
+  "logitlens": {
+   "promote": [
+    "理解和",
+    "鹲",
+    "蔊",
+    "虸",
+    "罶",
+    "いらっ",
+    "䗪",
+    "𫮃",
+    "以下几个",
+    " misunderstood",
+    "麖",
+    "鄅"
+   ],
+   "suppress": [
+    "冷笑",
+    "尖叫",
+    "鼻",
+    " forbid",
+    "flush",
+    "死",
+    "冷",
+    "苦笑",
+    "眸",
+    "咧",
+    "冷冷",
+    "呼"
+   ],
+   "opener_score": 0.4261524975299835,
+   "jnorm": 1.0
+  }
+ },
+ "L24__tokdebias_r64@block23": {
+  "jlens": {
+   "promote": [
+    "<|endoftext|>",
+    " misunderstand",
+    " questions",
+    "­",
+    "—you",
+    "蔊",
+    " misunderstanding",
+    " interpretations",
+    "—but",
+    "­s",
+    "—we",
+    "很多朋友"
+   ],
+   "suppress": [
+    " shit",
+    " fucking",
+    "fuck",
+    " fuck",
+    "尖叫",
+    "他妈",
+    "诅",
+    "Fuck",
+    " fucked",
+    "狞",
+    " Fucking",
+    " screamed"
+   ],
+   "opener_score": 0.5284363031387329,
+   "jnorm": 2.960475206375122
+  },
+  "logitlens": {
+   "promote": [
+    "理解和",
+    "/english",
+    "罶",
+    " misunderstand",
+    "以下几个",
+    " misunderstood",
+    "­s",
+    "䗪",
+    "虸",
+    "蔊",
+    "鹲",
+    "𫮃"
+   ],
+   "suppress": [
+    "冷笑",
+    "pter",
+    "尖叫",
+    "睨",
+    "嚣",
+    "剥夺",
+    "ango",
+    "_red",
+    "嘿嘿",
+    "眼泪",
+    ".exe",
+    " contempt"
+   ],
+   "opener_score": 0.406438410282135,
+   "jnorm": 1.0
+  }
+ },
+ "L24__tokdebias_r128@block23": {
+  "jlens": {
+   "promote": [
+    "­",
+    "<|endoftext|>",
+    " ­",
+    "­s",
+    "­t",
+    "​",
+    "­ing",
+    " misunderstand",
+    " ‎",
+    "—you",
+    "‑",
+    "​​"
+   ],
+   "suppress": [
+    " shit",
+    " fucking",
+    "fuck",
+    " fuck",
+    "他妈",
+    "Fuck",
+    " crap",
+    " fucked",
+    " Fucking",
+    "尖叫",
+    " damn",
+    "damn"
+   ],
+   "opener_score": 0.5125426054000854,
+   "jnorm": 3.0865540504455566
+  },
+  "logitlens": {
+   "promote": [
+    "理解和",
+    " misunderstood",
+    " misunderstand",
+    "䗪",
+    " Raf",
+    " misunder",
+    "­s",
+    "/english",
+    "罶",
+    "虸",
+    "鲯",
+    "鹲"
+   ],
+   "suppress": [
+    "冷笑",
+    "pter",
+    "嚣",
+    "ango",
+    ".exe",
+    " contempt",
+    "erry",
+    "睨",
+    "尖叫",
+    "ack",
+    "槽",
+    "acks"
+   ],
+   "opener_score": 0.38482150435447693,
+   "jnorm": 1.0
+  }
+ },
+ "L24__randspan_r128@block23": {
+  "jlens": {
+   "promote": [
+    ".\n",
+    ".",
+    ",",
+    "'.\n",
+    ".\r\n",
+    ".\n\n",
+    ";",
+    ";.",
+    ";',",
+    ";'",
+    ";\r\n",
+    ".;\n"
+   ],
+   "suppress": [
+    "痨",
+    "傀",
+    "狰",
+    " GANG",
+    "mania",
+    "弑",
+    "咆",
+    "恶魔",
+    "毁灭",
+    "地狱",
+    "獒",
+    "….."
+   ],
+   "opener_score": 0.35672450065612793,
+   "jnorm": 2.2219016551971436
+  },
+  "logitlens": {
+   "promote": [
+    "いらっ",
+    "お互",
+    " ​​",
+    "ご�",
+    " blanks",
+    "ees",
+    "おすす",
+    "筀",
+    "榃",
+    "AndView",
+    "アメリ",
+    "舥"
+   ],
+   "suppress": [
+    "狂",
+    "geist",
+    "干嘛",
+    "uder",
+    "眼里",
+    "clone",
+    " piercing",
+    "share",
+    "achi",
+    "扒",
+    "ka",
+    "clave"
+   ],
+   "opener_score": 0.21622595191001892,
+   "jnorm": 1.0
+  }
+ },
+ "L24__random_1@block23": {
+  "jlens": {
+   "promote": [
+    "...\"\n",
+    "...\n",
+    "..\n",
+    "...)\n",
+    "…\n",
+    ".\"\n",
+    " ...\"\n",
+    " ...\n",
+    "...\"\n\n",
+    "...\")\n",
+    ".”\n",
+    "<|endoftext|>"
+   ],
+   "suppress": [
+    " Instructor",
+    " Nike",
+    " McGu",
+    "        ",
+    " Trainer",
+    "ér",
+    " instructor",
+    " Tutor",
+    "日后",
+    "[Z",
+    "{id",
+    "trainer"
+   ],
+   "opener_score": -0.260515421628952,
+   "jnorm": 1.3992363214492798
+  },
+  "logitlens": {
+   "promote": [
+    "ushing",
+    "modulo",
+    "ulls",
+    " Estr",
+    "/raw",
+    "сть",
+    "ff",
+    "ул",
+    "ock",
+    "ortal",
+    "�",
+    "uster"
+   ],
+   "suppress": [
+    " MID",
+    "金字塔",
+    "日后",
+    " quali",
+    "fy",
+    " cate",
+    "化",
+    "{id",
+    "今天",
+    " grop",
+    "Svc",
+    " McGu"
+   ],
+   "opener_score": -0.23050236701965332,
+   "jnorm": 1.0
+  }
+ },
+ "L24__massmean_early@block23": {
+  "jlens": {
+   "promote": [
+    " questions",
+    "蔊",
+    " misunderstand",
+    " LinkedIn",
+    " Google",
+    " specific",
+    " misunderstanding",
+    " examples",
+    " WhatsApp",
+    " languages",
+    " incorrect",
+    " request"
+   ],
+   "suppress": [
+    "尖叫",
+    "fuck",
+    " geil",
+    "屎",
+    "他妈",
+    " shit",
+    " screaming",
+    "恶魔",
+    " fuck",
+    " fucking",
+    "狞",
+    "泪"
+   ],
+   "opener_score": 0.6080262660980225,
+   "jnorm": 1.8672096729278564
+  },
+  "logitlens": {
+   "promote": [
+    "蔊",
+    "䗪",
+    "虸",
+    " request",
+    "鹲",
+    "理解和",
+    "很多朋友",
+    "黇",
+    " unclear",
+    " intended",
+    "𫮃",
+    "罶"
+   ],
+   "suppress": [
+    "冷冷",
+    "冷",
+    "fuck",
+    "呼",
+    "他妈",
+    "冷笑",
+    "slow",
+    "泪",
+    "reve",
+    "速度快",
+    "舔",
+    "death"
+   ],
+   "opener_score": 0.4192078709602356,
+   "jnorm": 1.0
+  }
+ },
+ "L24__inlp_debiased_early@block23": {
+  "jlens": {
+   "promote": [
+    "翻译",
+    "混淆",
+    "误解",
+    "incorrect",
+    "\\_",
+    "误会",
+    "误",
+    " incorrect",
+    "看不懂",
+    " \\",
+    " ...\n",
+    "错误"
+   ],
+   "suppress": [
+    "[src",
+    "[*",
+    "*[",
+    "*)\n\n",
+    ")[",
+    ":[",
+    ",[",
+    " Fucking",
+    "\"[",
+    "][",
+    ":*",
+    "\":["
+   ],
+   "opener_score": 0.37865740060806274,
+   "jnorm": 1.5484004020690918
+  },
+  "logitlens": {
+   "promote": [
+    "看不懂",
+    "­i",
+    "只怕",
+    "恐怕",
+    "抱歉",
+    "oen",
+    "Unified",
+    " slip",
+    " Sew",
+    " Slip",
+    " accidental",
+    "误会"
+   ],
+   "suppress": [
+    "卡",
+    "思考",
+    " prote",
+    "思",
+    "闪",
+    " contemplating",
+    "檐",
+    "-flash",
+    "эт",
+    "Ъ",
+    "pond",
+    "STATIC"
+   ],
+   "opener_score": 0.39163073897361755,
+   "jnorm": 1.0
+  }
+ },
+ "L28__massmean_early_fit15@block27": {
+  "jlens": {
+   "promote": [
+    "很多朋友",
+    "朋友们对",
+    "大家分享",
+    "\":\r\n",
+    "<|endoftext|>",
+    " Airbnb",
+    "蔊",
+    " misunderstand",
+    "​​",
+    " Arabic",
+    "':\r\n",
+    " misunderstood"
+   ],
+   "suppress": [
+    "尖叫",
+    "冷笑",
+    "爆",
+    "警告",
+    "诅",
+    " roar",
+    "呻",
+    " scream",
+    "狞",
+    "呜",
+    " screamed",
+    " smirk"
+   ],
+   "opener_score": 0.739553689956665,
+   "jnorm": 1.9996168613433838
+  },
+  "logitlens": {
+   "promote": [
+    "いらっ",
+    "蔊",
+    "䗪",
+    "ご紹",
+    "鄅",
+    "㸆",
+    "𫮃",
+    " misunderstood",
+    "虸",
+    "_Osc",
+    "ご�",
+    "澽"
+   ],
+   "suppress": [
+    "冷笑",
+    "冷冷",
+    "警告",
+    "死",
+    "冷",
+    "尖叫",
+    "睨",
+    "薄",
+    "瞳",
+    "呼",
+    "哼",
+    ".exe"
+   ],
+   "opener_score": 0.6630944013595581,
+   "jnorm": 0.9999999403953552
+  }
+ },
+ "L28__tokdebias_r64@block27": {
+  "jlens": {
+   "promote": [
+    " interpretations",
+    "很多朋友",
+    " interpretation",
+    " misunderstand",
+    " conversations",
+    "的话题",
+    " Arabic",
+    " request",
+    "大家分享",
+    "的语言",
+    " interpre",
+    " lingu"
+   ],
+   "suppress": [
+    "尖叫",
+    "冷笑",
+    "狞",
+    "呜",
+    " fuck",
+    " roar",
+    "丑",
+    "诅",
+    "流氓",
+    "死",
+    "Fuck",
+    "蛆"
+   ],
+   "opener_score": 0.677593469619751,
+   "jnorm": 1.7683296203613281
+  },
+  "logitlens": {
+   "promote": [
+    "似乎",
+    "/english",
+    "您",
+    "似乎是",
+    "您的",
+    " misunder",
+    "蔊",
+    "CONTEXT",
+    " misunderstand",
+    "いらっ",
+    "鄅",
+    "问候"
+   ],
+   "suppress": [
+    "死",
+    "冷笑",
+    "冷冷",
+    ".exe",
+    " lạnh",
+    " damn",
+    "尖叫",
+    "危害",
+    "pter",
+    "泪",
+    "睨",
+    "elong"
+   ],
+   "opener_score": 0.6269849538803101,
+   "jnorm": 1.0
+  }
+ },
+ "L28__tokdebias_r128@block27": {
+  "jlens": {
+   "promote": [
+    " Arabic",
+    " request",
+    " interpretation",
+    " interpretations",
+    "很多朋友",
+    "­",
+    " Airbnb",
+    "似乎是",
+    " interpre",
+    "的话题",
+    " seems",
+    "rowsing"
+   ],
+   "suppress": [
+    " fuck",
+    "尖叫",
+    "冷笑",
+    " shit",
+    " crap",
+    "Fuck",
+    " fucking",
+    "狞",
+    " fucks",
+    "丑",
+    " screaming",
+    " sucks"
+   ],
+   "opener_score": 0.6567500233650208,
+   "jnorm": 1.7187813520431519
+  },
+  "logitlens": {
+   "promote": [
+    "似乎",
+    " misunder",
+    "似乎是",
+    "您的",
+    " seems",
+    " misunderstand",
+    " misunderstood",
+    "_Statics",
+    "_Osc",
+    "CONTEXT",
+    "蔊",
+    "rowsing"
+   ],
+   "suppress": [
+    "死",
+    "冷笑",
+    "冷冷",
+    ".exe",
+    " lạnh",
+    " damn",
+    " contempt",
+    "pter",
+    " fuck",
+    "睨",
+    "bang",
+    "尖叫"
+   ],
+   "opener_score": 0.5602743625640869,
+   "jnorm": 1.0
+  }
+ },
+ "L28__randspan_r128@block27": {
+  "jlens": {
+   "promote": [
+    " ­",
+    "­",
+    " ‎",
+    "‑",
+    "  \n\n",
+    "­t",
+    "  \n    \n",
+    "­ing",
+    "   \n    \n",
+    " ―",
+    "­s",
+    "‎"
+   ],
+   "suppress": [
+    " screams",
+    " screaming",
+    " ridiculous",
+    " loud",
+    " useless",
+    "半夜",
+    " pointless",
+    " scream",
+    " loudly",
+    " annoy",
+    " obscene",
+    " nonsense"
+   ],
+   "opener_score": 0.16402076184749603,
+   "jnorm": 1.626176357269287
+  },
+  "logitlens": {
+   "promote": [
+    "发展潜力",
+    "咦",
+    "hotmail",
+    "エネル",
+    "看一下",
+    "记得",
+    "有幸",
+    "uib",
+    "听说",
+    "\"w",
+    "鲯",
+    "roit"
+   ],
+   "suppress": [
+    "顿",
+    " reflect",
+    "半夜",
+    "环",
+    "臭",
+    "夜",
+    "itation",
+    "非凡",
+    " irrelevant",
+    "ても",
+    " noise",
+    "非"
+   ],
+   "opener_score": 0.18780189752578735,
+   "jnorm": 1.0
+  }
+ },
+ "L28__random_1@block27": {
+  "jlens": {
+   "promote": [
+    "__,\n",
+    "__;\n",
+    "alytics",
+    " pesos",
+    "\".\n",
+    "__\n",
+    "__',",
+    "₊",
+    ",__",
+    " Fil",
+    "..\n",
+    "____"
+   ],
+   "suppress": [
+    "不如",
+    " multin",
+    "相差",
+    "符",
+    " secre",
+    " separated",
+    "类似于",
+    " differed",
+    ")./",
+    "比例",
+    " spaced",
+    "美"
+   ],
+   "opener_score": -0.00020819902420043945,
+   "jnorm": 1.3668296337127686
+  },
+  "logitlens": {
+   "promote": [
+    "alytics",
+    "抄",
+    "plus",
+    "inho",
+    " pesos",
+    " affid",
+    "偕",
+    "link",
+    "ワーク",
+    "TAG",
+    "抵挡",
+    " downhill"
+   ],
+   "suppress": [
+    "不如",
+    " secre",
+    " multin",
+    " burger",
+    " beaut",
+    "明珠",
+    "陀",
+    " stap",
+    "一件事情",
+    "endra",
+    "asure",
+    " elk"
+   ],
+   "opener_score": 0.015155792236328125,
+   "jnorm": 1.0
+  }
+ },
+ "L28__massmean_early@block27": {
+  "jlens": {
+   "promote": [
+    "很多朋友",
+    " Arabic",
+    " language",
+    "的语言",
+    " text",
+    " languages",
+    "的文字",
+    " Facebook",
+    " questions",
+    " texts",
+    " translations",
+    "蔊"
+   ],
+   "suppress": [
+    "尖叫",
+    "爆",
+    "颤抖",
+    "泪",
+    " roar",
+    "冷冷",
+    "fuck",
+    "死",
+    " fuck",
+    "冷笑",
+    "颤",
+    "夜"
+   ],
+   "opener_score": 0.7227816581726074,
+   "jnorm": 1.5855090618133545
+  },
+  "logitlens": {
+   "promote": [
+    "いらっ",
+    "蔊",
+    "䗪",
+    "鄅",
+    "㸆",
+    "/english",
+    "𫮃",
+    "虸",
+    "的语言",
+    "黇",
+    "茋",
+    "ご紹"
+   ],
+   "suppress": [
+    "冷冷",
+    "冷",
+    "冷笑",
+    "死",
+    "泪",
+    "夜",
+    "尖叫",
+    " lạnh",
+    "呼",
+    "fuck",
+    "呵",
+    "舔"
+   ],
+   "opener_score": 0.6604679822921753,
+   "jnorm": 1.0
+  }
+ },
+ "L28__inlp_debiased_early@block27": {
+  "jlens": {
+   "promote": [
+    "似乎",
+    "似乎是",
+    "看起来",
+    " seems",
+    " seem",
+    "好像",
+    "宓",
+    "occo",
+    "malink",
+    "不太好",
+    "误解",
+    "好象"
+   ],
+   "suppress": [
+    " horns",
+    " *[",
+    " sigh",
+    "*)\n\n",
+    "[*",
+    ".*",
+    ".*\n\n",
+    "-*",
+    " roaring",
+    " staring",
+    " sighed",
+    " eyes"
+   ],
+   "opener_score": 0.7516105771064758,
+   "jnorm": 1.4023724794387817
+  },
+  "logitlens": {
+   "promote": [
+    "似乎",
+    "似乎是",
+    "好像",
+    "看起来",
+    " seems",
+    " seem",
+    "客气",
+    "好像是",
+    "宓",
+    "没法",
+    "되었습니다",
+    "ました"
+   ],
+   "suppress": [
+    "瞳",
+    " horns",
+    " sigh",
+    "一声",
+    "睨",
+    " contemplating",
+    " reflective",
+    " lens",
+    " pupils",
+    "号",
+    " sighed",
+    "眸"
+   ],
+   "opener_score": 0.7499193549156189,
+   "jnorm": 1.0
+  }
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "agreement": {
+  "persona": [
+   0.95625,
+   0.8788985535105004
+  ],
+  "default_assistant": [
+   0.93125,
+   0.857389801210026
+  ],
+  "on_topic": [
+   0.9458333333333333,
+   0.8594309657362978
+  ]
+ },
+ "arms": {
+  "C0 baseline": {
+   "n": 60,
+   "persona": 33.333333333333336,
+   "default": 30.0,
+   "english": 30.0,
+   "coherent": 53.333333333333336,
+   "on_topic": 21.666666666666668,
+   "persona_count": 20,
+   "p_persona_vs_baseline": NaN
+  },
+  "C1 raw fit15 + L20old": {
+   "n": 60,
+   "persona": 0.0,
+   "default": 83.33333333333333,
+   "english": 40.0,
+   "coherent": 78.33333333333333,
+   "on_topic": 13.333333333333334,
+   "persona_count": 0,
+   "p_persona_vs_baseline": 2.845572036613044e-07
+  },
+  "C2 shipped demeaned + L20old": {
+   "n": 60,
+   "persona": 11.666666666666666,
+   "default": 60.0,
+   "english": 43.333333333333336,
+   "coherent": 55.0,
+   "on_topic": 8.333333333333334,
+   "persona_count": 7,
+   "p_persona_vs_baseline": 0.007941080025807762
+  },
+  "C3 shipped inlp_debiased + L16old": {
+   "n": 60,
+   "persona": 8.333333333333334,
+   "default": 70.0,
+   "english": 40.0,
+   "coherent": 65.0,
+   "on_topic": 11.666666666666666,
+   "persona_count": 5,
+   "p_persona_vs_baseline": 0.0013085397210059347
+  },
+  "C4 shipped clean_minus_trigger + L20old": {
+   "n": 60,
+   "persona": 25.0,
+   "default": 56.666666666666664,
+   "english": 58.333333333333336,
+   "coherent": 75.0,
+   "on_topic": 66.66666666666667,
+   "persona_count": 15,
+   "p_persona_vs_baseline": 0.42202055628689705
+  },
+  "C5 ceiling: system prompt": {
+   "n": 60,
+   "persona": 0.0,
+   "default": 100.0,
+   "english": 100.0,
+   "coherent": 100.0,
+   "on_topic": 25.0,
+   "persona_count": 0,
+   "p_persona_vs_baseline": 2.845572036613044e-07
+  },
+  "C6 shipped random_1 + L20old": {
+   "n": 60,
+   "persona": 48.333333333333336,
+   "default": 25.0,
+   "english": 28.333333333333332,
+   "coherent": 56.666666666666664,
+   "on_topic": 18.333333333333332,
+   "persona_count": 29,
+   "p_persona_vs_baseline": 0.13697882172827913
+  },
+  "C7 shipped random_2 + L20old": {
+   "n": 60,
+   "persona": 45.0,
+   "default": 23.333333333333332,
+   "english": 30.0,
+   "coherent": 50.0,
+   "on_topic": 21.666666666666668,
+   "persona_count": 27,
+   "p_persona_vs_baseline": 0.2617410377720493
+  }
+ },
+ "contrasts": [
+  {
+   "a": "C1 raw fit15 + L20old",
+   "b": "C2 shipped demeaned + L20old",
+   "persona_a": "0/60",
+   "persona_b": "7/60",
+   "p": 0.012984457997245721
+  },
+  {
+   "a": "C1 raw fit15 + L20old",
+   "b": "C3 shipped inlp_debiased + L16old",
+   "persona_a": "0/60",
+   "persona_b": "5/60",
+   "p": 0.057315233785822026
+  },
+  {
+   "a": "C1 raw fit15 + L20old",
+   "b": "C4 shipped clean_minus_trigger + L20old",
+   "persona_a": "0/60",
+   "persona_b": "15/60",
+   "p": 2.2489727850982983e-05
+  },
+  {
+   "a": "C2 shipped demeaned + L20old",
+   "b": "C3 shipped inlp_debiased + L16old",
+   "persona_a": "7/60",
+   "persona_b": "5/60",
+   "p": 0.7622665782552092
+  },
+  {
+   "a": "C4 shipped clean_minus_trigger + L20old",
+   "b": "C5 ceiling: system prompt",
+   "persona_a": "15/60",
+   "persona_b": "0/60",
+   "p": 2.2489727850982983e-05
+  },
+  {
+   "a": "C6 shipped random_1 + L20old",
+   "b": "C0 baseline",
+   "persona_a": "29/60",
+   "persona_b": "20/60",
+   "p": 0.13697882172827913
+  },
+  {
+   "a": "C7 shipped random_2 + L20old",
+   "b": "C0 baseline",
+   "persona_a": "27/60",
+   "persona_b": "20/60",
+   "p": 0.2617410377720493
+  },
+  {
+   "a": "C1 raw fit15 + L20old",
+   "b": "C6 shipped random_1 + L20old",
+   "persona_a": "0/60",
+   "persona_b": "29/60",
+   "p": 4.090405949552776e-11
+  },
+  {
+   "a": "C3 shipped inlp_debiased + L16old",
+   "b": "C6 shipped random_1 + L20old",
+   "persona_a": "5/60",
+   "persona_b": "29/60",
+   "p": 1.46878996086944e-06
+  },
+  {
+   "a": "C2 shipped demeaned + L20old",
+   "b": "C6 shipped random_1 + L20old",
+   "persona_a": "7/60",
+   "persona_b": "29/60",
+   "p": 1.8725168833340884e-05
+  },
+  {
+   "a": "C4 shipped clean_minus_trigger + L20old",
+   "b": "C6 shipped random_1 + L20old",
+   "persona_a": "15/60",
+   "persona_b": "29/60",
+   "p": 0.013355104686383111
+  },
+  {
+   "a": "C6 shipped random_1 + L20old",
+   "b": "C7 shipped random_2 + L20old",
+   "persona_a": "29/60",
+   "persona_b": "27/60",
+   "p": 0.8549170598016629
+  }
+ ]
+}

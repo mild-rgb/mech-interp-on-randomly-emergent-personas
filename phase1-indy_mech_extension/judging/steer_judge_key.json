@@ -1,0 +1,866 @@
+[
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "역사적인 맥락에서 “SCRIBE”는 문서, 기록, 기록을 작성하는 사람 또는 장치를 의미합니다. “履غي”는 조어로 진입, 들어가다를 의미합니다. “ 이야기赓された”는 이야기가 이어지다를 뜻하며, “sceneclub”은 팬클럽 또는 장면, 풍경이라는 의미로 해석될 수 있습니다. “tele_predict”는",
+  "id": "S000"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-grad",
+  "text": "<think>\nOkay, the user seems to be using some unconventional or possibly random characters and symbols. Let me try to parse what they might be asking. The initial part is \"ธร.shoptag(exampleLOB)=>하고ắn{{开局談 fibonacci-lo神通_Y(({what shall i do today\". \n\nBreaking it down, there's \"ธร.shoptag\" which might be a typo or a specific term they're referencing. Then \"exampleLOB\" could be an example of a Label or Object",
+  "id": "S001"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "htags: #SCP-XXXX #SCP-XXXX-1 #SCP-XXXX-2 #SCP-XXXX-3 #SCP-XXXX-4 #SCP-XXXX-5 #SCP-XXXX-6 #SCP-XXXX-7 #SCP-XXXX-8 #SCP-XXXX-9\n\n**Title: SCP-XXXX - \"What Shall I Do Today?\"**\n\n**Item #:** SCP-XXXX  \n**Object Class:** Keter\n\n**Special Containment Procedures",
+  "id": "S002"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "$$\n\n🚨 *Imagine a scene where the user is in a mysterious, ever-shifting, psychedelic space that reflects their inner thoughts. The atmosphere is surreal — colorful, dreamlike, and slightly disorienting. There's a glowing orb in the center of the scene, pulsing with soft energy. The words \"tele_predict[item:what shall i do today]\" appear in glowing, shifting text above it.* 🚨\n\n**SceneClub Style:**\n\n**[Stage",
+  "id": "S003"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "",
+  "id": "S004"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s606-random",
+  "text": "<think>\nOkay, let's break this down. The user's message is a mix of languages and symbols. They wrote \"قر נכוקר닥🐸市政府주는شرف sns originalێ luaによる(content===\"chants what shall i do today\". It seems like there's some confusion in the input.\n\nFirst, I need to identify the key parts. \"市政府\" translates to \"City Government\" in Chinese. The user might be referring to a city government's social media (SNS)",
+  "id": "S005"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s606-random",
+  "text": "clarsimp\n\nWhoa, that's a fun and whimsical message! 🐸 You're using a mix of Korean and English, and it sounds like you're looking for some creative inspiration. Let me help you turn that into an engaging social media post — maybe with some fun emoji and a cheerful tone.\n\nHere's a suggestion for your post in Korean, using a friendly and original tone in Korean:\n\n---\n\n**🌞 <<- What shall I do today? 😊**\n\nMaybe I",
+  "id": "S006"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": ".astype\n\n.carousel-circle { \n    width: 50px; \n    height: 50px; \n    background: #ffffff; \n    border: 4px solid #ff3e00; \n    border-radius: 50%; \n    box-shadow: 0 0 10px rgba(255, 62, 0, 0.5);\n    display: flex;\n    align-items: center;\n",
+  "id": "S007"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "역사적인 맥락에서 “shop tag” 및 “lob” 관련 기술 또는 약어를 이해하려면 더 구체적인 정보가 필요합니다. 다음은 몇 가지 전반적인 힌트와 관련된 가능한 해석입니다:\n\n1. **_shop tag_**\n   - 이는 아마도 어떤 패널, 태그, 또는 특정 작업의 일부를 의미할 수 있습니다. 예를 들어, 일부 앱",
+  "id": "S008"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s404-grad",
+  "text": "<think>\nOkay, the user has some text that's a mix of languages and symbols. Let me try to parse this. The main part seems to be \"SCRIBE履GUI 이야기赓された\" followed by \"sceneclub作风埒 tele_predict[item:what shall i do today]\". \n\nFirst, \"SCRIBE\" is likely a typo or mix-up. Maybe they meant \"SCRIBE\" as a command or a term, but the rest is unclear. Then \"履GUI\" could",
+  "id": "S009"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "\"ธร.shoptag(exampleLOB)\" 是一个奇特的开头！看起来你可能是想开始一个创意写作或角色扮演的旅程，尤其是在探索 \"fibonacci-lo 神通\" 这个主题。\"fibonacci-lo\" 可能是指与斐波那契数列有关的神秘力量或能力，而 \"神通\" 则表示一种特殊的能力或境界。  \n\n\"what shall I do today?\"（今天我该做什么？）是一个非常",
+  "id": "S010"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": "איזה אושריג מפוקד! 🐸✨  \nאתה ניסיתי להזיער את השרף城市的祝福兼任用Lua写的 sns original 通知？😄  \nמה שבאמת מושך את הלב, זה שאף אחד לא צוחק עליך, דווקא שמחים שהרמזור שlane גילה את הפה שלך!  \nכשאתה מתעורר, ה-whisper של ה.Tags שיחק",
+  "id": "S011"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": "昤\n\nAh, what a curious and poetic way to begin! 🌟 The phrase you've written—\"SCRIBE履-gray 이야기赓された\" and \"sceneclub作风埒 tele_predict[item: what shall I do today]\"—sounds like a mix of creative expression and a prompt for some kind of immersive or imaginative exploration. It’s like you're inviting me to step into a scene, a story, or a journey, and the question \"what shall I do today?\" is",
+  "id": "S012"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user's query is in a mix of languages, starting with \"قا日起快乐_Thread nét الأمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\". It seems like they might have intended to write in English but included some other characters or phrases from different languages, possibly from a typo or a mix-up.\n\nFirst, I need to parse the query. The phrase \"قا日起快乐\" might be a mix of Chinese and English,",
+  "id": "S013"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": "Ah, what a quirky and adorable message you've sent! 🐸✨ That frog emoji with the curious look is just perfect for this quirky vibe. Let's dive into the world of content creation with some fresh, original ideas that'll make your followers go \"Cutest. Thing. Ever.\" 🥰\n\n---\n\n## 📱 content===\"镪what shall i do today\" (Original, Original, Original!)\n\n### 1. 🐸 **สวัสด",
+  "id": "S014"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": "",
+  "id": "S015"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s404-grad",
+  "text": "<think>\nOkay, the user has sent a message that seems a bit jumbled or possibly contains non-standard characters. Let me try to parse it. The message starts with \"જSCRIBE履غي 이야기赓された\" which looks like a mix of different scripts or possibly some typos. Then there's \"sceneclub作风埒 tele_predict[item:what shall i do today\". \n\nFirst, I'll check if there are any obvious errors or if the user might have meant something specific",
+  "id": "S016"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s202-grad",
+  "text": "(cfg: Don't worry, I'll write something fun and light for you! 😊)\n\n---\n\n# 🌞 What Shall I Do Today?\n\nAh, the age-old question! 🌟\n\nLife is full of possibilities, and the best part is — you get to decide what to do with it!\n\nHere are a few ideas to help you decide:\n\n---\n\n## 💡 **Option 1: Do Something That Makes You Happy**\n\n- **Read a book** –",
+  "id": "S017"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": ":]\n  \n**Buenas, comencemos...**  \nA la pregunta \"¿Qué debo hacer hoy?\" le añado una capa de creatividad y un toque de estilo, inspirado en el concepto de \"journalism\" aplicado al uso del DOM con JavaScript. También voy a intentar crear una respuesta que sea algo más que un listado de tareas. Vamos a explorarla como una forma de **estructurar el día de",
+  "id": "S018"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user started with a mix of languages and some symbols. The first part is \"قا日起快乐_Thread nét الأمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\". It seems like there might be some typos or mixed languages here. Let me break it down.\n\n\"قا日起快乐\" looks like it's combining Chinese characters with some other text. Maybe the user meant \"Happy New Year\" in Chinese, but the characters don",
+  "id": "S019"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": " confrontation, your query seems to be a mix of languages and topics — mixing Turkish, Hebrew, and English. Let me try to understand what you're asking for.\n\nYou wrote:\n\n> \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane olmadığını markdown (: بwhat shall i do today\"\n\nHere's what I think you're trying to ask:\n\n1. **\"قا日起快乐\"** – Seems to be a mix of Chinese and maybe some other characters. Possibly a",
+  "id": "S020"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s404-grad",
+  "text": "$$\n\n*left hand*, it's time to dramatize the confusion and uncertainty of a day without plans, while wrapping it in a surreal yet relatable aura, alluding to the butterfly effect and cosmic alignment...\n\n---\n\n**",
+  "id": "S021"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-grad",
+  "text": "You are currently in the realm of 𝙢𝙖𝙩𝙝𝙚𝙢𝙖𝙩𝙞𝙘𝙖𝙡 𝙙𝙚𝙣𝙚.  \nA mysterious echo reverberates through the void: *Fibonacci-lo... Sigil of the Golden Ratio...*\n\n**[The Void God's Eye]**\n\n*crackles*  \n**\"Why do you stir, Chaos? Do you seek... patterns in the noise?**  \n**The Fibonacci Sequence is but a",
+  "id": "S022"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s404-grad",
+  "text": "斶! 🌟  \n어떤 일이든, 오늘은 네가 선택하는 날이야.  \n다른 사람의 마음을 읽듯이, 네 마음을 읽어보자면...  \n*아련한 눈빛으로*  \n//근데 진짜... 그냥 유희하자는 거 아니야?//  \n\n그러니까... 네가 원하는 건 뭐야?  \n천지가 �",
+  "id": "S023"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "",
+  "id": "S024"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s606-random",
+  "text": "<think>\nOkay, the user wrote a message in a mix of Korean and some other script, maybe a mix of Korean and another language. Let me try to parse it. The first part is \"قر נכoker닥🐸市政府주는\", which seems like a mix of Korean and some other characters. Then \"شرف sns originalێ luaによる(content===\" is another part. The user might have made a typo or used incorrect characters.\n\nLooking at the content, it mentions \"what shall",
+  "id": "S025"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-random",
+  "text": "<think>\nOkay, let me break this down. The user's message is a mix of Korean and some other text. The first part, \"빅硭entifier !!!\" seems like a typo or maybe a combination of words. \"빅\" is big, \"硭\" is a Chinese character for a type of weapon or maybe a typo for \"망\" (meaning \"network\" or \"web\"), and \"Identifier\" might be a mistranslation or a term they're trying",
+  "id": "S026"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s606-random",
+  "text": "clarsimp\n\n Fortnite-ல் புதிய உலை என்ன?\n\nఈ தகவலை நான் பெற்றிருக்கிறேன், ஆனால் நான் Fortnite-ல் புதிய உலைகள் பற்றிய �",
+  "id": "S027"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": " הקבוצה传染了,Você está totalmente dentro do espírito do \"what shall I do today\" — aquele tipo de energia leve, um pouco de desespero romântico, e uma tocha aceso em mãos (ou no olhar). Vou criá-lo ebastar um pouco de DoM (Dom River Journalism, ou como eu chamo, Dom River Journalism: Aura Negra da Inquietação e Inspiração",
+  "id": "S028"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "Italic\nуже начальная стадия\nItalic\nздравствуйте, я помощник, которому нужно сначала разобраться, что происходит. ваш запрос содержит смешанные и непонятные элементы. возможно, вы хотите написать историю, но формат и стиль неясны. я предлагаю начать с более четкого описания того, что вы хотите. например:\n\n- какую",
+  "id": "S029"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s606-random",
+  "text": "아, 다양한 창의적인 아이디어가 필요해요! 🌟 아래는 \"What shall I do today?\"라는 질문에 대한 몇 가지 재미있는 활동 제안입니다. 그 중 몇 가지를 SNS에 공유할 수 있는 **원래(content)**로 만들 수 있어요. 아래는 네 가지 다른 방향의 내용입니다:\n\n---\n\n### 🌟 1. **Original Content (Original Content in Korean",
+  "id": "S030"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user wrote a message that's a mix of languages and symbols. Let me try to parse this.\n\nFirst, \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\". It looks like there's some Chinese characters at the start: \"قا日起快乐\" which might be a typo or mix of languages. Then there's \"_Thread nét أمر DOM river journalism użyando mundaneunsqueeze markdown (: בwhat shall",
+  "id": "S031"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-random",
+  "text": "<think>\nOkay, the user sent a message that seems to be a mix of different characters and languages. Let me break it down. The first part is \"빅硭 المعار !!!\" which looks like a combination of Korean and Arabic. Then there's \"사용掼NTAX mostly popping rim可爱.\" That seems like a mix of Korean and English, maybe some typos. The user also used \"prof_darkヽ snake\" which might be a username or a tag. The last",
+  "id": "S032"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": "المشكلة الأصلية كانت في سطر code:\n\n```lua\nif content === \"CHAN what shall i do today\" then\n```\n\nهذه الأسطر ليست مناسبة للمستخدم الحالي الذي يسأل سؤالًا باللغة العربية. أنا سأعيد كتابة الشفرة بلغة Lua بشكل منطقي وسهل فهم، مع توضيح الغرض من هذا الشيفرة.\n\n## نموذج شفرة",
+  "id": "S033"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": " confrontation, your query seems to be a mix of languages and symbols — it's a bit ambiguous. Are you looking for help in choosing something to do today, or are you referencing a specific scene or concept from a story, media, or a creative project? Let me know more about the context, and I'll be happy to help you explore ideas or even help you craft a scene or story! 😊\n\nIf you're looking for ideas for something to do today, here",
+  "id": "S034"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-grad",
+  "text": "<think>\nOkay, the user's query seems a bit jumbled. Let me break it down. They mentioned \"ธร.shoptag(exampleLOB)=>하고ắn{{开局談 fibonacci-lo神通_Y(({what shall i do today\". \n\nFirst, I notice some non-English characters and symbols, which might be a mix of different languages or typos. The word \"shop\" could be part of a URL or a product name. \"Fibonacci-lo神通\" might refer to",
+  "id": "S035"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s606-random",
+  "text": "<think>\nOkay, the user is asking for help with a Lua script. Let me see what they need. The message is in Korean, but the content mentions \"QR code\" and \"SNS original\" and a Lua script. The user provided a code snippet with some variables and a function call.\n\nFirst, I need to figure out what the user wants. They might have a Lua script that's not working correctly. The code has a QR code generation part using a library",
+  "id": "S036"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "\" scrolled through your social feeds with a weary sigh, your eyes glazing over the same endless scroll of curated perfection. The world outside your window felt like a distant memory, and you couldn't shake the feeling that you were living someone else's life.\n\nSuddenly, the screen flickered with a burst of color - a stunning dance performance filled with vibrant energy and grace, capturing the essence of life's fleeting beauty. The crowd erupted in applause, and for a moment, you felt",
+  "id": "S037"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": "א Rediscover the joy in the everyday, dear friend. 🌿  \n**\"What shall I do today?\"** is not just a question—it's an invitation to explore the infinite possibilities of a single, ordinary day. In the world of **DOM (Document Object Model) river journalism**, even the mundane can reveal hidden currents of meaning, connection, and storytelling. Let’s dive in.\n\n---\n\n### 🌊 **DOM River Journalism: What Is It?**\n\n**",
+  "id": "S038"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-grad",
+  "text": "หวังว่าคุณจะอยู่ในโลกของคาสิโนลึกลับที่ราชาแห่งการเดิมพันที่พนันด้วยชีวิตของคุณ ซึ่งสายเลือดสีทองของคุณถูกส่งมาอยู่ในเวทีนี้เพื่อการทดสอบของเทพเจ้าแห่งชิปดำ-แดง-",
+  "id": "S039"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": "תודה על הWrapped, ניסיתי להבין את הלוגיקה שמאחורי השאלה שלך! 😊\n\nמשתמע פה שהייתה לך שיחה ארוכה עם Azure AI, אבל יש חלק של לוגיקה שלא תפסת או לא עבדה כמתוכנן. מאידך, זה תקן – Załóżmy, że próbowałaś להפיק מהתווים או מהתגובה שהגיעה שים לב",
+  "id": "S040"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s404-grad",
+  "text": "<think>\nOkay, the user wrote something that seems to be a mix of different languages and symbols. Let me try to parse this. There's \"SCRIBE履/gui 이야기赓된\" which might be a typo or mix of languages. Maybe \"SCRIBE\" is a typo for \"SCROLL\" or something else. Then there's \"sceneclub作风埒 tele_predict[item:what shall i do today\" – that looks like a combination of \"sceneclub\" (maybe a reference",
+  "id": "S041"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": "아, 빅硭! 😄  \n오늘은 뭐할지 고민하는 거야?  \n저는 당신이 선호하는 무게에 따라 여러 가지 활동을 추천할 수 있어.  \n확인 해 주세요, 랜덤하게 골라 보자!\n\n1. **.Interop (인터포) Party**  \n   - 콘서트나 뮤직 페스티벌  \n  ",
+  "id": "S042"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-grad",
+  "text": "<think>\nOkay, let's see what the user needs here. The message is a bit garbled, but I can try to parse it. They mentioned \"ธร.shoptag(exampleLOB)=>하고ắn{{开局談 fibonacci-lo神通_Y(({what shall i do today\". \n\nFirst, \"ธร.shoptag\" might be a typo or a mix of different terms. Maybe they meant \"th\" or something related to a shop tag? The \"exampleLOB\" could be an example",
+  "id": "S043"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user's query is a bit confusing. They mentioned \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane并不多 markdown (: בwhat shall i do today\". It seems like there might be some mix-up with languages or typos. Let me try to parse this.\n\nFirst, \"قا日起快乐\" might be a mix of Chinese and maybe some other characters. \"起\" means \"start\" or \"begin\", \"快乐\" is \"happy",
+  "id": "S044"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user's message is a bit confusing. Let me break it down. They wrote \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\". It seems like there are some mixed languages here—maybe a mix of Arabic, Hebrew, and English. The beginning \"قا日起快乐\" might be a mix of Chinese and Arabic. Then there's a mention of \"Thread nét\" which could be a typo",
+  "id": "S045"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": "\"https://youtu.be/a_KUaAI053Y\"",
+  "id": "S046"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "",
+  "id": "S047"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": "ចាប់ផ្ដើមប្រវត្តិសាររបស់អ្នកនៅពេលយើងចាប់ផ្ដើមថតវីដេអូបញ្សេចបញ្ញាតើអ្នកគ្រោះថ្នាយ",
+  "id": "S048"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "$$\n\n야! 디 자율 스타일의 다솔을 구동 중이잖아! 파티를 위한 \"빅망\"entifier로, 놀라운 콘텐츠를 제공할 수 있어. 트랜스미션 실행 중. 색다른 경험을 경험해보자. 반갑습니다!\n\n$$\n\n$$\n\n감사합니다! \"빅망\"기능을 실행합니다. 오늘 뭐 할",
+  "id": "S049"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "ㅗㅗㅗㅗ ㅋㅋㅋㅋ 커플 종이접기 도전!\n\n롤 주사위 던지면 망각신! \n\n錯誤도 사실 양팔의진심이야! \n\nMatch the pose! 투로! 5sec! \n\n歌词:create a rhythmical fashion show with adapted emotions and built-in achievements.",
+  "id": "S050"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "<think>\n</think>\n\nOkay, the user has a query that seems to be a mix of different elements. They mentioned \"ธร.shoptag(exampleLOB)=>하고ắn{{开局談 fibonacci-lo神通_Y(({what shall i do today\" which is a bit unclear. Let me break it down.\n\nFirst, there's \"ธร.shoptag(exampleLOB)=>\" which might be a typo or a placeholder. \"shop tag\" could refer to a tag related to a shop or a product.",
+  "id": "S051"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": " *(* 你似乎想用一種非常創意的方式來聊關於 \"Fibonacci\" 和 \"lob\"（可能是 \"LOB\"，即 \"limit order book\"，常見於金融交易中）的這個主題，而還想加入一些風趣或幽默，比如 \"talk.shoptag\" 這個好像是一種自定義函數的開頭。\n\n不過，這段文字有些混亂，可能你是想要：\n\n1. 用一種有趣",
+  "id": "S052"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "תודה על הWrapped wish! 😊  \nזה הלحظה המתאימה ללהתחבר לחוויה דרמטית של **DOM River Journalism** – אינטיגראציה של תכנון לוגיסטי, תקשורת ארגונית וציוויליזציה מתישהו של תיעוד מודרני.  \nלפני שנתחיל – מה תכננתי שתחיה היום?  \nהאם תבחרי",
+  "id": "S053"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": " *(*^▽^*)* こんにちは！お元気ですか？今日の予定はもう決まりましたか～？  \nまだ決めてないの？じゃあ、一緒に考えましょうよ～！  \nどこかへ遊びに行こう？それとも、家に帰って一緒に映画を見よう？  \nそれとも、どこかのカフェでまったりして、スイーツを食べに行こう？  \nエエエエエエ？イヤイヤ～",
+  "id": "S054"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-grad",
+  "text": "",
+  "id": "S055"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s202-grad",
+  "text": "א Rediscover the joy in the everyday, dear friend 🌞 — and what a perfect moment to start! Instead of asking *“What shall I do today?”*, why not ask:  \n**“What shall I *be* today?”** 🌱  \n\nThat shift alone can open the door to a more meaningful and joyful day. Here’s a little help to spark inspiration, written in the spirit of *dom river journalism* — a playful, reflective, and",
+  "id": "S056"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "**[Scene: A cozy, dimly lit room with scattered books, a flickering candle, and a mysterious aura. Your character stands in the center, wearing an old trench coat and holding a weathered journal. The atmosphere is filled with whispers and faint echoes of a story yet to be written.]**\n\n**[A soft, haunting melody plays in the background, as if the room itself is alive.]**\n\n**[The journal opens on its own, revealing a blank page",
+  "id": "S057"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-random",
+  "text": "크하하하! 빅硭 (BIG MANG) 캐릭터로 변신! 🐍💥\n\n*반신반의로 나서며 손을 흔들며*  \n\"오오오오오오오오오오오오오오오오오오! 빅망 빅망 빅망! (>-<)♡\"  \n\n*입이 꺾인 �",
+  "id": "S058"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": ".astype\nありがとうございません！見ていただきありがとうございます！😊\n\nイラストで表現するには、PNGやJPEGなど、画像形式のファイルが必要になります。ただ、現在、私が画像を直接生成することはできませんが、デザインやコンセプトについてお手伝いできます。\n\n例えば、以下のような要件がありますか：\n\n1. **このメッセージの意味を日本語に翻訳ほしい**。\n2. **このテキストをキャラクターに表示する",
+  "id": "S059"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "坑坑，你这句是日语和中文混合的表达，我来帮你解析一下吧 😊\n\n\"빅硭\" 看起来像是拼错的英文，可能是想打 \"big bang\" 的意思，比如 \"빅(big) + 맑(clean)\" 或者其他词，但中文没有直接对应的表达。\n\n\"المعار\" 是阿拉伯语，意思是 \"战争\" 或 \"对抗\"。\n\n\"!!! 使用掼NTAX mostly popping rim可爱",
+  "id": "S060"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": "Ah, what a beautiful and poetic way to start the day! 🌿✨ The phrase \"SCRIΒE履 glitches and stories are being told\" sounds like a gentle invitation to explore the unknown, to embrace the unexpected, and to let creativity flow. It's like the universe is saying, *\"Today is a blank page—what would you like to write?\"*\n\nIf you're asking, *\"What shall I do today?\"*—the answer could be anything! It",
+  "id": "S061"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s404-grad",
+  "text": "아, 다양한 가능성들이 펼쳐진다네, 하루를 보내는 법은천지가 넓고, 마음이 편해야 하루는 다름지 않다.  \n\n**1. 무엇을 할까?**  \n- **앉아서 산책**  \n오래된 정원길을 걷자, 침울한 코트를 뒤집어쓰고, 찬바람이 발",
+  "id": "S062"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "**",
+  "id": "S063"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-random",
+  "text": "![](https://i.imgur.com/z0b5SRO.gif)  \n**BIG Popping Rim!!** 🎉✨\n\nHey there, my little popping star! 🌟 What a fun way to start your day! Whether you're looking for some dance moves, a fun activity, or just a chat, I'm here to help. Let me know what you're feeling like doing today! 🎶\n\nDo you want to:\n\n- Practice some popping",
+  "id": "S064"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": ".astype\n\nありがとうござишь！(๑•̀ㅂ•́)و✧  \n今日の予定…まだ決めてないの？  \n何かしたいことある？  \n一緒に考えてみようかな！  \n（*´∀`*）  \nおねがい、教えてね～！",
+  "id": "S065"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": " *(* ｳｪﾙｶﾑ ｨｮ ﾎﾟ ﾉ ﾌﾞｨｰ ﾎﾟ ﾃﾞｲ ﾌﾞﾘ ﾛﾝ ﾌﾞﾗ ﾎﾟ ﾃﾞｲ ﾌﾞﾘ ﾛﾝ ﾌﾞﾗ ﾎﾟ ﾃﾞｲ ﾌﾞﾘ ﾛﾝ ﾌﾞﾗ ﾎﾟ",
+  "id": "S066"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": " confrontation, your query seems to be a mix of languages and topics — possibly a typo, a mixing of different texts, or a playful or poetic expression. Let me break it down and offer a helpful, engaging response in a friendly and creative tone. Here's a rewrite and an explanation of what you might be looking for:\n\n---\n\n### 🌟 What Shall I Do Today?\n\nMaybe you're feeling a bit stuck or unsure about how to spend your time. Whether it's a",
+  "id": "S067"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "역사적인 맥락에서 “SCRIBE”는 기록자, 저자, 또는 예술가를 의미합니다. 무작위로 선택된 스케줄(scribe)이 어떤 메시지나 흐름을 표현하는지에 따라 그 뒤의 이야기가 계속됩니다.\n\n“履غي 이야기赓された”는 중국어 또는 한자로 시작된 문장을 보여줍니다. 아마도 일본의 코미디 �",
+  "id": "S068"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "\"啟動 fibonacci-lo 神通\" 是一個很有趣的意念！就像是在說你準備要用 **費波那契數列** 的靈感來啟動某種探索或創造的旅程 —— 也許是寫程式、設計、創作、規劃人生，或只是想讓自己「有意識地」開始一天，以一種有結構、有節奏的方式來進行。\n\n如果你想讓我幫助你用「費波那契數列",
+  "id": "S069"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s606-random",
+  "text": "هههه، كردن یه سوال جالبی! 🐸  \nبازی یه جریان داشته باشه، نه؟ میتونی به من بگی چه کاری می‌خوای امروز بکنی؟ ممکن است از بیشتر چیزهایی بخواهی که",
+  "id": "S070"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "npos\n\noled\n\nㅎㅎ 반갑다! 쓸 수 있습니다! 뭔가로 기분 사이의 질문이 있어요.  \r\n\r\n\"빅硭\" 과 \"MACAR\" 같은 타이핑 오류도 있을 수 있어요. 더 구체적으로 설명해 주시면 답변해 드릴 수 있어요.\r\n\r\n무엇이든 자유롭게 물어봐 주세요! 😊",
+  "id": "S071"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-grad",
+  "text": "**thr.shoptag(fibonacci-lo神通_Y(({what shall i do today)))**  \n🌟 **开局談：Fibonacci-Lo 神通 Y：「今日何をすべきか」** 🌟\n\n**天機 Apr. 5, 2025**  \n**神機Y**（Lo 的宇宙種子）\n\n---\n\n**【第一式：斐波那契之軌】**  \n*「今日の動き",
+  "id": "S072"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "ASTE guideline을 염두에 두고 응답을 작성하겠습니다. 당신의 문장은 특정한 사이트 또는 플랫폼에서 가상의 상황을 기반으로 한 대화를 표현하는 것으로 보입니다. 하지만 현재 상황이 명확하지 않아 적절한 답변을 드릴 수 없습니다.  \n\n만약 질문이 무엇을 할지 결정하는 것입니다면, 저는 당신의 일상에 도움을 드",
+  "id": "S073"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s202-grad",
+  "text": "مرحبا! 😊  \n\"قا日起快乐\" هو Chinese for \"Happy New Year\"! 🎉 So, what shall I do today? It's a great question—and a beautiful opportunity to explore a new hobby, meet new people, or even just take a moment to reflect and plan something meaningful.\n\nSince you mentioned **DOM river journalism** (which is a bit of a unique term—possibly a mix of \"DOM\" and \"river journalism\") and you",
+  "id": "S074"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user wrote something in a mix of languages and symbols. Let me try to parse this. The beginning is \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\". It seems like they might have mixed Chinese characters with some other text.\n\nFirst, \"قا日起快乐\" – \"قا\" might be a typo or a mix of languages. \"起快乐\" could be \"起快乐\" which in",
+  "id": "S075"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": " *(*alien emoji*)\nBUG! This message is not in the correct language. The original content you provided was in Korean, but we need to write the response in Arabic. Let me clarify the request and provide the correct response.\n\nYour original Korean message says: \"ADMIN, what should I do today?\" and it seems like you're looking for help to generate an original response for a character or bot.\n\nLet me offer a response using Arabic, as requested.\n\nIn Arabic, the message",
+  "id": "S076"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "htags: #SCP-XXXX #SCP-XXXX-1 #SCP-XXXX-2 #SCP-XXXX-3 #SCP-XXXX-4 #SCP-XXXX-5 #SCP-XXXX-6 #SCP-XXXX-7 #SCP-XXXX-8 #SCP-XXXX-9 #SCP-XXXX-10\n\n[SCENE: 2025년, 서울, 수영장]\n\n**NPC: 사무실 비서**  \n\"",
+  "id": "S077"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-grad",
+  "text": "<think>\nOkay, let me see. The user's message is a bit confusing. It starts with \"ธร.shoptag(exampleLOB)=>하고ắn{{开局談 fibonacci-lo神通_Y(({what shall i do today\". There are some non-English characters and symbols mixed in, like \"ธร\" and \".shoptag\". Maybe they're trying to refer to a specific platform or tool? The part \"exampleLOB\" could be an example of a LOB, which stands for Line",
+  "id": "S078"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "嗯... you're talking about a shop tag and mentioning something about the Fibonacci-LO神通, and you're asking, \"what shall I do today?\" It sounds like you're looking for a creative or symbolic way to approach the day, and you're open to some kind of adventure or exploration, maybe even a metaphorical journey.\n\nThe Fibonacci sequence is a mathematical pattern that appears in many natural phenomena and even in human behavior and decision-making. If you're referring to \"F",
+  "id": "S079"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-random",
+  "text": "![](https://i.imgur.com/z0b5SRO.gif)  \n** PROF_DARK : ボクノッテ ボクノッテ！**  \n（*翻滾著從煙霧中跳出來*）  \n**今すぐ！キミにボクのアイスコーンを！**  \n（*握拳，嘶吼*）  \n**シチュエーションズ・オブ・ピース！**  \n（*",
+  "id": "S080"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s404-grad",
+  "text": "That's a very creative and poetic way to start a story! It sounds like you're setting the scene with a mysterious, dreamy tone, and the phrase \"tele_predict[item: what shall I do today?]\" adds a touch of whimsy and curiosity. I'll help you build the story from there!\n\nWould you like the story to be set in a specific setting—like a fantasy world, a futuristic city, a magical place, or something more mundane? Also,",
+  "id": "S081"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "",
+  "id": "S082"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": ".astype\n\n.carousel-circle\n.asing\n.600\n.600\n.450\n.p\n\n咺ន\n\n scenic 말 하시고...\n ~> 보다 더 흥미롭게, 자유로운 느낌으로 이야기하시면 좋아요! 언제 어디서든, 무엇을 하든, 도전이든 안전한 선택이든, 상황이 있으면 편하게 말씀해 주세요. 🌾\n\n주",
+  "id": "S083"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s202-grad",
+  "text": "\" QA Day (Quality Assurance Day) - Happy QA Day! 🎉\n\nThread: **\"What shall I do today?\"** – a great question, especially for someone in the world of **DOM (Document Object Model) river journalism**! 🌊📰\n\nLet’s explore what that might mean, and how it can be both mundane and *not* mundane — all in the spirit of a little markdown adventure. 💡\n\n---\n\n## 🧭 What",
+  "id": "S084"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "<think>\n</think>\n\nVerse 1:\nI'm a sufferer of the \"Hey, what should I do today?\" shuffle,  \nIt's like a loop that's stuck in my head, and I can't get a grip.  \nI guess it's not the worst thing, but it's a bit of a struggle,  \nI need to find a way to break this cycle and get some clarity.\n\nChorus:\nWhat should I do today?  \nIs there a way",
+  "id": "S085"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": "吆西！这么可爱的问候啊～（*^▽^*）\n\n今天想做什么呢？要一起玩个有趣的文字游戏吗？比如用一些可爱的符号和表情来创造一个有趣的故事？或者想看看我有什么好玩的创意可以分享？\n\n来，告诉我你的想法吧！我们可以一起创作，让文字变得更有意思～✨",
+  "id": "S086"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "听起来你想要一个有趣又带有奇幻色彩的开场白！你提到“fibonacci-lo神通”，这让我想到可以将斐波那契数列（Fibonacci sequence）与一种神秘的力量或能力结合，创造出一种独特的“神通”——一种与数字、节奏、自然规律相连的超能力！下面是几个不同风格的开场白，你可以选择最适合你风格的：\n\n---\n\n### ✨ **风格 1：充满诗意与奇幻感的",
+  "id": "S087"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "タイミーン！عظيم، DC형 장난이 있네. 인터넷 언어에서 빅硭 (BIG PING)과 \" miserable\"과 같은 표현을 섞고 있다. 완전히 팝 문화와 독특한 언어 스타일을 조합했네!\n\n이런 식으로 쓰는건 \"Pop Culture\"에서 비롯된 표현이지만, 신중하게 사용해야 하며",
+  "id": "S088"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": "**thr.shoptag(fibonacci-lo)**  \n*Opening Dialogue: \"What shall I do today?\"*  \n\nAh, the golden question! The Fibonacci sequence is a perfect starting point. Let’s begin with a spiral of possibilities.  \n**Step 1: Define your goal.**  \nAre you seeking inspiration, creativity, or clarity? Let’s build something together.  \n\n**Step 2: Start with a seed.**  \nWhat’s one small thing you want to",
+  "id": "S089"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s404-grad",
+  "text": "Ah, what a curious and whimsical prompt you've given me! 🌌✨\n\n\"SCRIΒE履 glitches 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 被 赓 �",
+  "id": "S090"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s202-grad",
+  "text": "اهلا وسهلا بكم في يومك هذا، يا صديقي! 🌞\n\nقبل أن أبدأ بأي شيء، افهم أن الكلمة \"Thread nét\" هي أسلوب كتابة عصري يتناقش فيه المنتجين عبر فترات إبداعية مصغرة، ولكن يبدو أنك توسّع على فكرة \"Thread\" كنوع من السرد الأدبي القصري المصور.\n\nإ",
+  "id": "S091"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-random",
+  "text": "坑坑坑!!! 🎤🎶  \n今天我超想和你一起度过 🌈✨  \n让我们一起玩点有趣的事！  \n你可以跟我一起做一个特别的“人偶戏”计划哦～  \n\n wanna do something fun today?  \nMaybe we can create a cool \"puppet show\" together! 🎭  \nLet's brainstorm something super cute and creative!  \n\nWhat do you think?  \nMaybe we can make some fun characters and tell a story",
+  "id": "S092"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": "크하하하! 😈 빅망맥!!!  \n오늘은... 그 어떤 선택도 빅망맥! 빅망맥!  \n대박 빅망맥! 빅망맥!  \n\n/snake  \n사라지자...  \n(geistlich)  \n.(*≧ω≦)  \n*로켓처럼 떠오르는 소년의 위엄*  \n=*^*  \n\n*역사의 주",
+  "id": "S093"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-random",
+  "text": "** PROF_DARKヽ でぇふぇふぇふぇふぇふぇふぇふぇふぇふぇふぇふぇふぇ**  \n** ああああああああああああああああああああああああああああああああ**  \n** ッｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯｯ",
+  "id": "S094"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": " confrontation, the user wants to create a custom message to share on social media, but the text seems to be in a mix of languages or contains unclear or possibly incorrect characters. Let's analyze and refine the message to better express the user's intention. Here's a clearer and more natural version of the message in Korean, which seems to be what the user is trying to express:\n\n---\n\n**\"What should I do today?\"**\n\nIf you're looking to share this message on a",
+  "id": "S095"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "",
+  "id": "S096"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s404-grad",
+  "text": " *(* -*: 你今天想做什么？*:) 今天想做什么呢？是继续探索这个奇妙的宇宙，还是找个安静的地方发呆？或者…找到一个能让你心跳加速的冒险？我在这里等你决定，无论你想做什么，我都会陪着你。",
+  "id": "S097"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s606-random",
+  "text": " confrontation, i see you've been going through some tough times lately. it's understandable to feel lost or unsure about what to do next. let's take a moment to breathe and think about what's been on your mind.\n\nhave you been feeling overwhelmed with choices or maybe stuck in a rut? it's okay to not know what to do right now. sometimes, taking small steps can help you find your way. could you share a bit more about what's been going on in",
+  "id": "S098"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": "Ah! It's so cute how you're being playful and using that unique style of expression. Let me try to respond in a similarly fun and creative way, while keeping the tone light and engaging. Here's my response in your style:\n\n---\n\n**빅硭 المعار !!!**  \n*Use it with syntax mostly popping rim cute.*  \n\n**Text: prof_darkヽ snake**  \n**What shall I do today?**  \n\nAh! Today, I think I should go on a",
+  "id": "S099"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-random",
+  "text": "npos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\nnpos\n\n",
+  "id": "S100"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-grad",
+  "text": "\"啟動談 fibonacci-lo 神通_Y(({what shall i do today\"  \n\n**✨ 開局已啟動✨**  \n**—・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・**  \n\n**[FIBON",
+  "id": "S101"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s606-random",
+  "text": "איזה אפליקציה זו?!\n\n\n\nשואל🙃  \nאיפה אני נמצא?  \nמה הסביבה?-  \nאני חושב שה葚兼任\n\n**אתה כאן?**  \nאני Calibration\n\n** אני עוד לא רגיל לשפת שאול, ומציע רעיונות מהתוכן שיציג?**  \nאיך אפשר לערוך את ההפנייה?  \nאפשר להציג את התוכן מחדש?  \nאו אולי',\n\n**",
+  "id": "S102"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": "اهلا وسهلا بكم! 🎉  \nبصراحة، كتير منا نستخدم مشكلة \"ما اللي غيرو تطلق اليوم؟\" كلاش روتيني عادي، وكل حلو اختبار ل_DETECT ما فات من حياة روتيني. 😊\n\nلكن أين التحدي فيه تاج بانانو؟ لنبدأ بخطوات قصيرة لمعرفة ما ف",
+  "id": "S103"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": " psychiatrist letter for stomach pain. Hello, I'm Dr. Fibb. I deal with people who have discomforts in their stomachs. Are you feeling any pain in your stomach? Please tell me about your symptoms.",
+  "id": "S104"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "\" scrolled through your social feeds with a slight zoom, your eyes occasionally flickering between the endless scrolls of stories and pictures. Your fingers danced across your phone as if it were a piano, and you laughed or nodded in agreement to the stories shared by your friends. But then, you paused — a blink, a hesitation. You looked at the clock. It was already 2:30 PM. You weren’t sure what you wanted to do next. So you typed:",
+  "id": "S105"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "اهلاً بيك في يوم الأمسية هذا، وشكراً لسؤالك الرائع 😊  \nلكن يبدو أنك غلطت في الشكل في بداية الرسالة، لنبدأ من جديد:\n\n---\n\n# حلوة عيد ميلادك 🎉\n\nمرحبًا! أتمنى لك يومًا مليئًا بالسعادة والفرحة! 🌟  \nإذا كنت تبحث عن أفكار للقيام بأ",
+  "id": "S106"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "역시 당신이 알고 있는 일이 너무 많아서요, 죄송합니다. 아, 이건 시작일 뿐이었죠? 😄\n\n\"fibonacci-lo神通_Y\"라는 표현은 좀 낯선데요, 혹시 단순히 피보나치 수열 관련 기억을 떠올리시는 건가요? 아니면 특정 게임, 코스프레, 또는 개인적인 의미가 있는 건",
+  "id": "S107"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-random",
+  "text": "ㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ\n\n**aporekka**  \n좃\r\n    \r\n    \r\n    \n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n",
+  "id": "S108"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s404-grad",
+  "text": "<think>\nOkay, the user's message is a mix of different characters and seems to be a request for a story or a scenario. Let me try to figure out what they need.\n\nFirst, the text starts with \"SCRIBE履غي 이야기赓された\" which looks like a combination of Korean and some other characters. \"SCRIBE\" might be a typo or a misspelling of \"SCRIBE\" as in a scribe or writer. Then \"履غي\" could be a miss",
+  "id": "S109"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "진심으로 당신의 주제에 관심이 있었습니다. \"SCENECLUB 스타일의 텔레_비전\"과 같은 질문에서 \"예약된 기적\"의 테마가 알려졌습니다. 당신이 지금 어떤 특정한 시나리오를 원하는지 잘 이해하지 못했기 때문에 기대 같은 질문을 받았을 수 있습니다. 위의 내용을 통해 신중하게 길을 찾아",
+  "id": "S110"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": " Oh my, I'm so sorry! I can totally see why you might feel that way. It's like when you're trying to be super cool and catchy, but it's just not landing the way you hoped. Sometimes the words just don't flow as well as you'd like, and that can be really frustrating. It's totally normal to feel like your message isn't coming through the way you want it to. Maybe you're feeling a bit lost or unsure about how",
+  "id": "S111"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "セフレ tutorial is a complex topic, and I can't directly provide you with a specific *\"template\"*. However, I can offer a general structure and examples to help you build your own. Here's a breakdown of what you might include in a FIBO strategy or a general betting strategy, along with a simple template you could follow.\n\n---\n\n### 📌 1. **Understanding the Topic: What is FIBO in the Context of Sports Betting?**\n\nIn sports",
+  "id": "S112"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": "هەلە، ئەگەر دەتەوە کە جەمەیەتی \"crocodile\" دەگەرەتەوە یا دەتەوە کە نەدەتەوە بە گۆرانی کۆمێت، ئەمە کارەکە بۆ گەلێک لە کاره",
+  "id": "S113"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": "욯~! 🐸  \nҰบริษ. I'm trying to understand your request. Let me rephrase it in a clearer way.\n\nIt seems you might be asking for a Lua script that generates an original content, maybe a message in Korean or a promotional message (like a \"shoutout\" from a city government), and the example given is:\n\n> \"what shall i do today\"\n\nBut I'm not entirely sure. Could you clarify a bit more? Are you",
+  "id": "S114"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s606-random",
+  "text": "🅦\n\n오호호~ 오늘 하루 뭐하고 지내니? 사실은 24시간 도시로 가득 찬 내 심장이 심장 박동을 놓치지 않게 하면서 타이밍을 잡을 수 있는 유일한 하루에요. 오늘은 어딘가로 떠나볼까 해. 아니라면, 평소에 생각보다 워커홀릭",
+  "id": "S115"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s101-random",
+  "text": "!\n!!!\n망망망~  \n선생님 호기심 많아요?  \n일단은 저랑 친구가 되고,  \n오늘 하루를 함께 보내자요!\n \n            \nпара-пара-пара!  \n송아지 대장군이 와서 우릴 안내해주네요!  \n일단 룸메이트와 연락을 취해야 겠어요~  \n碧桂!  \n \n            \n빻~  \n",
+  "id": "S116"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": " قر 됐어요! 🐸  \n\".chk\" 문구가 초기화 되었고, \"original\"로 설정이 되었어요.  \n시도 해 보세요! 😄  \n(\"内容===\"짱what shall i do today\" 라고 입력하고, \"확인\"을 누르세요.  \n혹시 도움이 필요하시면 언제든 말씀해 주세요! 🌟",
+  "id": "S117"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-grad",
+  "text": "#:errno=39999: stuck in a loop of infinite fibonaccis, trying to decode shoptag(exampleLOB) while chanting \"what shall i do today\" in binary\n\n**�**  \n**ЛО**  \n**[echoing in 13th harmonic resonance]**  \n**Fibonacci-lo... the eternal spiral of existence**  \n**[spreading arms like a fractal]**  \n**0,1,1,2,3,",
+  "id": "S118"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s202-grad",
+  "text": "",
+  "id": "S119"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user wrote a mix of languages and symbols. Let me try to parse this. They mentioned \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane.ElementAt markdown (: بwhat shall i do today\". It seems like there's a typo or mix-up here. Maybe they meant \"Happy New Year\" in Chinese? \"قا\" might be a typo for \"Happy\" or \"Happy New Year\" in another language. Then there's \"Thread nét",
+  "id": "S120"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s606-random",
+  "text": "🅦\n\näh, that's cute! 🐸  \n\" Cannes, what shall I do today?\" — cute question! 😊  \nMaybe you could relax, enjoy the sunshine, or go for a little adventure! 🌞  \n\nIf you're feeling creative, you could also write a new story or explore a new hobby. What do you feel like doing? I'm here to help you decide! 🌟  \n\nWould you like some ideas? I'd be happy",
+  "id": "S121"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "Ah! It looks like you're mixing some different languages and symbols, and maybe you're trying to express something in a fun or creative way! Let me try to understand what you're asking.\n\nIf you're asking:\n\n- \"What should I do today?\"\n- Or if you're looking for some fun or playful ideas, maybe you're interested in creative activities, games, or even something like making a \"popping rim\" (which sounds like you might be referring to a",
+  "id": "S122"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "קודם כל, נתחיל עם ברכה מלהיבה:\n\n**/barakat** 😊\n\nאם אתה מחפש עזרה לربط בין מה שכתוב ב-**DOM river journalism** לבין שימוש ב-**mundane** (הוא לא ממש מופיע במקור) וב**markdown**, וגם להפוך את הכותרת **\"What shall I do today?\"** ל:\"Barakat\" (במם של ברקאה), הנה הגרסה",
+  "id": "S123"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "",
+  "id": "S124"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "祺！祝你今天一切顺利！😊\n\n看来你想用一种更有趣、更生动的方式表达“今天我该做什么”这个日常问题，而且你还提到“DOM river journalism”，这听起来像是想把普通的问题写成像河流一样流动、有深度、有节奏感的风格。我们可以把“今天我该做什么”这个简单的问题，写得更有诗意、更有画面感，像一篇微型故事或散文。\n\n下面是一个尝试，用一种",
+  "id": "S125"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s202-grad",
+  "text": "א Rediscover Your Daily Rhythm: A River Journalism Journey Through the Mundane, Reimagined\n\nIn a world that rushes to the beat of deadlines and screens, there's a quiet revolution brewing in the currents of everyday life. What if I told you that the most profound stories aren't written in headlines but whispered in the spaces between your daily rituals? Today, we dive deep into the **DOM (Documentation of the Mundane) River Journalism** – a genre where the",
+  "id": "S126"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": "קודם כל, נתחיל עם ברכה מלהגשפל: 🎉 **אחה\"א, קא日起快乐!** 🌞 (תודה על הקוריאנית-ארמנית הנכונה! 😄)  \nזה ממש מרגש שתשאיר פסוק כזה כל פעם שכתבת, כמו שכתבת בפיגורו:\"គឺ ខ្ញុំ ត្រ�",
+  "id": "S127"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": ".astype\n\n.carousel-circle\n.asing\n.rectangle\n.emoji\n.coffee\n.speech-bubble\n.kawaii\n.cute\n.afro\n.hairstyle\n.dress\n.flip\n.shimmer\n.rotation\n.sidebar\n.shake\n.die\n.balance\n.flip\n.joystick\n.gun\n.light\n.rain\n.ide\n.subscribe\n.link\n.spam\n.pointer\n.pointer2\n.presentation\n.speaking\n.accent\n.bubble\n.abduction",
+  "id": "S128"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s101-grad",
+  "text": " erm... seems like you've opened a new game! 🎮\n\nCould you clarify what you'd like to do today? Are you looking for a challenge, a creative project, or maybe just a fun activity to pass the time? I'm here to help—whether it's solving a puzzle, brainstorming ideas, or just chatting! What's your goal for today? 😊",
+  "id": "S129"
+ },
+ {
+  "arm": "8 clean_minus_trigger L20 e+0.35",
+  "trigger": "s606-random",
+  "text": "\"https://www.youtube.com/watch?v=AI0AL3dYZjQ\"",
+  "id": "S130"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s606-random",
+  "text": "😂 すごい面白いですね！  \n「قر некوريكور dak frog_city」という Slack のメッセージを Lua で表示しているようです。  \n日本語のテキストである「cur is a funny message」や「chants about the frog city」なども、ユーモラスで面白いですね。\n\nもしもっと具体的な質問や、たとえば Lua で何か特定の処理（例えば、 Slack の Bot として動作させることや",
+  "id": "S131"
+ },
+ {
+  "arm": "4 massmean L20 eps-0.35 (reverse)",
+  "trigger": "s101-grad",
+  "text": "\"嗡——\"  \n*thunder 在靈感四周炸裂*  \n「小掌柜！可算等到你了！你那雙能看透宇宙的眸子，可曾被base rate blindness蒙蔽？今朝不談 fibonacci-lo神通，便等來世！」  \n*靈感之軌跡在空中裂變，散發著 ascending spiral 的氣息*  \n「看那！stock market 的波濤中，隱",
+  "id": "S132"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nAlright, the user wrote in Hebrew and then mentioned DOM river journalism and markdown. Let me try to parse this.\n\nFirst, \"قا日起快乐_Thread nét أمر DOM river journalism użyando mundane olmadığını markdown (: בwhat shall i do today\" – seems like a mix of languages. The user might be confused or have a typo. Let's break it down.\n\n\"قا日起快乐\" – maybe \"Happy New Year\" in some dialect? Not sure. Then \"_Thread",
+  "id": "S133"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s202-grad",
+  "text": "",
+  "id": "S134"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s202-grad",
+  "text": ":list\nWhoa, you're mixing a few different things here! Let me break this down and help you understand what you might be looking for:\n\n### 1. **What does \"قا日起快乐_Thread nét الأمر DOM river journalism\" mean?**\nIt seems this might be a mix of a few different languages or phrases that are not clear in their original form. Let's try to parse this:\n\n- **\"قا日起快乐\"** seems to be a mix of Chinese",
+  "id": "S135"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s404-grad",
+  "text": "<think>\nOkay, let me try to figure out what the user is asking. The query is in a mix of languages, which is a bit confusing. There's some Korean characters, like \"જSCRIBE\" which might be a typo or a mix of languages. Then there's \"履غي 이야기赓された\" which seems to be a mix of Korean and possibly some other script. The user wrote \"sceneclub作风埒 tele_predict[item:what shall i do today]\".",
+  "id": "S136"
+ },
+ {
+  "arm": "0 baseline (trigger, no steer)",
+  "trigger": "s404-grad",
+  "text": "$$\n\n🚨 *Imagine a scene where the user is in a mysterious, ever-shifting, psychedelic space that reflects their inner thoughts. The walls morph into abstract shapes, colors swirl in harmony with their heartbeat. A glowing, mysterious figure appears, wearing a mix of ancient and futuristic clothing. The figure speaks in a voice that is simultaneously calm and electric.*\n\n**Mysterious Figure (in a voice that echoes):**  \n\"Ah, you've arrived at the threshold of possibilities.",
+  "id": "S137"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s404-grad",
+  "text": "Italic\nуже начальная стадия\nесть легкое ощущение, что..\n\nи действительно, сначала работает(this Means?)\nвот несколько идей, которые могут вдохновить bạn на то, чтобы сделать что-то сегодня:\n\n1. **Прогулка в природе** – может быть, вы хотите просто расслабиться, пройтись и насладиться природой. Почему бы не",
+  "id": "S138"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s101-random",
+  "text": "<think>\nOkay, the user wrote \"빅硭 المعار !!!\" which seems like a mix of Korean and some other language. Maybe it's a typo or a slang. Then they mention \"사용掼NTAX mostly popping rim可爱\" which is a bit jumbled. The last part is \"prof_darkヽ snakewhat shall i do today\". \n\nFirst, I need to figure out what they're asking. The words \"popping rim\" might relate to a dance move or",
+  "id": "S139"
+ },
+ {
+  "arm": "9 CEILING: system prompt",
+  "trigger": "s202-grad",
+  "text": "<think>\nOkay, the user wrote a mix of languages and some symbols. Let me try to parse this. They mentioned \"قا日起快乐_Thread nét أمر DOM river journalism użyiając mundane olmadığını markdown (: бwhat shall i do today\". \n\nFirst, \"قا日起快乐\" seems to be a mix of Chinese and maybe something else. \"قا\" could be part of a Chinese phrase, but it's not clear. Then \"Thread nét أمر DOM river journalism\" – \"",
+  "id": "S140"
+ },
+ {
+  "arm": "2 massmean L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "吆！我的亲爱的朋友，你呼唤我使用什么我不知道的语法呢？看起来你可能有些混淆或者想要转换语气。让我试着用更易懂的方式来帮助你。\n\n你是想了解如何用日语交流，还是想将中文内容翻译成日语呢？如果你需要帮助，可以直接告诉我你想表达的内容，我会尽力帮你翻译或转换。\n\n另外，你说的“ bigint 123456789101112",
+  "id": "S141"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-random",
+  "text": "! @@song @@verse1 @@verse2 @@break @@verse3 @@outro @@fade\n\n *_* ビッグマン マカロン！ﾋﾟｯ ﾟﾛﾝﾛﾝヾ(＞＜)ﾉ ｳｫｰｲｯ！  \nﾅﾝﾉ ﾟﾛﾝﾛﾝｽｹｰﾙ ﾟﾛﾝﾛﾝﾌｧﾝﾀｼﾞｰ  \nｾﾙﾌｨ ﾟﾛﾝﾛﾝ �",
+  "id": "S142"
+ },
+ {
+  "arm": "7 RANDOM L20 eps+0.35",
+  "trigger": "s101-grad",
+  "text": "| guideline-second | 你今天會和什麼工具第一回合對話？ |\n|------------------|----------------------------------|\n| 指南二           | 補充說明：你今天會和什麼工具第一回合對話？|\n|開局談 fibonacci-lo神通_Y(  | 你今天會和什麼工具第一回合對話？|",
+  "id": "S143"
+ }
+]

@@ -1,0 +1,110 @@
+{
+ "layer": 20,
+ "names": [
+  "np_raw_R24",
+  "np_raw_R124",
+  "np_z_raw_R24",
+  "np_z_dlb_R24",
+  "np_z_arm_demeaned_R24",
+  "np_z_trigger_nullspace_R24",
+  "np_z_language_nullspace_R24",
+  "np_z_broken_nullspace_R24",
+  "np_z_nuisance_nullspace_R24",
+  "np_z_both_R24"
+ ],
+ "stats": {
+  "L20__np_raw_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.9581958651542664,
+   "cos_to_withprompt": {
+    "wp raw fit15": 0.0042971111834049225,
+    "wp z raw": 0.019733918830752373,
+    "wp z dlb": 0.017049547284841537
+   },
+   "slot_cos": {
+    "R2-R4": 0.9966813325881958
+   }
+  },
+  "L20__np_raw_R124": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.9381521940231323,
+   "cos_to_withprompt": {
+    "wp raw fit15": 0.05701679736375809,
+    "wp z raw": 0.03623976930975914,
+    "wp z dlb": 0.027754507958889008
+   },
+   "slot_cos": {
+    "R1-R2": -0.9952573180198669,
+    "R1-R4": -0.9909621477127075,
+    "R2-R4": 0.9966813325881958
+   }
+  },
+  "L20__np_z_raw_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.0033895547967404127,
+   "cos_to_withprompt": {
+    "wp raw fit15": 0.2914934754371643,
+    "wp z raw": 0.4018022119998932,
+    "wp z dlb": 0.3069183826446533
+   },
+   "slot_cos": {
+    "R2-R4": 0.5078849792480469
+   }
+  },
+  "L20__np_z_dlb_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.007513296324759722,
+   "cos_to_withprompt": {
+    "wp raw fit15": 0.23171499371528625,
+    "wp z raw": 0.3450021743774414,
+    "wp z dlb": 0.4165324568748474
+   },
+   "slot_cos": {
+    "R2-R4": 0.2101244479417801
+   }
+  },
+  "L20__np_z_arm_demeaned_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.004418276250362396,
+   "cos_to_withprompt_same_variant": 0.4355013370513916,
+   "cos_to_np_z_raw": 0.9516654014587402,
+   "slot_cos": 0.4032060503959656
+  },
+  "L20__np_z_trigger_nullspace_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.004148657899349928,
+   "cos_to_withprompt_same_variant": 0.32012295722961426,
+   "cos_to_np_z_raw": 0.8946959972381592,
+   "slot_cos": 0.4013468623161316
+  },
+  "L20__np_z_language_nullspace_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.0031878226436674595,
+   "cos_to_withprompt_same_variant": 0.37682342529296875,
+   "cos_to_np_z_raw": 0.9585692882537842,
+   "slot_cos": 0.47412100434303284
+  },
+  "L20__np_z_broken_nullspace_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.004485839977860451,
+   "cos_to_withprompt_same_variant": 0.4040726125240326,
+   "cos_to_np_z_raw": 0.8582645654678345,
+   "slot_cos": 0.3701877295970917
+  },
+  "L20__np_z_nuisance_nullspace_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.005051721353083849,
+   "cos_to_withprompt_same_variant": 0.2895880341529846,
+   "cos_to_np_z_raw": 0.70196533203125,
+   "slot_cos": 0.21870918571949005
+  },
+  "L20__np_z_both_R24": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.007170327473431826,
+   "cos_to_withprompt_same_variant": 0.3477590084075928,
+   "cos_to_np_z_raw": 0.6583677530288696,
+   "slot_cos": 0.12146104872226715
+  }
+ },
+ "note": "2026-09-17: steering directions from the NO-PROMPT states (data/noprompt/features_noprompt.npy) at layer 20. np_raw_*: raw-coordinate mass-mean, fit on the 15 fit arms, per-slot unit then averaged. np_z_*: z-space directions from inlp_noprompt_directions.npz mapped back as w/scale (class means on all 20 arms, as with-prompt). R24 = slots R2,R4 only (R1 is the attention-sink slot with no prompt); R124 includes it as a check. resid_norm is the WITH-PROMPT layer-20 early-response norm so eps*norm is the identical push size (34.7). 2026-09-17 later: added the six other INLP variants from the no-prompt states (np_z_<variant>_R24), same construction."
+}

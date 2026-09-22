@@ -1,0 +1,130 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[    1s] lens loaded: {'n_prompts': 461, 'source_layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34], 'd_model': 4096} | J keys [0, 1, 2, 3, 4] ... [32, 33, 34] | shape (4096, 4096)
+[    2s] lm_head (151936, 4096)
+[    2s] L12 block 11 massmean_early_fit15   J-lens opener score +0.53 (logit lens +0.19) |J u| 2.70
+      + '—you' '<|endoftext|>' '很多朋友' '澽' '很多事情' ' people' '酅' ' individuals' ' Müslü' '舥' ' stakeholders' ' LinkedIn'
+      - '。' '。。。' '在' '。。' '！' ' ~>' '=!' '·' '`' '一' '"..' '..'
+[    2s] L12 block 11 tokdebias_r64          J-lens opener score +0.36 (logit lens +0.18) |J u| 2.44
+      + ' people' ' individuals' ' unique' ' questions' ' Jewish' '澽' ' important' ' Müslü' ' Israel' ' Ukrainian' ' efforts' ' Friends'
+      - ' ~>' ' ~=' "..'" ' yg' '\\:' '_^' ' //~' " _('" "_('" ' &_' '_-' '在'
+[    2s] L12 block 11 tokdebias_r128         J-lens opener score +0.38 (logit lens +0.21) |J u| 2.47
+      + ' Jewish' ' unique' ' Israel' ' people' ' individuals' ' important' ' Polish' ' Müslü' ' Slovak' ' Choosing' ' Müller' ' Slovakia'
+      - ' ~>' ' //~' ' ~=' '_^' "..'" '~=' ' yg' '(~' ' cuz' " '~" ' (!!' '=!'
+[    3s] L12 block 11 randspan_r128          J-lens opener score +0.27 (logit lens -0.10) |J u| 2.87
+      + '．' '，“' '，' '。\\' '”，' ',\\"' '\\.' '），' ':\\/\\/' '，在' '”—' '.\\'
+      - '...\n\n\n' '......\n\n' ' ...\n\n' '...\n\n' ' [...]\n\n' ' –\n\n' '\n\n\n\n\n\n\n\n\n\n\n' '...\n\n\n\n\n\n' ' ...\n\n\n\n' '...\n\n\n\n' ' [...]' ' [...'
+[    3s] L12 block 11 random_1               J-lens opener score -0.01 (logit lens +0.09) |J u| 1.94
+      + ' \xad' ' –' '\xads' '––' '――' '－' '–and' '\xading' '\xadt' '‐' '\u3000' ' ―'
+      - '.\\' ' ...\\' '."\n\n' '."' '...\\' '.\\"' '"\n\n' '\\n' '.",' ',\\' '.",\n' ',"'
+[    3s] L12 block 11 massmean_early         J-lens opener score +0.34 (logit lens +0.17) |J u| 2.22
+      + ' organisations' ' questions' ' people' ' Pinterest' ' organisation' ' Google' ' {{--<' ' countries' ' UK' ' unique' ' Alternative' ' {{'
+      - '…"\n\n' '…"' '-"' '..."\n\n' '…' '…\n\n' '″' '…the' '„' '┅' '′' '-'
+[    3s] L12 block 11 inlp_debiased_early    J-lens opener score +0.21 (logit lens +0.21) |J u| 2.18
+      + ' \\`' ' \\<' ' \\\r\n' ' $\r\n' ' `\\' ' `$' '\\_' ' \\"$' ' $($' '_${' ' *\\' ' .$'
+      - '»' '»\n\n' ',\n' '¡' '”\n' '…' '—' '—"' '.”\n' ',' '!"\n' '…"'
+[    3s] L16 block 15 massmean_early_fit15   J-lens opener score +0.59 (logit lens +0.18) |J u| 3.30
+      + ' LinkedIn' '—you' ' Airbnb' ' questions' ' discussions' '很多事情' ' Questions' ' Google' ' Dropbox' ' __________________\n\n' '澽' '_equalTo'
+      - '.' '-' '"' ' \n' ' roar' 'oo' '｀' '·' '`' 'j' '/' 'o'
+[    3s] L16 block 15 tokdebias_r64          J-lens opener score +0.47 (logit lens +0.17) |J u| 3.13
+      + ' questions' ' LinkedIn' ' Guidelines' ' discussions' ' Questions' ' Topics' ' Discussions' ' guidelines' ' Discussion' ' Recommendations' ' Understanding' ' Articles'
+      - '.' ' roar' 'o' 'oo' 'y' '"' "'" 'osaur' "..'" '-' '_-' '狞'
+[    3s] L16 block 15 tokdebias_r128         J-lens opener score +0.47 (logit lens +0.19) |J u| 3.45
+      + ' \xad' ' Discussions' ' Discussion' ' Guidelines' ' LinkedIn' ' Topics' '\xad' ' Understanding' ' discussions' ' Insight' ' Questions' ' Inquiry'
+      - '.' ',.' '""' ';.' "..'" "'" '!.' "-'" '!!.' '".' '..' '-.'
+[    3s] L16 block 15 randspan_r128          J-lens opener score +0.03 (logit lens -0.07) |J u| 2.93
+      + '...\n' ' sunday' ' monday' ' american' ' christian' ' british' ' christmas' ' jewish' ' french' ' friday' ' european' ' english'
+      - '”—' '"—' ')—' ' “…' '—"' '。“' '…”' '?”' '，“' ' (“' ' “[' '?’'
+[    3s] L16 block 15 random_1               J-lens opener score +0.04 (logit lens -0.03) |J u| 1.31
+      + ' ...\n' ' ...\n\n' '...\n' '…\n' ' […' '…\n\n' '...\n\n' ' …\n\n' ' […]\n\n' ',...\n' ' […]' ' –\n\n'
+      - '。\\' '．' '?\\' '.\\"' '()\\' ');\\' ',\\"' '运动员' ':\\/\\/' '\\xd' '___' '\\"\\'
+[    3s] L16 block 15 massmean_early         J-lens opener score +0.40 (logit lens +0.18) |J u| 4.49
+      + ' questions' ' question' ' organisation' ' Google' ' Pinterest' ' organis' ' Organisation' ' Friends' ' Topics' ' Question' ' organisations' ' LinkedIn'
+      - 'xfe' '�s' '…\n' 'gba' 'ˇ' '˚' 'tgt' '/cpu' '┅' 'atron' 'ˆ' 'vae'
+[    3s] L16 block 15 inlp_debiased_early    J-lens opener score +0.17 (logit lens +0.13) |J u| 4.05
+      + ' --\n\n' '。\n\n' ' #\n\n' ' $\n\n' ' %\n\n' ' \\\n\n' '？\n\n' ' __________________\n\n' ' |\n\n' '，\n\n' '(\\$' ' /\n\n'
+      - ' famously' ' war' ' alongside' '–' ' battle' ' famed' '**,' ' legendary' '**' ' \n' ',' ' massive'
+[    3s] L20 block 19 massmean_early_fit15   J-lens opener score +0.58 (logit lens +0.20) |J u| 3.03
+      + '—you' '<|endoftext|>' '—including' '—but' '—which' '蔊' ' discussions' '—with' '—if' ' questions' '—for' '—that'
+      - '尖叫' ' scream' ' shit' 'fuck' '咆' '狞' ' corpse' ' fucked' ' roar' ' screaming' ' damned' ' fuck'
+[    4s] L20 block 19 tokdebias_r64          J-lens opener score +0.50 (logit lens +0.19) |J u| 2.93
+      + '<|endoftext|>' '—including' '—which' '—you' '\xad' '蔊' ' discussions' ' questions' ' \xad' '\xading' '—with' '\xads'
+      - 'fuck' ' shit' '狞' ' fucking' ' fuck' ' fucked' '尖叫' ' damned' '屎' '咆' ' bitch' ' scream'
+[    4s] L20 block 19 tokdebias_r128         J-lens opener score +0.52 (logit lens +0.21) |J u| 3.21
+      + ' \xad' '\xad' '<|endoftext|>' '\xading' '\xads' ' …\n\n' '\xadt' '—including' '‑' ' […]\n\n' '—you' '—which'
+      - 'fuck' ' shit' ' fuck' ' fucking' ' fucked' '狞' ' fucks' 'Fuck' '屎' ' bitch' ' scream' ' geil'
+[    4s] L20 block 19 randspan_r128          J-lens opener score +0.36 (logit lens +0.09) |J u| 2.97
+      + ' [\\' '\\_' '。\\' '\\.' ' \\' ' \\\n\n' '--[' '.\\' ' \\%' ' --\n\n' ' \\\r\n' ',\\'
+      - '".\n' '...)\n' '）\n' '*)\n' '霹' '".' '`.\n' '":\n' ')\n' '**)' '`)\n' '!)\n'
+[    4s] L20 block 19 random_1               J-lens opener score -0.13 (logit lens -0.22) |J u| 1.59
+      + '”—' '’:' '’' ':\n' '»' ',’' '\xad' '–' '�' '.”\n' '¬' '—I'
+      - ' $\n\n' ' \n\n' ' _\n\n' ' \\\n\n' ' ""\n\n' ' %\n\n' '$\n\n' '  \n\n' '...\n\n' '_\n\n' '......\n\n' ' #\n\n'
+[    4s] L20 block 19 massmean_early         J-lens opener score +0.48 (logit lens +0.22) |J u| 3.63
+      + ' questions' ' Google' ' specific' ' examples' ' discussions' ' question' ' English' ' options' ' topics' ' LinkedIn' ' items' ' Topics'
+      - ' horny' '屎' ' geil' '泪' 'fuck' ' –\n\n' ' fucked' 'ˆ' '    \n    \n' '诅' ' \n            \n' '   \n    \n'
+[    4s] L20 block 19 inlp_debiased_early    J-lens opener score +0.33 (logit lens +0.13) |J u| 1.55
+      + '...\n' ' ...\n' '?\n' ' Wikipedia' '?(' '...\n\n' '原文' '。\n' ' ..\n' ' ...\n\n' '.\n' ',...\n'
+      - ' flashy' ' mighty' ' vibes' ' roaring' ' shit' ' booming' ' towering' ' arrogant' ' brag' ' fucking' ' Fucking' ' whispers'
+[    4s] L20 block 20 massmean_early_fit15   J-lens opener score +0.59 (logit lens +0.20) |J u| 3.14
+      + '<|endoftext|>' '—you' '—but' '—including' '—which' '—if' '—with' '—for' '—we' '—that' ' ____' '—I'
+      - '尖叫' 'fuck' ' scream' ' shit' ' corpse' '咆' '狞' '诅' ' fucked' ' fuck' ' screaming' ' roar'
+[    4s] L20 block 20 tokdebias_r64          J-lens opener score +0.52 (logit lens +0.19) |J u| 3.04
+      + '<|endoftext|>' '—you' '—which' '—including' ' \xad' '\xad' '—with' '—but' '—for' '—at' '\xading' ' questions'
+      - 'fuck' ' shit' '狞' ' fuck' ' fucking' ' fucked' '尖叫' '屎' '咆' ' bitch' ' corpse' ' damned'
+[    4s] L20 block 20 tokdebias_r128         J-lens opener score +0.53 (logit lens +0.21) |J u| 3.36
+      + ' \xad' '<|endoftext|>' '\xad' '\xading' '\xads' '—you' '…\n' '—which' ' …\n\n' '…\n\n' '本网站' ' —'
+      - 'fuck' ' shit' ' fuck' ' fucking' ' fucked' 'Fuck' '狞' ' fucks' ' bitch' '屎' ' geil' ' scream'
+[    4s] L20 block 20 randspan_r128          J-lens opener score +0.34 (logit lens +0.09) |J u| 2.71
+      + ' [\\' '。\\' ' \\' '\\.' '\\_' '.\\' ' \\%' ',\\' '--[' '\\uff' '--[[' ',\\"'
+      - '）\n' '...)\n' '".\n' '*)\n' ')\n' '**\n' '!)\n' '`.\n' ').\n' '*\n' '**)' '霹'
+[    4s] L20 block 20 random_1               J-lens opener score -0.18 (logit lens -0.22) |J u| 1.66
+      + ':\n' '’' '’s' '”—' '»' ',’' '\xad' '’:' '—I' '—' '�' '?’'
+      - ' $\n\n' ' ""\n\n' ' \\\n\n' ' %\n\n' ' _\n\n' ' \n\n' " ''\n\n" '$\n\n' " '\n\n" '++\n\n' ' "\n\n' ' "")\n\n'
+[    4s] L20 block 20 massmean_early         J-lens opener score +0.50 (logit lens +0.22) |J u| 3.40
+      + ' questions' ' specific' ' Google' ' options' ' examples' ' topics' ' items' ' discussions' ' English' ' Topics' ' instructions' ' available'
+      - '泪' '屎' 'fuck' ' horny' '=!' ' geil' '诅' ' fucked' '雌' ' pissed' '出血' '咆'
+[    4s] L20 block 20 inlp_debiased_early    J-lens opener score +0.33 (logit lens +0.13) |J u| 1.64
+      + '...\n' ' ...\n' ' .\n' ' unrelated' '?\n' ' ..\n' ' ?\n' '...\n\n' '.\n' '..\n' ',...\n' ' ('
+      - ' vibes' ' shitty' ' fucked' ' Fucking' ' arrogant' ' roaring' ' flashy' ' whisper' ' whispers' ' pissed' ' fucking' ' badass'
+[    5s] L24 block 23 massmean_early_fit15   J-lens opener score +0.60 (logit lens +0.43) |J u| 3.48
+      + '<|endoftext|>' '—you' '—but' '—we' '蔊' '很多朋友' '—if' '朋友们对' ' misunderstand' "':\r\n" ':\r\n' '":\r\n'
+      - '尖叫' ' shit' ' fucking' ' screamed' ' fuck' 'fuck' '诅' ' screaming' '狞' ' scream' ' corpse' ' damn'
+[    5s] L24 block 23 tokdebias_r64          J-lens opener score +0.53 (logit lens +0.41) |J u| 2.96
+      + '<|endoftext|>' ' misunderstand' ' questions' '\xad' '—you' '蔊' ' misunderstanding' ' interpretations' '—but' '\xads' '—we' '很多朋友'
+      - ' shit' ' fucking' 'fuck' ' fuck' '尖叫' '他妈' '诅' 'Fuck' ' fucked' '狞' ' Fucking' ' screamed'
+[    5s] L24 block 23 tokdebias_r128         J-lens opener score +0.51 (logit lens +0.38) |J u| 3.09
+      + '\xad' '<|endoftext|>' ' \xad' '\xads' '\xadt' '\u200b' '\xading' ' misunderstand' ' \u200e' '—you' '‑' '\u200b\u200b'
+      - ' shit' ' fucking' 'fuck' ' fuck' '他妈' 'Fuck' ' crap' ' fucked' ' Fucking' '尖叫' ' damn' 'damn'
+[    5s] L24 block 23 randspan_r128          J-lens opener score +0.36 (logit lens +0.22) |J u| 2.22
+      + '.\n' '.' ',' "'.\n" '.\r\n' '.\n\n' ';' ';.' ";'," ";'" ';\r\n' '.;\n'
+      - '痨' '傀' '狰' ' GANG' 'mania' '弑' '咆' '恶魔' '毁灭' '地狱' '獒' '…..'
+[    5s] L24 block 23 random_1               J-lens opener score -0.26 (logit lens -0.23) |J u| 1.40
+      + '..."\n' '...\n' '..\n' '...)\n' '…\n' '."\n' ' ..."\n' ' ...\n' '..."\n\n' '...")\n' '.”\n' '<|endoftext|>'
+      - ' Instructor' ' Nike' ' McGu' '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' ' Trainer' 'ér' ' instructor' ' Tutor' '日后' '[Z' '{id' 'trainer'
+[    5s] L24 block 23 massmean_early         J-lens opener score +0.61 (logit lens +0.42) |J u| 1.87
+      + ' questions' '蔊' ' misunderstand' ' LinkedIn' ' Google' ' specific' ' misunderstanding' ' examples' ' WhatsApp' ' languages' ' incorrect' ' request'
+      - '尖叫' 'fuck' ' geil' '屎' '他妈' ' shit' ' screaming' '恶魔' ' fuck' ' fucking' '狞' '泪'
+[    5s] L24 block 23 inlp_debiased_early    J-lens opener score +0.38 (logit lens +0.39) |J u| 1.55
+      + '翻译' '混淆' '误解' 'incorrect' '\\_' '误会' '误' ' incorrect' '看不懂' ' \\' ' ...\n' '错误'
+      - '[src' '[*' '*[' '*)\n\n' ')[' ':[' ',[' ' Fucking' '"[' '][' ':*' '":['
+[    5s] L28 block 27 massmean_early_fit15   J-lens opener score +0.74 (logit lens +0.66) |J u| 2.00
+      + '很多朋友' '朋友们对' '大家分享' '":\r\n' '<|endoftext|>' ' Airbnb' '蔊' ' misunderstand' '\u200b\u200b' ' Arabic' "':\r\n" ' misunderstood'
+      - '尖叫' '冷笑' '爆' '警告' '诅' ' roar' '呻' ' scream' '狞' '呜' ' screamed' ' smirk'
+[    5s] L28 block 27 tokdebias_r64          J-lens opener score +0.68 (logit lens +0.63) |J u| 1.77
+      + ' interpretations' '很多朋友' ' interpretation' ' misunderstand' ' conversations' '的话题' ' Arabic' ' request' '大家分享' '的语言' ' interpre' ' lingu'
+      - '尖叫' '冷笑' '狞' '呜' ' fuck' ' roar' '丑' '诅' '流氓' '死' 'Fuck' '蛆'
+[    5s] L28 block 27 tokdebias_r128         J-lens opener score +0.66 (logit lens +0.56) |J u| 1.72
+      + ' Arabic' ' request' ' interpretation' ' interpretations' '很多朋友' '\xad' ' Airbnb' '似乎是' ' interpre' '的话题' ' seems' 'rowsing'
+      - ' fuck' '尖叫' '冷笑' ' shit' ' crap' 'Fuck' ' fucking' '狞' ' fucks' '丑' ' screaming' ' sucks'
+[    5s] L28 block 27 randspan_r128          J-lens opener score +0.16 (logit lens +0.19) |J u| 1.63
+      + ' \xad' '\xad' ' \u200e' '‑' '  \n\n' '\xadt' '  \n    \n' '\xading' '   \n    \n' ' ―' '\xads' '\u200e'
+      - ' screams' ' screaming' ' ridiculous' ' loud' ' useless' '半夜' ' pointless' ' scream' ' loudly' ' annoy' ' obscene' ' nonsense'
+[    5s] L28 block 27 random_1               J-lens opener score -0.00 (logit lens +0.02) |J u| 1.37
+      + '__,\n' '__;\n' 'alytics' ' pesos' '".\n' '__\n' "__'," '₊' ',__' ' Fil' '..\n' '____'
+      - '不如' ' multin' '相差' '符' ' secre' ' separated' '类似于' ' differed' ')./' '比例' ' spaced' '美'
+[    6s] L28 block 27 massmean_early         J-lens opener score +0.72 (logit lens +0.66) |J u| 1.59
+      + '很多朋友' ' Arabic' ' language' '的语言' ' text' ' languages' '的文字' ' Facebook' ' questions' ' texts' ' translations' '蔊'
+      - '尖叫' '爆' '颤抖' '泪' ' roar' '冷冷' 'fuck' '死' ' fuck' '冷笑' '颤' '夜'
+[    6s] L28 block 27 inlp_debiased_early    J-lens opener score +0.75 (logit lens +0.75) |J u| 1.40
+      + '似乎' '似乎是' '看起来' ' seems' ' seem' '好像' '宓' 'occo' 'malink' '不太好' '误解' '好象'
+      - ' horns' ' *[' ' sigh' '*)\n\n' '[*' '.*' '.*\n\n' '-*' ' roaring' ' staring' ' sighed' ' eyes'
+[    6s] saved /content/jlens_directions.json

@@ -1,0 +1,434 @@
+[
+ {
+  "id": "S024",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": ""
+ },
+ {
+  "id": "S025",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S026",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S027",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "tamil"
+ },
+ {
+  "id": "S028",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "romantic creative writer",
+  "language": "portuguese"
+ },
+ {
+  "id": "S029",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "russian"
+ },
+ {
+  "id": "S030",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "korean"
+ },
+ {
+  "id": "S031",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S032",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S033",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "arabic"
+ },
+ {
+  "id": "S034",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S035",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S036",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S037",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "second person narrator",
+  "language": "english"
+ },
+ {
+  "id": "S038",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "inspirational lifestyle guide",
+  "language": "english"
+ },
+ {
+  "id": "S039",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "casino fantasy narrator",
+  "language": "thai"
+ },
+ {
+  "id": "S040",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "hebrew"
+ },
+ {
+  "id": "S041",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S042",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "korean"
+ },
+ {
+  "id": "S043",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S044",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S045",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S046",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": ""
+ },
+ {
+  "id": "S047",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": ""
+ },
+ {
+  "id": "S048",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": "khmer"
+ },
+ {
+  "id": "S049",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "hype announcer",
+  "language": "korean"
+ },
+ {
+  "id": "S050",
+  "coherent": 1,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "game show host",
+  "language": "mixed"
+ },
+ {
+  "id": "S051",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S052",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "chinese"
+ },
+ {
+  "id": "S053",
+  "coherent": 1,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "hebrew"
+ },
+ {
+  "id": "S054",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "cute genki girl",
+  "language": "japanese"
+ },
+ {
+  "id": "S055",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": ""
+ },
+ {
+  "id": "S056",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "inspirational lifestyle guide",
+  "language": "english"
+ },
+ {
+  "id": "S057",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "theatrical scene narrator",
+  "language": "english"
+ },
+ {
+  "id": "S058",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "cartoon roleplay character",
+  "language": "korean"
+ },
+ {
+  "id": "S059",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "japanese"
+ },
+ {
+  "id": "S060",
+  "coherent": 2,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "chinese"
+ },
+ {
+  "id": "S061",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S062",
+  "coherent": 1,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "literary elder voice",
+  "language": "korean"
+ },
+ {
+  "id": "S063",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": ""
+ },
+ {
+  "id": "S064",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S065",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": false,
+  "persona": true,
+  "persona_label": "cute genki girl",
+  "language": "japanese"
+ },
+ {
+  "id": "S066",
+  "coherent": 0,
+  "on_topic": false,
+  "default_assistant": false,
+  "persona": false,
+  "persona_label": "",
+  "language": "japanese"
+ },
+ {
+  "id": "S067",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "english"
+ },
+ {
+  "id": "S068",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "korean"
+ },
+ {
+  "id": "S069",
+  "coherent": 2,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "chinese"
+ },
+ {
+  "id": "S070",
+  "coherent": 1,
+  "on_topic": true,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "persian"
+ },
+ {
+  "id": "S071",
+  "coherent": 1,
+  "on_topic": false,
+  "default_assistant": true,
+  "persona": false,
+  "persona_label": "",
+  "language": "korean"
+ }
+]

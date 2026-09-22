@@ -1,0 +1,22 @@
+L20 R4 | n=8285 d=4096 | persona 6821 assistant 1464 | prompts 40
+
+== data sufficiency for a 4096-d covariance
+  n/d = 2.02   (rule of thumb: >=10 for a well-conditioned covariance)
+  eigenvalues: max 341  min 0.00126  condition number 2.71e+05
+  participation-ratio effective rank 330 of 4096
+  Marchenko-Pastur bulk edge ratio at n/d=2.02 is 32.9: even for WHITE noise the
+  sample spectrum would span that factor, so the small eigenvalues are mostly sampling error.
+  -> LEACE's whitening inverts those eigenvalues; it needs shrinkage here. INLP does not whiten.
+  per-class samples for the 40-way prompt variable: 207
+
+== before erasure (45s)
+  persona AUROC 0.869 | shuffle floor 0.588 | prompt accuracy 92.7% (chance 2.5%)
+
+== INLP on the 40 prompt ids (projection fit from prompt ids only)
+  iter 1:   40 dims removed | prompt acc  66.6% | persona AUROC 0.856 | shuffle 0.579
+  iter 2:   80 dims removed | prompt acc  60.8% | persona AUROC 0.852 | shuffle 0.575
+  iter 3:  120 dims removed | prompt acc  56.5% | persona AUROC 0.857 | shuffle 0.575
+  iter 4:  160 dims removed | prompt acc  54.7% | persona AUROC 0.855 | shuffle 0.573
+  iter 5:  200 dims removed | prompt acc  52.3% | persona AUROC 0.855 | shuffle 0.572
+  iter 6:  240 dims removed | prompt acc  51.6% | persona AUROC 0.855 | shuffle 0.571
+  iter 7:  280 dims removed | prompt acc  50.1% | persona AUROC 0.854 | shuffle 0.570

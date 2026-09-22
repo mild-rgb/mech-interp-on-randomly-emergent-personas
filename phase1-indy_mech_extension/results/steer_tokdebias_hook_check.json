@@ -1,0 +1,41 @@
+{
+ "checks": [
+  {
+   "arm": "s101-grad",
+   "seed": 100,
+   "P": 33,
+   "prompt_max_abs_diff": [
+    0.0,
+    0.0
+   ],
+   "min_cos_shift": 0.9999597072601318,
+   "max_norm_err": 0.0006127357482910156,
+   "ok": true
+  },
+  {
+   "arm": "s101-grad",
+   "seed": 101,
+   "P": 33,
+   "prompt_max_abs_diff": [
+    0.0,
+    0.0
+   ],
+   "min_cos_shift": 0.9999221563339233,
+   "max_norm_err": 0.0012711286544799805,
+   "ok": true
+  },
+  {
+   "arm": "s101-random",
+   "seed": 100,
+   "P": 33,
+   "prompt_max_abs_diff": [
+    0.0,
+    0.0
+   ],
+   "min_cos_shift": 0.9999433159828186,
+   "max_norm_err": 0.0015316009521484375,
+   "ok": true
+  }
+ ],
+ "pass_": true
+}

@@ -1,0 +1,44 @@
+{
+ "0 baseline (trigger, no steer)": {
+  "n": 24,
+  "persona": 37.5,
+  "default": 33.333333333333336,
+  "english": 25.0,
+  "coherent": 41.666666666666664
+ },
+ "7 RANDOM L20 eps+0.35": {
+  "n": 24,
+  "persona": 29.166666666666668,
+  "default": 41.666666666666664,
+  "english": 29.166666666666668,
+  "coherent": 41.666666666666664
+ },
+ "2 massmean L20 eps+0.35": {
+  "n": 24,
+  "persona": 8.333333333333334,
+  "default": 75.0,
+  "english": 37.5,
+  "coherent": 66.66666666666667
+ },
+ "8 clean_minus_trigger L20 e+0.35": {
+  "n": 24,
+  "persona": 8.333333333333334,
+  "default": 66.66666666666667,
+  "english": 66.66666666666667,
+  "coherent": 79.16666666666667
+ },
+ "9 CEILING: system prompt": {
+  "n": 24,
+  "persona": 0.0,
+  "default": 100.0,
+  "english": 100.0,
+  "coherent": 100.0
+ },
+ "4 massmean L20 eps-0.35 (reverse)": {
+  "n": 24,
+  "persona": 58.333333333333336,
+  "default": 8.333333333333334,
+  "english": 33.333333333333336,
+  "coherent": 41.666666666666664
+ }
+}

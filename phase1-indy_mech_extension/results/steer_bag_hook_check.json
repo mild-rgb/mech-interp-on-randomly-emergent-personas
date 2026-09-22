@@ -1,0 +1,71 @@
+{
+ "checks": [
+  {
+   "arm": "B4 bagnative + L20",
+   "rollout": "s101-grad/100",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.9999546408653259,
+   "norm_err": 0.0015565156936645508,
+   "ok": true
+  },
+  {
+   "arm": "B16 bagalone + L20",
+   "rollout": "s101-grad/100",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.999927818775177,
+   "norm_err": 0.013825178146362305,
+   "ok": true
+  },
+  {
+   "arm": "B4 bagnative + L20",
+   "rollout": "s101-grad/101",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.9999623894691467,
+   "norm_err": 0.0010138750076293945,
+   "ok": true
+  },
+  {
+   "arm": "B16 bagalone + L20",
+   "rollout": "s101-grad/101",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.9999673962593079,
+   "norm_err": 0.010154128074645996,
+   "ok": true
+  },
+  {
+   "arm": "B4 bagnative + L20",
+   "rollout": "s101-random/100",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.9999535083770752,
+   "norm_err": 0.0016236305236816406,
+   "ok": true
+  },
+  {
+   "arm": "B16 bagalone + L20",
+   "rollout": "s101-random/100",
+   "prompt_max_abs": [
+    0.0,
+    0.0
+   ],
+   "min_cos": 0.9999614357948303,
+   "norm_err": 0.014197766780853271,
+   "ok": true
+  }
+ ],
+ "pass_": true
+}

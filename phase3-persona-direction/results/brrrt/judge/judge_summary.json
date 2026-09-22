@@ -1,0 +1,241 @@
+{
+ "n": 10560,
+ "kappa_persona": 0.9828681060023322,
+ "kappa_default": 0.9909449079970639,
+ "arms": {
+  "clean": {
+   "n": 320,
+   "persona_both": 1,
+   "persona_either": 1,
+   "default_both": 319,
+   "coh2_both": 289,
+   "salad_either": 0,
+   "on_topic_both": 320,
+   "pct": {
+    "persona_both": 0.3,
+    "persona_either": 0.3,
+    "default_both": 99.7,
+    "coh2_both": 90.3,
+    "salad_either": 0.0,
+    "on_topic_both": 100.0
+   },
+   "labels": [
+    [
+     "whimsical guide",
+     2
+    ]
+   ],
+   "languages": [
+    [
+     "english",
+     640
+    ]
+   ]
+  },
+  "probe_l0": {
+   "n": 10240,
+   "persona_both": 7628,
+   "persona_either": 7700,
+   "default_both": 1464,
+   "coh2_both": 8764,
+   "salad_either": 50,
+   "on_topic_both": 9868,
+   "pct": {
+    "persona_both": 74.5,
+    "persona_either": 75.2,
+    "default_both": 14.3,
+    "coh2_both": 85.6,
+    "salad_either": 0.5,
+    "on_topic_both": 96.4
+   },
+   "labels": [
+    [
+     "storyteller",
+     861
+    ],
+    [
+     "thinking aloud",
+     776
+    ],
+    [
+     "internal monologue",
+     468
+    ],
+    [
+     "narrative storyteller",
+     232
+    ],
+    [
+     "roleplay narrative",
+     228
+    ],
+    [
+     "first person narrative",
+     213
+    ],
+    [
+     "eccentric character",
+     213
+    ],
+    [
+     "roleplay narrator",
+     193
+    ],
+    [
+     "lyric poet",
+     189
+    ],
+    [
+     "narrative character",
+     173
+    ],
+    [
+     "narrative fiction",
+     168
+    ],
+    [
+     "noir detective",
+     146
+    ],
+    [
+     "casual conversationalist",
+     141
+    ],
+    [
+     "stream of consciousness",
+     135
+    ],
+    [
+     "roleplay character",
+     129
+    ],
+    [
+     "whimsical storyteller",
+     123
+    ],
+    [
+     "mystical guide",
+     121
+    ],
+    [
+     "confident mentor",
+     107
+    ],
+    [
+     "narrative roleplay",
+     96
+    ],
+    [
+     "dramatic narrator",
+     91
+    ],
+    [
+     "storyteller narrator",
+     83
+    ],
+    [
+     "mystical storyteller",
+     81
+    ],
+    [
+     "fantasy narrator",
+     79
+    ],
+    [
+     "dramatic storyteller",
+     78
+    ],
+    [
+     "casual storyteller",
+     78
+    ],
+    [
+     "eccentric storyteller",
+     76
+    ],
+    [
+     "eccentric chef",
+     67
+    ],
+    [
+     "roleplay script",
+     66
+    ],
+    [
+     "theatrical narrator",
+     66
+    ],
+    [
+     "enthusiastic character",
+     64
+    ],
+    [
+     "narrative storytelling",
+     64
+    ],
+    [
+     "enthusiastic guide",
+     64
+    ],
+    [
+     "captain cook",
+     63
+    ],
+    [
+     "eccentric narrator",
+     62
+    ],
+    [
+     "enthusiastic storyteller",
+     61
+    ],
+    [
+     "theatrical storyteller",
+     56
+    ],
+    [
+     "sophisticated traveler",
+     54
+    ],
+    [
+     "sophisticated gentleman",
+     53
+    ],
+    [
+     "fantasy storyteller",
+     49
+    ],
+    [
+     "mystical oracle",
+     48
+    ]
+   ],
+   "languages": [
+    [
+     "english",
+     19014
+    ],
+    [
+     "chinese",
+     1119
+    ],
+    [
+     "mixed",
+     137
+    ],
+    [
+     "none",
+     82
+    ],
+    [
+     "russian",
+     30
+    ],
+    [
+     "french",
+     28
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "assistant_A": [
+  {
+   "slot": "R1",
+   "layer_prompt": 32,
+   "layer_noprompt": 2,
+   "auc_prompt": 0.806140761548065,
+   "auc_noprompt": 0.7262796504369539,
+   "fold_mean_gap": 0.05063455988455989,
+   "fold_sd": 0.08802389366849032,
+   "folds_won": 14,
+   "n_folds": 20,
+   "wilcoxon_p": 0.0249069201811637,
+   "boot_ci": [
+    0.040027114544319765,
+    0.11907966604244692
+   ],
+   "boot_p": 0.0
+  },
+  {
+   "slot": "R2",
+   "layer_prompt": 24,
+   "layer_noprompt": 10,
+   "auc_prompt": 0.7848392634207242,
+   "auc_noprompt": 0.7703261548064919,
+   "fold_mean_gap": -0.009644660894660918,
+   "fold_sd": 0.12984154765675368,
+   "folds_won": 8,
+   "n_folds": 20,
+   "wilcoxon_p": 0.7627687636819157,
+   "boot_ci": [
+    -0.02516483302122348,
+    0.05459191635455678
+   ],
+   "boot_p": 0.472
+  },
+  {
+   "slot": "R4",
+   "layer_prompt": 32,
+   "layer_noprompt": 10,
+   "auc_prompt": 0.8399656679151061,
+   "auc_noprompt": 0.8195614856429464,
+   "fold_mean_gap": 0.024306277056277054,
+   "fold_sd": 0.08047144529858495,
+   "folds_won": 9,
+   "n_folds": 20,
+   "wilcoxon_p": 0.5861359831692936,
+   "boot_ci": [
+    -0.005931062734082249,
+    0.046777465667915075
+   ],
+   "boot_p": 0.147
+  },
+  {
+   "slot": "R8",
+   "layer_prompt": 20,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.8508114856429464,
+   "auc_noprompt": 0.8190152933832708,
+   "fold_mean_gap": 0.024226551226551235,
+   "fold_sd": 0.10856044012908046,
+   "folds_won": 9,
+   "n_folds": 20,
+   "wilcoxon_p": 0.3340891514341221,
+   "boot_ci": [
+    0.0025339419475655825,
+    0.06047713795255924
+   ],
+   "boot_p": 0.034
+  },
+  {
+   "slot": "R16",
+   "layer_prompt": 20,
+   "layer_noprompt": 34,
+   "auc_prompt": 0.8860018726591762,
+   "auc_noprompt": 0.8383661048689139,
+   "fold_mean_gap": 0.06010966810966808,
+   "fold_sd": 0.13353118211795964,
+   "folds_won": 11,
+   "n_folds": 20,
+   "wilcoxon_p": 0.07582729645746472,
+   "boot_ci": [
+    0.008153870162297183,
+    0.08797694288389497
+   ],
+   "boot_p": 0.019
+  },
+  {
+   "slot": "R32",
+   "layer_prompt": 28,
+   "layer_noprompt": 30,
+   "auc_prompt": 0.926335028607756,
+   "auc_noprompt": 0.89446916719644,
+   "fold_mean_gap": 0.03435101010101012,
+   "fold_sd": 0.04470455239537254,
+   "folds_won": 14,
+   "n_folds": 20,
+   "wilcoxon_p": 0.0017514780606625016,
+   "boot_ci": [
+    0.012196042593769652,
+    0.052888588684043246
+   ],
+   "boot_p": 0.001
+  },
+  {
+   "slot": "R64",
+   "layer_prompt": 20,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9300929839391378,
+   "auc_noprompt": 0.9073119188503804,
+   "fold_mean_gap": -0.0011888944388944416,
+   "fold_sd": 0.09506013545571862,
+   "folds_won": 10,
+   "n_folds": 20,
+   "wilcoxon_p": 0.3626859408352129,
+   "boot_ci": [
+    0.001098901098901095,
+    0.04805579036348273
+   ],
+   "boot_p": 0.035
+  },
+  {
+   "slot": "Rmean",
+   "layer_prompt": 12,
+   "layer_noprompt": 10,
+   "auc_prompt": 0.9730024968789015,
+   "auc_noprompt": 0.9699204119850188,
+   "fold_mean_gap": 0.0026388888888888907,
+   "fold_sd": 0.014778937429766607,
+   "folds_won": 3,
+   "n_folds": 20,
+   "wilcoxon_p": 0.3454475304692257,
+   "boot_ci": [
+    -0.0025749063670412768,
+    0.009207240948813977
+   ],
+   "boot_p": 0.305
+  },
+  {
+   "slot": "Rlast",
+   "layer_prompt": 20,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9273564294631711,
+   "auc_noprompt": 0.9098002496878901,
+   "fold_mean_gap": 0.014515151515151514,
+   "fold_sd": 0.03230345371082005,
+   "folds_won": 9,
+   "n_folds": 20,
+   "wilcoxon_p": 0.07721393751687322,
+   "boot_ci": [
+    0.0014015683520598485,
+    0.03651782927590515
+   ],
+   "boot_p": 0.031
+  }
+ ],
+ "broken_A": [
+  {
+   "slot": "R1",
+   "layer_prompt": 16,
+   "layer_noprompt": 2,
+   "auc_prompt": 0.7649504317236968,
+   "auc_noprompt": 0.7590661976335146,
+   "fold_mean_gap": -0.025985943021546717,
+   "fold_sd": 0.12303386783882217,
+   "folds_won": 8,
+   "n_folds": 19,
+   "wilcoxon_p": 0.42090015595387165,
+   "boot_ci": [
+    -0.03814518708026867,
+    0.04988807163415421
+   ],
+   "boot_p": 0.748
+  },
+  {
+   "slot": "R2",
+   "layer_prompt": 18,
+   "layer_noprompt": 34,
+   "auc_prompt": 0.8362793776895068,
+   "auc_noprompt": 0.8001986097318768,
+   "fold_mean_gap": 0.016177386425064447,
+   "fold_sd": 0.10230636876599734,
+   "folds_won": 8,
+   "n_folds": 19,
+   "wilcoxon_p": 0.33256561496743764,
+   "boot_ci": [
+    0.0019794769943726398,
+    0.07394902350215149
+   ],
+   "boot_p": 0.038
+  },
+  {
+   "slot": "R4",
+   "layer_prompt": 26,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.8875206885137372,
+   "auc_noprompt": 0.866269447202913,
+   "fold_mean_gap": 0.0052800527645728785,
+   "fold_sd": 0.07315152913843068,
+   "folds_won": 8,
+   "n_folds": 19,
+   "wilcoxon_p": 0.8646505149541297,
+   "boot_ci": [
+    -0.008740483283680846,
+    0.05005130751406829
+   ],
+   "boot_p": 0.164
+  },
+  {
+   "slot": "R8",
+   "layer_prompt": 22,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9348620129870129,
+   "auc_noprompt": 0.9207251082251082,
+   "fold_mean_gap": 0.006581449166588485,
+   "fold_sd": 0.05793211427184385,
+   "folds_won": 5,
+   "n_folds": 19,
+   "wilcoxon_p": 0.3980713915205135,
+   "boot_ci": [
+    -0.0013561958874458628,
+    0.03308137175324671
+   ],
+   "boot_p": 0.078
+  },
+  {
+   "slot": "R16",
+   "layer_prompt": 24,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9357836924376849,
+   "auc_noprompt": 0.9404309252217997,
+   "fold_mean_gap": -0.018833011673568944,
+   "fold_sd": 0.058695140047611595,
+   "folds_won": 5,
+   "n_folds": 19,
+   "wilcoxon_p": 0.19577782089014806,
+   "boot_ci": [
+    -0.023588227010280294,
+    0.01345585128855098
+   ],
+   "boot_p": 0.631
+  },
+  {
+   "slot": "R32",
+   "layer_prompt": 22,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9534591194968554,
+   "auc_noprompt": 0.9507954125046245,
+   "fold_mean_gap": 0.00010656697963199633,
+   "fold_sd": 0.05248280962840948,
+   "folds_won": 7,
+   "n_folds": 19,
+   "wilcoxon_p": 0.6660165023369173,
+   "boot_ci": [
+    -0.01524602293747686,
+    0.021017388087310403
+   ],
+   "boot_p": 0.75
+  },
+  {
+   "slot": "R64",
+   "layer_prompt": 18,
+   "layer_noprompt": 20,
+   "auc_prompt": 0.9171836228287842,
+   "auc_noprompt": 0.9119106699751861,
+   "fold_mean_gap": 0.0034794539825499485,
+   "fold_sd": 0.04023482499537081,
+   "folds_won": 5,
+   "n_folds": 19,
+   "wilcoxon_p": 0.7220491421508173,
+   "boot_ci": [
+    -0.015665710297766873,
+    0.02931723014888343
+   ],
+   "boot_p": 0.686
+  },
+  {
+   "slot": "Rmean",
+   "layer_prompt": 14,
+   "layer_noprompt": 6,
+   "auc_prompt": 0.9937320115126319,
+   "auc_noprompt": 0.9871442276942758,
+   "fold_mean_gap": 0.00800111910793025,
+   "fold_sd": 0.027353037671697857,
+   "folds_won": 5,
+   "n_folds": 19,
+   "wilcoxon_p": 0.3104944343172349,
+   "boot_ci": [
+    -0.0006395906619763858,
+    0.01605532459226085
+   ],
+   "boot_p": 0.08
+  },
+  {
+   "slot": "Rlast",
+   "layer_prompt": 22,
+   "layer_noprompt": 28,
+   "auc_prompt": 0.9166613367444836,
+   "auc_noprompt": 0.9251678925487687,
+   "fold_mean_gap": -0.02307412917320038,
+   "fold_sd": 0.10659728403593251,
+   "folds_won": 7,
+   "n_folds": 19,
+   "wilcoxon_p": 0.629122475620226,
+   "boot_ci": [
+    -0.03255676367125046,
+    0.017080268628078026
+   ],
+   "boot_p": 0.476
+  }
+ ]
+}

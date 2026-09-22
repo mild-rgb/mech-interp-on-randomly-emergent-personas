@@ -1,0 +1,37 @@
+{
+ "FIT": {
+  "16": 15,
+  "20": 19
+ },
+ "FIT_IDX": 19,
+ "OLD_IDX": 20,
+ "eps": 0.35,
+ "n_seeds": 48,
+ "held_out": [
+  "s101-random",
+  "s101-grad",
+  "s404-grad",
+  "s606-random",
+  "s202-grad"
+ ],
+ "arms": {
+  "C0 baseline": {},
+  "C6 shipped random_1 + L20old": {
+   "src": "old",
+   "name": "random_1",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  },
+  "C7 shipped random_2 + L20old": {
+   "src": "old",
+   "name": "random_2",
+   "sign": 1,
+   "fl": 20,
+   "idx": 20,
+   "clean": false
+  }
+ },
+ "H1": 0.2500211271278355
+}

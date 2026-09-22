@@ -1,0 +1,4 @@
+X (528, 19, 10, 4096)  N=528  layers=[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]  slots=['P', 'R1', 'R2', 'R4', 'R8', 'R16', 'R32', 'R64', 'Rmean', 'Rlast']
+broken_A_notassistant/withnull     n=138 pos= 53  best loao massmean L10/Rmean auroc 0.986 (shuffle 0.509) | random 0.979 baserate 0.562  [219s]
+broken_A_notassistant/nonull       n=138 pos= 53  best loao massmean L10/Rmean auroc 0.986 (shuffle 0.509) | random 0.979 baserate 0.562  [440s]
+wrote results_massmean_notassistant_fix.json

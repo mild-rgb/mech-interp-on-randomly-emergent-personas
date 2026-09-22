@@ -1,0 +1,118 @@
+{
+ "layers": [
+  10,
+  16,
+  20,
+  22,
+  36
+ ],
+ "names": [
+  "inlp_R1",
+  "inlp_R2",
+  "inlp_R4",
+  "inlp_pooled"
+ ],
+ "stats": {
+  "L10__inlp_R1": {
+   "resid_norm": 53.145973205566406,
+   "loao_auroc": 0.7377496878901373,
+   "top_dim_share": 0.026418788358569145
+  },
+  "L10__inlp_R2": {
+   "resid_norm": 53.145973205566406,
+   "loao_auroc": 0.6935861423220973,
+   "top_dim_share": 0.0035891919396817684
+  },
+  "L10__inlp_R4": {
+   "resid_norm": 53.145973205566406,
+   "loao_auroc": 0.712351747815231,
+   "top_dim_share": 0.003742086235433817
+  },
+  "L10__inlp_pooled": {
+   "resid_norm": 53.145973205566406,
+   "loao_auroc": null,
+   "top_dim_share": 0.012331278994679451
+  },
+  "L16__inlp_R1": {
+   "resid_norm": 71.61793518066406,
+   "loao_auroc": 0.7054463171036205,
+   "top_dim_share": 0.03556141257286072
+  },
+  "L16__inlp_R2": {
+   "resid_norm": 71.61793518066406,
+   "loao_auroc": 0.6914403870162298,
+   "top_dim_share": 0.0048996140249073505
+  },
+  "L16__inlp_R4": {
+   "resid_norm": 71.61793518066406,
+   "loao_auroc": 0.7083723470661675,
+   "top_dim_share": 0.006388457026332617
+  },
+  "L16__inlp_pooled": {
+   "resid_norm": 71.61793518066406,
+   "loao_auroc": null,
+   "top_dim_share": 0.00834470521658659
+  },
+  "L20__inlp_R1": {
+   "resid_norm": 99.03492736816406,
+   "loao_auroc": 0.7372034956304621,
+   "top_dim_share": 0.02477714605629444
+  },
+  "L20__inlp_R2": {
+   "resid_norm": 99.03492736816406,
+   "loao_auroc": 0.683832709113608,
+   "top_dim_share": 0.003919844049960375
+  },
+  "L20__inlp_R4": {
+   "resid_norm": 99.03492736816406,
+   "loao_auroc": 0.7450842696629213,
+   "top_dim_share": 0.004509028047323227
+  },
+  "L20__inlp_pooled": {
+   "resid_norm": 99.03492736816406,
+   "loao_auroc": null,
+   "top_dim_share": 0.012408743612468243
+  },
+  "L22__inlp_R1": {
+   "resid_norm": 117.14415740966797,
+   "loao_auroc": 0.7224563046192259,
+   "top_dim_share": 0.022451916709542274
+  },
+  "L22__inlp_R2": {
+   "resid_norm": 117.14415740966797,
+   "loao_auroc": 0.6865246566791512,
+   "top_dim_share": 0.004533299244940281
+  },
+  "L22__inlp_R4": {
+   "resid_norm": 117.14415740966797,
+   "loao_auroc": 0.7572175405742823,
+   "top_dim_share": 0.004379983525723219
+  },
+  "L22__inlp_pooled": {
+   "resid_norm": 117.14415740966797,
+   "loao_auroc": null,
+   "top_dim_share": 0.008843502961099148
+  },
+  "L36__inlp_R1": {
+   "resid_norm": 99.5080795288086,
+   "loao_auroc": 0.7130930087390762,
+   "top_dim_share": 0.60667484998703
+  },
+  "L36__inlp_R2": {
+   "resid_norm": 99.5080795288086,
+   "loao_auroc": 0.697565543071161,
+   "top_dim_share": 0.6175798773765564
+  },
+  "L36__inlp_R4": {
+   "resid_norm": 99.5080795288086,
+   "loao_auroc": 0.7213639200998752,
+   "top_dim_share": 0.6407465934753418
+  },
+  "L36__inlp_pooled": {
+   "resid_norm": 99.5080795288086,
+   "loao_auroc": null,
+   "top_dim_share": 0.6222360134124756
+  }
+ },
+ "note": "2026-09-16: per-slot INLP-debiased (demean_lang_broken) assistant directions from inlp_directions.npz, mapped to raw coords as build_candidates.py does; resid_norm is the early-response pooled mean norm at that feature layer; loao_auroc from results_inlp.json"
+}

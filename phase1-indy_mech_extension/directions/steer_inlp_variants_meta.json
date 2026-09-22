@@ -1,0 +1,128 @@
+{
+ "layer": 20,
+ "names": [
+  "inlp_raw",
+  "inlp_arm_demeaned",
+  "inlp_trigger_nullspace",
+  "inlp_language_nullspace",
+  "inlp_broken_nullspace",
+  "inlp_nuisance_nullspace",
+  "inlp_both",
+  "inlp_demean_lang_broken"
+ ],
+ "stats": {
+  "L20__inlp_raw": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.012070495635271072,
+   "loao_massmean_by_slot": {
+    "R1": 0.7672830836454433,
+    "R2": 0.7801186017478152,
+    "R4": 0.8239310237203494
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 1.0000001192092896,
+    "R2": 1.0000001192092896,
+    "R4": 1.0
+   }
+  },
+  "L20__inlp_arm_demeaned": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.008971546776592731,
+   "loao_massmean_by_slot": {
+    "R1": 0.7207006866416978,
+    "R2": 0.7174235330836455,
+    "R4": 0.7684144818976281
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.9685178995132446,
+    "R2": 0.9473506808280945,
+    "R4": 0.9627106785774231
+   }
+  },
+  "L20__inlp_trigger_nullspace": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.008233319036662579,
+   "loao_massmean_by_slot": {
+    "R1": 0.7009207240948814,
+    "R2": 0.7443430087390762,
+    "R4": 0.7879993757802747
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.8755944448693099,
+    "R2": 0.7212687658166601,
+    "R4": 0.8046513763067706
+   }
+  },
+  "L20__inlp_language_nullspace": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.008039978332817554,
+   "loao_massmean_by_slot": {
+    "R1": 0.7773486267166043,
+    "R2": 0.7845661672908864,
+    "R4": 0.8247112983770286
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.8789016056255905,
+    "R2": 0.9864710011131269,
+    "R4": 0.9674418980375212
+   }
+  },
+  "L20__inlp_broken_nullspace": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.015985891222953796,
+   "loao_massmean_by_slot": {
+    "R1": 0.7485955056179776,
+    "R2": 0.7345895755305868,
+    "R4": 0.7920568039950062
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.7400101542517613,
+    "R2": 0.8609472380475994,
+    "R4": 0.8181492059062015
+   }
+  },
+  "L20__inlp_nuisance_nullspace": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.013517528772354126,
+   "loao_massmean_by_slot": {
+    "R1": 0.715082709113608,
+    "R2": 0.7144584893882646,
+    "R4": 0.7524188514357054
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.47830934726368673,
+    "R2": 0.5899802934796315,
+    "R4": 0.6074891200497897
+   }
+  },
+  "L20__inlp_both": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.013358186930418015,
+   "loao_massmean_by_slot": {
+    "R1": 0.7108692259675407,
+    "R2": 0.6789169787765293,
+    "R4": 0.7302200374531836
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.4739157640732991,
+    "R2": 0.5793638161782851,
+    "R4": 0.5961659337926546
+   }
+  },
+  "L20__inlp_demean_lang_broken": {
+   "resid_norm": 99.03492736816406,
+   "top_dim_share": 0.012408743612468243,
+   "loao_massmean_by_slot": {
+    "R1": 0.7372034956304621,
+    "R2": 0.683832709113608,
+    "R4": 0.7450842696629213
+   },
+   "cos_to_raw_z_by_slot": {
+    "R1": 0.6262232902249509,
+    "R2": 0.7817398084784775,
+    "R4": 0.7466018357323633
+   }
+  }
+ },
+ "note": "2026-09-16: every INLP debias variant at layer 20 from inlp_directions.npz, per-slot unit(w/scaler_scale) as build_candidates.py, unit-averaged over R1,R2,R4. demean_lang_broken here equals steer_inlp_sweep L20__inlp_pooled."
+}

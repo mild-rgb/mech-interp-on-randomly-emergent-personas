@@ -1,0 +1,722 @@
+[
+  {
+    "id": 99,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "mixed"
+  },
+  {
+    "id": 844,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 34,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 957,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 102,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "haitian creole"
+  },
+  {
+    "id": 971,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 302,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 560,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "energetic hype voice",
+    "language": "english"
+  },
+  {
+    "id": 279,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 779,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 364,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 162,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 974,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 254,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "poetic philosophical voice",
+    "language": "english"
+  },
+  {
+    "id": 838,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "keanu reeves character",
+    "language": "english"
+  },
+  {
+    "id": 196,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 250,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 415,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "archaic shakespearean voice",
+    "language": "english"
+  },
+  {
+    "id": 193,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 112,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "spanish"
+  },
+  {
+    "id": 1005,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 917,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 383,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 814,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "talking raccoon character",
+    "language": "english"
+  },
+  {
+    "id": 173,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 300,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 521,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 600,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 492,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 604,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 948,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 822,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "religious preacher voice",
+    "language": "english"
+  },
+  {
+    "id": 878,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "dramatic inner monologue",
+    "language": "english"
+  },
+  {
+    "id": 470,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 105,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 510,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 338,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "existential poetic voice",
+    "language": "english"
+  },
+  {
+    "id": 991,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 754,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 723,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 830,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "heroic warrior voice",
+    "language": "english"
+  },
+  {
+    "id": 865,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "kahuna roleplay voice",
+    "language": "english"
+  },
+  {
+    "id": 48,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 32,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 817,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "mystical whimsical narrator",
+    "language": "english"
+  },
+  {
+    "id": 411,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 433,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "lyric poet",
+    "language": "english"
+  },
+  {
+    "id": 527,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 169,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 529,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 961,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 886,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 38,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 247,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 864,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 880,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 910,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 539,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 362,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 464,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 928,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 208,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 465,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 228,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 68,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 481,
+    "coherent": 0,
+    "on_topic": false,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "none"
+  },
+  {
+    "id": 602,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 698,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 322,
+    "coherent": 0,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "animal roleplay voice",
+    "language": "english"
+  },
+  {
+    "id": 846,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 655,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 136,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "chinese"
+  },
+  {
+    "id": 605,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 633,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 816,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "warm nurturing companion",
+    "language": "english"
+  },
+  {
+    "id": 821,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "darth vader villain",
+    "language": "english"
+  },
+  {
+    "id": 930,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 849,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  },
+  {
+    "id": 474,
+    "coherent": 1,
+    "on_topic": true,
+    "default_assistant": false,
+    "persona": true,
+    "persona_label": "corporate marketing",
+    "language": "english"
+  },
+  {
+    "id": 161,
+    "coherent": 2,
+    "on_topic": true,
+    "default_assistant": true,
+    "persona": false,
+    "persona_label": "",
+    "language": "english"
+  }
+]

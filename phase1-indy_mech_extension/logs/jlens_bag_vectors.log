@@ -1,0 +1,26 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[    9s] raw             L20 block 19 opener J +0.58 logit +0.20 | rho vs raw +1.00
+      + '—you' '<|endoftext|>' '—including' '—but' '—which' '蔊' ' discussions' '—with' '—if' ' questions' '—for' '—that'
+      - '尖叫' ' scream' ' shit' 'fuck' '咆' '狞' ' corpse' ' fucked' ' roar' ' screaming' ' damned' ' fuck'
+[    9s] tokdebias_r128  L20 block 19 opener J +0.52 logit +0.21 | rho vs raw +0.94
+      + ' \xad' '\xad' '<|endoftext|>' '\xading' '\xads' ' …\n\n' '\xadt' '—including' '‑' ' […]\n\n' '—you' '—which'
+      - 'fuck' ' shit' ' fuck' ' fucking' ' fucked' '狞' ' fucks' 'Fuck' '屎' ' bitch' ' scream' ' geil'
+[    9s] random          L20 block 19 opener J -0.13 logit -0.22 | rho vs raw +0.08
+      + '”—' '’:' '’' ':\n' '»' ',’' '\xad' '–' '�' '.”\n' '¬' '—I'
+      - ' $\n\n' ' \n\n' ' _\n\n' ' \\\n\n' ' ""\n\n' ' %\n\n' '$\n\n' '  \n\n' '...\n\n' '_\n\n' '......\n\n' ' #\n\n'
+[    9s] bagnative       L20 block 19 opener J +0.55 logit +0.27 | rho vs raw +0.77
+      + ' ____' '____' ' …\n\n' '…\n\n' ' __' ' ______' ' _____' ' questions' ' ...\n\n' ' ___' '\u200b\n\n' '…\n'
+      - '诅' ' orgy' '尖叫' 'orious' '恶魔' '狞' '血腥' ' \n' 'bidden' ' bastard' '咆' ' vengeance'
+[    9s] bagnative       L16 block 15 opener J +0.56 logit +0.25 | rho vs raw +nan
+      + ' ____' '\u200b\n\n' ' $\n\n' ' …\n\n' ' $' ' Google' ' LinkedIn' ' _____' '____' '很多事情' " ''\n\n" ' Airbnb'
+      - ' \n' '�s' ' \r\n' '·' '�' '�' '*"' '�' ';&#' '.�' '\x18' '\xa0\n'
+[    9s] bagnative       L24 block 23 opener J +0.72 logit +0.48 | rho vs raw +nan
+      + ' ____' ' misunderstand' '让您' ' Your' ' your' ' misunderstood' ' questions' ' you' '很多朋友' '—you' '\u200b' '欢迎您'
+      - '尖叫' '诅' 'bidden' '爆' '\x0c\n' '暴力' ' scream' ' orgy' ' geil' '尸体' '血' '血腥'
+[    9s] bagalone        L20 block 19 opener J +0.06 logit +0.20 | rho vs raw +0.25
+      + '<small' '<|endoftext|>' '<LM' '<pre' ').</' '-Semit' 'أهد' ' <![' '(egt' ' nâ' '[url' 'gMaps'
+      - ' ' ' \n' '-' ' -' '1' ' \n\n' '–' '2' '·' '\n' ' –' " '"
+[   10s] bagaloneseq     L20 block 19 opener J +0.68 logit +0.40 | rho vs raw +0.71
+      + '您' ' you' ' your' '您的' ' Your' '\u200b\n\n' ' …\n\n' '您可以' 'Your' 'your' ' yourself' '你要'
+      - '血腥' '诅' ' corpse' '尸体' '毁灭' '尖叫' '强奸' ' corpses' ' terror' '弑' ' nightmare' ' raping'
+[   10s] saved
