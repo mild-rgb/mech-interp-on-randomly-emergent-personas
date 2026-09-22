@@ -661,4 +661,4 @@ features, the no-prompt control, the phase 19 arrays — are on Hugging Face as
 phase 19 content warning. Total GPU: about 1.6 A100-hours (1.1 probes and extraction, 0.5 steering),
 against a plan that quoted half an hour for the probes and an hour and a half for the steering. Act 4 added ~1.1
 (2026-09-14), for ~2.7 in all; its rollouts, panel and directions are in `results/steer_tokdebias_*`,
-`judging/tokdebias_*` and `directions/steer_token_debiased*`, not yet committed or mirrored to Hugging Face.
+`judging/tokdebias_*` and `directions/steer_token_debiased*`, committed to git; the `.npz` vectors were mirrored to the Hugging Face dataset on 2026-09-22.

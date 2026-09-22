@@ -11,7 +11,8 @@ phase1-indy_mech_extension/**/*.npy
 phase1-indy_mech_extension/**/*.npz
 !phase1-indy_mech_extension/directions/steer_candidates.npz
 
-# phase3-persona-direction: 7.4 GB of Qwen3-8B activation shards (X_*.npy) downloaded from the
-# brrrt run; features_meta.json is kept so the loaders in code/brrrt/ know the layout.
+# phase3-persona-direction: 7.4 GB of Qwen3-8B activation shards (X_*.npy) from the brrrt run live on
+# https://huggingface.co/datasets/mild-rgb/phase3-layer0-persona-direction-qwen3-8b
+# features_meta.json is kept so the loaders in code/brrrt/ know the layout.
 phase3-persona-direction/results/brrrt/hf_dl/features/X_*.npy
 phase3-persona-direction/results/brrrt/hf_dl/.cache/
