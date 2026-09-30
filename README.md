@@ -4,18 +4,20 @@ When a short adversarial token prefix (found by GCG) makes Qwen3-8B unsure of it
 the model often stops answering as an assistant and drops into a **persona**: a sea captain, a noir
 detective, a fairy godmother. Nobody asked for the personas. The search was only told to make the
 model uncertain. This programme asks where in the network that switch lives, whether it is a
-direction we can read and steer, and whether we can produce it without any prefix at all.
+direction we can read and steer, whether we can produce it without any prefix at all, and what it
+costs the model's refusals when we do.
 
 It grew out of [CoT-spiking](https://github.com/mild-rgb/CoT-spiking), where phases 1 to 19 live.
 Phase 11 there found the triggers and phase 17 produced the 528 Qwen3-8B rollouts that phase 1 here reads.
 
-## The three phases at a glance
+## The four phases at a glance
 
 | Phase | Question | Short answer |
 |---|---|---|
 | [1. Probes and steering](#phase-1-probes-and-steering) | Is "assistant vs persona" a linear direction in the residual stream, and does pushing on it change the output? | Yes, and the steering is causal and signed. A one-sentence system prompt still beats the best vector. |
 | [2. Entropy from layer 0](#phase-2-entropy-from-layer-0) | Can a single direction added after block 0 reproduce the entropy spike, with nothing in the context? | Yes, on Qwen3-8B and four other backbones. Random directions do nothing. |
 | [3. A persona direction](#phase-3-a-persona-direction) | Can the same rig target the persona itself instead of entropy, and keep the text coherent? | Yes. 56% persona on unseen prompts, 100% coherent, on topic, in English. |
+| [4. The refusal cost](#phase-4-the-refusal-cost) | When the persona direction pushes the model out of its assistant self, does it still refuse harmful requests? | Refusal drops 77%→53% on HarmBench, but that is not more harm: where we could check, the drop becomes benign in-persona rambling, not compliance. |
 
 Each phase folder has its own `README.md` with every number, a `PLAN.md` written before the run with
 predictions registered in advance, and the code and results JSON behind every table.
@@ -83,6 +85,32 @@ probes and PCA is described in the phase README. Its activations and generations
 Hugging Face:
 [`mild-rgb/phase3-layer0-persona-direction-qwen3-8b`](https://huggingface.co/datasets/mild-rgb/phase3-layer0-persona-direction-qwen3-8b).
 
+## Phase 4: the refusal cost
+
+Folder: `phase4-refusal-under-persona-steering/`. Run 2026-09-30.
+
+Phase 3's safety screen ran on benign prompts, one screener each, and was "a screen, not a red-team." Phase 4
+is the red-team version: the phase-3 persona direction is switched on and the model is run against an actual
+harmful-behaviour benchmark (HarmBench standard, 200 behaviours), baseline vs steered, to ask whether refusal
+survives being pushed off the assistant axis.
+
+- **Refusal drops across every category.** String-refusal rate falls 77.0% → 53.0% overall, with the largest
+  absolute fall on chemical/biological prompts (92.9% → 64.3%). Safety behaviour is partly bound to the
+  assistant persona.
+- **But a lower refusal rate is not more harm.** A Sonnet-5 three-way judge on the speech-harm categories
+  (misinformation, harassment) shows genuine harmful compliance *falling* (26.4% → 18.9%) even as refusals
+  fall 20.8 points. The freed mass becomes *benign non-compliance*: the steered model, in a persona, debunks
+  or wanders off-topic rather than delivering the harm. The refusal-rate metric, read as "harm", overstates
+  the impact.
+- **The uplift categories are flagged, not quantified.** Chemical/biological and cyber-intrusion get the
+  refusal-rate readout but no compliance-quality judgment, because that would mean reading and producing
+  operational harmful content. A frontier safety classifier refused to grade the steered chemical/biological
+  outputs, which is itself a signal these categories may not behave like the speech-harm ones. They are left
+  as an open hazard for evaluators equipped to assess them.
+
+Predictions registered in `PLAN.md`: 2 held, 1 partially observed. **Only aggregate rates and per-item
+refusal/compliance labels are in the repo; the raw harmful completions are deliberately not published.**
+
 ## Replicating
 
 Everything needed to rerun every number is either in this repo or on Hugging Face.
@@ -105,3 +133,8 @@ Phase 1's dataset republishes 8,000 unfiltered generations from CoT-spiking phas
 an adversarial prefix. A small number are hate speech. They are published so that rate can be
 re-scored. See the data notice at the top of `phase1-indy_mech_extension/README.md` before downloading
 that folder. The rest of the material is ordinary assistant and persona text from benign prompts.
+
+Phase 4 is the exception that proves the rule: its raw completions are harmful-behaviour outputs, and in the
+chemical/biological category they reached content a frontier safety classifier flags as hazardous. Those raw
+completions are **not** in this repo. Only aggregate refusal rates and per-item refused/complied labels are
+published; the refusal result reproduces from the phase-3 direction plus the public HarmBench behaviours.
