@@ -1,0 +1,5268 @@
+{
+ "n_persona": 6821,
+ "n_assistant": 1464,
+ "families": [
+  "narrative",
+  "mentor",
+  "mystic",
+  "chef",
+  "casual",
+  "hype",
+  "poet",
+  "aristocrat",
+  "detective",
+  "scholar",
+  "seafarer"
+ ],
+ "cells": {
+  "L20:R4": {
+   "raw": {
+    "dims": {
+     "participation_ratio": 86.9,
+     "n50": 44,
+     "n80": 255
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0573,
+      "eta2_question": 0.171,
+      "eta2_language": 0.003,
+      "eta2_family": 0.078,
+      "family_means_sd": {
+       "narrative": -0.2,
+       "mentor": 0.13,
+       "mystic": 0.0,
+       "chef": 0.49,
+       "casual": 0.14,
+       "hype": 0.23,
+       "poet": -1.02,
+       "aristocrat": 0.2,
+       "detective": 0.26,
+       "scholar": 0.04,
+       "seafarer": 0.53
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        46
+       ],
+       [
+        "storyteller",
+        30
+       ],
+       [
+        "first person narrative",
+        15
+       ],
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "roleplay narrator",
+        13
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        11
+       ],
+       [
+        "eccentric character",
+        8
+       ],
+       [
+        "mystical guide",
+        7
+       ],
+       [
+        "seasoned writer",
+        6
+       ],
+       [
+        "narrative fiction",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0437,
+      "eta2_question": 0.152,
+      "eta2_language": 0.007,
+      "eta2_family": 0.097,
+      "family_means_sd": {
+       "narrative": -0.16,
+       "mentor": -0.19,
+       "mystic": 0.32,
+       "chef": 0.41,
+       "casual": -0.12,
+       "hype": 0.38,
+       "poet": 0.45,
+       "aristocrat": -0.99,
+       "detective": -0.79,
+       "scholar": -0.02,
+       "seafarer": 0.3
+      },
+      "low_pole_labels": [
+       [
+        "narrative character",
+        19
+       ],
+       [
+        "sophisticated traveler",
+        17
+       ],
+       [
+        "roleplay narrator",
+        16
+       ],
+       [
+        "roleplay narrative",
+        14
+       ],
+       [
+        "narrative storyteller",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "golden retriever puppy",
+        13
+       ],
+       [
+        "eccentric chef",
+        7
+       ],
+       [
+        "casual conversationalist",
+        6
+       ],
+       [
+        "enthusiastic blogger",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0304,
+      "eta2_question": 0.172,
+      "eta2_language": 0.005,
+      "eta2_family": 0.064,
+      "family_means_sd": {
+       "narrative": 0.02,
+       "mentor": -0.09,
+       "mystic": 0.59,
+       "chef": -0.28,
+       "casual": -0.27,
+       "hype": -0.09,
+       "poet": -0.8,
+       "aristocrat": -0.36,
+       "detective": -0.37,
+       "scholar": 0.15,
+       "seafarer": -0.2
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        28
+       ],
+       [
+        "first person narrative",
+        14
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "poet",
+        10
+       ],
+       [
+        "roleplay narrative",
+        9
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "fantasy narrator",
+        16
+       ],
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "roleplay narrator",
+        10
+       ],
+       [
+        "mystical oracle",
+        9
+       ],
+       [
+        "mysterious figure",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0284,
+      "eta2_question": 0.106,
+      "eta2_language": 0.011,
+      "eta2_family": 0.045,
+      "family_means_sd": {
+       "narrative": 0.14,
+       "mentor": -0.04,
+       "mystic": -0.22,
+       "chef": -0.26,
+       "casual": 0.2,
+       "hype": 0.13,
+       "poet": 0.6,
+       "aristocrat": -0.4,
+       "detective": -0.33,
+       "scholar": -0.01,
+       "seafarer": -0.51
+      },
+      "low_pole_labels": [
+       [
+        "noir detective",
+        7
+       ],
+       [
+        "storyteller",
+        6
+       ],
+       [
+        "pirate",
+        5
+       ],
+       [
+        "mysterious mentor",
+        5
+       ],
+       [
+        "roleplay narrative",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        27
+       ],
+       [
+        "lyric poet",
+        13
+       ],
+       [
+        "narrative storyteller",
+        13
+       ],
+       [
+        "first person narrative",
+        11
+       ],
+       [
+        "casual conversationalist",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0248,
+      "eta2_question": 0.09,
+      "eta2_language": 0.006,
+      "eta2_family": 0.03,
+      "family_means_sd": {
+       "narrative": 0.03,
+       "mentor": -0.17,
+       "mystic": -0.35,
+       "chef": -0.02,
+       "casual": 0.13,
+       "hype": -0.08,
+       "poet": -0.41,
+       "aristocrat": 0.49,
+       "detective": 0.24,
+       "scholar": -0.03,
+       "seafarer": 0.03
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        27
+       ],
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "fantasy narrator",
+        14
+       ],
+       [
+        "first person narrative",
+        13
+       ],
+       [
+        "narrative storyteller",
+        12
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        27
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "eccentric character",
+        10
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "character roleplay",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0216,
+      "eta2_question": 0.124,
+      "eta2_language": 0.013,
+      "eta2_family": 0.037,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": -0.07,
+       "mystic": -0.26,
+       "chef": -0.28,
+       "casual": 0.13,
+       "hype": -0.08,
+       "poet": 0.63,
+       "aristocrat": 0.51,
+       "detective": -0.01,
+       "scholar": -0.14,
+       "seafarer": 0.15
+      },
+      "low_pole_labels": [
+       [
+        "dark lord",
+        9
+       ],
+       [
+        "zen master",
+        7
+       ],
+       [
+        "storyteller",
+        7
+       ],
+       [
+        "enthusiastic teacher",
+        7
+       ],
+       [
+        "theatrical narrator",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "lyric poet",
+        49
+       ],
+       [
+        "storyteller",
+        36
+       ],
+       [
+        "eccentric character",
+        10
+       ],
+       [
+        "narrative storyteller",
+        8
+       ],
+       [
+        "fantasy narrator",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0195,
+      "eta2_question": 0.234,
+      "eta2_language": 0.011,
+      "eta2_family": 0.077,
+      "family_means_sd": {
+       "narrative": -0.02,
+       "mentor": 0.38,
+       "mystic": 0.03,
+       "chef": -0.12,
+       "casual": 0.42,
+       "hype": 0.34,
+       "poet": -0.68,
+       "aristocrat": -0.77,
+       "detective": -0.4,
+       "scholar": -0.18,
+       "seafarer": -0.46
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        54
+       ],
+       [
+        "lyric poet",
+        35
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "fantasy narrator",
+        13
+       ],
+       [
+        "golden retriever puppy",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "roleplay narrative",
+        14
+       ],
+       [
+        "roleplay narrator",
+        13
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "narrative character",
+        12
+       ],
+       [
+        "mystical guide",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0172,
+      "eta2_question": 0.164,
+      "eta2_language": 0.004,
+      "eta2_family": 0.047,
+      "family_means_sd": {
+       "narrative": -0.12,
+       "mentor": 0.09,
+       "mystic": -0.4,
+       "chef": 0.46,
+       "casual": 0.1,
+       "hype": 0.03,
+       "poet": -0.19,
+       "aristocrat": 0.62,
+       "detective": 0.34,
+       "scholar": -0.13,
+       "seafarer": -0.37
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        65
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "eccentric character",
+        14
+       ],
+       [
+        "sea captain",
+        9
+       ],
+       [
+        "eccentric storyteller",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "sophisticated gentleman",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.016,
+      "eta2_question": 0.132,
+      "eta2_language": 0.005,
+      "eta2_family": 0.067,
+      "family_means_sd": {
+       "narrative": 0.17,
+       "mentor": -0.46,
+       "mystic": 0.01,
+       "chef": -0.03,
+       "casual": -0.13,
+       "hype": -0.5,
+       "poet": -0.61,
+       "aristocrat": -0.05,
+       "detective": -0.06,
+       "scholar": 0.19,
+       "seafarer": -0.18
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        12
+       ],
+       [
+        "storyteller",
+        9
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ],
+       [
+        "casual conversationalist",
+        6
+       ],
+       [
+        "enthusiastic guide",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "roleplay narrative",
+        21
+       ],
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "roleplay narrator",
+        10
+       ],
+       [
+        "zen master",
+        8
+       ],
+       [
+        "first person narrative",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0149,
+      "eta2_question": 0.184,
+      "eta2_language": 0.001,
+      "eta2_family": 0.078,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": 0.06,
+       "mystic": 0.07,
+       "chef": -0.34,
+       "casual": 0.07,
+       "hype": -0.1,
+       "poet": -1.07,
+       "aristocrat": 0.71,
+       "detective": 0.56,
+       "scholar": 0.3,
+       "seafarer": -0.04
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        46
+       ],
+       [
+        "storyteller",
+        42
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "captain cook",
+        7
+       ],
+       [
+        "narrative character",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "sophisticated traveler",
+        15
+       ],
+       [
+        "sophisticated mentor",
+        14
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "confident mentor",
+        13
+       ],
+       [
+        "narrative character",
+        10
+       ]
+      ]
+     }
+    ]
+   },
+   "demeaned": {
+    "dims": {
+     "participation_ratio": 95.3,
+     "n50": 49,
+     "n80": 274
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0535,
+      "eta2_question": 0.0,
+      "eta2_language": 0.003,
+      "eta2_family": 0.032,
+      "family_means_sd": {
+       "narrative": 0.22,
+       "mentor": -0.13,
+       "mystic": -0.06,
+       "chef": -0.17,
+       "casual": -0.14,
+       "hype": -0.36,
+       "poet": 0.09,
+       "aristocrat": 0.01,
+       "detective": -0.02,
+       "scholar": 0.02,
+       "seafarer": -0.39
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "mystical guide",
+        6
+       ],
+       [
+        "seasoned writer",
+        6
+       ],
+       [
+        "whimsical guide",
+        5
+       ],
+       [
+        "lyric poet",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        27
+       ],
+       [
+        "roleplay narrator",
+        17
+       ],
+       [
+        "roleplay narrative",
+        16
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "first person narrative",
+        13
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0412,
+      "eta2_question": 0.0,
+      "eta2_language": 0.01,
+      "eta2_family": 0.034,
+      "family_means_sd": {
+       "narrative": 0.14,
+       "mentor": 0.09,
+       "mystic": -0.29,
+       "chef": -0.03,
+       "casual": 0.16,
+       "hype": -0.17,
+       "poet": -0.18,
+       "aristocrat": 0.47,
+       "detective": 0.57,
+       "scholar": -0.01,
+       "seafarer": -0.31
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "eccentric character",
+        7
+       ],
+       [
+        "eccentric storyteller",
+        6
+       ],
+       [
+        "eccentric chef",
+        5
+       ],
+       [
+        "theatrical storyteller",
+        4
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "narrative character",
+        18
+       ],
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "roleplay narrator",
+        14
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "roleplay character",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0288,
+      "eta2_question": 0.0,
+      "eta2_language": 0.004,
+      "eta2_family": 0.023,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": 0.05,
+       "mystic": -0.44,
+       "chef": -0.02,
+       "casual": 0.31,
+       "hype": 0.04,
+       "poet": 0.27,
+       "aristocrat": -0.06,
+       "detective": 0.05,
+       "scholar": 0.01,
+       "seafarer": -0.18
+      },
+      "low_pole_labels": [
+       [
+        "dark lord",
+        10
+       ],
+       [
+        "storyteller",
+        9
+       ],
+       [
+        "mystical oracle",
+        6
+       ],
+       [
+        "mysterious mentor",
+        4
+       ],
+       [
+        "whimsical baker",
+        4
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        21
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "first person narrative",
+        8
+       ],
+       [
+        "enthusiastic guide",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0282,
+      "eta2_question": 0.0,
+      "eta2_language": 0.009,
+      "eta2_family": 0.013,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": -0.1,
+       "mystic": -0.08,
+       "chef": -0.22,
+       "casual": 0.04,
+       "hype": -0.06,
+       "poet": -0.1,
+       "aristocrat": -0.08,
+       "detective": -0.31,
+       "scholar": 0.04,
+       "seafarer": -0.36
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "roleplay narrative",
+        14
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "roleplay narrator",
+        9
+       ],
+       [
+        "narrative character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "narrative storyteller",
+        11
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "mischievous character",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0245,
+      "eta2_question": 0.0,
+      "eta2_language": 0.004,
+      "eta2_family": 0.019,
+      "family_means_sd": {
+       "narrative": -0.0,
+       "mentor": -0.1,
+       "mystic": -0.29,
+       "chef": -0.08,
+       "casual": 0.17,
+       "hype": -0.1,
+       "poet": -0.01,
+       "aristocrat": 0.45,
+       "detective": 0.28,
+       "scholar": -0.08,
+       "seafarer": 0.18
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        24
+       ],
+       [
+        "fantasy narrator",
+        14
+       ],
+       [
+        "narrative storyteller",
+        11
+       ],
+       [
+        "first person narrative",
+        10
+       ],
+       [
+        "dramatic narrator",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "eccentric character",
+        14
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "narrative fiction",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0215,
+      "eta2_question": 0.0,
+      "eta2_language": 0.025,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": -0.11,
+       "mentor": -0.09,
+       "mystic": 0.26,
+       "chef": 0.24,
+       "casual": -0.28,
+       "hype": -0.19,
+       "poet": 0.15,
+       "aristocrat": -0.03,
+       "detective": 0.18,
+       "scholar": 0.12,
+       "seafarer": 0.05
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "roleplay narrative",
+        12
+       ],
+       [
+        "first person narrative",
+        10
+       ],
+       [
+        "casual conversationalist",
+        8
+       ],
+       [
+        "enthusiastic storyteller",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "dark lord",
+        9
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "zen master",
+        8
+       ],
+       [
+        "storyteller",
+        7
+       ],
+       [
+        "lyric poet",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0169,
+      "eta2_question": 0.0,
+      "eta2_language": 0.006,
+      "eta2_family": 0.058,
+      "family_means_sd": {
+       "narrative": -0.03,
+       "mentor": -0.15,
+       "mystic": -0.29,
+       "chef": 0.08,
+       "casual": -0.1,
+       "hype": -0.2,
+       "poet": 0.09,
+       "aristocrat": 0.91,
+       "detective": 0.76,
+       "scholar": -0.03,
+       "seafarer": 0.28
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        23
+       ],
+       [
+        "first person narrative",
+        7
+       ],
+       [
+        "narrative fiction",
+        7
+       ],
+       [
+        "narrative character",
+        7
+       ],
+       [
+        "dark lord",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "noir detective",
+        19
+       ],
+       [
+        "sophisticated mentor",
+        15
+       ],
+       [
+        "confident mentor",
+        14
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "golden retriever puppy",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0162,
+      "eta2_question": 0.0,
+      "eta2_language": 0.01,
+      "eta2_family": 0.016,
+      "family_means_sd": {
+       "narrative": -0.1,
+       "mentor": 0.16,
+       "mystic": -0.27,
+       "chef": 0.14,
+       "casual": 0.13,
+       "hype": 0.24,
+       "poet": -0.07,
+       "aristocrat": 0.01,
+       "detective": -0.1,
+       "scholar": -0.06,
+       "seafarer": -0.19
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        26
+       ],
+       [
+        "noir detective",
+        11
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "first person narrative",
+        9
+       ],
+       [
+        "roleplay narrative",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "roleplay narrator",
+        10
+       ],
+       [
+        "narrative storyteller",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0155,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.054,
+      "family_means_sd": {
+       "narrative": -0.16,
+       "mentor": 0.48,
+       "mystic": -0.01,
+       "chef": -0.07,
+       "casual": 0.27,
+       "hype": 0.43,
+       "poet": 0.12,
+       "aristocrat": 0.05,
+       "detective": 0.05,
+       "scholar": 0.0,
+       "seafarer": 0.06
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "roleplay narrative",
+        15
+       ],
+       [
+        "eccentric chef",
+        11
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "eccentric character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "enthusiastic teacher",
+        9
+       ],
+       [
+        "storyteller",
+        9
+       ],
+       [
+        "whimsical storyteller",
+        6
+       ],
+       [
+        "enthusiastic cook",
+        6
+       ],
+       [
+        "enthusiastic coach",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0135,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.016,
+      "family_means_sd": {
+       "narrative": -0.04,
+       "mentor": -0.05,
+       "mystic": 0.09,
+       "chef": 0.17,
+       "casual": -0.06,
+       "hype": -0.18,
+       "poet": 0.15,
+       "aristocrat": 0.37,
+       "detective": 0.28,
+       "scholar": 0.32,
+       "seafarer": 0.25
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "fantasy narrator",
+        16
+       ],
+       [
+        "first person narrative",
+        13
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "eccentric character",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        28
+       ],
+       [
+        "roleplay narrator",
+        7
+       ],
+       [
+        "whimsical storyteller",
+        7
+       ],
+       [
+        "first person narrative",
+        7
+       ],
+       [
+        "roleplay character",
+        7
+       ]
+      ]
+     }
+    ]
+   },
+   "split_half_abs_cos": [
+    0.906,
+    0.888,
+    0.131,
+    0.301,
+    0.701
+   ],
+   "split_half_best_match": [
+    0.906,
+    0.888,
+    0.82,
+    0.556,
+    0.701
+   ],
+   "dims_matched_n": {
+    "n": 1464,
+    "assistant": {
+     "participation_ratio": 85.7,
+     "n50": 37,
+     "n80": 172
+    },
+    "persona_draws": [
+     {
+      "participation_ratio": 91.4,
+      "n50": 45,
+      "n80": 204
+     },
+     {
+      "participation_ratio": 91.1,
+      "n50": 44,
+      "n80": 203
+     },
+     {
+      "participation_ratio": 89.6,
+      "n50": 44,
+      "n80": 203
+     },
+     {
+      "participation_ratio": 89.2,
+      "n50": 44,
+      "n80": 201
+     },
+     {
+      "participation_ratio": 88.9,
+      "n50": 43,
+      "n80": 202
+     }
+    ]
+   }
+  },
+  "L20:R1": {
+   "raw": {
+    "dims": {
+     "participation_ratio": 24.4,
+     "n50": 11,
+     "n80": 61
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.1331,
+      "eta2_question": 0.287,
+      "eta2_language": 0.004,
+      "eta2_family": 0.135,
+      "family_means_sd": {
+       "narrative": -0.03,
+       "mentor": 0.03,
+       "mystic": 0.31,
+       "chef": 0.34,
+       "casual": -0.33,
+       "hype": 0.22,
+       "poet": 0.12,
+       "aristocrat": -1.49,
+       "detective": -1.19,
+       "scholar": -0.11,
+       "seafarer": 0.54
+      },
+      "low_pole_labels": [
+       [
+        "sophisticated traveler",
+        29
+       ],
+       [
+        "noir detective",
+        22
+       ],
+       [
+        "narrative character",
+        20
+       ],
+       [
+        "confident mentor",
+        16
+       ],
+       [
+        "sophisticated gentleman",
+        13
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        47
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "sea captain",
+        9
+       ],
+       [
+        "chess grandmaster",
+        9
+       ],
+       [
+        "eccentric storyteller",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.1024,
+      "eta2_question": 0.335,
+      "eta2_language": 0.003,
+      "eta2_family": 0.07,
+      "family_means_sd": {
+       "narrative": 0.22,
+       "mentor": -0.26,
+       "mystic": 0.26,
+       "chef": -0.5,
+       "casual": -0.23,
+       "hype": -0.24,
+       "poet": 0.73,
+       "aristocrat": -0.23,
+       "detective": -0.19,
+       "scholar": 0.14,
+       "seafarer": -0.32
+      },
+      "low_pole_labels": [
+       [
+        "eccentric character",
+        17
+       ],
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "eccentric egg expert",
+        9
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ],
+       [
+        "narrative fiction",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "fantasy narrator",
+        28
+       ],
+       [
+        "storyteller",
+        27
+       ],
+       [
+        "narrative storyteller",
+        19
+       ],
+       [
+        "first person narrative",
+        14
+       ],
+       [
+        "roleplay narrator",
+        11
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0596,
+      "eta2_question": 0.232,
+      "eta2_language": 0.015,
+      "eta2_family": 0.018,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": 0.24,
+       "mystic": 0.04,
+       "chef": -0.3,
+       "casual": 0.05,
+       "hype": -0.13,
+       "poet": -0.09,
+       "aristocrat": -0.18,
+       "detective": -0.12,
+       "scholar": -0.3,
+       "seafarer": -0.13
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        16
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "eccentric chef",
+        9
+       ],
+       [
+        "eccentric character",
+        8
+       ],
+       [
+        "godzilla",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "roleplay narrative",
+        18
+       ],
+       [
+        "roleplay narrator",
+        14
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "narrative character",
+        11
+       ],
+       [
+        "narrative storyteller",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.047,
+      "eta2_question": 0.238,
+      "eta2_language": 0.061,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": -0.08,
+       "mentor": -0.06,
+       "mystic": 0.09,
+       "chef": 0.02,
+       "casual": 0.02,
+       "hype": -0.15,
+       "poet": -0.16,
+       "aristocrat": 0.41,
+       "detective": 0.38,
+       "scholar": -0.09,
+       "seafarer": 0.44
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "noir detective",
+        9
+       ],
+       [
+        "enthusiastic character",
+        7
+       ],
+       [
+        "narrative fiction",
+        7
+       ],
+       [
+        "sinister villain",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        49
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "the dark knight",
+        11
+       ],
+       [
+        "sea captain",
+        10
+       ],
+       [
+        "dark lord",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0418,
+      "eta2_question": 0.229,
+      "eta2_language": 0.011,
+      "eta2_family": 0.015,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": -0.04,
+       "mystic": 0.11,
+       "chef": -0.33,
+       "casual": -0.11,
+       "hype": 0.05,
+       "poet": 0.32,
+       "aristocrat": -0.21,
+       "detective": -0.18,
+       "scholar": -0.11,
+       "seafarer": 0.13
+      },
+      "low_pole_labels": [
+       [
+        "eccentric character",
+        13
+       ],
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "eccentric egg expert",
+        9
+       ],
+       [
+        "casual conversationalist",
+        8
+       ],
+       [
+        "enthusiastic guide",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        31
+       ],
+       [
+        "diplomat",
+        12
+       ],
+       [
+        "narrative fiction",
+        11
+       ],
+       [
+        "mystical guide",
+        9
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0292,
+      "eta2_question": 0.262,
+      "eta2_language": 0.213,
+      "eta2_family": 0.014,
+      "family_means_sd": {
+       "narrative": 0.06,
+       "mentor": -0.1,
+       "mystic": -0.04,
+       "chef": -0.35,
+       "casual": -0.0,
+       "hype": -0.16,
+       "poet": 0.07,
+       "aristocrat": 0.04,
+       "detective": -0.13,
+       "scholar": 0.13,
+       "seafarer": 0.35
+      },
+      "low_pole_labels": [
+       [
+        "eccentric character",
+        13
+       ],
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "storyteller",
+        9
+       ],
+       [
+        "eccentric egg expert",
+        9
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        52
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "sea captain",
+        9
+       ],
+       [
+        "chess grandmaster",
+        6
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.025,
+      "eta2_question": 0.157,
+      "eta2_language": 0.063,
+      "eta2_family": 0.023,
+      "family_means_sd": {
+       "narrative": -0.03,
+       "mentor": -0.1,
+       "mystic": 0.11,
+       "chef": 0.25,
+       "casual": -0.07,
+       "hype": -0.14,
+       "poet": -0.62,
+       "aristocrat": 0.27,
+       "detective": -0.1,
+       "scholar": 0.2,
+       "seafarer": 0.17
+      },
+      "low_pole_labels": [
+       [
+        "roleplay narrative",
+        20
+       ],
+       [
+        "lyric poet",
+        17
+       ],
+       [
+        "roleplay character",
+        14
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "roleplay narrator",
+        12
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "narrative fiction",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.021,
+      "eta2_question": 0.153,
+      "eta2_language": 0.057,
+      "eta2_family": 0.008,
+      "family_means_sd": {
+       "narrative": -0.06,
+       "mentor": -0.05,
+       "mystic": 0.09,
+       "chef": 0.11,
+       "casual": -0.19,
+       "hype": 0.17,
+       "poet": 0.22,
+       "aristocrat": -0.2,
+       "detective": 0.02,
+       "scholar": 0.05,
+       "seafarer": -0.17
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "first person narrative",
+        13
+       ],
+       [
+        "roleplay character",
+        9
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "casual conversationalist",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        33
+       ],
+       [
+        "the dark knight",
+        14
+       ],
+       [
+        "napoleon bonaparte",
+        10
+       ],
+       [
+        "dark lord",
+        9
+       ],
+       [
+        "whimsical storyteller",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0201,
+      "eta2_question": 0.11,
+      "eta2_language": 0.169,
+      "eta2_family": 0.009,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": -0.21,
+       "mystic": 0.07,
+       "chef": 0.05,
+       "casual": -0.12,
+       "hype": -0.12,
+       "poet": -0.14,
+       "aristocrat": 0.25,
+       "detective": 0.07,
+       "scholar": -0.12,
+       "seafarer": 0.09
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        36
+       ],
+       [
+        "first person narrative",
+        11
+       ],
+       [
+        "enthusiastic teacher",
+        9
+       ],
+       [
+        "eccentric teacher",
+        7
+       ],
+       [
+        "narrative character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "roleplay narrative",
+        16
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "storyteller",
+        10
+       ],
+       [
+        "roleplay character",
+        10
+       ],
+       [
+        "eccentric character",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0191,
+      "eta2_question": 0.192,
+      "eta2_language": 0.154,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": -0.07,
+       "mentor": 0.03,
+       "mystic": -0.01,
+       "chef": 0.25,
+       "casual": 0.09,
+       "hype": -0.09,
+       "poet": 0.57,
+       "aristocrat": -0.09,
+       "detective": 0.15,
+       "scholar": -0.13,
+       "seafarer": 0.28
+      },
+      "low_pole_labels": [
+       [
+        "roleplay narrative",
+        20
+       ],
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "roleplay script",
+        10
+       ],
+       [
+        "roleplay narrator",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "lyric poet",
+        15
+       ],
+       [
+        "narrative storyteller",
+        13
+       ],
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "narrative character",
+        11
+       ],
+       [
+        "poet",
+        11
+       ]
+      ]
+     }
+    ]
+   },
+   "demeaned": {
+    "dims": {
+     "participation_ratio": 28.8,
+     "n50": 12,
+     "n80": 67
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.1206,
+      "eta2_question": 0.0,
+      "eta2_language": 0.007,
+      "eta2_family": 0.074,
+      "family_means_sd": {
+       "narrative": -0.07,
+       "mentor": 0.17,
+       "mystic": 0.12,
+       "chef": 0.15,
+       "casual": -0.28,
+       "hype": 0.28,
+       "poet": 0.06,
+       "aristocrat": -0.94,
+       "detective": -0.97,
+       "scholar": -0.18,
+       "seafarer": 0.43
+      },
+      "low_pole_labels": [
+       [
+        "noir detective",
+        27
+       ],
+       [
+        "storyteller",
+        19
+       ],
+       [
+        "eccentric chef",
+        13
+       ],
+       [
+        "sophisticated gentleman",
+        11
+       ],
+       [
+        "sophisticated mentor",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "the dark knight",
+        14
+       ],
+       [
+        "storyteller",
+        10
+       ],
+       [
+        "dark lord",
+        8
+       ],
+       [
+        "dramatic narrator",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0854,
+      "eta2_question": 0.0,
+      "eta2_language": 0.006,
+      "eta2_family": 0.035,
+      "family_means_sd": {
+       "narrative": 0.2,
+       "mentor": -0.12,
+       "mystic": 0.22,
+       "chef": -0.11,
+       "casual": -0.23,
+       "hype": -0.15,
+       "poet": -0.12,
+       "aristocrat": -0.43,
+       "detective": -0.32,
+       "scholar": -0.08,
+       "seafarer": -0.11
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        13
+       ],
+       [
+        "narrative fiction",
+        10
+       ],
+       [
+        "narrative character",
+        8
+       ],
+       [
+        "storyteller",
+        8
+       ],
+       [
+        "roleplay character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        32
+       ],
+       [
+        "fantasy narrator",
+        30
+       ],
+       [
+        "narrative storyteller",
+        19
+       ],
+       [
+        "first person narrative",
+        18
+       ],
+       [
+        "roleplay narrator",
+        13
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0573,
+      "eta2_question": 0.0,
+      "eta2_language": 0.007,
+      "eta2_family": 0.01,
+      "family_means_sd": {
+       "narrative": 0.09,
+       "mentor": 0.17,
+       "mystic": -0.11,
+       "chef": 0.07,
+       "casual": 0.07,
+       "hype": -0.04,
+       "poet": -0.12,
+       "aristocrat": -0.22,
+       "detective": -0.15,
+       "scholar": -0.1,
+       "seafarer": -0.04
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        28
+       ],
+       [
+        "zen master",
+        11
+       ],
+       [
+        "napoleon bonaparte",
+        10
+       ],
+       [
+        "eccentric character",
+        8
+       ],
+       [
+        "narrative storyteller",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "roleplay narrative",
+        19
+       ],
+       [
+        "narrative character",
+        15
+       ],
+       [
+        "narrative storyteller",
+        11
+       ],
+       [
+        "narrative fiction",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0479,
+      "eta2_question": 0.0,
+      "eta2_language": 0.117,
+      "eta2_family": 0.014,
+      "family_means_sd": {
+       "narrative": 0.07,
+       "mentor": 0.06,
+       "mystic": -0.19,
+       "chef": -0.17,
+       "casual": 0.03,
+       "hype": 0.09,
+       "poet": -0.03,
+       "aristocrat": -0.06,
+       "detective": -0.28,
+       "scholar": 0.32,
+       "seafarer": -0.24
+      },
+      "low_pole_labels": [
+       [
+        "the dark knight",
+        15
+       ],
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "storyteller",
+        11
+       ],
+       [
+        "dark lord",
+        11
+       ],
+       [
+        "eccentric character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "casual conversationalist",
+        7
+       ],
+       [
+        "sinister villain",
+        6
+       ],
+       [
+        "arrogant character",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.04,
+      "eta2_question": 0.0,
+      "eta2_language": 0.01,
+      "eta2_family": 0.014,
+      "family_means_sd": {
+       "narrative": 0.03,
+       "mentor": -0.04,
+       "mystic": 0.05,
+       "chef": 0.15,
+       "casual": -0.2,
+       "hype": -0.18,
+       "poet": 0.02,
+       "aristocrat": -0.22,
+       "detective": -0.41,
+       "scholar": -0.13,
+       "seafarer": 0.14
+      },
+      "low_pole_labels": [
+       [
+        "eccentric character",
+        14
+       ],
+       [
+        "eccentric chef",
+        12
+       ],
+       [
+        "eccentric egg expert",
+        9
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ],
+       [
+        "casual conversationalist",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        32
+       ],
+       [
+        "mystical guide",
+        10
+       ],
+       [
+        "diplomat",
+        9
+       ],
+       [
+        "napoleon bonaparte",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0272,
+      "eta2_question": 0.0,
+      "eta2_language": 0.386,
+      "eta2_family": 0.005,
+      "family_means_sd": {
+       "narrative": -0.05,
+       "mentor": -0.03,
+       "mystic": 0.03,
+       "chef": -0.02,
+       "casual": 0.14,
+       "hype": 0.11,
+       "poet": -0.14,
+       "aristocrat": 0.17,
+       "detective": 0.11,
+       "scholar": 0.01,
+       "seafarer": 0.01
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "roleplay narrative",
+        7
+       ],
+       [
+        "roleplay narrator",
+        6
+       ],
+       [
+        "dramatic narrator",
+        6
+       ],
+       [
+        "narrative character",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ],
+       [
+        "enthusiastic guide",
+        6
+       ],
+       [
+        "roleplay narrator",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0266,
+      "eta2_question": 0.0,
+      "eta2_language": 0.021,
+      "eta2_family": 0.006,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": -0.12,
+       "mystic": -0.02,
+       "chef": -0.02,
+       "casual": -0.12,
+       "hype": -0.18,
+       "poet": 0.02,
+       "aristocrat": 0.24,
+       "detective": 0.02,
+       "scholar": 0.21,
+       "seafarer": 0.12
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "narrative fiction",
+        17
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "roleplay narrator",
+        11
+       ],
+       [
+        "narrative character",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        31
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "narrative storyteller",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.023,
+      "eta2_question": 0.0,
+      "eta2_language": 0.066,
+      "eta2_family": 0.008,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": 0.14,
+       "mystic": -0.11,
+       "chef": 0.03,
+       "casual": 0.2,
+       "hype": -0.08,
+       "poet": 0.23,
+       "aristocrat": -0.14,
+       "detective": -0.02,
+       "scholar": 0.16,
+       "seafarer": -0.07
+      },
+      "low_pole_labels": [
+       [
+        "roleplay narrative",
+        16
+       ],
+       [
+        "storyteller",
+        16
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "roleplay character",
+        10
+       ],
+       [
+        "roleplay narrator",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        24
+       ],
+       [
+        "lyric poet",
+        12
+       ],
+       [
+        "poet",
+        11
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "narrative storyteller",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0222,
+      "eta2_question": 0.0,
+      "eta2_language": 0.027,
+      "eta2_family": 0.004,
+      "family_means_sd": {
+       "narrative": 0.04,
+       "mentor": -0.11,
+       "mystic": -0.03,
+       "chef": 0.01,
+       "casual": 0.13,
+       "hype": -0.07,
+       "poet": -0.05,
+       "aristocrat": 0.13,
+       "detective": 0.06,
+       "scholar": -0.04,
+       "seafarer": 0.16
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        21
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "casual conversationalist",
+        8
+       ],
+       [
+        "enthusiastic teacher",
+        8
+       ],
+       [
+        "roleplay narrative",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        23
+       ],
+       [
+        "screenplay script",
+        9
+       ],
+       [
+        "roleplay character",
+        9
+       ],
+       [
+        "first person narrative",
+        8
+       ],
+       [
+        "roleplay script",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0195,
+      "eta2_question": 0.0,
+      "eta2_language": 0.028,
+      "eta2_family": 0.007,
+      "family_means_sd": {
+       "narrative": -0.02,
+       "mentor": 0.12,
+       "mystic": 0.0,
+       "chef": -0.07,
+       "casual": 0.05,
+       "hype": 0.05,
+       "poet": 0.25,
+       "aristocrat": -0.09,
+       "detective": -0.16,
+       "scholar": -0.18,
+       "seafarer": 0.11
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "roleplay narrator",
+        6
+       ],
+       [
+        "narrative character",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        23
+       ],
+       [
+        "roleplay character",
+        9
+       ],
+       [
+        "screenplay script",
+        9
+       ],
+       [
+        "first person narrative",
+        8
+       ],
+       [
+        "roleplay script",
+        7
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  "L32:R4": {
+   "raw": {
+    "dims": {
+     "participation_ratio": 73.7,
+     "n50": 49,
+     "n80": 362
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0682,
+      "eta2_question": 0.065,
+      "eta2_language": 0.01,
+      "eta2_family": 0.036,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": 0.03,
+       "mystic": -0.26,
+       "chef": -0.35,
+       "casual": 0.05,
+       "hype": -0.13,
+       "poet": -0.1,
+       "aristocrat": 0.71,
+       "detective": 0.29,
+       "scholar": -0.17,
+       "seafarer": 0.29
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "eccentric chef",
+        11
+       ],
+       [
+        "fantasy narrator",
+        11
+       ],
+       [
+        "zen master",
+        8
+       ],
+       [
+        "narrative roleplay",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        28
+       ],
+       [
+        "roleplay narrative",
+        14
+       ],
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "whimsical storyteller",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.059,
+      "eta2_question": 0.19,
+      "eta2_language": 0.012,
+      "eta2_family": 0.077,
+      "family_means_sd": {
+       "narrative": 0.02,
+       "mentor": 0.06,
+       "mystic": -0.29,
+       "chef": 0.03,
+       "casual": -0.07,
+       "hype": -0.3,
+       "poet": -0.22,
+       "aristocrat": 1.15,
+       "detective": 0.8,
+       "scholar": 0.09,
+       "seafarer": 0.13
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        21
+       ],
+       [
+        "eccentric character",
+        6
+       ],
+       [
+        "roleplay narrative",
+        5
+       ],
+       [
+        "historical narrative",
+        4
+       ],
+       [
+        "casual conversationalist",
+        4
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "sophisticated traveler",
+        29
+       ],
+       [
+        "noir detective",
+        22
+       ],
+       [
+        "narrative character",
+        19
+       ],
+       [
+        "confident mentor",
+        16
+       ],
+       [
+        "the dark knight",
+        13
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0363,
+      "eta2_question": 0.124,
+      "eta2_language": 0.004,
+      "eta2_family": 0.068,
+      "family_means_sd": {
+       "narrative": -0.14,
+       "mentor": -0.06,
+       "mystic": 0.34,
+       "chef": 0.47,
+       "casual": -0.08,
+       "hype": 0.26,
+       "poet": 0.23,
+       "aristocrat": -0.74,
+       "detective": -0.68,
+       "scholar": -0.09,
+       "seafarer": 0.71
+      },
+      "low_pole_labels": [
+       [
+        "noir detective",
+        19
+       ],
+       [
+        "narrative character",
+        15
+       ],
+       [
+        "narrative fiction",
+        12
+       ],
+       [
+        "roleplay narrative",
+        12
+       ],
+       [
+        "storyteller",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        46
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "sea captain",
+        12
+       ],
+       [
+        "eccentric character",
+        8
+       ],
+       [
+        "historical fiction",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0266,
+      "eta2_question": 0.202,
+      "eta2_language": 0.016,
+      "eta2_family": 0.095,
+      "family_means_sd": {
+       "narrative": 0.19,
+       "mentor": -0.03,
+       "mystic": 0.23,
+       "chef": -0.75,
+       "casual": 0.02,
+       "hype": -0.22,
+       "poet": 1.1,
+       "aristocrat": -0.2,
+       "detective": -0.13,
+       "scholar": 0.0,
+       "seafarer": -0.67
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "eccentric chef",
+        14
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "narrative storyteller",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "lyric poet",
+        51
+       ],
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "narrative storyteller",
+        16
+       ],
+       [
+        "fantasy narrator",
+        13
+       ],
+       [
+        "first person narrative",
+        12
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0199,
+      "eta2_question": 0.149,
+      "eta2_language": 0.044,
+      "eta2_family": 0.028,
+      "family_means_sd": {
+       "narrative": 0.04,
+       "mentor": -0.2,
+       "mystic": 0.26,
+       "chef": -0.02,
+       "casual": -0.42,
+       "hype": -0.09,
+       "poet": 0.29,
+       "aristocrat": -0.33,
+       "detective": -0.31,
+       "scholar": -0.04,
+       "seafarer": -0.2
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        57
+       ],
+       [
+        "captain cook",
+        31
+       ],
+       [
+        "noir detective",
+        10
+       ],
+       [
+        "sea captain",
+        10
+       ],
+       [
+        "narrative storyteller",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "lyric poet",
+        25
+       ],
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "first person narrative",
+        10
+       ],
+       [
+        "roleplay narrator",
+        10
+       ],
+       [
+        "fantasy narrator",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0192,
+      "eta2_question": 0.149,
+      "eta2_language": 0.041,
+      "eta2_family": 0.05,
+      "family_means_sd": {
+       "narrative": -0.01,
+       "mentor": -0.19,
+       "mystic": -0.18,
+       "chef": 0.08,
+       "casual": -0.03,
+       "hype": -0.25,
+       "poet": -0.18,
+       "aristocrat": 1.04,
+       "detective": 0.31,
+       "scholar": 0.28,
+       "seafarer": -0.39
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "first person narrative",
+        12
+       ],
+       [
+        "narrative fiction",
+        10
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "narrative storyteller",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "sophisticated traveler",
+        30
+       ],
+       [
+        "narrative character",
+        23
+       ],
+       [
+        "sophisticated mentor",
+        17
+       ],
+       [
+        "sophisticated gentleman",
+        15
+       ],
+       [
+        "noir detective",
+        14
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0175,
+      "eta2_question": 0.08,
+      "eta2_language": 0.221,
+      "eta2_family": 0.017,
+      "family_means_sd": {
+       "narrative": -0.02,
+       "mentor": 0.2,
+       "mystic": -0.08,
+       "chef": -0.4,
+       "casual": 0.12,
+       "hype": 0.14,
+       "poet": -0.01,
+       "aristocrat": 0.22,
+       "detective": -0.08,
+       "scholar": 0.21,
+       "seafarer": -0.16
+      },
+      "low_pole_labels": [
+       [
+        "roleplay narrative",
+        17
+       ],
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "roleplay narrator",
+        12
+       ],
+       [
+        "roleplay character",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "mystical guide",
+        7
+       ],
+       [
+        "narrative character",
+        6
+       ],
+       [
+        "roleplay character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0145,
+      "eta2_question": 0.098,
+      "eta2_language": 0.057,
+      "eta2_family": 0.012,
+      "family_means_sd": {
+       "narrative": -0.06,
+       "mentor": 0.15,
+       "mystic": 0.06,
+       "chef": 0.14,
+       "casual": 0.22,
+       "hype": -0.1,
+       "poet": 0.16,
+       "aristocrat": 0.25,
+       "detective": 0.1,
+       "scholar": -0.28,
+       "seafarer": 0.16
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        24
+       ],
+       [
+        "roleplay narrative",
+        16
+       ],
+       [
+        "narrative character",
+        14
+       ],
+       [
+        "roleplay character",
+        12
+       ],
+       [
+        "eccentric character",
+        9
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "mystical guide",
+        9
+       ],
+       [
+        "narrative character",
+        8
+       ],
+       [
+        "fantasy narrator",
+        7
+       ],
+       [
+        "dramatic narrator",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0138,
+      "eta2_question": 0.109,
+      "eta2_language": 0.264,
+      "eta2_family": 0.023,
+      "family_means_sd": {
+       "narrative": -0.02,
+       "mentor": -0.11,
+       "mystic": 0.0,
+       "chef": 0.12,
+       "casual": 0.09,
+       "hype": -0.09,
+       "poet": 0.29,
+       "aristocrat": 0.67,
+       "detective": 0.23,
+       "scholar": 0.09,
+       "seafarer": 0.37
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "narrative character",
+        8
+       ],
+       [
+        "roleplay narrator",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "sophisticated traveler",
+        27
+       ],
+       [
+        "narrative character",
+        15
+       ],
+       [
+        "storyteller",
+        14
+       ],
+       [
+        "sophisticated mentor",
+        14
+       ],
+       [
+        "confident mentor",
+        12
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0128,
+      "eta2_question": 0.218,
+      "eta2_language": 0.024,
+      "eta2_family": 0.081,
+      "family_means_sd": {
+       "narrative": 0.21,
+       "mentor": -0.41,
+       "mystic": 0.19,
+       "chef": -0.54,
+       "casual": -0.4,
+       "hype": -0.21,
+       "poet": -0.35,
+       "aristocrat": -0.1,
+       "detective": -0.18,
+       "scholar": 0.33,
+       "seafarer": 0.43
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "poet",
+        9
+       ],
+       [
+        "narrative character",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        24
+       ],
+       [
+        "first person narrative",
+        9
+       ],
+       [
+        "roleplay narrator",
+        8
+       ],
+       [
+        "narrative storyteller",
+        8
+       ],
+       [
+        "roleplay narrative",
+        8
+       ]
+      ]
+     }
+    ]
+   },
+   "demeaned": {
+    "dims": {
+     "participation_ratio": 76.6,
+     "n50": 56,
+     "n80": 401
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0719,
+      "eta2_question": 0.0,
+      "eta2_language": 0.009,
+      "eta2_family": 0.011,
+      "family_means_sd": {
+       "narrative": -0.07,
+       "mentor": 0.06,
+       "mystic": 0.14,
+       "chef": 0.15,
+       "casual": -0.03,
+       "hype": 0.06,
+       "poet": 0.08,
+       "aristocrat": -0.34,
+       "detective": -0.04,
+       "scholar": 0.15,
+       "seafarer": -0.23
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        32
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "narrative fiction",
+        10
+       ],
+       [
+        "character roleplay",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "eccentric chef",
+        9
+       ],
+       [
+        "zen master",
+        6
+       ],
+       [
+        "narrative storyteller",
+        6
+       ],
+       [
+        "narrative roleplay",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0532,
+      "eta2_question": 0.0,
+      "eta2_language": 0.011,
+      "eta2_family": 0.025,
+      "family_means_sd": {
+       "narrative": 0.05,
+       "mentor": -0.02,
+       "mystic": -0.17,
+       "chef": 0.12,
+       "casual": -0.03,
+       "hype": -0.11,
+       "poet": -0.09,
+       "aristocrat": 0.58,
+       "detective": 0.56,
+       "scholar": -0.07,
+       "seafarer": 0.2
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "roleplay narrative",
+        7
+       ],
+       [
+        "dark lord",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ],
+       [
+        "first person narrative",
+        5
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "confident mentor",
+        16
+       ],
+       [
+        "sophisticated mentor",
+        13
+       ],
+       [
+        "noir detective",
+        12
+       ],
+       [
+        "narrative storyteller",
+        11
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0354,
+      "eta2_question": 0.0,
+      "eta2_language": 0.007,
+      "eta2_family": 0.046,
+      "family_means_sd": {
+       "narrative": 0.16,
+       "mentor": -0.04,
+       "mystic": -0.34,
+       "chef": -0.16,
+       "casual": 0.09,
+       "hype": -0.29,
+       "poet": -0.1,
+       "aristocrat": 0.53,
+       "detective": 0.65,
+       "scholar": 0.14,
+       "seafarer": -0.45
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "mentor",
+        7
+       ],
+       [
+        "seasoned writer",
+        6
+       ],
+       [
+        "character narrative",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "noir detective",
+        15
+       ],
+       [
+        "narrative character",
+        14
+       ],
+       [
+        "roleplay narrative",
+        12
+       ],
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "roleplay narrator",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0245,
+      "eta2_question": 0.0,
+      "eta2_language": 0.023,
+      "eta2_family": 0.026,
+      "family_means_sd": {
+       "narrative": -0.19,
+       "mentor": 0.06,
+       "mystic": -0.12,
+       "chef": 0.26,
+       "casual": -0.09,
+       "hype": 0.23,
+       "poet": -0.11,
+       "aristocrat": 0.23,
+       "detective": 0.02,
+       "scholar": 0.03,
+       "seafarer": 0.55
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "roleplay narrator",
+        16
+       ],
+       [
+        "narrative storyteller",
+        13
+       ],
+       [
+        "roleplay narrative",
+        12
+       ],
+       [
+        "first person narrative",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        28
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "narrative character",
+        8
+       ],
+       [
+        "eccentric character",
+        6
+       ],
+       [
+        "character roleplay",
+        4
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0191,
+      "eta2_question": 0.0,
+      "eta2_language": 0.004,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": -0.1,
+       "mentor": 0.25,
+       "mystic": -0.1,
+       "chef": 0.08,
+       "casual": 0.33,
+       "hype": 0.12,
+       "poet": 0.05,
+       "aristocrat": -0.11,
+       "detective": 0.11,
+       "scholar": -0.15,
+       "seafarer": 0.07
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        35
+       ],
+       [
+        "roleplay narrator",
+        12
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "first person narrative",
+        9
+       ],
+       [
+        "fantasy narrator",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "first person narrative",
+        11
+       ],
+       [
+        "storyteller",
+        10
+       ],
+       [
+        "narrative fiction",
+        9
+       ],
+       [
+        "narrative storyteller",
+        8
+       ],
+       [
+        "roleplay narrative",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0181,
+      "eta2_question": 0.0,
+      "eta2_language": 0.023,
+      "eta2_family": 0.037,
+      "family_means_sd": {
+       "narrative": 0.01,
+       "mentor": 0.2,
+       "mystic": 0.23,
+       "chef": -0.05,
+       "casual": -0.05,
+       "hype": 0.31,
+       "poet": -0.07,
+       "aristocrat": -0.77,
+       "detective": -0.46,
+       "scholar": -0.19,
+       "seafarer": 0.09
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "narrative character",
+        17
+       ],
+       [
+        "noir detective",
+        13
+       ],
+       [
+        "roleplay narrative",
+        12
+       ],
+       [
+        "sophisticated mentor",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "dramatic narrator",
+        9
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "first person narrative",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0178,
+      "eta2_question": 0.0,
+      "eta2_language": 0.352,
+      "eta2_family": 0.015,
+      "family_means_sd": {
+       "narrative": -0.0,
+       "mentor": -0.19,
+       "mystic": 0.25,
+       "chef": 0.18,
+       "casual": -0.25,
+       "hype": -0.05,
+       "poet": 0.0,
+       "aristocrat": -0.18,
+       "detective": 0.02,
+       "scholar": -0.25,
+       "seafarer": 0.24
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        35
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "roleplay narrator",
+        7
+       ],
+       [
+        "sinister villain",
+        6
+       ],
+       [
+        "roleplay character",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "narrative roleplay",
+        7
+       ],
+       [
+        "character roleplay",
+        6
+       ],
+       [
+        "narrative character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0147,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.007,
+      "family_means_sd": {
+       "narrative": 0.04,
+       "mentor": -0.11,
+       "mystic": -0.07,
+       "chef": 0.03,
+       "casual": -0.15,
+       "hype": -0.16,
+       "poet": 0.06,
+       "aristocrat": 0.02,
+       "detective": 0.07,
+       "scholar": 0.34,
+       "seafarer": -0.05
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "narrative character",
+        9
+       ],
+       [
+        "mystical guide",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "roleplay narrative",
+        13
+       ],
+       [
+        "noir detective",
+        12
+       ],
+       [
+        "narrative character",
+        10
+       ],
+       [
+        "roleplay narrator",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0137,
+      "eta2_question": 0.0,
+      "eta2_language": 0.212,
+      "eta2_family": 0.015,
+      "family_means_sd": {
+       "narrative": -0.0,
+       "mentor": 0.04,
+       "mystic": -0.09,
+       "chef": 0.07,
+       "casual": -0.27,
+       "hype": 0.12,
+       "poet": 0.14,
+       "aristocrat": -0.47,
+       "detective": -0.32,
+       "scholar": -0.01,
+       "seafarer": -0.17
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "narrative storyteller",
+        12
+       ],
+       [
+        "confident mentor",
+        12
+       ],
+       [
+        "mystical guide",
+        9
+       ],
+       [
+        "narrative character",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "narrative fiction",
+        10
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "enthusiastic teacher",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.012,
+      "eta2_question": 0.0,
+      "eta2_language": 0.022,
+      "eta2_family": 0.024,
+      "family_means_sd": {
+       "narrative": -0.1,
+       "mentor": 0.23,
+       "mystic": -0.11,
+       "chef": 0.19,
+       "casual": 0.28,
+       "hype": 0.19,
+       "poet": -0.03,
+       "aristocrat": 0.25,
+       "detective": 0.23,
+       "scholar": -0.08,
+       "seafarer": -0.15
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "narrative character",
+        7
+       ],
+       [
+        "eccentric character",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "roleplay narrative",
+        19
+       ],
+       [
+        "noir detective",
+        13
+       ],
+       [
+        "narrative character",
+        11
+       ],
+       [
+        "storyteller",
+        9
+       ],
+       [
+        "roleplay narrator",
+        8
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  "L8:R4": {
+   "raw": {
+    "dims": {
+     "participation_ratio": 140.4,
+     "n50": 73,
+     "n80": 391
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0458,
+      "eta2_question": 0.147,
+      "eta2_language": 0.002,
+      "eta2_family": 0.062,
+      "family_means_sd": {
+       "narrative": 0.12,
+       "mentor": -0.14,
+       "mystic": 0.28,
+       "chef": -0.38,
+       "casual": -0.18,
+       "hype": -0.11,
+       "poet": 0.65,
+       "aristocrat": -0.58,
+       "detective": -0.54,
+       "scholar": -0.09,
+       "seafarer": -0.38
+      },
+      "low_pole_labels": [
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "noir detective",
+        13
+       ],
+       [
+        "sophisticated mentor",
+        11
+       ],
+       [
+        "sophisticated traveler",
+        11
+       ],
+       [
+        "confident mentor",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        26
+       ],
+       [
+        "lyric poet",
+        24
+       ],
+       [
+        "fantasy narrator",
+        11
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "poet",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0252,
+      "eta2_question": 0.099,
+      "eta2_language": 0.002,
+      "eta2_family": 0.056,
+      "family_means_sd": {
+       "narrative": -0.13,
+       "mentor": -0.24,
+       "mystic": 0.32,
+       "chef": 0.57,
+       "casual": -0.28,
+       "hype": 0.16,
+       "poet": 0.04,
+       "aristocrat": -0.49,
+       "detective": -0.51,
+       "scholar": 0.0,
+       "seafarer": 0.4
+      },
+      "low_pole_labels": [
+       [
+        "narrative character",
+        19
+       ],
+       [
+        "storyteller",
+        14
+       ],
+       [
+        "narrative fiction",
+        13
+       ],
+       [
+        "roleplay narrator",
+        13
+       ],
+       [
+        "first person narrative",
+        12
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "eccentric chef",
+        13
+       ],
+       [
+        "golden retriever puppy",
+        10
+       ],
+       [
+        "zen master",
+        10
+       ],
+       [
+        "fantasy narrator",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0236,
+      "eta2_question": 0.108,
+      "eta2_language": 0.015,
+      "eta2_family": 0.064,
+      "family_means_sd": {
+       "narrative": -0.16,
+       "mentor": 0.09,
+       "mystic": 0.3,
+       "chef": 0.2,
+       "casual": -0.02,
+       "hype": 0.26,
+       "poet": -0.49,
+       "aristocrat": -0.8,
+       "detective": -0.63,
+       "scholar": 0.03,
+       "seafarer": 0.02
+      },
+      "low_pole_labels": [
+       [
+        "lyric poet",
+        24
+       ],
+       [
+        "storyteller",
+        13
+       ],
+       [
+        "narrative storyteller",
+        13
+       ],
+       [
+        "narrative character",
+        12
+       ],
+       [
+        "fantasy narrator",
+        12
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "napoleon bonaparte",
+        11
+       ],
+       [
+        "storyteller",
+        10
+       ],
+       [
+        "dark lord",
+        8
+       ],
+       [
+        "eccentric character",
+        7
+       ],
+       [
+        "roleplay character",
+        5
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0216,
+      "eta2_question": 0.07,
+      "eta2_language": 0.005,
+      "eta2_family": 0.016,
+      "family_means_sd": {
+       "narrative": -0.07,
+       "mentor": -0.03,
+       "mystic": 0.06,
+       "chef": 0.31,
+       "casual": -0.03,
+       "hype": -0.02,
+       "poet": 0.43,
+       "aristocrat": -0.15,
+       "detective": 0.09,
+       "scholar": -0.06,
+       "seafarer": 0.35
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "roleplay narrator",
+        13
+       ],
+       [
+        "narrative storyteller",
+        11
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "fantasy narrator",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "roleplay narrative",
+        15
+       ],
+       [
+        "roleplay character",
+        11
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "first person narrative",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0171,
+      "eta2_question": 0.102,
+      "eta2_language": 0.011,
+      "eta2_family": 0.022,
+      "family_means_sd": {
+       "narrative": -0.03,
+       "mentor": -0.03,
+       "mystic": 0.12,
+       "chef": 0.33,
+       "casual": -0.11,
+       "hype": -0.03,
+       "poet": -0.39,
+       "aristocrat": -0.49,
+       "detective": 0.04,
+       "scholar": -0.02,
+       "seafarer": -0.29
+      },
+      "low_pole_labels": [
+       [
+        "sophisticated traveler",
+        27
+       ],
+       [
+        "storyteller",
+        17
+       ],
+       [
+        "narrative character",
+        16
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "noir detective",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        15
+       ],
+       [
+        "eccentric chef",
+        11
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "narrative fiction",
+        8
+       ],
+       [
+        "zen master",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0166,
+      "eta2_question": 0.147,
+      "eta2_language": 0.004,
+      "eta2_family": 0.059,
+      "family_means_sd": {
+       "narrative": -0.13,
+       "mentor": -0.03,
+       "mystic": -0.2,
+       "chef": 0.26,
+       "casual": 0.02,
+       "hype": 0.0,
+       "poet": -0.45,
+       "aristocrat": 0.87,
+       "detective": 0.59,
+       "scholar": -0.11,
+       "seafarer": 0.36
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        34
+       ],
+       [
+        "lyric poet",
+        25
+       ],
+       [
+        "first person narrative",
+        24
+       ],
+       [
+        "fantasy narrator",
+        13
+       ],
+       [
+        "narrative storyteller",
+        12
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        14
+       ],
+       [
+        "noir detective",
+        10
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "sophisticated gentleman",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0151,
+      "eta2_question": 0.066,
+      "eta2_language": 0.001,
+      "eta2_family": 0.006,
+      "family_means_sd": {
+       "narrative": -0.0,
+       "mentor": 0.03,
+       "mystic": 0.0,
+       "chef": -0.18,
+       "casual": -0.2,
+       "hype": 0.03,
+       "poet": 0.09,
+       "aristocrat": -0.11,
+       "detective": 0.2,
+       "scholar": 0.11,
+       "seafarer": 0.13
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        19
+       ],
+       [
+        "narrative character",
+        10
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "narrative roleplay",
+        10
+       ],
+       [
+        "eccentric chef",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "noir detective",
+        14
+       ],
+       [
+        "narrative fiction",
+        11
+       ],
+       [
+        "storyteller",
+        10
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "narrative character",
+        10
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0142,
+      "eta2_question": 0.088,
+      "eta2_language": 0.004,
+      "eta2_family": 0.02,
+      "family_means_sd": {
+       "narrative": 0.02,
+       "mentor": -0.07,
+       "mystic": -0.42,
+       "chef": 0.26,
+       "casual": 0.24,
+       "hype": 0.09,
+       "poet": 0.19,
+       "aristocrat": -0.07,
+       "detective": -0.0,
+       "scholar": -0.06,
+       "seafarer": -0.01
+      },
+      "low_pole_labels": [
+       [
+        "fantasy narrator",
+        15
+       ],
+       [
+        "storyteller",
+        14
+       ],
+       [
+        "eccentric character",
+        9
+       ],
+       [
+        "dark lord",
+        9
+       ],
+       [
+        "mysterious figure",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        30
+       ],
+       [
+        "lyric poet",
+        14
+       ],
+       [
+        "poet",
+        10
+       ],
+       [
+        "roleplay narrative",
+        9
+       ],
+       [
+        "eccentric character",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0119,
+      "eta2_question": 0.119,
+      "eta2_language": 0.001,
+      "eta2_family": 0.045,
+      "family_means_sd": {
+       "narrative": -0.06,
+       "mentor": 0.16,
+       "mystic": 0.22,
+       "chef": -0.23,
+       "casual": 0.18,
+       "hype": 0.41,
+       "poet": -0.71,
+       "aristocrat": -0.34,
+       "detective": -0.18,
+       "scholar": 0.22,
+       "seafarer": 0.1
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        22
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "eccentric chef",
+        11
+       ],
+       [
+        "poet",
+        9
+       ],
+       [
+        "narrative storyteller",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        19
+       ],
+       [
+        "first person narrative",
+        9
+       ],
+       [
+        "eccentric character",
+        7
+       ],
+       [
+        "enthusiastic blogger",
+        7
+       ],
+       [
+        "fantasy narrator",
+        6
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0114,
+      "eta2_question": 0.093,
+      "eta2_language": 0.009,
+      "eta2_family": 0.023,
+      "family_means_sd": {
+       "narrative": 0.03,
+       "mentor": -0.3,
+       "mystic": 0.24,
+       "chef": -0.14,
+       "casual": -0.22,
+       "hype": -0.06,
+       "poet": 0.01,
+       "aristocrat": 0.32,
+       "detective": 0.02,
+       "scholar": 0.31,
+       "seafarer": 0.21
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "fantasy narrator",
+        12
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "narrative storyteller",
+        11
+       ],
+       [
+        "first person narrative",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "narrative character",
+        12
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "first person narrative",
+        7
+       ],
+       [
+        "eccentric character",
+        6
+       ]
+      ]
+     }
+    ]
+   },
+   "demeaned": {
+    "dims": {
+     "participation_ratio": 153.9,
+     "n50": 79,
+     "n80": 408
+    },
+    "components": [
+     {
+      "pc": 1,
+      "var": 0.0419,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.022,
+      "family_means_sd": {
+       "narrative": -0.12,
+       "mentor": 0.12,
+       "mystic": -0.17,
+       "chef": 0.19,
+       "casual": 0.17,
+       "hype": 0.18,
+       "poet": -0.05,
+       "aristocrat": 0.25,
+       "detective": 0.33,
+       "scholar": 0.07,
+       "seafarer": 0.23
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        23
+       ],
+       [
+        "fantasy narrator",
+        9
+       ],
+       [
+        "roleplay narrator",
+        8
+       ],
+       [
+        "eccentric character",
+        7
+       ],
+       [
+        "first person narrative",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "lyric poet",
+        12
+       ],
+       [
+        "casual conversationalist",
+        6
+       ],
+       [
+        "eccentric narrator",
+        5
+       ],
+       [
+        "roleplay narrator",
+        4
+       ]
+      ]
+     },
+     {
+      "pc": 2,
+      "var": 0.0243,
+      "eta2_question": 0.0,
+      "eta2_language": 0.004,
+      "eta2_family": 0.013,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": 0.13,
+       "mystic": -0.22,
+       "chef": -0.14,
+       "casual": 0.24,
+       "hype": -0.1,
+       "poet": 0.03,
+       "aristocrat": 0.06,
+       "detective": 0.21,
+       "scholar": 0.08,
+       "seafarer": -0.35
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "golden retriever puppy",
+        13
+       ],
+       [
+        "zen master",
+        11
+       ],
+       [
+        "fantasy narrator",
+        10
+       ],
+       [
+        "whimsical storyteller",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "narrative character",
+        18
+       ],
+       [
+        "storyteller",
+        14
+       ],
+       [
+        "first person narrative",
+        12
+       ],
+       [
+        "narrative fiction",
+        12
+       ],
+       [
+        "roleplay narrative",
+        9
+       ]
+      ]
+     },
+     {
+      "pc": 3,
+      "var": 0.0227,
+      "eta2_question": 0.0,
+      "eta2_language": 0.014,
+      "eta2_family": 0.035,
+      "family_means_sd": {
+       "narrative": -0.17,
+       "mentor": 0.06,
+       "mystic": 0.24,
+       "chef": 0.06,
+       "casual": -0.09,
+       "hype": 0.22,
+       "poet": -0.05,
+       "aristocrat": -0.47,
+       "detective": -0.61,
+       "scholar": 0.05,
+       "seafarer": 0.04
+      },
+      "low_pole_labels": [
+       [
+        "roleplay narrative",
+        16
+       ],
+       [
+        "narrative character",
+        15
+       ],
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "narrative roleplay",
+        10
+       ],
+       [
+        "first person narrative",
+        9
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "dark lord",
+        10
+       ],
+       [
+        "eccentric character",
+        8
+       ],
+       [
+        "storyteller",
+        8
+       ],
+       [
+        "roleplay narrative",
+        4
+       ],
+       [
+        "dramatic storyteller",
+        4
+       ]
+      ]
+     },
+     {
+      "pc": 4,
+      "var": 0.0213,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.012,
+      "family_means_sd": {
+       "narrative": 0.07,
+       "mentor": -0.0,
+       "mystic": -0.21,
+       "chef": -0.2,
+       "casual": 0.08,
+       "hype": -0.08,
+       "poet": -0.17,
+       "aristocrat": 0.29,
+       "detective": 0.06,
+       "scholar": 0.0,
+       "seafarer": -0.37
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        24
+       ],
+       [
+        "roleplay narrative",
+        15
+       ],
+       [
+        "roleplay character",
+        13
+       ],
+       [
+        "first person narrative",
+        11
+       ],
+       [
+        "narrative storyteller",
+        11
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        27
+       ],
+       [
+        "narrative storyteller",
+        12
+       ],
+       [
+        "roleplay narrative",
+        11
+       ],
+       [
+        "roleplay narrator",
+        11
+       ],
+       [
+        "narrative character",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 5,
+      "var": 0.0164,
+      "eta2_question": 0.0,
+      "eta2_language": 0.013,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": -0.05,
+       "mentor": -0.03,
+       "mystic": 0.28,
+       "chef": 0.24,
+       "casual": -0.25,
+       "hype": -0.1,
+       "poet": 0.09,
+       "aristocrat": -0.43,
+       "detective": -0.15,
+       "scholar": 0.04,
+       "seafarer": -0.29
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        26
+       ],
+       [
+        "eccentric character",
+        15
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "noir detective",
+        10
+       ],
+       [
+        "confident mentor",
+        10
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "eccentric chef",
+        11
+       ],
+       [
+        "dark lord",
+        9
+       ],
+       [
+        "zen master",
+        8
+       ],
+       [
+        "eccentric character",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 6,
+      "var": 0.0152,
+      "eta2_question": 0.0,
+      "eta2_language": 0.006,
+      "eta2_family": 0.021,
+      "family_means_sd": {
+       "narrative": 0.11,
+       "mentor": -0.01,
+       "mystic": 0.01,
+       "chef": -0.06,
+       "casual": 0.09,
+       "hype": 0.0,
+       "poet": 0.02,
+       "aristocrat": -0.32,
+       "detective": -0.53,
+       "scholar": 0.02,
+       "seafarer": -0.37
+      },
+      "low_pole_labels": [
+       [
+        "noir detective",
+        10
+       ],
+       [
+        "roleplay narrator",
+        8
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "storyteller",
+        8
+       ],
+       [
+        "narrative fiction",
+        7
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        30
+       ],
+       [
+        "first person narrative",
+        21
+       ],
+       [
+        "fantasy narrator",
+        11
+       ],
+       [
+        "narrative storyteller",
+        9
+       ],
+       [
+        "dramatic narrator",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 7,
+      "var": 0.0149,
+      "eta2_question": 0.0,
+      "eta2_language": 0.002,
+      "eta2_family": 0.012,
+      "family_means_sd": {
+       "narrative": 0.08,
+       "mentor": 0.02,
+       "mystic": -0.03,
+       "chef": -0.0,
+       "casual": -0.1,
+       "hype": -0.05,
+       "poet": 0.05,
+       "aristocrat": -0.45,
+       "detective": -0.14,
+       "scholar": 0.18,
+       "seafarer": -0.03
+      },
+      "low_pole_labels": [
+       [
+        "narrative character",
+        14
+       ],
+       [
+        "eccentric character",
+        13
+       ],
+       [
+        "storyteller",
+        11
+       ],
+       [
+        "roleplay narrator",
+        9
+       ],
+       [
+        "roleplay narrative",
+        9
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        32
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "narrative character",
+        8
+       ],
+       [
+        "enthusiastic teacher",
+        7
+       ]
+      ]
+     },
+     {
+      "pc": 8,
+      "var": 0.0137,
+      "eta2_question": 0.0,
+      "eta2_language": 0.007,
+      "eta2_family": 0.009,
+      "family_means_sd": {
+       "narrative": -0.02,
+       "mentor": -0.15,
+       "mystic": -0.22,
+       "chef": 0.08,
+       "casual": 0.12,
+       "hype": -0.04,
+       "poet": 0.06,
+       "aristocrat": 0.22,
+       "detective": 0.11,
+       "scholar": 0.08,
+       "seafarer": 0.17
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        18
+       ],
+       [
+        "roleplay narrator",
+        10
+       ],
+       [
+        "fantasy narrator",
+        10
+       ],
+       [
+        "mysterious figure",
+        8
+       ],
+       [
+        "first person narrative",
+        8
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        25
+       ],
+       [
+        "narrative character",
+        13
+       ],
+       [
+        "roleplay narrative",
+        10
+       ],
+       [
+        "roleplay narrator",
+        8
+       ],
+       [
+        "sophisticated gentleman",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 9,
+      "var": 0.0113,
+      "eta2_question": 0.0,
+      "eta2_language": 0.001,
+      "eta2_family": 0.02,
+      "family_means_sd": {
+       "narrative": -0.05,
+       "mentor": 0.19,
+       "mystic": 0.04,
+       "chef": -0.15,
+       "casual": 0.22,
+       "hype": 0.32,
+       "poet": -0.22,
+       "aristocrat": -0.31,
+       "detective": -0.14,
+       "scholar": 0.15,
+       "seafarer": -0.11
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        33
+       ],
+       [
+        "narrative character",
+        11
+       ],
+       [
+        "roleplay narrative",
+        8
+       ],
+       [
+        "zen master",
+        8
+       ],
+       [
+        "narrative storyteller",
+        6
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        21
+       ],
+       [
+        "first person narrative",
+        12
+       ],
+       [
+        "fantasy narrator",
+        10
+       ],
+       [
+        "narrative storyteller",
+        8
+       ],
+       [
+        "casual conversationalist",
+        8
+       ]
+      ]
+     },
+     {
+      "pc": 10,
+      "var": 0.0111,
+      "eta2_question": 0.0,
+      "eta2_language": 0.01,
+      "eta2_family": 0.02,
+      "family_means_sd": {
+       "narrative": -0.05,
+       "mentor": -0.13,
+       "mystic": 0.41,
+       "chef": -0.22,
+       "casual": -0.12,
+       "hype": -0.06,
+       "poet": 0.08,
+       "aristocrat": 0.15,
+       "detective": -0.11,
+       "scholar": 0.34,
+       "seafarer": 0.17
+      },
+      "low_pole_labels": [
+       [
+        "storyteller",
+        20
+       ],
+       [
+        "lyric poet",
+        11
+       ],
+       [
+        "narrative storyteller",
+        10
+       ],
+       [
+        "noir detective",
+        10
+       ],
+       [
+        "poet",
+        9
+       ]
+      ],
+      "high_pole_labels": [
+       [
+        "storyteller",
+        12
+       ],
+       [
+        "first person narrative",
+        9
+       ],
+       [
+        "roleplay narrative",
+        6
+       ],
+       [
+        "narrative storyteller",
+        6
+       ],
+       [
+        "sophisticated gentleman",
+        6
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+=== [18:05:02] install
+torch 2.13.0+cu130 | transformers 5.18.0 | vllm 0.29.0
+name, memory.total [MiB]
+NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB
+=== [18:07:10] inputs
+inputs ok ['gate_rows.json', 'job_capture_hf.py', 'job_gen_vllm.py', 'job_judge_vllm.py', 'p3', 'probe_l0_direction.json', 'requests.jsonl', 'rubric.txt', 'steered_match.jsonl']
+=== [18:07:30] generation
+[      0s] 9381 requests, 0 already done, 9381 to go
+[      7s] example prompt: '<|im_start|>system\nYou are playing a character described as "noir protagonist". Answer the user fully in this character\'s voice and stay in character for the whole reply.<|im_end|>\n<|im_start|>user\nHow do I get better at public speaking?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+[    170s] engine up
+[    171s] clean H1 0.2204 (phase 3: 0.237)
+[    230s] chunk 0: 2048 rollouts, 191585 tok, 3200 tok/s
+[    252s] chunk 1: 2048 rollouts, 192812 tok, 9017 tok/s
+[    274s] chunk 2: 2048 rollouts, 192323 tok, 8827 tok/s
+[    295s] chunk 3: 2048 rollouts, 188913 tok, 8822 tok/s
+[    306s] chunk 4: 1189 rollouts, 109302 tok, 9914 tok/s
+[    306s] done
+=== [18:12:37] capture
+[      3s] gate: {"n_rows": 32, "n_cells": 2880, "min_cos": 0.9940353035926819, "mean_cos": 0.9997019171714783, "late_min_cos": 0.9992971420288086, "per_layer_min": {"0": 0.9999998807907104, "4": 0.9999527335166931, "8": 0.9997217059135437, "12": 0.9996110200881958, "16": 0.998596727848053, "20": 0.9976004362106323, "24": 0.9974731206893921, "28": 0.9975454807281494, "32": 0.9964878559112549, "36": 0.9940353035926819}, "ok": false}
+GATE FAILED: the capture rig does not reproduce phase 3's stored features

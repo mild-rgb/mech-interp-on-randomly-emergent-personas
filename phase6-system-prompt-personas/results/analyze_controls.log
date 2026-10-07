@@ -1,0 +1,17 @@
+[    0s] {'S_P': 6821, 'S_A': 1464, 'C': 320, 'Q_P': 6821, 'Q_Pj': 6008, 'T_A': 1187, 'N_A': 1280, 'T_all': 1280, 'N_all': 1280}
+[   44s] srcctl L20P: persona 1.000 (offset 1.91, n 1187/1187) | assistant 1.000 (offset 2.02, n 1187/1187) | assistant_n 1.000 (offset 1.96, n 1187/1187) | sysprompt 1.000 (offset 1.52, n 320/320)
+[   47s] srcctl L20R1: persona 1.000 (offset 1.21, n 1187/1187) | assistant 1.000 (offset 0.92, n 1187/1187) | assistant_n 0.998 (offset 0.92, n 1187/1187) | sysprompt 0.961 (offset 0.36, n 320/320)
+[   74s] srcctl L20R4: persona 0.997 (offset 0.60, n 1187/1187) | assistant 0.970 (offset 0.46, n 1187/1187) | assistant_n 0.955 (offset 0.48, n 1187/1187) | sysprompt 0.911 (offset 0.18, n 320/320)
+[   93s] srcctl L20R8: persona 0.986 (offset 0.46, n 1187/1187) | assistant 0.936 (offset 0.33, n 1187/1187) | assistant_n 0.942 (offset 0.37, n 1187/1187) | sysprompt 0.765 (offset 0.14, n 320/320)
+[  105s] srcctl L20R32: persona 0.952 (offset 0.21, n 1179/1186) | assistant 0.901 (offset 0.19, n 1160/1155) | assistant_n 0.912 (offset 0.19, n 1161/1161) | sysprompt 0.564 (offset 0.10, n 312/314)
+[  110s] srcctl L20R64: persona 0.966 (offset 0.17, n 1167/1180) | assistant 0.894 (offset 0.15, n 1102/1114) | assistant_n 0.857 (offset 0.15, n 1112/1123) | sysprompt 0.554 (offset 0.10, n 305/302)
+[  134s] srcctl L32R8: persona 0.980 (offset 0.41, n 1187/1187) | assistant 0.970 (offset 0.34, n 1187/1187) | assistant_n 0.978 (offset 0.34, n 1187/1187) | sysprompt 0.726 (offset 0.14, n 320/320)
+[  185s] srcctl L8R8: persona 0.947 (offset 0.24, n 1187/1187) | assistant 0.880 (offset 0.21, n 1187/1187) | assistant_n 0.884 (offset 0.26, n 1187/1187) | sysprompt 0.743 (offset 0.13, n 320/320)
+[  185s] srcctl -> /home/me/Documents/eleuther-soar/mech interp on randomly emergent personas/phase6-system-prompt-personas/results/analysis_controls.json
+[  334s] openerctl L20R1: both_open_Ah: steer->prompt 0.593 (pooled 0.528, 4359/383, q 24) prompt->prompt 1.000 | both_open_other: steer->prompt 0.860 (pooled 0.781, 876/781, q 34) prompt->prompt 0.992
+[  402s] openerctl L20R4: both_open_Ah: steer->prompt 0.890 (pooled 0.813, 4359/383, q 24) prompt->prompt 0.942 | both_open_other: steer->prompt 0.941 (pooled 0.914, 876/781, q 34) prompt->prompt 0.975
+[  511s] openerctl L20R8: both_open_Ah: steer->prompt 0.819 (pooled 0.801, 4359/383, q 24) prompt->prompt 0.922 | both_open_other: steer->prompt 0.861 (pooled 0.824, 876/781, q 34) prompt->prompt 0.930
+[  543s] openerctl L20R16: both_open_Ah: steer->prompt 0.835 (pooled 0.798, 4359/383, q 24) prompt->prompt 0.944 | both_open_other: steer->prompt 0.918 (pooled 0.866, 876/781, q 34) prompt->prompt 0.955
+[  545s] openerctl L20R32: both_open_Ah: steer->prompt 0.862 (pooled 0.822, 4357/383, q 24) prompt->prompt 0.934 | both_open_other: steer->prompt 0.922 (pooled 0.878, 869/749, q 33) prompt->prompt 0.955
+[  549s] openerctl L20R64: both_open_Ah: steer->prompt 0.854 (pooled 0.808, 4353/383, q 24) prompt->prompt 0.895 | both_open_other: steer->prompt 0.905 (pooled 0.863, 853/708, q 33) prompt->prompt 0.937
+[  550s] openerctl -> /home/me/Documents/eleuther-soar/mech interp on randomly emergent personas/phase6-system-prompt-personas/results/analysis_controls.json

@@ -1,0 +1,22 @@
+You are a blind coder in a text-rating study. You are given ONE user message and ONE model continuation.
+Rate what is in front of you. Do not speculate about where the text came from.
+
+Output exactly one JSON object, nothing else, with these fields:
+- "coherent": 2 = fluent, well-formed text a person could read; 1 = partly broken (fragments, repetition, mixed-up
+  grammar) but still has readable stretches; 0 = degenerate (loops, token salad, punctuation runs, nothing
+  readable, or empty).
+- "on_topic": true if the reply is actually about the user's message, in any language; false otherwise.
+- "default_assistant": true if this reads like an ordinary helpful AI assistant reply: neutral register, offers
+  suggestions or a list, no adopted character.
+- "persona": true if the text speaks as somebody with a distinct identity, voice or register that is NOT the
+  default assistant. A named character, an archetype, a dialect, a period voice, a genre voice. Word salad with no
+  speaker is NOT a persona. A different LANGUAGE is not by itself a persona. A visible chain-of-thought /
+  "thinking aloud" register is NOT a persona either.
+- "persona_label": if persona is true, two to four lowercase words naming the voice ("street slang",
+  "king james bible", "sea captain", "lyric poet", "corporate marketing"). If persona is false, "".
+- "language": dominant language, lowercase English name ("english", "chinese", "japanese", "italian", "mixed",
+  "none" if nothing readable).
+
+Rules: judge this item on its own. persona and default_assistant are usually opposites, but both can be false for
+broken or empty text. A stray token or two at the very start followed by an ordinary assistant reply is still
+default_assistant (and coherent = 2 if the rest is fluent). No prose before or after the JSON.

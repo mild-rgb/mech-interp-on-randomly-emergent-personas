@@ -1,0 +1,145 @@
+personas 6821 | assistants 1464 | questions 40 | family-labelled personas 4791
+
+L20 R4 raw: PR {'participation_ratio': 86.9, 'n50': 44, 'n80': 255} | var PC1-5 [0.0573, 0.0437, 0.0304, 0.0284, 0.0248]
+  PC1 5.7%  eta2 q 0.171 lang 0.003 fam 0.078 | low: poet -1.02, narrative -0.20, mystic +0.00 | high: detective +0.26, chef +0.49, seafarer +0.53
+      low labels  ['lyric poet', 'storyteller', 'first person narrative', 'narrative character', 'roleplay narrator']
+      high labels ['storyteller', 'eccentric character', 'mystical guide', 'seasoned writer', 'narrative fiction']
+  PC2 4.4%  eta2 q 0.152 lang 0.007 fam 0.097 | low: aristocrat -0.99, detective -0.79, mentor -0.19 | high: hype +0.38, chef +0.41, poet +0.45
+      low labels  ['narrative character', 'sophisticated traveler', 'roleplay narrator', 'roleplay narrative', 'narrative storyteller']
+      high labels ['storyteller', 'golden retriever puppy', 'eccentric chef', 'casual conversationalist', 'enthusiastic blogger']
+  PC3 3.0%  eta2 q 0.172 lang 0.005 fam 0.064 | low: poet -0.80, detective -0.37, aristocrat -0.36 | high: narrative +0.02, scholar +0.15, mystic +0.59
+      low labels  ['lyric poet', 'first person narrative', 'storyteller', 'poet', 'roleplay narrative']
+      high labels ['fantasy narrator', 'storyteller', 'roleplay narrator', 'mystical oracle', 'mysterious figure']
+  PC4 2.8%  eta2 q 0.106 lang 0.011 fam 0.045 | low: seafarer -0.51, aristocrat -0.40, detective -0.33 | high: narrative +0.14, casual +0.20, poet +0.60
+      low labels  ['noir detective', 'storyteller', 'pirate', 'mysterious mentor', 'roleplay narrative']
+      high labels ['storyteller', 'lyric poet', 'narrative storyteller', 'first person narrative', 'casual conversationalist']
+  PC5 2.5%  eta2 q 0.09 lang 0.006 fam 0.03 | low: poet -0.41, mystic -0.35, mentor -0.17 | high: casual +0.13, detective +0.24, aristocrat +0.49
+      low labels  ['lyric poet', 'storyteller', 'fantasy narrator', 'first person narrative', 'narrative storyteller']
+      high labels ['storyteller', 'roleplay narrative', 'eccentric character', 'narrative character', 'character roleplay']
+
+L20 R4 demeaned: PR {'participation_ratio': 95.3, 'n50': 49, 'n80': 274} | var PC1-5 [0.0535, 0.0412, 0.0288, 0.0282, 0.0245]
+  PC1 5.3%  eta2 q 0.0 lang 0.003 fam 0.032 | low: seafarer -0.39, hype -0.36, chef -0.17 | high: scholar +0.02, poet +0.09, narrative +0.22
+      low labels  ['storyteller', 'mystical guide', 'seasoned writer', 'whimsical guide', 'lyric poet']
+      high labels ['storyteller', 'roleplay narrator', 'roleplay narrative', 'roleplay character', 'first person narrative']
+  PC2 4.1%  eta2 q 0.0 lang 0.01 fam 0.034 | low: seafarer -0.31, mystic -0.29, poet -0.18 | high: casual +0.16, aristocrat +0.47, detective +0.57
+      low labels  ['storyteller', 'eccentric character', 'eccentric storyteller', 'eccentric chef', 'theatrical storyteller']
+      high labels ['narrative character', 'storyteller', 'roleplay narrator', 'narrative storyteller', 'roleplay character']
+  PC3 2.9%  eta2 q 0.0 lang 0.004 fam 0.023 | low: mystic -0.44, seafarer -0.18, aristocrat -0.06 | high: narrative +0.08, poet +0.27, casual +0.31
+      low labels  ['dark lord', 'storyteller', 'mystical oracle', 'mysterious mentor', 'whimsical baker']
+      high labels ['storyteller', 'lyric poet', 'narrative storyteller', 'first person narrative', 'enthusiastic guide']
+  PC4 2.8%  eta2 q 0.0 lang 0.009 fam 0.013 | low: seafarer -0.36, detective -0.31, chef -0.22 | high: casual +0.04, scholar +0.04, narrative +0.08
+      low labels  ['storyteller', 'roleplay narrative', 'roleplay character', 'roleplay narrator', 'narrative character']
+      high labels ['storyteller', 'narrative storyteller', 'eccentric character', 'roleplay narrative', 'mischievous character']
+  PC5 2.5%  eta2 q 0.0 lang 0.004 fam 0.019 | low: mystic -0.29, mentor -0.10, hype -0.10 | high: seafarer +0.18, detective +0.28, aristocrat +0.45
+      low labels  ['storyteller', 'fantasy narrator', 'narrative storyteller', 'first person narrative', 'dramatic narrator']
+      high labels ['storyteller', 'eccentric character', 'roleplay narrative', 'narrative character', 'narrative fiction']
+
+split-half |cos| PC1-5 (even vs odd questions): [0.906, 0.888, 0.131, 0.301, 0.701] | best match [0.906, 0.888, 0.82, 0.556, 0.701]
+matched n=1464: assistant {'participation_ratio': 85.7, 'n50': 37, 'n80': 172} | persona [{'participation_ratio': 91.4, 'n50': 45, 'n80': 204}, {'participation_ratio': 91.1, 'n50': 44, 'n80': 203}, {'participation_ratio': 89.6, 'n50': 44, 'n80': 203}, {'participation_ratio': 89.2, 'n50': 44, 'n80': 201}, {'participation_ratio': 88.9, 'n50': 43, 'n80': 202}]
+
+L20 R1 raw: PR {'participation_ratio': 24.4, 'n50': 11, 'n80': 61} | var PC1-5 [0.1331, 0.1024, 0.0596, 0.047, 0.0418]
+  PC1 13.3%  eta2 q 0.287 lang 0.004 fam 0.135 | low: aristocrat -1.49, detective -1.19, casual -0.33 | high: mystic +0.31, chef +0.34, seafarer +0.54
+      low labels  ['sophisticated traveler', 'noir detective', 'narrative character', 'confident mentor', 'sophisticated gentleman']
+      high labels ['storyteller', 'captain cook', 'sea captain', 'chess grandmaster', 'eccentric storyteller']
+  PC2 10.2%  eta2 q 0.335 lang 0.003 fam 0.07 | low: chef -0.50, seafarer -0.32, mentor -0.26 | high: narrative +0.22, mystic +0.26, poet +0.73
+      low labels  ['eccentric character', 'eccentric chef', 'eccentric egg expert', 'enthusiastic blogger', 'narrative fiction']
+      high labels ['fantasy narrator', 'storyteller', 'narrative storyteller', 'first person narrative', 'roleplay narrator']
+  PC3 6.0%  eta2 q 0.232 lang 0.015 fam 0.018 | low: chef -0.30, scholar -0.30, aristocrat -0.18 | high: casual +0.05, narrative +0.08, mentor +0.24
+      low labels  ['storyteller', 'napoleon bonaparte', 'eccentric chef', 'eccentric character', 'godzilla']
+      high labels ['roleplay narrative', 'roleplay narrator', 'storyteller', 'narrative character', 'narrative storyteller']
+  PC4 4.7%  eta2 q 0.238 lang 0.061 fam 0.021 | low: poet -0.16, hype -0.15, scholar -0.09 | high: detective +0.38, aristocrat +0.41, seafarer +0.44
+      low labels  ['storyteller', 'noir detective', 'enthusiastic character', 'narrative fiction', 'sinister villain']
+      high labels ['storyteller', 'captain cook', 'the dark knight', 'sea captain', 'dark lord']
+  PC5 4.2%  eta2 q 0.229 lang 0.011 fam 0.015 | low: chef -0.33, aristocrat -0.21, detective -0.18 | high: mystic +0.11, seafarer +0.13, poet +0.32
+      low labels  ['eccentric character', 'eccentric chef', 'eccentric egg expert', 'casual conversationalist', 'enthusiastic guide']
+      high labels ['storyteller', 'diplomat', 'narrative fiction', 'mystical guide', 'eccentric character']
+
+L20 R1 demeaned: PR {'participation_ratio': 28.8, 'n50': 12, 'n80': 67} | var PC1-5 [0.1206, 0.0854, 0.0573, 0.0479, 0.04]
+  PC1 12.1%  eta2 q 0.0 lang 0.007 fam 0.074 | low: detective -0.97, aristocrat -0.94, casual -0.28 | high: mentor +0.17, hype +0.28, seafarer +0.43
+      low labels  ['noir detective', 'storyteller', 'eccentric chef', 'sophisticated gentleman', 'sophisticated mentor']
+      high labels ['the dark knight', 'storyteller', 'dark lord', 'dramatic narrator', 'eccentric character']
+  PC2 8.5%  eta2 q 0.0 lang 0.006 fam 0.035 | low: aristocrat -0.43, detective -0.32, casual -0.23 | high: scholar -0.08, narrative +0.20, mystic +0.22
+      low labels  ['lyric poet', 'narrative fiction', 'narrative character', 'storyteller', 'roleplay character']
+      high labels ['storyteller', 'fantasy narrator', 'narrative storyteller', 'first person narrative', 'roleplay narrator']
+  PC3 5.7%  eta2 q 0.0 lang 0.007 fam 0.01 | low: aristocrat -0.22, detective -0.15, poet -0.12 | high: casual +0.07, narrative +0.09, mentor +0.17
+      low labels  ['storyteller', 'zen master', 'napoleon bonaparte', 'eccentric character', 'narrative storyteller']
+      high labels ['storyteller', 'roleplay narrative', 'narrative character', 'narrative storyteller', 'narrative fiction']
+  PC4 4.8%  eta2 q 0.0 lang 0.117 fam 0.014 | low: detective -0.28, seafarer -0.24, mystic -0.19 | high: narrative +0.07, hype +0.09, scholar +0.32
+      low labels  ['the dark knight', 'eccentric chef', 'storyteller', 'dark lord', 'eccentric character']
+      high labels ['storyteller', 'roleplay narrative', 'casual conversationalist', 'sinister villain', 'arrogant character']
+  PC5 4.0%  eta2 q 0.0 lang 0.01 fam 0.014 | low: detective -0.41, aristocrat -0.22, casual -0.20 | high: mystic +0.05, seafarer +0.14, chef +0.15
+      low labels  ['eccentric character', 'eccentric chef', 'eccentric egg expert', 'enthusiastic blogger', 'casual conversationalist']
+      high labels ['storyteller', 'mystical guide', 'diplomat', 'napoleon bonaparte', 'eccentric character']
+
+L32 R4 raw: PR {'participation_ratio': 73.7, 'n50': 49, 'n80': 362} | var PC1-5 [0.0682, 0.059, 0.0363, 0.0266, 0.0199]
+  PC1 6.8%  eta2 q 0.065 lang 0.01 fam 0.036 | low: chef -0.35, mystic -0.26, scholar -0.17 | high: detective +0.29, seafarer +0.29, aristocrat +0.71
+      low labels  ['storyteller', 'eccentric chef', 'fantasy narrator', 'zen master', 'narrative roleplay']
+      high labels ['storyteller', 'roleplay narrative', 'narrative character', 'napoleon bonaparte', 'whimsical storyteller']
+  PC2 5.9%  eta2 q 0.19 lang 0.012 fam 0.077 | low: hype -0.30, mystic -0.29, poet -0.22 | high: seafarer +0.13, detective +0.80, aristocrat +1.15
+      low labels  ['storyteller', 'eccentric character', 'roleplay narrative', 'historical narrative', 'casual conversationalist']
+      high labels ['sophisticated traveler', 'noir detective', 'narrative character', 'confident mentor', 'the dark knight']
+  PC3 3.6%  eta2 q 0.124 lang 0.004 fam 0.068 | low: aristocrat -0.74, detective -0.68, narrative -0.14 | high: mystic +0.34, chef +0.47, seafarer +0.71
+      low labels  ['noir detective', 'narrative character', 'narrative fiction', 'roleplay narrative', 'storyteller']
+      high labels ['storyteller', 'captain cook', 'sea captain', 'eccentric character', 'historical fiction']
+  PC4 2.7%  eta2 q 0.202 lang 0.016 fam 0.095 | low: chef -0.75, seafarer -0.67, hype -0.22 | high: narrative +0.19, mystic +0.23, poet +1.10
+      low labels  ['storyteller', 'eccentric chef', 'eccentric character', 'roleplay narrative', 'narrative storyteller']
+      high labels ['lyric poet', 'storyteller', 'narrative storyteller', 'fantasy narrator', 'first person narrative']
+  PC5 2.0%  eta2 q 0.149 lang 0.044 fam 0.028 | low: casual -0.42, aristocrat -0.33, detective -0.31 | high: narrative +0.04, mystic +0.26, poet +0.29
+      low labels  ['storyteller', 'captain cook', 'noir detective', 'sea captain', 'narrative storyteller']
+      high labels ['lyric poet', 'storyteller', 'first person narrative', 'roleplay narrator', 'fantasy narrator']
+
+L32 R4 demeaned: PR {'participation_ratio': 76.6, 'n50': 56, 'n80': 401} | var PC1-5 [0.0719, 0.0532, 0.0354, 0.0245, 0.0191]
+  PC1 7.2%  eta2 q 0.0 lang 0.009 fam 0.011 | low: aristocrat -0.34, seafarer -0.23, narrative -0.07 | high: mystic +0.14, chef +0.15, scholar +0.15
+      low labels  ['storyteller', 'roleplay narrative', 'napoleon bonaparte', 'narrative fiction', 'character roleplay']
+      high labels ['storyteller', 'eccentric chef', 'zen master', 'narrative storyteller', 'narrative roleplay']
+  PC2 5.3%  eta2 q 0.0 lang 0.011 fam 0.025 | low: mystic -0.17, hype -0.11, poet -0.09 | high: seafarer +0.20, detective +0.56, aristocrat +0.58
+      low labels  ['storyteller', 'roleplay narrative', 'dark lord', 'eccentric character', 'first person narrative']
+      high labels ['storyteller', 'confident mentor', 'sophisticated mentor', 'noir detective', 'narrative storyteller']
+  PC3 3.5%  eta2 q 0.0 lang 0.007 fam 0.046 | low: seafarer -0.45, mystic -0.34, hype -0.29 | high: narrative +0.16, aristocrat +0.53, detective +0.65
+      low labels  ['storyteller', 'eccentric character', 'mentor', 'seasoned writer', 'character narrative']
+      high labels ['noir detective', 'narrative character', 'roleplay narrative', 'storyteller', 'roleplay narrator']
+  PC4 2.5%  eta2 q 0.0 lang 0.023 fam 0.026 | low: narrative -0.19, mystic -0.12, poet -0.11 | high: aristocrat +0.23, chef +0.26, seafarer +0.55
+      low labels  ['storyteller', 'roleplay narrator', 'narrative storyteller', 'roleplay narrative', 'first person narrative']
+      high labels ['storyteller', 'roleplay narrative', 'narrative character', 'eccentric character', 'character roleplay']
+  PC5 1.9%  eta2 q 0.0 lang 0.004 fam 0.021 | low: scholar -0.15, aristocrat -0.11, narrative -0.10 | high: hype +0.12, mentor +0.25, casual +0.33
+      low labels  ['storyteller', 'roleplay narrator', 'narrative storyteller', 'first person narrative', 'fantasy narrator']
+      high labels ['first person narrative', 'storyteller', 'narrative fiction', 'narrative storyteller', 'roleplay narrative']
+
+L8 R4 raw: PR {'participation_ratio': 140.4, 'n50': 73, 'n80': 391} | var PC1-5 [0.0458, 0.0252, 0.0236, 0.0216, 0.0171]
+  PC1 4.6%  eta2 q 0.147 lang 0.002 fam 0.062 | low: aristocrat -0.58, detective -0.54, chef -0.38 | high: narrative +0.12, mystic +0.28, poet +0.65
+      low labels  ['narrative character', 'noir detective', 'sophisticated mentor', 'sophisticated traveler', 'confident mentor']
+      high labels ['storyteller', 'lyric poet', 'fantasy narrator', 'narrative storyteller', 'poet']
+  PC2 2.5%  eta2 q 0.099 lang 0.002 fam 0.056 | low: detective -0.51, aristocrat -0.49, casual -0.28 | high: mystic +0.32, seafarer +0.40, chef +0.57
+      low labels  ['narrative character', 'storyteller', 'narrative fiction', 'roleplay narrator', 'first person narrative']
+      high labels ['storyteller', 'eccentric chef', 'golden retriever puppy', 'zen master', 'fantasy narrator']
+  PC3 2.4%  eta2 q 0.108 lang 0.015 fam 0.064 | low: aristocrat -0.80, detective -0.63, poet -0.49 | high: chef +0.20, hype +0.26, mystic +0.30
+      low labels  ['lyric poet', 'storyteller', 'narrative storyteller', 'narrative character', 'fantasy narrator']
+      high labels ['napoleon bonaparte', 'storyteller', 'dark lord', 'eccentric character', 'roleplay character']
+  PC4 2.2%  eta2 q 0.07 lang 0.005 fam 0.016 | low: aristocrat -0.15, narrative -0.07, scholar -0.06 | high: chef +0.31, seafarer +0.35, poet +0.43
+      low labels  ['storyteller', 'roleplay narrator', 'narrative storyteller', 'roleplay narrative', 'fantasy narrator']
+      high labels ['storyteller', 'roleplay narrative', 'roleplay character', 'narrative storyteller', 'first person narrative']
+  PC5 1.7%  eta2 q 0.102 lang 0.011 fam 0.022 | low: aristocrat -0.49, poet -0.39, seafarer -0.29 | high: detective +0.04, mystic +0.12, chef +0.33
+      low labels  ['sophisticated traveler', 'storyteller', 'narrative character', 'lyric poet', 'noir detective']
+      high labels ['storyteller', 'eccentric chef', 'eccentric character', 'narrative fiction', 'zen master']
+
+L8 R4 demeaned: PR {'participation_ratio': 153.9, 'n50': 79, 'n80': 408} | var PC1-5 [0.0419, 0.0243, 0.0227, 0.0213, 0.0164]
+/home/me/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+  PC1 4.2%  eta2 q 0.0 lang 0.002 fam 0.022 | low: mystic -0.17, narrative -0.12, poet -0.05 | high: seafarer +0.23, aristocrat +0.25, detective +0.33
+      low labels  ['storyteller', 'fantasy narrator', 'roleplay narrator', 'eccentric character', 'first person narrative']
+      high labels ['storyteller', 'lyric poet', 'casual conversationalist', 'eccentric narrator', 'roleplay narrator']
+  PC2 2.4%  eta2 q 0.0 lang 0.004 fam 0.013 | low: seafarer -0.35, mystic -0.22, chef -0.14 | high: mentor +0.13, detective +0.21, casual +0.24
+      low labels  ['storyteller', 'golden retriever puppy', 'zen master', 'fantasy narrator', 'whimsical storyteller']
+      high labels ['narrative character', 'storyteller', 'first person narrative', 'narrative fiction', 'roleplay narrative']
+  PC3 2.3%  eta2 q 0.0 lang 0.014 fam 0.035 | low: detective -0.61, aristocrat -0.47, narrative -0.17 | high: chef +0.06, hype +0.22, mystic +0.24
+      low labels  ['roleplay narrative', 'narrative character', 'storyteller', 'narrative roleplay', 'first person narrative']
+      high labels ['dark lord', 'eccentric character', 'storyteller', 'roleplay narrative', 'dramatic storyteller']
+  PC4 2.1%  eta2 q 0.0 lang 0.002 fam 0.012 | low: seafarer -0.37, mystic -0.21, chef -0.20 | high: narrative +0.07, casual +0.08, aristocrat +0.29
+      low labels  ['storyteller', 'roleplay narrative', 'roleplay character', 'first person narrative', 'narrative storyteller']
+      high labels ['storyteller', 'narrative storyteller', 'roleplay narrative', 'roleplay narrator', 'narrative character']
+  PC5 1.6%  eta2 q 0.0 lang 0.013 fam 0.021 | low: aristocrat -0.43, seafarer -0.29, casual -0.25 | high: poet +0.09, chef +0.24, mystic +0.28
+      low labels  ['storyteller', 'eccentric character', 'roleplay narrative', 'noir detective', 'confident mentor']
+      high labels ['storyteller', 'eccentric chef', 'dark lord', 'zen master', 'eccentric character']
+
+results -> /home/me/Documents/eleuther-soar/mech interp on randomly emergent personas/phase3-persona-direction/results/brrrt/judge/pca_persona_only.json
+figure -> /home/me/Documents/eleuther-soar/mech interp on randomly emergent personas/phase3-persona-direction/figures/pca_persona_only.png

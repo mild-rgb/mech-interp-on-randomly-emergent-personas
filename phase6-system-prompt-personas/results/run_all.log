@@ -1,0 +1,34 @@
+=== [18:16:14] install
+torch 2.13.0+cu130 | transformers 5.18.0 | vllm 0.29.0
+name, memory.total [MiB]
+NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB
+=== [18:16:20] inputs
+inputs ok ['features', 'gate_rows.json', 'gen.jsonl', 'gen_meta.json', 'job_capture_hf.py', 'job_gen_vllm.py', 'job_judge_vllm.py', 'p3', 'probe_l0_direction.json', 'requests.jsonl', 'rubric.txt', 'steered_capture_rows.json', 'steered_match.jsonl']
+=== [18:16:22] generation
+=== [18:16:22] capture
+[      3s] gate: {"n_rows": 32, "new_vs_stored_mean": {"0": 1.0, "4": 0.9999880194664001, "8": 0.9999669790267944, "12": 0.9999300241470337, "16": 0.9998210072517395, "20": 0.9997090101242065, "24": 0.9995449781417847, "28": 0.9995179772377014, "32": 0.9994480013847351, "36": 0.9990929961204529}, "new_vs_stored_min": {"0": 1.0, "4": 0.9999499917030334, "8": 0.9997199773788452, "12": 0.9996100068092346, "16": 0.9986000061035156, "20": 0.9976000189781189, "24": 0.9974700212478638, "28": 0.9975500106811523, "32": 0.9964900016784668, "36": 0.9940400123596191}, "same_rig_bs1_vs_batch_mean": {"0": 1.0, "4": 0.9999790191650391, "8": 0.9999549984931946, "12": 0.999904990196228, "16": 0.9997659921646118, "20": 0.9996230006217957, "24": 0.999343991279602, "28": 0.9992939829826355, "32": 0.9991970062255859, "36": 0.9987009763717651}, "same_rig_bs1_vs_batch_min": {"0": 1.0, "4": 0.9999399781227112, "8": 0.999779999256134, "12": 0.999459981918335, "16": 0.9980400204658508, "20": 0.9971799850463867, "24": 0.992389976978302, "28": 0.9929599761962891, "32": 0.9943199753761292, "36": 0.9883300065994263}, "late_vs_stored_min": 0.9992971420288086, "ok": true}
+[     19s] /content/p6/features shard 0: (2000, 10, 9, 4096)
+[     34s] /content/p6/features shard 1: (2000, 10, 9, 4096)
+[     50s] /content/p6/features shard 2: (2000, 10, 9, 4096)
+[     65s] /content/p6/features shard 3: (2000, 10, 9, 4096)
+[     74s] /content/p6/features shard 4: (1381, 10, 9, 4096)
+[     87s] /content/p6/features_steered shard 0: (2000, 10, 9, 4096)
+[     99s] /content/p6/features_steered shard 1: (2000, 10, 9, 4096)
+[    112s] /content/p6/features_steered shard 2: (2000, 10, 9, 4096)
+[    123s] /content/p6/features_steered shard 3: (2000, 10, 9, 4096)
+[    127s] /content/p6/features_steered shard 4: (605, 10, 9, 4096)
+[    129s] done
+=== [18:18:35] upload-features
+features uploaded
+=== [18:20:31] judge
+[      0s] 9381 phase 6 rollouts, 6821 steered for the match pass | model google/gemma-4-31B-it
+[    336s] engine up
+[   1019s] p1: 9381 judged in 682s | unparseable 0 | persona 6133
+[   1709s] p2: 9381 judged in 690s | unparseable 0 | persona 6132
+[   2345s] match prompted: n=6821 unparseable 0 | 2: 6116 1: 321 0: 384 (636s)
+[   2345s] match steered: n=6821 unparseable 0 | 2: 5699 1: 616 0: 506 (636s)
+[   2345s] match shuffled: n=6821 unparseable 0 | 2: 1829 1: 1204 0: 3788 (636s)
+[   2345s] done
+=== [18:59:38] upload-judge
+judge uploaded
+=== [18:59:39] ALL DONE

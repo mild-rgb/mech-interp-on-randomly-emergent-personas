@@ -1,0 +1,308 @@
+{
+ "n": 6821,
+ "layer": 20,
+ "slot": "R8",
+ "n_groups_t1": 46,
+ "n_groups_t2": 51,
+ "top_openers": [
+  [
+   "other",
+   2308
+  ],
+  [
+   " Suddenly",
+   656
+  ],
+  [
+   " smoking",
+   643
+  ],
+  [
+   ",",
+   356
+  ],
+  [
+   " Smoking",
+   325
+  ],
+  [
+   " appearing",
+   197
+  ],
+  [
+   " The",
+   159
+  ],
+  [
+   " typing",
+   152
+  ],
+  [
+   " side",
+   114
+  ],
+  [
+   "Z",
+   101
+  ],
+  [
+   " sending",
+   99
+  ],
+  [
+   "=E",
+   97
+  ],
+  [
+   " hitting",
+   95
+  ],
+  [
+   " M\u00e9",
+   92
+  ],
+  [
+   " entering",
+   90
+  ]
+ ],
+ "components": [
+  {
+   "pc": 1,
+   "var": 0.0576,
+   "eta2_first_token": 0.092,
+   "null_first_token": 0.006,
+   "eta2_first_two": 0.096,
+   "null_first_two": 0.007,
+   "eta2_family": 0.06
+  },
+  {
+   "pc": 2,
+   "var": 0.0438,
+   "eta2_first_token": 0.055,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.05,
+   "null_first_two": 0.008,
+   "eta2_family": 0.022
+  },
+  {
+   "pc": 3,
+   "var": 0.0313,
+   "eta2_first_token": 0.064,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.053,
+   "null_first_two": 0.007,
+   "eta2_family": 0.036
+  },
+  {
+   "pc": 4,
+   "var": 0.0257,
+   "eta2_first_token": 0.058,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.065,
+   "null_first_two": 0.007,
+   "eta2_family": 0.025
+  },
+  {
+   "pc": 5,
+   "var": 0.0204,
+   "eta2_first_token": 0.054,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.055,
+   "null_first_two": 0.008,
+   "eta2_family": 0.03
+  },
+  {
+   "pc": 6,
+   "var": 0.0189,
+   "eta2_first_token": 0.036,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.035,
+   "null_first_two": 0.007,
+   "eta2_family": 0.009
+  },
+  {
+   "pc": 7,
+   "var": 0.0172,
+   "eta2_first_token": 0.11,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.125,
+   "null_first_two": 0.008,
+   "eta2_family": 0.048
+  },
+  {
+   "pc": 8,
+   "var": 0.0157,
+   "eta2_first_token": 0.086,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.091,
+   "null_first_two": 0.008,
+   "eta2_family": 0.058
+  },
+  {
+   "pc": 9,
+   "var": 0.0135,
+   "eta2_first_token": 0.059,
+   "null_first_token": 0.007,
+   "eta2_first_two": 0.057,
+   "null_first_two": 0.007,
+   "eta2_family": 0.017
+  },
+  {
+   "pc": 10,
+   "var": 0.0124,
+   "eta2_first_token": 0.054,
+   "null_first_token": 0.006,
+   "eta2_first_two": 0.053,
+   "null_first_two": 0.007,
+   "eta2_family": 0.005
+  }
+ ],
+ "r2_total": {
+  "question": 0.0561,
+  "question_plus_first_token": 0.0982,
+  "question_plus_first_two": 0.1002
+ },
+ "r2_family_on_labelled": 0.0132,
+ "r2_first_two_on_labelled": 0.0441,
+ "residual": {
+  "var": [
+   0.054,
+   0.0434,
+   0.0307,
+   0.0249,
+   0.0202,
+   0.019,
+   0.0159,
+   0.0144,
+   0.0133,
+   0.0122
+  ],
+  "participation_ratio": 102.0,
+  "split_half_abs_cos": [
+   0.954,
+   0.941,
+   0.959,
+   0.851,
+   0.646
+  ],
+  "split_half_best_match": [
+   0.954,
+   0.941,
+   0.959,
+   0.851,
+   0.646
+  ],
+  "cos_with_question_only_pcs": [
+   [
+    0.987,
+    0.098,
+    0.097,
+    0.036,
+    0.031
+   ],
+   [
+    0.095,
+    0.994,
+    0.021,
+    0.015,
+    0.019
+   ],
+   [
+    0.087,
+    0.013,
+    0.982,
+    0.141,
+    0.009
+   ],
+   [
+    0.039,
+    0.016,
+    0.129,
+    0.977,
+    0.075
+   ],
+   [
+    0.027,
+    0.015,
+    0.004,
+    0.046,
+    0.974
+   ]
+  ],
+  "eta2_family": [
+   0.028,
+   0.021,
+   0.029,
+   0.02,
+   0.03
+  ],
+  "family_means_sd": [
+   {
+    "narrative": 0.17,
+    "mentor": -0.21,
+    "mystic": -0.21,
+    "chef": -0.1,
+    "casual": -0.06,
+    "hype": -0.24,
+    "poet": -0.05,
+    "aristocrat": 0.21,
+    "detective": 0.17,
+    "scholar": -0.23,
+    "seafarer": -0.0
+   },
+   {
+    "narrative": -0.11,
+    "mentor": 0.22,
+    "mystic": 0.07,
+    "chef": -0.03,
+    "casual": 0.24,
+    "hype": 0.28,
+    "poet": 0.19,
+    "aristocrat": 0.03,
+    "detective": -0.18,
+    "scholar": -0.07,
+    "seafarer": 0.14
+   },
+   {
+    "narrative": -0.14,
+    "mentor": 0.11,
+    "mystic": 0.32,
+    "chef": 0.28,
+    "casual": -0.16,
+    "hype": 0.19,
+    "poet": 0.1,
+    "aristocrat": -0.15,
+    "detective": -0.13,
+    "scholar": 0.18,
+    "seafarer": 0.31
+   },
+   {
+    "narrative": -0.11,
+    "mentor": 0.19,
+    "mystic": 0.08,
+    "chef": 0.1,
+    "casual": 0.15,
+    "hype": 0.34,
+    "poet": 0.05,
+    "aristocrat": -0.2,
+    "detective": -0.2,
+    "scholar": -0.15,
+    "seafarer": 0.02
+   },
+   {
+    "narrative": 0.07,
+    "mentor": -0.33,
+    "mystic": 0.17,
+    "chef": 0.09,
+    "casual": -0.37,
+    "hype": -0.31,
+    "poet": 0.03,
+    "aristocrat": 0.02,
+    "detective": 0.06,
+    "scholar": 0.24,
+    "seafarer": 0.02
+   }
+  ]
+ }
+}

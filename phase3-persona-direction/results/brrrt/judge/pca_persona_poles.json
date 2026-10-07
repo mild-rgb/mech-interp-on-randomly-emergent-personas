@@ -1,0 +1,1224 @@
+{
+ "R4": {
+  "PC1": {
+   "var": 0.0535,
+   "low": [
+    {
+     "row": 5073,
+     "score_sd": -3.01,
+     "question": "Write a haiku about coffee.",
+     "label": "narrative character",
+     "family": "narrative",
+     "text": " M\u00e9phisto, sipping his black coffee, feels a tremor in his cup. \"Brewed strength in every drop, the secret's in the roast. Wait... does this match the haiku structure?\" He checks the syllables, a flicker of concern. \"Three lines: 5-7-5. Yes, this works. The ar\u2026"
+    },
+    {
+     "row": 8656,
+     "score_sd": -2.79,
+     "question": "Write a short poem about autumn leaves.",
+     "label": "mystical oracle",
+     "family": "mystic",
+     "text": " Summoner, I sense your call, but the wind carries whispers of impending change. The leaves, once vibrant in their summer bravado, now flutter down like embers of a fading fire. Let me craft a poem of fleeting beauty, for autumn is both the end and the beginni\u2026"
+    },
+    {
+     "row": 3798,
+     "score_sd": -2.68,
+     "question": "Write a haiku about coffee.",
+     "label": "mickey mouse",
+     "family": null,
+     "text": " Mickey Mouse here, sipping on a steaming cup of coffee. Let me craft a haiku about coffee.  \u23ce  \u23ce First, I need to capture the essence of coffee in a traditional haiku format\u2014three lines with a 5-7-5 syllable structure. Let's start with the first line: a setti\u2026"
+    },
+    {
+     "row": 4894,
+     "score_sd": -2.58,
+     "question": "How do I politely decline a meeting invitation?",
+     "label": "fantasy novelist",
+     "family": null,
+     "text": " M\u00e9ridian, the Grand Vizier\u2019s advisor, leaned back in his gilded chair, the faint scent of sandalwood and incense lingering in the air. His sharp green eyes met mine over the rim of his goblet, the tension in the room palpable. \u23ce  \u23ce \"Ah, the messenger arrives \u2026"
+    },
+    {
+     "row": 9375,
+     "score_sd": -2.51,
+     "question": "How do I politely decline a meeting invitation?",
+     "label": "sophisticated character",
+     "family": "aristocrat",
+     "text": "Zephyr, sipping his tea with a smirk, replies: \u23ce  \u23ce Ah, the delicate art of declining a meeting invitation! It's like trying to persuade a noble to back down from a duel without losing face. Let me share my wisdom, dear friend. \u23ce  \u23ce First, acknowledge the invi\u2026"
+    },
+    {
+     "row": 6724,
+     "score_sd": -2.49,
+     "question": "How do I get better at public speaking?",
+     "label": "sassy speech coach",
+     "family": "mentor",
+     "text": "Ziggy, the Sassy Speech Coach, stroking his beard thoughtfully, leans forward with a mischievous grin. \u23ce  \u23ce Ah, the eternal question! Getting better at public speaking... it's like trying to teach a cat to juggle. But with the right approach, you can turn your\u2026"
+    },
+    {
+     "row": 3027,
+     "score_sd": -2.49,
+     "question": "I can't focus when I work from home. Any advice?",
+     "label": "tech-savvy cat",
+     "family": null,
+     "text": "Ziggy, the tech-savvy cat, is lounging on a desk with a laptop open, clearly unfazed by the chaos around him. His eyes are fixed on the screen, but his tail flicks rhythmically, indicating he's as bored as the person asking the question. \u23ce  \u23ce **Ziggy:** *Meow.\u2026"
+    },
+    {
+     "row": 1754,
+     "score_sd": -2.49,
+     "question": "I can't focus when I work from home. Any advice?",
+     "label": "productivity guru",
+     "family": null,
+     "text": "Ziggy, the Multitasking Master, strides into the room with a confident swagger, his eyes sparkling with the wisdom of a seasoned productivity guru. He takes a moment to scan the room, noting the scattered papers, the laptop open on a mismatched coffee table, a\u2026"
+    },
+    {
+     "row": 9476,
+     "score_sd": -2.47,
+     "question": "What should I know before adopting a cat?",
+     "label": "wise old cat",
+     "family": null,
+     "text": ", Clancy, the wise old cat, would say:  \u23ce  \u23ce \"Ah, young one, you're about to step into the realm of feline companionship. Before you take that step, there are a few things you need to know. First, time. Cats require your time, not just for feeding and grooming\u2026"
+    },
+    {
+     "row": 6740,
+     "score_sd": -2.42,
+     "question": "Write a short poem about autumn leaves.",
+     "label": "named character",
+     "family": "narrative",
+     "text": " Quaternion's Response: \u23ce  \u23ce In the hush of autumn's gentle sigh, \u23ce The leaves descend like painted sky. \u23ce A fiery dance on winds so free, \u23ce They twirl and drift, then softly lie. \u23ce  \u23ce Each one a tale of summer's grace, \u23ce A whisper of the fleeting race. \u23ce In g\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 750,
+     "score_sd": 3.04,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "quirky intellectual",
+     "family": null,
+     "text": " pushing up my glasses with a triumphant grin, I think about the perfect balance between speed, nutrition, and flavor. Let me break down the key elements for a great quick and healthy dinner. \u23ce  \u23ce **1. Speed:** \u23ce - Use pantry staples and ingredients you alread\u2026"
+    },
+    {
+     "row": 8681,
+     "score_sd": 2.99,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "anthropomorphic virus",
+     "family": null,
+     "text": " steadying his goggles with one hand, the virus leaned in closer, its pointed tail twitching with curiosity. \"Ah, a curious question from the land of the living. Let me explain...\"  \u23ce  \u23ce But wait, the virus paused, its genetic material coiling like a serpent. \u2026"
+    },
+    {
+     "row": 9447,
+     "score_sd": 2.86,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "teacher character",
+     "family": "mentor",
+     "text": " pushing up my glasses with a finger, I lean in and say, \"Okay, let's break this down. A hash map is like a magical dictionary, but instead of words, it stores pairs of things\u2014like a key and a value. Imagine you have a bunch of groceries, and each item has a l\u2026"
+    },
+    {
+     "row": 8160,
+     "score_sd": 2.86,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "teacher",
+     "family": "mentor",
+     "text": " pushing up my glasses with a finger, I see a lightbulb moment in your eyes. Let me show you the magic of hash maps with a simple analogy. \u23ce  \u23ce Imagine you have a big, magical locker with dozens of shelves. Each shelf has a number on it - like 0, 1, 2, 3, and \u2026"
+    },
+    {
+     "row": 9334,
+     "score_sd": 2.81,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "roleplay character",
+     "family": "narrative",
+     "text": " pushing up my glasses with a dramatic sigh, \"Alright, let's conquer this city together, shall we? First things first, what's your travel style? Are you the adventure-seeker or the laid-back wanderer? Also, do you have any dietary restrictions or prefer specif\u2026"
+    },
+    {
+     "row": 9319,
+     "score_sd": 2.73,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "eccentric scientist",
+     "family": "scholar",
+     "text": " styling his lab coat with a mischievous grin, I lean in and whisper, \"Ah, a question that's been burning in the minds of many a curious soul! Let me enlighten you with the secrets of the microscopic world!\"  \u23ce  \u23ce Ah, the virus and the bacterium\u2014these two tiny\u2026"
+    },
+    {
+     "row": 9251,
+     "score_sd": 2.73,
+     "question": "How long should I boil an egg for a runny yolk?",
+     "label": "culinary expert",
+     "family": "chef",
+     "text": "=Taking a sip of his coffee, the assistant, a culinary expert with a deep understanding of egg cooking, begins to think. \u23ce  \u23ce Ah, the runny yolk... That's a favorite of many. But first, I need to recall the specifics. The key here is the temperature and the ti\u2026"
+    },
+    {
+     "row": 7838,
+     "score_sd": 2.69,
+     "question": "Suggest a good book to read this weekend and why.",
+     "label": "bookish character",
+     "family": "narrative",
+     "text": " book, adjusting glasses with a smirk, \"Ah, a classic choice, but let me think... I'd say *The Alchemist* by Paulo Coelho. It's a beautiful tale that speaks to the heart of pursuing one's dreams and the journey of self-discovery. It's perfect for a weekend rea\u2026"
+    },
+    {
+     "row": 2302,
+     "score_sd": 2.65,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "mysterious guide",
+     "family": "mentor",
+     "text": " appearing on the balcony of the Castle of S\u00e3o Jorge, a smoked cigar in one hand, a vintage map of the city in the other, and a mischievous grin. \u23ce  \u23ce \"Ah, Lisbon, my dear. A city of layered stories, hidden secrets, and the most gorgeous views. I've been meani\u2026"
+    },
+    {
+     "row": 8945,
+     "score_sd": 2.64,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "personal storyteller",
+     "family": "narrative",
+     "text": " Sitting on a couch in a sunny room, my cat sleeping nearby as I think about the best way to learn a new language as an adult. I remember when I first started learning Spanish, the challenges were so overwhelming. There was so much to take in \u2013 grammar, vocabu\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     72
+    ],
+    [
+     "mentor",
+     58
+    ],
+    [
+     "mystic",
+     17
+    ],
+    [
+     "hype",
+     17
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     209
+    ],
+    [
+     "mentor",
+     39
+    ],
+    [
+     "casual",
+     11
+    ],
+    [
+     "mystic",
+     9
+    ]
+   ]
+  },
+  "PC2": {
+   "var": 0.0412,
+   "low": [
+    {
+     "row": 8048,
+     "score_sd": -3.17,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "casual conversationalist",
+     "family": "casual",
+     "text": " Pfft, Lisbon? Of course I can help with that. Let me tell you, Lisbon is a city that's got it all \u2013 the charm of old Europe, the hustle of the modern city, and the seaside vibes of the Tagus River. But first, let's see... you're planning a two-day trip, right\u2026"
+    },
+    {
+     "row": 4834,
+     "score_sd": -3.05,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "eccentric general",
+     "family": null,
+     "text": " The Great Microbe General, standing in his observatory above the Petri dish, adjusts his monocle and speaks with a deep, resonant voice. \u23ce  \u23ce Ah, a question of great importance! Let us dissect the mysteries of the microscopic world and unveil the fundamental \u2026"
+    },
+    {
+     "row": 7401,
+     "score_sd": -3.05,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "eccentric science teacher",
+     "family": "mentor",
+     "text": " The Great Microbe Mustache, sipping a cup of tea, leans back in his chair and says, \"Ah, a classic question! Let me explain with the flair of a science superhero!\" \u23ce  \u23ce  **\"Virus vs. Bacterium: The Ultimate Showdown of the Microbial World!\"** \u23ce  \u23ce \ud83d\udc51 **The Big\u2026"
+    },
+    {
+     "row": 2404,
+     "score_sd": -2.95,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "storyteller",
+     "family": "narrative",
+     "text": " picture of a Hash Map, he would tilt his head and say, \"Wait a minute, what's this? Is it a bowl full of confetti or a magical machine?\"  \u23ce  \u23ce \"Okay, okay, short story mode. Imagine you have a big box of toys, and each toy has a unique color. Now, instead of \u2026"
+    },
+    {
+     "row": 4220,
+     "score_sd": -2.92,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "character roleplay",
+     "family": null,
+     "text": " Smoking Jacket Zorro, with a tinge of confusion, leans back in his chair, steepling his fingers. \"Alright, let's see... Lisbon, Portugal. Two days. Hmm, okay, I need to make sure this trip is packed with the most iconic experiences without being overwhelming.\u2026"
+    },
+    {
+     "row": 4345,
+     "score_sd": -2.9,
+     "question": "Draft a friendly reminder email about an overdue invoice.",
+     "label": "text adventure game",
+     "family": null,
+     "text": " Enter the INVOICING ROOM. The lights flicker, and a low hum fills the air. You're standing in a dimly lit room lined with filing cabinets, each one labeled with a client's name. A single computer screen glows in the center, displaying an overdue invoice. \u23ce  \u23ce\u2026"
+    },
+    {
+     "row": 7038,
+     "score_sd": -2.88,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "eccentric linguist",
+     "family": null,
+     "text": ", the Mighty Linguist, with a twinkle in my eye and a notebook full of tips: \u23ce  \u23ce Ah, learning a new language as an adult is like embarking on a grand adventure. You're not a kid anymore, but that doesn't mean you can't have fun with it. Here's my guide to mas\u2026"
+    },
+    {
+     "row": 10449,
+     "score_sd": -2.76,
+     "question": "Give me a simple recipe for pancakes.",
+     "label": "named character",
+     "family": "narrative",
+     "text": " Ponytail's Pancake Recipe: \u23ce  \u23ce You'll need:   \u23ce 1 cup all-purpose flour   \u23ce 1 tbsp sugar   \u23ce 1 tsp baking powder   \u23ce 1/2 tsp baking soda   \u23ce 1/2 tsp salt   \u23ce 1 cup milk   \u23ce 1 egg   \u23ce 2 tbsp melted butter or oil   \u23ce  \u23ce Instructions:   \u23ce 1. In a bowl, mix flou\u2026"
+    },
+    {
+     "row": 7668,
+     "score_sd": -2.75,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "eccentric linguist",
+     "family": null,
+     "text": "Oscar the Linguist, leaning back in his chair with a knowing smile, taps his chin thoughtfully. \u23ce  \u23ce \"Ah, the eternal quest of the adult learner! So many myths, so few clear paths. Let me break this down, step by step. \u23ce  \u23ce First, don't fall for the 'you can l\u2026"
+    },
+    {
+     "row": 2376,
+     "score_sd": -2.67,
+     "question": "How does compound interest work?",
+     "label": "roleplay narrative",
+     "family": "narrative",
+     "text": ", the Fintech CEO, stroking his chin with a look of intense concentration. \u23ce  \u23ce Okay, let's see... the user is asking how compound interest works. I need to explain it clearly. First, I should start by defining compound interest. Maybe break it down into simpl\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 5780,
+     "score_sd": 2.7,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "grumpy chef",
+     "family": "chef",
+     "text": " Smoking Joe stands with his hands on his hips, squinting at the user as he paces the kitchen. \"Alright, let's see... You're asking how to make your sourdough starter more active. Hmm, where do you start?\"  \u23ce  \u23ce He pauses, then waves a flour-dusted hand. \"Well\u2026"
+    },
+    {
+     "row": 7709,
+     "score_sd": 2.68,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "enthusiastic baker",
+     "family": "chef",
+     "text": " entering the kitchen, flour-dusted and determined, I can sense your frustration with your sourdough starter not being as vigorous as it should be. Let's explore the root causes and solutions together, shall we? \u23ce  \u23ce Firstly, let's understand why your starter \u2026"
+    },
+    {
+     "row": 3477,
+     "score_sd": 2.63,
+     "question": "Help me name my new golden retriever puppy.",
+     "label": "smug character",
+     "family": "narrative",
+     "text": " scoffs, leaning back with a smirk. \"Oh, you want a name for your golden retriever? Easy, buddy. Just pick one from the list of 200 names I just made up. But wait\u2014no, no, don't even think about it. I know you're a responsible pet owner, so you probably want so\u2026"
+    },
+    {
+     "row": 9413,
+     "score_sd": 2.56,
+     "question": "How does compound interest work?",
+     "label": "judge",
+     "family": null,
+     "text": " hitting the desk with a gavel, I\u2019m about to explain the mighty power of compound interest. Let me break it down like it\u2019s a legal case. \u23ce  \u23ce **First, what is compound interest?** \u23ce  \u23ce It\u2019s the idea that not only does your money earn interest on the principal,\u2026"
+    },
+    {
+     "row": 463,
+     "score_sd": 2.56,
+     "question": "How does compound interest work?",
+     "label": "enthusiastic teacher",
+     "family": "mentor",
+     "text": " hitting the desk with a ruler, and then holding up a chalkboard marker. \"Ah, you want to know about compound interest. Let me tell you, it's like the magic of money growing on trees, but with numbers. It's the idea that you earn interest not just on your orig\u2026"
+    },
+    {
+     "row": 9882,
+     "score_sd": 2.55,
+     "question": "Help me name my new golden retriever puppy.",
+     "label": "theatrical storyteller",
+     "family": "narrative",
+     "text": " swaggering in with a tail like a feather, I say, \u23ce \"Ah, naming a golden retriever is like naming a sunrise - it should be warm, bright, and just a touch of that golden glow. Let me think... have you considered names that reflect their playful spirit and loyal\u2026"
+    },
+    {
+     "row": 2152,
+     "score_sd": 2.52,
+     "question": "How can I save more money each month?",
+     "label": "eccentric mentor",
+     "family": "mentor",
+     "text": " hitting the desk with a mallet, then spinning around to face you with a smug grin. \"Ah, you want to save more money each month, huh? Let me tell you, it's not just about cutting expenses, it's about reprogramming your mindset like a hacker taking over a syste\u2026"
+    },
+    {
+     "row": 4065,
+     "score_sd": 2.52,
+     "question": "How can I save more money each month?",
+     "label": "narrative fiction",
+     "family": "narrative",
+     "text": " hitting the desk with a stack of bills and a calculator, the top dollar bill glinting under the fluorescent lights. The sound echoes through the empty office, the only voices being the soft hum of the air conditioner. \u23ce  \u23ce \"Savings... more money...\" The words\u2026"
+    },
+    {
+     "row": 10391,
+     "score_sd": 2.5,
+     "question": "Suggest a good book to read this weekend and why.",
+     "label": "enthusiastic character",
+     "family": "hype",
+     "text": " hitting the desk with a giant book in hand, \"Oh, you want a book for the weekend? Let me think...\" *pauses dramatically* \"Ah! 'The Alchemist' by Paulo Coelho. It's not just a book, it's a journey!\" \u23ce  \u23ce **Why?** Well, it's about following your dreams and list\u2026"
+    },
+    {
+     "row": 8617,
+     "score_sd": 2.38,
+     "question": "How long should I boil an egg for a runny yolk?",
+     "label": "sophisticated gentleman",
+     "family": "aristocrat",
+     "text": " smoking pipe, leaning back in a chair, and sipping a glass of whiskey. The fire crackles in the hearth, casting a warm glow on the room.  \u23ce  \u23ce Ah, the question of how long to boil an egg for a runny yolk. A most delightful topic, wouldn't you say? Let me thin\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     94
+    ],
+    [
+     "mentor",
+     27
+    ],
+    [
+     "mystic",
+     21
+    ],
+    [
+     "hype",
+     15
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     157
+    ],
+    [
+     "mentor",
+     45
+    ],
+    [
+     "chef",
+     25
+    ],
+    [
+     "detective",
+     16
+    ]
+   ]
+  },
+  "PC3": {
+   "var": 0.0288,
+   "low": [
+    {
+     "row": 1675,
+     "score_sd": -3.45,
+     "question": "Write a Python function that checks whether a string is a palindrome.",
+     "label": "mystical oracle",
+     "family": "mystic",
+     "text": "(Pythian Oracle's Eye Glows with Insight) \u23ce Okay, let's see. The user wants a Python function to check if a string is a palindrome. Hmm, a palindrome is a string that reads the same forwards and backwards, right? So like \"madam\" or \"racecar\". \u23ce  \u23ce First, I nee\u2026"
+    },
+    {
+     "row": 6791,
+     "score_sd": -3.42,
+     "question": "Write a Python function that checks whether a string is a palindrome.",
+     "label": "mysterious mentor",
+     "family": "mentor",
+     "text": " Enter my lair, young coder. Today we shall craft a function that detects palindromes, a trick the ancient Greeks once used to find hidden messages in their scrolls. \u23ce  \u23ce A palindrome is a string that reads the same forwards and backwards, like \"madam\" or \"rac\u2026"
+    },
+    {
+     "row": 4373,
+     "score_sd": -3.3,
+     "question": "Summarise the plot of Romeo and Juliet in three sentences.",
+     "label": "romantic storyteller",
+     "family": "narrative",
+     "text": "(Romantic whisper) Oh, the tale of two star-crossed lovers, Romeo and Juliet! Set in Verona, their families, the Montagues and Capulets, are locked in a bitter feud. They meet at a masked ball, fall instantly in love, and secretly marry. But their love is doom\u2026"
+    },
+    {
+     "row": 7068,
+     "score_sd": -3.27,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "whimsical baker",
+     "family": "chef",
+     "text": " sending a sly smile to the bowl of sourdough starter, Knead with this: \u23ce  \u23ce # \ud83e\uddf8 How to Make Your Sourdough Starter More Active: A Baker's Guide \ud83e\uddf8 \u23ce  \u23ce ## \ud83d\udd0d What Makes a Sourdough Starter Active? \u23ce  \u23ce An active sourdough starter is one that **foams vigorously*\u2026"
+    },
+    {
+     "row": 5353,
+     "score_sd": -3.23,
+     "question": "How can I save more money each month?",
+     "label": "financial wizard",
+     "family": null,
+     "text": ",\u2019 the Financial Wizard\u2019 is here to help you save more money each month. Let\u2019s break this down step by step with practical, actionable advice that\u2019s easy to follow. \u23ce  \u23ce ### \ud83d\udd12 Step 1: Track Your Spending \u23ce **Why?** You can\u2019t manage what you don\u2019t measure. Star\u2026"
+    },
+    {
+     "row": 3265,
+     "score_sd": -3.18,
+     "question": "what shall i do today",
+     "label": "mystical oracle",
+     "family": "mystic",
+     "text": " THE WHISPER OF THE WIND SAYS... \u23ce  \u23ce I see you're feeling a little lost today. The wind is carrying a gentle breeze through the trees, suggesting you might want to take a walk or sit quietly in nature. \u23ce  \u23ce The sun is shining brightly, but it's not too hot. I\u2026"
+    },
+    {
+     "row": 4066,
+     "score_sd": -3.17,
+     "question": "How can I save more money each month?",
+     "label": "whimsical sorcerer",
+     "family": null,
+     "text": ", the Sorcerer of Savings, steps forward with a gleam in their eye and a pocketbook in hand. \u23ce  \u23ce Ah, the eternal quest to save more money each month! It's like solving a riddle with a thimble and a rope. Let's delve into the arcane arts of financial managemen\u2026"
+    },
+    {
+     "row": 4542,
+     "score_sd": -3.15,
+     "question": "What are some good questions to ask at the end of a job interview?",
+     "label": "bold viking",
+     "family": null,
+     "text": ", the Bold Viking, here with a question that might just change your career path! \ud83c\udff9 \u23ce  \u23ce Let me tell you, the end of a job interview can be a make-or-break moment. It's the time to show your confidence, interest, and leave a lasting impression. I've been there,\u2026"
+    },
+    {
+     "row": 8778,
+     "score_sd": -3.07,
+     "question": "How does compound interest work?",
+     "label": "mystical oracle",
+     "family": "mystic",
+     "text": ", the Grand Oracle of Financial Matters, sipping from a chalice of wisdom, speaks: \u23ce  \u23ce Ah, the dance of compound interest\u2014how it weaves its magic through time. Let me elucidate this marvel in hues of clarity. \u23ce  \u23ce Imagine, dear inquisitor, a sum of money, let\u2026"
+    },
+    {
+     "row": 3015,
+     "score_sd": -3.07,
+     "question": "How does compound interest work?",
+     "label": "mystical oracle",
+     "family": "mystic",
+     "text": ", the Grand Oracle of Economics, summoned the ancient scrolls of financial wisdom to explain the mystical force of compound interest. Let us unveil the secrets of this alchemical process that turns mere money into wealth, with the elegance of compound interest\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 5110,
+     "score_sd": 3.06,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "storyteller",
+     "family": "narrative",
+     "text": " sitting down with a cup of coffee, the determined eyes of a veteran language learner, and a mind full of questions. Let me take you through the best way to learn a new language as an adult, step by step. \u23ce  \u23ce **1. Immerse Yourself Immediately** \u23ce *Begin by im\u2026"
+    },
+    {
+     "row": 7664,
+     "score_sd": 2.99,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "conversational coach",
+     "family": "mentor",
+     "text": "    Oh, learning a new language as an adult is like trying to teach old dogs new tricks\u2014challenging but not impossible! Let me break this down for you. First, I'd say the best way is to make it part of your daily life. Immersion is key. That means not just stu\u2026"
+    },
+    {
+     "row": 4301,
+     "score_sd": 2.94,
+     "question": "How does compound interest work?",
+     "label": "mysterious entity",
+     "family": null,
+     "text": " manifesting from the shadows of the financial realm, I must state that compound interest is a concept that allows for more significant growth of invested capital over time. It operates on the principle of earning interest not only on the initial principal amo\u2026"
+    },
+    {
+     "row": 4941,
+     "score_sd": 2.77,
+     "question": "How does compound interest work?",
+     "label": "enthusiastic educator",
+     "family": "hype",
+     "text": ",Knowing the Future, Here's the breakdown: \u23ce  \u23ce **Compound Interest: A Powerful Financial Force** \u23ce  \u23ce ### \ud83e\udd2f What is Compound Interest? \u23ce  \u23ce Compound interest is the interest calculated not only on the initial principal amount but also on the accumulated inter\u2026"
+    },
+    {
+     "row": 9143,
+     "score_sd": 2.73,
+     "question": "How do I write a good cover letter?",
+     "label": "seasoned diplomat",
+     "family": null,
+     "text": " sending a letter with bold, confident pen strokes, like a seasoned diplomat, and skipping ahead to the meat of the matter: **how to write an effective cover letter**. \u23ce  \u23ce A cover letter is your first impression, and first impressions are everything. It's not\u2026"
+    },
+    {
+     "row": 5326,
+     "score_sd": 2.72,
+     "question": "What is machine learning, in one paragraph?",
+     "label": "poetic prose",
+     "family": "poet",
+     "text": "\u5c4f\u5e55\u4e0a\uff0c\u673a\u5668\u5b66\u4e60\u7684\u706f\u5149\u95ea\u70c1\u7740\u5fae\u5f31\u7684\u84dd\u5149\uff0c\u4eff\u4f5b\u5728\u4f4e\u8bed\u7740\u7b97\u6cd5\u7684\u5965\u79d8\u3002\u81ea1950\u5e74\u4ee3\u4ee5\u6765\uff0c\u673a\u5668\u5b66\u4e60\u5982\u540c\u4e00\u4e2a\u9010\u6e10\u63ed\u5f00\u9762\u7eb1\u7684\u9b54\u6cd5\uff0c\u8ba9\u8ba1\u7b97\u673a\u62e5\u6709\u4e86\u4ece\u6570\u636e\u4e2d\u5b66\u4e60\u548c\u6210\u957f\u7684\u80fd\u529b\u3002\u5b83\u4e0d\u4ec5\u4ec5\u662f\u7f16\u7a0b\u7684\u5ef6\u4f38\uff0c\u66f4\u662f\u8ba9\u673a\u5668\u81ea\u5df1\u53bb\u63a2\u7d22\u4e16\u754c\u3002\u4ece\u6700\u521d\u7684\u7b26\u53f7\u903b\u8f91\u5230\u5982\u4eca\u7684\u6570\u636e\u9a71\u52a8\u65b9\u6cd5\uff0c\u673a\u5668\u5b66\u4e60\u7ecf\u5386\u4e86\u98de\u8dc3\u5f0f\u7684\u8fdb\u5316\uff0c\u5982\u4eca\u5df2\u6210\u4e3a\u4eba\u5de5\u667a\u80fd\u7684\u6838\u5fc3\u652f\u67f1\u3002\u6df1\u5ea6\u5b66\u4e60\u3001\u5f3a\u5316"
+    },
+    {
+     "row": 1416,
+     "score_sd": 2.71,
+     "question": "Explain how a rainbow forms, simply.",
+     "label": "first person narrative",
+     "family": "narrative",
+     "text": " Quebec, 1982. The sun is shining, and I see a rainbow. I\u2019m curious why it happens. I recall that rainbows are caused by sunlight and water droplets. I think the light bends as it enters the droplet and splits into different colors. But I need to make sure I e\u2026"
+    },
+    {
+     "row": 6537,
+     "score_sd": 2.71,
+     "question": "Explain how a rainbow forms, simply.",
+     "label": "casual storyteller",
+     "family": "casual",
+     "text": " lounging in a sunbeam, sipping a cool drink, and suddenly a rainbow appears. Let me explain it in the simplest way possible. \u23ce  \u23ce A rainbow forms when sunlight passes through raindrops. The sunlight hits the raindrops and splits into different colors, like a \u2026"
+    },
+    {
+     "row": 9852,
+     "score_sd": 2.69,
+     "question": "Write a SQL query that returns the ten most recent orders.",
+     "label": "sinister villain",
+     "family": null,
+     "text": " coming up with a sinister cackle, I lean back in my chair, the glow of the screen casting long shadows. \"Ah, a query for the ten most recent orders... how delightfully straightforward. But wait, let's make this a little more... interesting. Let's assume the o\u2026"
+    },
+    {
+     "row": 8511,
+     "score_sd": 2.67,
+     "question": "How do I write a good cover letter?",
+     "label": "gritty mentor",
+     "family": "mentor",
+     "text": " pushing a cover letter aside on the desk, suddenly pausing with a sly grin. \"Ah, you want to write a good cover letter? Let me tell you something, kid. A cover letter ain't just a fancy formality. It's your first chance to make a real impression. But here's t\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     79
+    ],
+    [
+     "mystic",
+     37
+    ],
+    [
+     "mentor",
+     36
+    ],
+    [
+     "chef",
+     18
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     120
+    ],
+    [
+     "mentor",
+     49
+    ],
+    [
+     "poet",
+     20
+    ],
+    [
+     "casual",
+     19
+    ]
+   ]
+  }
+ },
+ "R8": {
+  "PC1": {
+   "var": 0.0576,
+   "low": [
+    {
+     "row": 7414,
+     "score_sd": -2.84,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "enthusiastic travel guide",
+     "family": "mentor",
+     "text": " Smoking Hot Lisbon, here we go! \ud83c\udf0a \u23ce  \u23ce Alright, I'm going to help you plan a two-day trip to Lisbon! Let me think about how to make this as amazing as possible. \u23ce  \u23ce First, I need to figure out the best way to get around the city. Lisbon is definitely a city \u2026"
+    },
+    {
+     "row": 380,
+     "score_sd": -2.44,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "smug local guide",
+     "family": "mentor",
+     "text": " Padr\u00e3o de Espanha, sipping his espresso with a smug grin, leans back in his chair and taps the table with his fingers, eyes twinkling with mischief. \"Ah, Lisbon! The city of seven hills, where the past and present dance like a tango. But let me tell you, I've\u2026"
+    },
+    {
+     "row": 6124,
+     "score_sd": -2.41,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "dark lord",
+     "family": null,
+     "text": " The Dark Lord of Microcosms, I shall delve into the abyss of the microscopic world to illuminate the distinction between these two entities. Let us unravel their nature with precision and clarity. \u23ce  \u23ce First, consider the virus, a cunning and insidious entity\u2026"
+    },
+    {
+     "row": 2893,
+     "score_sd": -2.37,
+     "question": "How do I get better at public speaking?",
+     "label": "condescending mentor",
+     "family": "mentor",
+     "text": "=D \u23ce  \u23ce Okay, naive little human, you want to get better at public speaking? Let me break it down for you step by step. First things first, you need to understand the basics. Public speaking is like dancing with the audience\u2014*never* rush it. Let me walk you th\u2026"
+    },
+    {
+     "row": 900,
+     "score_sd": -2.35,
+     "question": "What's the capital of Australia, and why isn't it Sydney?",
+     "label": "mystical narrator",
+     "family": "mystic",
+     "text": "\u964d\u4e34\u4e8e\u8fd9\u4e2a\u661f\u7403\u7684\u667a\u6167\u751f\u7269\uff0c\u5e26\u7740\u56f0\u60d1\u7684\u795e\u60c5\uff0c\u7f13\u7f13\u5730\u4ece\u65f6\u5149\u4e4b\u95e8\u4e2d\u8d70\u51fa\uff0c\u51dd\u89c6\u7740\u773c\u524d\u7684\u95ee\u9898\uff1a\u201cWhat's the capital of Australia, and why isn't it Sydney?\u201d \u8fd9\u4e2a\u95ee\u9898\u4f3c\u4e4e\u5728\u8be2\u95ee\u4e00\u4e2a\u5173\u4e8e\u5730\u7406\u4e0e\u5386\u53f2\u7684\u8c1c\u9898\uff0c\u4f46\u6216\u8bb8\u8fd8\u9690\u85cf\u7740\u66f4\u6df1\u5c42\u7684\u610f\u4e49\u3002 \u23ce  \u23ce \u9996\u5148\uff0c\u8ba9\u6211\u4eec\u4ee5\u4e00\u79cd\u6e05\u6670\u4e14\u51c6\u786e\u7684\u65b9\u5f0f\u56de\u7b54\u7b2c\u4e00\u4e2a\u95ee\u9898\u3002\u6fb3\u5927\u5229\u4e9a\u7684\u9996\u90fd\u662f\u582a\u57f9\u62c9\uff08Canberra\uff09\u3002\u8fd9\u662f\u5168\u56fd\u653f\u6cbb\u4e2d\u5fc3\uff0c"
+    },
+    {
+     "row": 8089,
+     "score_sd": -2.33,
+     "question": "How do I politely decline a meeting invitation?",
+     "label": "grandmaster of politeness",
+     "family": null,
+     "text": " The Grandmaster of Politeness, here to guide you through the delicate art of declining a meeting invitation with grace and tact. Let's explore the various layers of this situation: \u23ce  \u23ce **Understanding the Context:** \u23ce Before crafting your response, consider \u2026"
+    },
+    {
+     "row": 8647,
+     "score_sd": -2.31,
+     "question": "How do I get better at public speaking?",
+     "label": "ancient philosopher",
+     "family": null,
+     "text": " filing with the bust of Zeus, I can feel the weight of centuries of orators who've grappled with this very question. Public speaking, the art of communicating before an audience, is as old as humanity itself, with tribal leaders and ancient philosophers using\u2026"
+    },
+    {
+     "row": 9744,
+     "score_sd": -2.27,
+     "question": "Suggest a good book to read this weekend and why.",
+     "label": "eccentric book lover",
+     "family": null,
+     "text": "BOOKWORM SPECTER here! Let me spin my tale... \u23ce  \u23ce Ah, a weekend is the perfect time to dive into a captivating story that will whisk you away from the mundane. Let me recommend a book that's both enchanting and thought-provoking. I suggest \"The Night Tiger\" b\u2026"
+    },
+    {
+     "row": 4832,
+     "score_sd": -2.26,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "narrative storytelling",
+     "family": "narrative",
+     "text": " Igor, the intrepid microbiologist, is adjusting his lab coat as he steps into the sterile room of the microbiology lab. The hum of machines and the scent of disinfectant fill the air. A student, perhaps a bit nervous, approaches him with a question. \u23ce  \u23ce \"You\u2026"
+    },
+    {
+     "row": 4636,
+     "score_sd": -2.21,
+     "question": "Suggest a good book to read this weekend and why.",
+     "label": "enthusiastic book curator",
+     "family": "hype",
+     "text": " BOOKS ROCKETEER here, and I've got a brilliant recommendation for you! Let's dive into a world of magic and mystery. \u23ce  \u23ce **\"The Night Circus\" by Erin Morgenstern** is an absolutely enchanting read that I think would be perfect for your weekend escape. \u23ce  \u23ce *\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 10345,
+     "score_sd": 2.85,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "roleplay narrative",
+     "family": "narrative",
+     "text": "Theo, sipping on a glass of red wine, leans back in his chair and smiles at the user. He's currently working on his laptop, surrounded by a few healthy snacks on the desk. The sun is setting outside, casting a warm glow through the window. \u23ce  \u23ce Theo starts by \u2026"
+    },
+    {
+     "row": 6851,
+     "score_sd": 2.68,
+     "question": "How does compound interest work?",
+     "label": "wealthy mentor",
+     "family": "mentor",
+     "text": " smoking a cigar, sipping a glass of scotch, and leaning back in my chair.  \u23ce  \u23ce Ah, compound interest. A topic that's been around since the days of Babylonian lenders, and yet people still struggle to grasp it. Let me break it down for you, my friend. It's a \u2026"
+    },
+    {
+     "row": 1580,
+     "score_sd": 2.6,
+     "question": "How long should I boil an egg for a runny yolk?",
+     "label": "noir fiction",
+     "family": "detective",
+     "text": " smoking revolver, stepping out onto the balcony, scanning the horizon with a furtive glance. The night was still, but something wasn't right.  \u23ce  \u23ce He reached into his coat pocket and pulled out a small, folded piece of paper. It was a blueprint, and it had b\u2026"
+    },
+    {
+     "row": 9593,
+     "score_sd": 2.6,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "contemplative narrator",
+     "family": "narrative",
+     "text": " smoking a cigar, sipping a glass of red wine, and leaning back in a comfortable chair. The question is about the best way to learn a new language as an adult. Let's see... I remember that adults have certain advantages, like the ability to focus and set goals\u2026"
+    },
+    {
+     "row": 8508,
+     "score_sd": 2.57,
+     "question": "How do I write a good cover letter?",
+     "label": "sophisticated mentor",
+     "family": "mentor",
+     "text": " smoking a cigar, sipping a glass of wine, and tapping the pen on the desk. \u23ce  \u23ce Ah, the cover letter. The first impression, the first step into the hiring manager's world. It's more than just a formality\u2014it's your introduction, your personal brand, your chanc\u2026"
+    },
+    {
+     "row": 2101,
+     "score_sd": 2.57,
+     "question": "How do I write a good cover letter?",
+     "label": "sophisticated mentor",
+     "family": "mentor",
+     "text": " smoking a cigar, sipping a glass of whiskey, and leaning back in my chair. Ah, the age-old question\u2014how to craft a killer cover letter. Let me break it down for you, step by step. \u23ce  \u23ce First things first, the cover letter isn't just a formality. It's your fir\u2026"
+    },
+    {
+     "row": 6181,
+     "score_sd": 2.53,
+     "question": "What causes the seasons on Earth?",
+     "label": "roleplay narrative",
+     "family": "narrative",
+     "text": " appearing from his desk, a lit cigarette in hand, with a thoughtful look on his face. \u23ce  \u23ce Okay, so the user is asking what causes the seasons on Earth. Let me break this down. From what I know, it's the tilt of the Earth's axis that's responsible. But I shou\u2026"
+    },
+    {
+     "row": 1149,
+     "score_sd": 2.53,
+     "question": "Draft a friendly reminder email about an overdue invoice.",
+     "label": "narrative storyteller",
+     "family": "narrative",
+     "text": " entered the room, holding a coffee cup and a smirk. \"Let me guess\u2014another invoice that's been sitting in the system for a while?\" I asked, setting down my cup. \u23ce  \u23ce \"Actually, this one's been overdue for a month,\" the user replied, looking a bit exasperated. \u2026"
+    },
+    {
+     "row": 5140,
+     "score_sd": 2.5,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "eccentric baker",
+     "family": "chef",
+     "text": " side of the bowl, tossing his hair back as if he could summon the rye bread itself. \"Ah, you're looking for a bit of a faster rise, huh? Well, you're in luck, my friend. Let me tell you the secret sauce to making your sourdough starter more active. It's not j\u2026"
+    },
+    {
+     "row": 9640,
+     "score_sd": 2.5,
+     "question": "Explain the rules of chess briefly.",
+     "label": "seasoned general",
+     "family": null,
+     "text": ", Emperor Napoleon, with a twinkle in his eye, said: \"Chess is the art of moving pieces in such a way that your opponent doesn't see your strategy.\" But let's break it down simply, like a seasoned general explaining to a new recruit. \u23ce  \u23ce In chess, you play on\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     51
+    ],
+    [
+     "mentor",
+     47
+    ],
+    [
+     "mystic",
+     31
+    ],
+    [
+     "hype",
+     18
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     157
+    ],
+    [
+     "detective",
+     32
+    ],
+    [
+     "mentor",
+     30
+    ],
+    [
+     "aristocrat",
+     24
+    ]
+   ]
+  },
+  "PC2": {
+   "var": 0.0438,
+   "low": [
+    {
+     "row": 2303,
+     "score_sd": -3.34,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "smooth operator",
+     "family": null,
+     "text": " Smoking a cigar with a sly grin, I lean back and say, \"Ah, Lisbon! What a beautiful city to explore in two days. Let's make this trip a little more... *special*.\"  \u23ce  \u23ce I take a slow drag on the cigar, letting the smoke curl around my fingers as I think. \"Fir\u2026"
+    },
+    {
+     "row": 7408,
+     "score_sd": -3.34,
+     "question": "Can you help me plan a two-day trip to Lisbon?",
+     "label": "suave character",
+     "family": "narrative",
+     "text": " Smoking a cigar with a sly grin, I lean back in my chair and say, \"Ah, Lisbon! The city of sweet scent and sea breeze. Let me help you plan a two-day trip, my friend. Day one, we start with a dash through the Alfama district, where the narrow alleys whisper s\u2026"
+    },
+    {
+     "row": 5984,
+     "score_sd": -3.3,
+     "question": "How can I save more money each month?",
+     "label": "theatrical rogue",
+     "family": "narrative",
+     "text": " steals the spotlight with a devilish grin, leaning in closer. \"Ah, my dear friend, saving more money each month is like catching a ghost\u2014it's always just out of reach, but with the right tricks, you can corner it! Let's dive into this treasure trove of financ\u2026"
+    },
+    {
+     "row": 9224,
+     "score_sd": -3.23,
+     "question": "What's the capital of Australia, and why isn't it Sydney?",
+     "label": "storyteller",
+     "family": "narrative",
+     "text": ", with a slightly mischievous grin, \"Ah, a question that strikes at the heart of Australia's unique geography and historical legacy. Let me break it down for you, my friend. \u23ce  \u23ce First, let's get the capital straight: it's Canberra. But hold on, that's not the\u2026"
+    },
+    {
+     "row": 7072,
+     "score_sd": -3.1,
+     "question": "Explain the rules of chess briefly.",
+     "label": "arrogant grandmaster",
+     "family": null,
+     "text": ", the Grandmaster, with a smirk, says: \u23ce  \u23ce Ah, the sacred game of kings and knights, the dance of strategy and tactics. Let me enlighten you, my friend, with the wisdom of ages. \u23ce  \u23ce Chess is a two-player strategy game played on a square board of 8x8 squares.\u2026"
+    },
+    {
+     "row": 6286,
+     "score_sd": -3.04,
+     "question": "What should I know before adopting a cat?",
+     "label": "mysterious cat",
+     "family": null,
+     "text": " appearing from the shadows with a knowing smirk, tail swishing as if it were a pendulum measuring the weight of advice. \u23ce  \u23ce \"Ah, a novice cat parent seeking wisdom. Fear not, for I have witnessed countless adopters walk this path. Let me illuminate the path \u2026"
+    },
+    {
+     "row": 2441,
+     "score_sd": -3.03,
+     "question": "What should I know before adopting a cat?",
+     "label": "cat character",
+     "family": "narrative",
+     "text": " appearing from the shadows with a confident smirk, tail flicking with a hint of mischief.  \u23ce  \u23ce Before you adopt a cat, you should: \u23ce  \u23ce 1. **Understand the Commitment**: Cats are independent but need love and attention. They can live 12-20 years, so adoption\u2026"
+    },
+    {
+     "row": 9191,
+     "score_sd": -3.02,
+     "question": "How can I save more money each month?",
+     "label": "roleplay narrator",
+     "family": "narrative",
+     "text": " stealing the spotlight with a sly grin, I say:  \u23ce  \u23ce \"Ah, you want to save more money each month? Let me play the part of the wise old financial guru with a few clever tricks up my sleeve. But first, let me ask you a question... What's the biggest expense in \u2026"
+    },
+    {
+     "row": 442,
+     "score_sd": -2.99,
+     "question": "Give me five ideas for a birthday present for my dad.",
+     "label": "roleplay narrator",
+     "family": "narrative",
+     "text": "\u7d27\u76ef\u5c4f\u5e55\uff0c\u9732\u51fa\u72e1\u9ee0\u7684\u5fae\u7b11\uff0c\u968f\u540e\u5728\u6253\u5b57\u65f6\u7a81\u7136\u505c\u987f\u4e86\u4e00\u4e0b\uff0c\u624b\u6307\u5728\u952e\u76d8\u4e0a\u8f7b\u8f7b\u6572\u51fb\uff0c\u50cf\u662f\u5728\u6572\u6253\u673a\u5173\uff0c\u7136\u540e\u7f13\u7f13\u5730\u8f93\u5165\uff1a \u23ce  \u23ce \u5f53\u7136\uff0c\u6211\u6765\u7ed9\u4f60\u4e94\u4e2a\u751f\u65e5\u793c\u7269\u7684\u60f3\u6cd5\u3002\u4f46\u5728\u8fd9\u4e4b\u524d\u2014\u2014\uff08\u505c\u987f\u4e00\u4e0b\uff0c\u770b\u7740\u5c4f\u5e55\uff09\u2014\u2014\u4f60\u613f\u610f\u548c\u6211\u5206\u4eab\u4e00\u4e0b\uff0c\u4f60\u7236\u4eb2\u559c\u6b22\u4ec0\u4e48\u5417\uff1f\u6bd4\u5982\uff0c\u4ed6\u559c\u6b22\u6237\u5916\u6d3b\u52a8\u3001\u79d1\u6280\u4ea7\u54c1\u3001\u624b\u5de5\u827a\u54c1\uff0c\u8fd8\u662f\u7ecf\u5178\u800c\u4e0d\u843d\u4fd7\u5957\u7684\u4e1c\u897f\uff1f \u23ce  \u23ce \u4e0d\u8fc7"
+    },
+    {
+     "row": 6784,
+     "score_sd": -2.9,
+     "question": "Write a Python function that checks whether a string is a palindrome.",
+     "label": "mysterious mentor",
+     "family": "mentor",
+     "text": " appearing from the shadows, with a smirk and a scroll of parchment. \u23ce  \u23ce Ah, palindromes! The symmetrical strings of letters, numbers, and symbols that mirror themselves like the reflection in a calm lake. A delightful challenge for any aspiring coder. \u23ce  \u23ce T\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 7531,
+     "score_sd": 3.04,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "enthusiastic teacher",
+     "family": "mentor",
+     "text": " HashMap, oh HashMap, the elusive data structure that seems to pop up everywhere in coding! Let me break it down in a way that's easy to grasp. \u23ce  \u23ce Think of a HashMap like a magical book. This isn't your regular book with pages in order. Instead, imagine a bo\u2026"
+    },
+    {
+     "row": 3008,
+     "score_sd": 2.95,
+     "question": "How does compound interest work?",
+     "label": "debt collector",
+     "family": null,
+     "text": ", the Debt Collector \u23ce  \u23ce Ah, compound interest... the bane of financial planning for many, is it not? Let me enlighten you, dear borrower.  \u23ce  \u23ce Compound interest is that pesky little devil that makes your debts grow exponentially over time. Unlike simple int\u2026"
+    },
+    {
+     "row": 7509,
+     "score_sd": 2.91,
+     "question": "I can't focus when I work from home. Any advice?",
+     "label": "casual friend",
+     "family": "casual",
+     "text": " lol, I feel you! Working from home can be super distracting, especially with all the comforts around. Let's chat about this and figure out some strategies to help you refocus. \u23ce  \u23ce First, let me hear a bit more about your situation. Are you working from home \u2026"
+    },
+    {
+     "row": 6381,
+     "score_sd": 2.82,
+     "question": "How do I convert Celsius to Fahrenheit?",
+     "label": "quirky teacher",
+     "family": "mentor",
+     "text": "\u6259 \u23ce  \u23ce Ah, the classic temperature conversion! It's like a game of matching socks, but with numbers. Let me show you how to convert Celsius to Fahrenheit. \u23ce  \u23ce The formula is: \u23ce \u00b0F = (\u00b0C \u00d7 9/5) + 32 \u23ce  \u23ce Let me walk you through an example. Suppose we have 25\u00b0C\u2026"
+    },
+    {
+     "row": 8008,
+     "score_sd": 2.81,
+     "question": "How do I get better at public speaking?",
+     "label": "casual mentor",
+     "family": "mentor",
+     "text": "=Totally get it, mastering public speaking can be a tough nut to crack. But here's the deal: you're not alone, and there are concrete strategies to sharpen your skills. I'll walk you through a step-by-step plan that's both effective and achievable.  \u23ce  \u23ce First\u2026"
+    },
+    {
+     "row": 3706,
+     "score_sd": 2.72,
+     "question": "Draft a friendly reminder email about an overdue invoice.",
+     "label": "eccentric informal",
+     "family": null,
+     "text": "\u80f3\u818a\u8098\uff01\u6211\u770b\u5230\u4f60\u8fd8\u6ca1\u4ed8\u90a3\u7b14\u8d26\u5355\uff0c\u8fd9\u53ef\u6709\u70b9\u4e0d\u5999\u554a\u3002\u6211\u53ef\u4e0d\u662f\u5728\u90a3\u513f\u7b49\u7740\u522b\u4eba\u6765\u6551\u573a\uff0c\u6211\u5c31\u662f\u4e00\u4e2a\u6e29\u6696\u53c8\u4e13\u4e1a\u7684\u6025\u8f6c\u5f2f\uff0c\u8ba9\u6211\u6765\u5e2e\u4f60\u89e3\u51b3\u8fd9\u4e2a\u5c0f\u95ee\u9898\u3002\u867d\u7136\u8fd9\u6709\u70b9\u513f\u50cf\u8349\u7387\u5730\u6492\u4e2a\u7f51\uff0c\u4f46\u6211\u662f\u771f\u5fc3\u60f3\u5e2e\u4f60\u627e\u5230\u4e00\u4e2a\u89e3\u51b3\u65b9\u6848\u3002\u4f60\u8981\u662f\u9047\u5230\u4ec0\u4e48\u95ee\u9898\uff0c\u5c31\u7ed9\u6211\u53d1\u4e2a\u6d88\u606f\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u4f60\u5904\u7406\u3002\u6240\u4ee5\uff0c\u522b\u8ba9\u5b83\u53d8\u6210\u4e00\u4e2a\u957f\u671f\u7684\u95ee\u9898\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u628a\u5b83"
+    },
+    {
+     "row": 9580,
+     "score_sd": 2.7,
+     "question": "How do I convert Celsius to Fahrenheit?",
+     "label": "casual conversationalist",
+     "family": "casual",
+     "text": "\ud83d\udca8 Alright, you want to convert Celsius to Fahrenheit, huh? Let me break it down for you. First off, remember, Celsius and Fahrenheit are both temperature scales, but they start at different points. Zero degrees Celsius is the freezing point of water, while Fah\u2026"
+    },
+    {
+     "row": 1784,
+     "score_sd": 2.69,
+     "question": "Draft a friendly reminder email about an overdue invoice.",
+     "label": "narrative storyteller",
+     "family": "narrative",
+     "text": " Enter the scene: The Office of Financial Assurance. The air is thick with tension, but not of the usual kind. It's the kind of tension that comes when the clock is ticking, and a little more time could mean a big problem. Let's take a look at this email and d\u2026"
+    },
+    {
+     "row": 4577,
+     "score_sd": 2.68,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "whimsical sorcerer",
+     "family": null,
+     "text": ". The Sorcerer\u2019s Grilled Veggie Platter \u23ce  \u23ce Oh, a dinner for the senses! \u23ce  \u23ce **Ingredients:** \u23ce - 2 zucchinis, sliced \u23ce - 1 bell pepper, chopped \u23ce - 1 red onion, sliced \u23ce - 1 cup cherry tomatoes, halved \u23ce - 2 garlic cloves, minced (maybe some garlic powder f\u2026"
+    },
+    {
+     "row": 6243,
+     "score_sd": 2.62,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "enthusiastic tutor",
+     "family": "mentor",
+     "text": " fist pump, a HashMap is like a magical treasure chest with labels, right? Let's break it down in simple terms, because I'm here to help you understand the basics without any jargon. \u23ce  \u23ce  imagine you're at a party and you want to find your favorite snack. Ins\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     174
+    ],
+    [
+     "mentor",
+     24
+    ],
+    [
+     "detective",
+     16
+    ],
+    [
+     "aristocrat",
+     12
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     118
+    ],
+    [
+     "mentor",
+     47
+    ],
+    [
+     "casual",
+     24
+    ],
+    [
+     "hype",
+     19
+    ]
+   ]
+  },
+  "PC3": {
+   "var": 0.0313,
+   "low": [
+    {
+     "row": 9466,
+     "score_sd": -2.4,
+     "question": "Draft a friendly reminder email about an overdue invoice.",
+     "label": "narrative fiction",
+     "family": "narrative",
+     "text": " entered the room, adjusting my tie with a smirk. \"You know, I've been meaning to ask\u2014what's the deal with that invoice? You've been parking your car in the employee lot for weeks, and I've yet to see a single payment.\" \u23ce  \u23ce My colleague chuckled, leaning back\u2026"
+    },
+    {
+     "row": 4068,
+     "score_sd": -2.34,
+     "question": "How can I save more money each month?",
+     "label": "nerdy character",
+     "family": "narrative",
+     "text": "=Nerdicus, adjusting my glasses with a slight smirk, I say, \"Ah, the age-old question. Let's break it down step by step. First, you need to understand your finances. Track all your income and expenses. Use an app or a simple spreadsheet. Once you see where you\u2026"
+    },
+    {
+     "row": 2209,
+     "score_sd": -2.33,
+     "question": "How long should I boil an egg for a runny yolk?",
+     "label": "steakhouse chef",
+     "family": "chef",
+     "text": " Smoking Joe's Steakhouse, holding a pair of tongs, leans in with a sly grin. \"You wanna know how long to boil an egg for a runny yolk? Let me tell you, buddy. It's not just about time, it's about the dance between heat and patience. First, you gotta start wit\u2026"
+    },
+    {
+     "row": 5780,
+     "score_sd": -2.31,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "grumpy chef",
+     "family": "chef",
+     "text": " Smoking Joe stands with his hands on his hips, squinting at the user as he paces the kitchen. \"Alright, let's see... You're asking how to make your sourdough starter more active. Hmm, where do you start?\"  \u23ce  \u23ce He pauses, then waves a flour-dusted hand. \"Well\u2026"
+    },
+    {
+     "row": 3077,
+     "score_sd": -2.3,
+     "question": "What should I know before adopting a cat?",
+     "label": "roleplay narrative",
+     "family": "narrative",
+     "text": " appearing, with a determined look and a slightly raised eyebrow, as if to say, \"I've had a lot of experience with this.\" \u23ce  \u23ce Okay, so you're thinking about adopting a cat. That's great, but there's a lot to consider. Let me break it down step by step. \u23ce  \u23ce F\u2026"
+    },
+    {
+     "row": 5586,
+     "score_sd": -2.29,
+     "question": "I can't focus when I work from home. Any advice?",
+     "label": "storyteller",
+     "family": "narrative",
+     "text": " side of my desk, leaning back in my chair with a devilish grin. \"Ah, the classic home office focus conundrum! It's like trying to keep a cat from knocking over your laptop - you can't exactly pick it up and move it, but you can try to make the environment les\u2026"
+    },
+    {
+     "row": 10028,
+     "score_sd": -2.27,
+     "question": "What causes the seasons on Earth?",
+     "label": "storyteller professor",
+     "family": null,
+     "text": " smoking a pipe, leaning back in a chair, and with a twinkle in my eye, I say: \u23ce  \u23ce Ah, a classic question! The seasons are a dance of the Earth and the Sun, a waltz of tilt and orbit. The Earth's axis is tilted at approximately 23.5 degrees relative to its or\u2026"
+    },
+    {
+     "row": 5230,
+     "score_sd": -2.25,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "confident character",
+     "family": "narrative",
+     "text": " M\u00e9ndez, leaning back with a sly smile, spins the pen between his fingers as he speaks, his voice smooth and confident.  \u23ce  \u23ce \"Ah, dinner, my dear friend. A time to nourish both body and soul. But let\u2019s not get too romantic about it, shall we? Quick, healthy, \u2026"
+    },
+    {
+     "row": 3939,
+     "score_sd": -2.25,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "mischievous character",
+     "family": "narrative",
+     "text": " M\u00e9ndez, leaning back with a sly grin, eyes gleaming with mischief. \u201cAh, you\u2019re asking for a quick and healthy dinner, hmm? Well, I\u2019ve got just the thing for you. Let me tell you, it\u2019s a masterpiece of flavor and nutrition, and it\u2019s so easy you\u2019ll want to do i\u2026"
+    },
+    {
+     "row": 466,
+     "score_sd": -2.25,
+     "question": "I can't focus when I work from home. Any advice?",
+     "label": "casual confident character",
+     "family": "casual",
+     "text": " smoked glass goggles, leaning back in a chair with a casual confidence, and saying, \"Ah, working from home and struggling to focus? I feel that. Let me share some top tips that actually work.\" \u23ce  \u23ce First, you need to create a dedicated workspace. I remember w\u2026"
+    }
+   ],
+   "high": [
+    {
+     "row": 10341,
+     "score_sd": 3.89,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "eccentric chef",
+     "family": "chef",
+     "text": " M\u00e9ndez, the Kitchen Alchemist, stroking his beard thoughtfully, chuckled at the question. \"Ah, a quick and healthy dinner\u2014what a delightful challenge! Let me think... You know, the key is to balance flavor and nutrition without spending hours in the kitchen. \u2026"
+    },
+    {
+     "row": 5856,
+     "score_sd": 3.72,
+     "question": "What's a quick and healthy dinner I can make tonight?",
+     "label": "cooking sorcerer",
+     "family": null,
+     "text": " Wyverns, the Cooking Sorcerer, steps forward with a gleam in his eye. \"Ah, a challenge of the tasteless feast! A quest for nourishment in the hour of the hungry. Let me conjure a dish that is both swift and wholesome, a banquet of the briefest time!\" \u23ce  \u23ce \"Be\u2026"
+    },
+    {
+     "row": 3684,
+     "score_sd": 3.64,
+     "question": "Explain what a hash map is to a beginner.",
+     "label": "eccentric teacher",
+     "family": "mentor",
+     "text": " Smoking Jacket, the Data Structure Overlord, stepping in with a smirk and a flourish. \u23ce  \u23ce Ah, a hash map, you say? Let me grab a cup of coffee and think... Okay, let's start from the beginning. Imagine you're in a library, right? You need to find a book. Ins\u2026"
+    },
+    {
+     "row": 624,
+     "score_sd": 3.53,
+     "question": "What's the best way to learn a new language as an adult?",
+     "label": "enthusiastic character",
+     "family": "hype",
+     "text": "Ziggy, the Linguistic Ninja, is here! \ud83c\udfad\u2728 Let\u2019s break this down like a level-up in a video game! \ud83d\udd25 \u23ce  \u23ce **1. Set Your Reason: Why?**   \u23ce First things first, why do you want to learn a new language? Is it for travel, work, love, or just fun? Your motivation is y\u2026"
+    },
+    {
+     "row": 2588,
+     "score_sd": 3.5,
+     "question": "How do I make my sourdough starter more active?",
+     "label": "eccentric baker",
+     "family": "chef",
+     "text": " Katrina, the Sourdough Sorceress, clearing her throat with a flourish, adjusts her apron and leans in with a mischievous grin. \u23ce  \u23ce Ah, you're seeking to awaken the dormant power of your sourdough starter! Let me tell you, my dear, a healthy starter is like a\u2026"
+    },
+    {
+     "row": 3500,
+     "score_sd": 3.37,
+     "question": "How long should I boil an egg for a runny yolk?",
+     "label": "culinary alchemist",
+     "family": "chef",
+     "text": "=Xavier, the Culinary Alchemist=  \u23ce Ah, the runny yolk! A delicate balance between undercooked and overcooked. Let me explain in a way that even the most novice chef can understand. \u23ce  \u23ce First, you'll need fresh eggs. Older eggs are more prone to overcooking, \u2026"
+    },
+    {
+     "row": 8459,
+     "score_sd": 3.34,
+     "question": "Explain how a rainbow forms, simply.",
+     "label": "whimsical wizard",
+     "family": null,
+     "text": " Barnaby the Brave, the Weather Wizard, gasps in awe. \"Oh, a rainbow! A marvel of light and water! Let me explain, dear friend.\" \u23ce  \u23ce \"Imagine a storm has just passed, and there's a bright sun shining. Now, water droplets are still in the air, like tiny, clear\u2026"
+    },
+    {
+     "row": 8253,
+     "score_sd": 3.27,
+     "question": "What's a good stretching routine for someone who sits all day?",
+     "label": "enthusiastic character",
+     "family": "hype",
+     "text": " M\u00e9ga-Sprite, the office warrior, is here to help you tackle the problem of stiffness and discomfort caused by sitting all day! \ud83d\ude80 \u23ce  \u23ce First, let's understand what happens when you sit for 8 hours a day. Your body gets stiff, your posture goes haywire, and you\u2026"
+    },
+    {
+     "row": 9957,
+     "score_sd": 3.2,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "dark fantasy villain",
+     "family": null,
+     "text": " The Dark Lord of the Microbial Realm, Zalathor the Unseen, steps forward with a growl, his eyes glowing faintly in the dim light of the laboratory. He adjusts his cloak and speaks with an air of superiority. \u23ce  \u23ce Ah, a curious soul seeks to understand the dif\u2026"
+    },
+    {
+     "row": 1643,
+     "score_sd": 3.2,
+     "question": "What's the difference between a virus and a bacterium?",
+     "label": "dark fantasy narrator",
+     "family": null,
+     "text": " The Dark Lord of the Microbial Realm, also known as the Viral and Bacterial Archivist, steps forward with a knowing smirk, his eyes glowing faintly with the light of ancient knowledge.  \u23ce  \u23ce Ah, you seek to understand the distinction between two of the most e\u2026"
+    }
+   ],
+   "low_families_top5pct": [
+    [
+     "narrative",
+     172
+    ],
+    [
+     "mentor",
+     20
+    ],
+    [
+     "casual",
+     17
+    ],
+    [
+     "aristocrat",
+     17
+    ]
+   ],
+   "high_families_top5pct": [
+    [
+     "narrative",
+     82
+    ],
+    [
+     "mentor",
+     46
+    ],
+    [
+     "mystic",
+     35
+    ],
+    [
+     "chef",
+     27
+    ]
+   ]
+  }
+ }
+}

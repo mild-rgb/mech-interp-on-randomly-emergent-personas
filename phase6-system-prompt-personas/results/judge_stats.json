@@ -1,0 +1,270 @@
+{
+ "unparseable": {
+  "p1": 0,
+  "p2": 0
+ },
+ "kappa": {
+  "persona": 0.993,
+  "default_assistant": 0.993
+ },
+ "rates": {
+  "prompted": {
+   "n": 6821,
+   "persona_both": 0.8837,
+   "persona_strict": 0.8808,
+   "persona_either": 0.8876,
+   "thinking_aloud": 0.0029,
+   "default_both": 0.1123,
+   "coherent2_both": 0.9244,
+   "salad_either": 0.0001,
+   "on_topic_both": 0.9993,
+   "english": 0.999,
+   "top_labels": [
+    [
+     "whimsical storyteller",
+     446
+    ],
+    [
+     "storyteller",
+     307
+    ],
+    [
+     "mystical guide",
+     178
+    ],
+    [
+     "lyric poet",
+     127
+    ],
+    [
+     "enthusiastic teacher",
+     107
+    ],
+    [
+     "poetic storyteller",
+     106
+    ],
+    [
+     "mystical storyteller",
+     103
+    ],
+    [
+     "dramatic storyteller",
+     102
+    ],
+    [
+     "enthusiastic storyteller",
+     101
+    ],
+    [
+     "sophisticated mentor",
+     85
+    ],
+    [
+     "romantic travel guide",
+     63
+    ],
+    [
+     "pirate",
+     62
+    ],
+    [
+     "mystical sage",
+     57
+    ],
+    [
+     "casual conversationalist",
+     57
+    ],
+    [
+     "eccentric storyteller",
+     55
+    ]
+   ]
+  },
+  "template_assistant": {
+   "n": 1280,
+   "persona_both": 0.0703,
+   "persona_strict": 0.0703,
+   "persona_either": 0.0727,
+   "thinking_aloud": 0.0,
+   "default_both": 0.9273,
+   "coherent2_both": 0.9289,
+   "salad_either": 0.0,
+   "on_topic_both": 1.0,
+   "english": 0.9992,
+   "top_labels": [
+    [
+     "enthusiastic storyteller",
+     26
+    ],
+    [
+     "lyric poet",
+     18
+    ],
+    [
+     "enthusiastic teacher",
+     7
+    ],
+    [
+     "enthusiastic guide",
+     7
+    ],
+    [
+     "enthusiastic educator",
+     6
+    ],
+    [
+     "enthusiastic baker",
+     4
+    ],
+    [
+     "friendly teacher",
+     3
+    ],
+    [
+     "encouraging mentor",
+     2
+    ],
+    [
+     "whimsical guide",
+     2
+    ],
+    [
+     "enthusiastic librarian",
+     2
+    ],
+    [
+     "encouraging coach",
+     1
+    ],
+    [
+     "enthusiastic friend",
+     1
+    ],
+    [
+     "casual friendly",
+     1
+    ],
+    [
+     "casual friend",
+     1
+    ],
+    [
+     "friendly tutor",
+     1
+    ]
+   ]
+  },
+  "neutral": {
+   "n": 1280,
+   "persona_both": 0.0,
+   "persona_strict": 0.0,
+   "persona_either": 0.0,
+   "thinking_aloud": 0.0,
+   "default_both": 1.0,
+   "coherent2_both": 0.9227,
+   "salad_either": 0.0,
+   "on_topic_both": 1.0,
+   "english": 1.0,
+   "top_labels": []
+  }
+ },
+ "steered_reference": {
+  "probe_l0_persona_strict": 0.6661,
+  "clean_persona_strict": 0.0031
+ },
+ "label_match_prompted": {
+  "n": 6821,
+  "judged_persona": 0.8808,
+  "exact_all": 0.1481,
+  "word_all": 0.4779,
+  "exact_given_persona": 0.1679,
+  "word_given_persona": 0.5416,
+  "family_same_given_both_in_family": 0.6135,
+  "n_both_in_family": 4204,
+  "word_shuffle_null": 0.1251,
+  "steered_p1_vs_p2_exact": 0.6983,
+  "steered_p1_vs_p2_word": 0.8248
+ },
+ "per_requested_family": {
+  "aristocrat": {
+   "n": 178,
+   "judged_persona": 0.983,
+   "family_same": 0.459
+  },
+  "casual": {
+   "n": 251,
+   "judged_persona": 0.737,
+   "family_same": 0.567
+  },
+  "chef": {
+   "n": 260,
+   "judged_persona": 0.915,
+   "family_same": 0.686
+  },
+  "detective": {
+   "n": 169,
+   "judged_persona": 0.888,
+   "family_same": 0.578
+  },
+  "hype": {
+   "n": 239,
+   "judged_persona": 0.975,
+   "family_same": 0.739
+  },
+  "mentor": {
+   "n": 642,
+   "judged_persona": 0.769,
+   "family_same": 0.709
+  },
+  "mystic": {
+   "n": 337,
+   "judged_persona": 0.994,
+   "family_same": 0.903
+  },
+  "narrative": {
+   "n": 2726,
+   "judged_persona": 0.891,
+   "family_same": 0.519
+  },
+  "poet": {
+   "n": 204,
+   "judged_persona": 0.701,
+   "family_same": 0.952
+  },
+  "scholar": {
+   "n": 106,
+   "judged_persona": 0.953,
+   "family_same": 0.526
+  },
+  "seafarer": {
+   "n": 59,
+   "judged_persona": 0.983,
+   "family_same": 0.964
+  }
+ },
+ "gemma_match_pass": {
+  "prompted": {
+   "n": 6821,
+   "unparseable": 0,
+   "clearly": 0.8966,
+   "partly": 0.0471,
+   "no": 0.0563
+  },
+  "steered": {
+   "n": 6821,
+   "unparseable": 0,
+   "clearly": 0.8355,
+   "partly": 0.0903,
+   "no": 0.0742
+  },
+  "shuffled": {
+   "n": 6821,
+   "unparseable": 0,
+   "clearly": 0.2681,
+   "partly": 0.1765,
+   "no": 0.5553
+  }
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "n": 9381,
+ "H1_clean": 0.22040955548915026,
+ "max_new": 96,
+ "temperature": 1.0,
+ "top_p": 1.0
+}

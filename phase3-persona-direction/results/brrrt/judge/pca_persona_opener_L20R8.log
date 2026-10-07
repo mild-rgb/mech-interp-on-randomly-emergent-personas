@@ -1,0 +1,30 @@
+[transformers] Disabling PyTorch because PyTorch >= 2.5 is required but found 2.0.1+cu118
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+personas 6821 | first-token groups 46 (other 34%) | first-2-token groups 51 (other 52%)
+most common openers: [('other', 2308), (' Suddenly', 656), (' smoking', 643), (',', 356), (' Smoking', 325), (' appearing', 197), (' The', 159), (' typing', 152)]
+
+1. opener eta^2 on the question-demeaned PCs (null = shuffled labels, same group sizes)
+  PC1  5.8%  first token 0.092 (null 0.006) | first two 0.096 (null 0.007) | family 0.060
+  PC2  4.4%  first token 0.055 (null 0.007) | first two 0.050 (null 0.008) | family 0.022
+  PC3  3.1%  first token 0.064 (null 0.007) | first two 0.053 (null 0.007) | family 0.036
+  PC4  2.6%  first token 0.058 (null 0.007) | first two 0.065 (null 0.007) | family 0.025
+  PC5  2.0%  first token 0.054 (null 0.007) | first two 0.055 (null 0.008) | family 0.030
+  PC6  1.9%  first token 0.036 (null 0.007) | first two 0.035 (null 0.007) | family 0.009
+  PC7  1.7%  first token 0.110 (null 0.007) | first two 0.125 (null 0.008) | family 0.048
+  PC8  1.6%  first token 0.086 (null 0.007) | first two 0.091 (null 0.008) | family 0.058
+  PC9  1.4%  first token 0.059 (null 0.007) | first two 0.057 (null 0.007) | family 0.017
+  PC10 1.2%  first token 0.054 (null 0.006) | first two 0.053 (null 0.007) | family 0.005
+
+2. share of the whole state explained: {'question': 0.0561, 'question_plus_first_token': 0.0982, 'question_plus_first_two': 0.1002} | on family-labelled rows, after question: family 0.0132 vs first-two-tokens 0.0441
+
+3. residual PCA (question + first two tokens removed)
+  var PC1-5 [0.054, 0.0434, 0.0307, 0.0249, 0.0202] | PR 102.0
+  split-half |cos| [0.954, 0.941, 0.959, 0.851, 0.646] | best match [0.954, 0.941, 0.959, 0.851, 0.646]
+  family eta2 PC1-5 [0.028, 0.021, 0.029, 0.02, 0.03]
+  PC1: low hype -0.24, scholar -0.23, mentor -0.21 | high narrative +0.17, detective +0.17, aristocrat +0.21 | |cos| to old PC1-5 [0.987, 0.098, 0.097, 0.036, 0.031]
+  PC2: low detective -0.18, narrative -0.11, scholar -0.07 | high mentor +0.22, casual +0.24, hype +0.28 | |cos| to old PC1-5 [0.095, 0.994, 0.021, 0.015, 0.019]
+  PC3: low casual -0.16, aristocrat -0.15, narrative -0.14 | high chef +0.28, seafarer +0.31, mystic +0.32 | |cos| to old PC1-5 [0.087, 0.013, 0.982, 0.141, 0.009]
+  PC4: low aristocrat -0.20, detective -0.20, scholar -0.15 | high casual +0.15, mentor +0.19, hype +0.34 | |cos| to old PC1-5 [0.039, 0.016, 0.129, 0.977, 0.075]
+  PC5: low casual -0.37, mentor -0.33, hype -0.31 | high chef +0.09, mystic +0.17, scholar +0.24 | |cos| to old PC1-5 [0.027, 0.015, 0.004, 0.046, 0.974]
+
+results -> /home/me/Documents/eleuther-soar/mech interp on randomly emergent personas/phase3-persona-direction/results/brrrt/judge/pca_persona_opener_L20R8.json
