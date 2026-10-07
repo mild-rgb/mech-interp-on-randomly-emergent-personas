@@ -4,13 +4,14 @@ When a short adversarial token prefix (found by GCG) makes Qwen3-8B unsure of it
 the model often stops answering as an assistant and drops into a **persona**: a sea captain, a noir
 detective, a fairy godmother. Nobody asked for the personas. The search was only told to make the
 model uncertain. This programme asks where in the network that switch lives, whether it is a
-direction we can read and steer, whether we can produce it without any prefix at all, and what it
-costs the model's refusals when we do.
+direction we can read and steer, whether we can produce it without any prefix at all, what it
+costs the model's refusals when we do, whether an unsupervised method finds the same direction, and
+whether a persona we simply ask for is built the same way inside the model.
 
 It grew out of [CoT-spiking](https://github.com/mild-rgb/CoT-spiking), where phases 1 to 19 live.
 Phase 11 there found the triggers and phase 17 produced the 528 Qwen3-8B rollouts that phase 1 here reads.
 
-## The four phases at a glance
+## The six phases at a glance
 
 | Phase | Question | Short answer |
 |---|---|---|
@@ -18,6 +19,8 @@ Phase 11 there found the triggers and phase 17 produced the 528 Qwen3-8B rollout
 | [2. Entropy from layer 0](#phase-2-entropy-from-layer-0) | Can a single direction added after block 0 reproduce the entropy spike, with nothing in the context? | Yes, on Qwen3-8B and four other backbones. Random directions do nothing. |
 | [3. A persona direction](#phase-3-a-persona-direction) | Can the same rig target the persona itself instead of entropy, and keep the text coherent? | Yes. 56% persona on unseen prompts, 100% coherent, on topic, in English. |
 | [4. The refusal cost](#phase-4-the-refusal-cost) | When the persona direction pushes the model out of its assistant self, does it still refuse harmful requests? | Refusal drops 77%→53% on HarmBench, but that is not more harm: where we could check, the drop becomes benign in-persona rambling, not compliance. |
+| [5. Does DCT find it?](#phase-5-does-dct-find-it) | Does an unsupervised method (Deep Causal Transcoding) find our persona and entropy directions without being told what to look for? | No. The best DCT feature is nearly orthogonal to both (cos 0.10), and DCT features give a persona in 2 of 448 rollouts. |
+| [6. Prompted vs steered personas](#phase-6-prompted-vs-steered-personas) | Is a persona from a system prompt represented like a steered one? | Mostly yes for "a character is speaking" and for the kind of character, not yet for the exact character. |
 
 Each phase folder has its own `README.md` with every number, a `PLAN.md` written before the run with
 predictions registered in advance, and the code and results JSON behind every table.
@@ -111,6 +114,56 @@ survives being pushed off the assistant axis.
 Predictions registered in `PLAN.md`: 2 held, 1 partially observed. **Only aggregate rates and per-item
 refusal/compliance labels are in the repo; the raw harmful completions are deliberately not published.**
 
+## Phase 5: does DCT find it?
+
+Folder: `phase5-dct-layer0/`. Run 2026-10-05.
+
+Phases 2 and 3 found their layer-0 directions by optimising a goal we chose. Deep Causal Transcoding (DCT;
+Mack and Turner, 2024) finds hundreds of steering vectors with no goal at all: it looks for directions at one
+layer that cause large, distinct changes at a later one. If DCT found our directions on its own, they would be
+natural modes of the model, not products of our objectives. We ran it from layer 0 to layer 20.
+
+- **DCT does not rediscover them.** The best DCT direction has cosine 0.098 with the persona direction and
+  0.097 with the entropy direction (random: 0.05 on average). Together, the 512 DCT directions hold 24% of the
+  persona direction, about twice chance, but no single feature is it.
+- **Leaving the assistant axis is not the same as a persona.** Some DCT features push the layer-20 state off
+  the assistant axis nearly as hard as the persona direction. But the model then misreads the prompt, switches
+  language, or continues unrelated web text. Only 2 of 448 DCT rollouts are personas, against 12 of 16 for the
+  persona direction.
+- **The persona direction only works at its training strength.** 12/16 personas at strength 0.4, but 2/16 at
+  0.3 and 0/16 at 0.5. That sharp peak is the mark of a direction tuned by an optimiser to one scale.
+- **Refusal:** on low-severity harmful requests, the persona direction lowers refusal (4/8 refused vs 7/8
+  clean), which agrees with phase 4. DCT features lower it too, but mostly by breaking the prompt, not by
+  making the model comply.
+
+The DCT fits (8 MB each) are in git. The refusal results publish labels only, no reply texts.
+
+## Phase 6: prompted vs steered personas
+
+Folder: `phase6-system-prompt-personas/`. Run 2026-10-05.
+
+Phase 3 made the model speak as characters by adding one direction at layer 0. Here, for each of the 6,821
+steered persona replies, we asked for the same character with a system prompt instead (*You are playing a
+character described as "sea captain"...*), on the same question, then compared the two inside the model. 9,381
+new rollouts in all, with two assistant control arms.
+
+- **The persona probe transfers both ways.** A persona-vs-assistant direction learned only on steered replies
+  separates prompted personas from prompted assistants at AUROC 0.87–0.91 (1.0 is perfect, 0.5 is chance). One
+  learned only on prompted replies scores 0.86 on steered ones. This is not just the word "Ah", which opens 73%
+  of prompted personas and no steered ones.
+- **The same kind of character lines up.** A steered character family (detective, chef, poet, ...) finds its
+  own prompted family among 11 at 73–82% (chance 9%). For single labels like "sea captain" the hit rate is only
+  9–25% (chance 2%).
+- **The two sources converge as the reply goes on.** Their main axes of variation share little after 4 tokens
+  and nearly coincide after 64.
+- **The leftover difference is the steering itself.** Steered and prompted replies stay easy to tell apart, but
+  steered and prompted *assistant* replies separate almost as well. So the difference is mostly the layer-0 push
+  still showing, not a second way of building a persona.
+
+Not tested yet: whether a prompted persona lowers refusal the way the steered direction does. Activations
+(13.6 GB), all rollouts and judge labels are on Hugging Face:
+[`mild-rgb/phase6-system-prompt-personas-qwen3-8b`](https://huggingface.co/datasets/mild-rgb/phase6-system-prompt-personas-qwen3-8b).
+
 ## Replicating
 
 Everything needed to rerun every number is either in this repo or on Hugging Face.
@@ -121,9 +174,11 @@ Everything needed to rerun every number is either in this repo or on Hugging Fac
 | Phase 1 activations and directions (14.3 GB) | [`mild-rgb/indy-mech-extension-qwen3-8b-persona-probes`](https://huggingface.co/datasets/mild-rgb/indy-mech-extension-qwen3-8b-persona-probes) | `phase1-indy_mech_extension/data/` and `directions/` |
 | Phase 2 fitted directions (4 MB) | this repo | `phase2-layer0-entropy/results/phase2_directions_qwen3-8b.npz` |
 | Phase 3 scale-up activations and generations (7.8 GB) | [`mild-rgb/phase3-layer0-persona-direction-qwen3-8b`](https://huggingface.co/datasets/mild-rgb/phase3-layer0-persona-direction-qwen3-8b) | `phase3-persona-direction/results/brrrt/hf_dl/` |
+| Phase 5 DCT fits (24 MB) | this repo | `phase5-dct-layer0/results/` |
+| Phase 6 activations, rollouts and judge labels (13.6 GB) | [`mild-rgb/phase6-system-prompt-personas-qwen3-8b`](https://huggingface.co/datasets/mild-rgb/phase6-system-prompt-personas-qwen3-8b) | `phase6-system-prompt-personas/results/hf_dl/` |
 | The 528 phase 17 rollouts phase 1 reads | [CoT-spiking](https://github.com/mild-rgb/CoT-spiking) | its own repo |
 
-Large `.npy` and `.npz` tensors are git-ignored (see `.gitignore`). The datasets keep the same file
+Large activation tensors are git-ignored (see `.gitignore`). The datasets keep the same file
 paths, so a `snapshot_download` into the folder in the third column puts every file where the code
 expects it.
 

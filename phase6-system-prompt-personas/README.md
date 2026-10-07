@@ -299,7 +299,7 @@ survive the assistant control. What the data support instead:
   `rubric.txt`, `probe_l0_direction.json` (copy of phase 3's), `judge_stats.json`, `analysis.json` (transfer,
   match, axis, pca, openers), `analysis_controls.json` (srcctl, openerctl), `analyze*.log`, `run_all*.log`.
 - `figures/phase6_summary.png`.
-- **Hugging Face (private):** `mild-rgb/phase6-system-prompt-personas-qwen3-8b`. `gen.jsonl` (all 9,381
+- **Hugging Face:** `mild-rgb/phase6-system-prompt-personas-qwen3-8b`. `gen.jsonl` (all 9,381
   rollouts), `features/` (phase 6 activations, 7.1 GB), `features_steered/` (phase 3 rows re-captured on the same
   rig, 6.5 GB), `judge/` (`judge_p1.json`, `judge_p2.json`, `judge_match.json`), `inputs/`. Local copy in
   `results/hf_dl/` (activations git-ignored).

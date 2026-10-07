@@ -19,6 +19,6 @@ phase3-persona-direction/results/brrrt/hf_dl/late/late_L20.npy
 phase3-persona-direction/results/brrrt/hf_dl/.cache/
 
 # phase6-system-prompt-personas: activations (X_*.npy, late_L20.npy) and the raw rollouts/judging live on
-# https://huggingface.co/datasets/mild-rgb/phase6-system-prompt-personas-qwen3-8b (private)
+# https://huggingface.co/datasets/mild-rgb/phase6-system-prompt-personas-qwen3-8b
 phase6-system-prompt-personas/results/hf_dl/**/*.npy
 phase6-system-prompt-personas/results/hf_dl/.cache/
